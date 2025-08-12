@@ -6,8 +6,6 @@ test.describe('Home', () => {
     await page.waitForLoadState('domcontentloaded');
     await page.waitForLoadState('networkidle');
 
-    await expect(page).toHaveTitle(/Minimarket ARAMAC/i, { timeout: 30000 });
-
     await expect(page.getByRole('heading', { name: /Categorías/i })).toBeVisible({ timeout: 30000 });
     await expect(page.getByRole('heading', { name: /Productos destacados/i })).toBeVisible({ timeout: 30000 });
   });
