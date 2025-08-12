@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect, useId } from 'react';
 import { useRouter } from 'next/navigation';
 import { Search, X, Clock, TrendingUp } from 'lucide-react';
 import { Input } from '@/components/ui/input';
@@ -9,7 +9,6 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { cn } from '@/lib/utils';
 import { 
-  generateId, 
   handleKeyboardNavigation, 
   useScreenReader,
   focusManager 
@@ -51,10 +50,11 @@ export function SearchBar({
   const router = useRouter();
   const { announce } = useScreenReader();
   
-  // Generate unique IDs for accessibility
-  const searchInputId = generateId('search-input');
-  const suggestionsId = generateId('search-suggestions');
-  const statusId = generateId('search-status');
+  // Generate stable IDs for accessibility (SSR-safe)
+  const reactId = useId();
+  const searchInputId = `search-input-${reactId}`;
+  const suggestionsId = `search-suggestions-${reactId}`;
+  const statusId = `search-status-${reactId}`;
 
   // Load recent searches from localStorage
   useEffect(() => {
@@ -114,6 +114,28 @@ export function SearchBar({
     setIsOpen(false);
     setSelectedIndex(-1);
   };
+
+  // Popular searches and combined suggestions must be defined before usage
+  const popularSearches = [
+    'Bebidas', 'Snacks', 'Pan fresco', 'Lácteos', 'Frutas', 'Verduras'
+  ];
+
+  // Combine all suggestions
+  const allSuggestions = [
+    ...recentSearches.map(term => ({
+      id: `recent-${term}`,
+      text: term,
+      type: 'recent' as const
+    })),
+    ...suggestions.filter(s => 
+      s.text.toLowerCase().includes(query.toLowerCase())
+    ),
+    ...(query.length === 0 ? popularSearches.map(term => ({
+      id: `popular-${term}`,
+      text: term,
+      type: 'popular' as const
+    })) : [])
+  ].slice(0, 8); // Limit to 8 suggestions
 
   // Enhanced keyboard navigation
   const handleInputKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
@@ -206,27 +228,6 @@ export function SearchBar({
       )
     );
   };
-
-  const popularSearches = [
-    'Bebidas', 'Snacks', 'Pan fresco', 'Lácteos', 'Frutas', 'Verduras'
-  ];
-
-  // Combine all suggestions
-  const allSuggestions = [
-    ...recentSearches.map(term => ({
-      id: `recent-${term}`,
-      text: term,
-      type: 'recent' as const
-    })),
-    ...suggestions.filter(s => 
-      s.text.toLowerCase().includes(query.toLowerCase())
-    ),
-    ...(query.length === 0 ? popularSearches.map(term => ({
-      id: `popular-${term}`,
-      text: term,
-      type: 'popular' as const
-    })) : [])
-  ].slice(0, 8); // Limit to 8 suggestions
 
   return (
     <div className={cn('relative w-full max-w-lg', className)}>

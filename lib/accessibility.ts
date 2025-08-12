@@ -166,11 +166,10 @@ export const ensureTouchTarget = (element: HTMLElement) => {
 
 // ARIA live region hook for React components
 export const useScreenReader = () => {
-  const announcer = new ScreenReaderAnnouncer();
-  
+  // Reuse a single announcer instance to avoid duplicating live regions
   return {
     announce: (message: string, priority?: 'polite' | 'assertive') => {
-      announcer.announce(message, priority);
+      screenReader.announce(message, priority);
     }
   };
 };
