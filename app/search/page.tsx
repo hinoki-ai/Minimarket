@@ -1,7 +1,7 @@
 'use client';
 
 import { useSearchParams } from 'next/navigation';
-import { useEffect } from 'react';
+import { useEffect, Suspense } from 'react';
 import { useQuery, useMutation } from 'convex/react';
 import { api } from '@/convex/_generated/api';
 import { ProductCard } from '@/components/ui/product-card';
@@ -11,7 +11,7 @@ import { SearchBar } from '@/components/ui/search-bar';
 import { ItemListJsonLd } from '@/components/seo/ItemListJsonLd';
 import { useScreenReader } from '@/lib/accessibility';
 
-export default function SearchPage() {
+function SearchContent() {
   const sp = useSearchParams();
   const q = sp.get('q') || '';
   const { announce } = useScreenReader();
@@ -125,6 +125,20 @@ export default function SearchPage() {
         </section>
       )}
     </main>
+  );
+}
+
+export default function SearchPage() {
+  return (
+    <Suspense
+      fallback={
+        <main className="mx-auto max-w-7xl px-6 py-8">
+          <p className="text-muted-foreground">Cargando resultados…</p>
+        </main>
+      }
+    >
+      <SearchContent />
+    </Suspense>
   );
 }
 
