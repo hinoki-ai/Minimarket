@@ -19,9 +19,11 @@ export default function Home() {
   const sessionId = useGuestSessionId();
   const cartsApi: any = (api as any).carts;
   const addToCart = useMutation(cartsApi?.addToCart);
-  const categories = useQuery(api.categories.getCategoriesWithProductCount, {});
-  const featuredProducts = useQuery(api.products.getFeaturedProducts, { limit: 8 });
-  const freshProducts = useQuery(api.products.getFreshProducts, { limit: 6 });
+  const categoriesApi: any = (api as any).categories;
+  const productsApi: any = (api as any).products;
+  const categories = useQuery(categoriesApi?.getCategoriesWithProductCount, {});
+  const featuredProducts = useQuery(productsApi?.getFeaturedProducts, { limit: 8 });
+  const freshProducts = useQuery(productsApi?.getFreshProducts, { limit: 6 });
   const cart = useQuery(cartsApi?.getUserCart, (userId || sessionId) && cartsApi?.getUserCart ? { userId: userId ?? undefined, sessionId: userId ? undefined : sessionId } : undefined);
 
   // Delivery / Pickup toggle (persist to localStorage)

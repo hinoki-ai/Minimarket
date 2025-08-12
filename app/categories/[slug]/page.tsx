@@ -13,9 +13,11 @@ import { ItemListJsonLd } from '@/components/seo/ItemListJsonLd';
 export default function CategoryPage() {
   const params = useParams();
   const slug = Array.isArray(params?.slug) ? params.slug[0] : (params?.slug as string);
-  const category = useQuery(api.categories.getCategoryBySlug, slug ? { slug } : undefined) as any;
-  const products = useQuery(api.products.getProducts, category ? { categoryId: category._id, limit: 24, sortBy: 'newest' } : undefined) as any[] | undefined;
-  const breadcrumb = useQuery(api.categories.getCategoryBreadcrumb, category ? { categoryId: category._id } : undefined) as any[] | undefined;
+const categoriesApi: any = (api as any).categories;
+const productsApi: any = (api as any).products;
+const category = useQuery(categoriesApi?.getCategoryBySlug, slug ? { slug } : undefined) as any;
+const products = useQuery(productsApi?.getProducts, category ? { categoryId: category._id, limit: 24, sortBy: 'newest' } : undefined) as any[] | undefined;
+const breadcrumb = useQuery(categoriesApi?.getCategoryBreadcrumb, category ? { categoryId: category._id } : undefined) as any[] | undefined;
 
   const { userId } = useAuth();
   const sessionId = useGuestSessionId();

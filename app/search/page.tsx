@@ -12,7 +12,8 @@ import { ItemListJsonLd } from '@/components/seo/ItemListJsonLd';
 export default function SearchPage() {
   const sp = useSearchParams();
   const q = sp.get('q') || '';
-  const results = useQuery(api.products.searchProducts, q ? { searchTerm: q, limit: 24 } : undefined) as any[] | undefined;
+  const productsApi: any = (api as any).products;
+  const results = useQuery(productsApi?.searchProducts, q ? { searchTerm: q, limit: 24 } : undefined) as any[] | undefined;
 
   const { userId } = useAuth();
   const sessionId = useGuestSessionId();

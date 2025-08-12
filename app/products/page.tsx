@@ -17,7 +17,8 @@ export default function ProductsPage() {
 const cartsApi: any = (api as any).carts;
 const addToCart = useMutation(cartsApi?.addToCart);
 
-  const products = useQuery(api.products.getProducts, { limit: 24, sortBy });
+const productsApi: any = (api as any).products;
+const products = useQuery(productsApi?.getProducts, { limit: 24, sortBy });
 
   return (
     <div className="mx-auto max-w-7xl px-6 py-8">

@@ -17,7 +17,8 @@ export default function CheckoutPage() {
   const sessionId = useGuestSessionId();
   const cartsApi: any = (api as any).carts;
   const cart = useQuery(cartsApi?.getUserCart, userId || sessionId ? { userId: userId ?? undefined, sessionId: userId ? undefined : sessionId } : undefined) as any;
-  const createOrder = useMutation(api.orders.createOrder);
+  const ordersApi: any = (api as any).orders;
+  const createOrder = useMutation(ordersApi?.createOrder);
 
   const [form, setForm] = useState({
     name: '',

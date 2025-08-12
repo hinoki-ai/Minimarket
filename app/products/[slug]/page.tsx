@@ -19,10 +19,12 @@ const formatCLP = (price: number) => new Intl.NumberFormat('es-CL', { style: 'cu
 export default function ProductDetailPage() {
   const params = useParams();
   const slug = Array.isArray(params?.slug) ? params.slug[0] : (params?.slug as string);
-  const product = useQuery(api.products.getProductBySlug, slug ? { slug } : undefined);
-  const recommendations = useQuery(api.products.getRecommendedProducts, product ? { productId: (product as any)._id, limit: 4 } : undefined);
+  const productsApi: any = (api as any).products;
+  const categoriesApi: any = (api as any).categories;
+  const product = useQuery(productsApi?.getProductBySlug, slug ? { slug } : undefined);
+  const recommendations = useQuery(productsApi?.getRecommendedProducts, product ? { productId: (product as any)._id, limit: 4 } : undefined);
   const breadcrumb = useQuery(
-    api.categories.getCategoryBreadcrumb,
+    categoriesApi?.getCategoryBreadcrumb,
     product ? { categoryId: (product as any).categoryId } : undefined
   ) as any[] | undefined;
 
