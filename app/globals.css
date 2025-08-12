@@ -233,11 +233,28 @@
   }
   
   .bento-card {
-    @apply rounded-lg border bg-card p-4 shadow-sm transition-all duration-200 hover:shadow-md;
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--border);
+    background: var(--card);
+    padding: 1rem;
+    box-shadow: 0 1px 2px rgb(from var(--shadow-color) r g b / 0.06);
+    transition-property: box-shadow, transform, background-color, border-color;
+    transition-duration: 200ms;
+  }
+
+  .bento-card:hover {
+    box-shadow: 0 6px 16px rgb(from var(--shadow-color) r g b / 0.12);
   }
   
   .bento-card-featured {
-    @apply bento-card col-span-full md:col-span-2;
+    /* Inherit base styles manually to avoid invalid @apply of custom class */
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--border);
+    background: var(--card);
+    padding: 1rem;
+    box-shadow: 0 1px 2px rgb(from var(--shadow-color) r g b / 0.06);
+    transition-property: box-shadow, transform, background-color, border-color;
+    transition-duration: 200ms;
     background: linear-gradient(135deg, 
       rgb(from var(--bento-primary) r g b / 0.05) 0%, 
       rgb(from var(--bento-secondary) r g b / 0.05) 100%);
@@ -302,13 +319,18 @@
   
   /* Thumb-friendly interactive elements */
   .thumb-friendly {
-    @apply touch-target cursor-pointer select-none;
+    min-height: 44px; /* iOS/Android recommended minimum */
+    min-width: 44px;
+    cursor: pointer;
+    user-select: none;
     -webkit-tap-highlight-color: transparent;
   }
   
   /* Japanese-inspired subtle animations */
   .subtle-hover {
-    @apply transition-all duration-200 ease-out;
+    transition-property: all;
+    transition-duration: 200ms;
+    transition-timing-function: ease-out;
   }
   
   .subtle-hover:hover {
@@ -324,6 +346,117 @@
   
   .disclosure-content.open {
     max-height: 500px; /* Adjust based on content */
+  }
+  
+  /* Accessibility enhancements */
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+  
+  /* Skip links */
+  .skip-link {
+    position: absolute;
+    top: -40px;
+    left: 6px;
+    background: var(--primary);
+    color: var(--primary-foreground);
+    padding: 8px 12px;
+    text-decoration: none;
+    z-index: 1000;
+    border-radius: 4px;
+    font-weight: medium;
+    transition: top 0.2s ease-in-out;
+  }
+  
+  .skip-link:focus {
+    top: 6px;
+  }
+  
+  /* Enhanced focus states for better accessibility */
+  *:focus-visible {
+    outline: 2px solid var(--ring);
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+  
+  /* High contrast mode support */
+  @media (prefers-contrast: high) {
+    .bento-card,
+    .subtle-hover,
+    .thumb-friendly {
+      border-width: 2px;
+    }
+    
+    .status-fresh,
+    .status-new,
+    .status-popular,
+    .status-sale {
+      border-width: 2px;
+      font-weight: 600;
+    }
+  }
+  
+  /* Reduced motion support */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+    
+    .subtle-hover:hover {
+      transform: none;
+    }
+    
+    .disclosure-content {
+      transition: none;
+    }
+  }
+  
+  /* Better focus management for interactive elements */
+  button:focus-visible,
+  a:focus-visible,
+  input:focus-visible,
+  select:focus-visible,
+  textarea:focus-visible,
+  [role="button"]:focus-visible,
+  [tabindex="0"]:focus-visible {
+    outline: 2px solid var(--ring);
+    outline-offset: 2px;
+  }
+  
+  /* Improve readability */
+  p, li, span, div {
+    max-width: 65ch; /* Optimal reading line length */
+  }
+  
+  /* Better error state visibility */
+  [aria-invalid="true"] {
+    border-color: var(--destructive);
+    box-shadow: 0 0 0 1px var(--destructive);
+  }
+  
+  /* Loading state accessibility */
+  [aria-busy="true"] {
+    cursor: wait;
+  }
+  
+  /* Better disabled state */
+  [aria-disabled="true"],
+  :disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
   }
 }
 

@@ -37,6 +37,8 @@ interface ProductCardProps {
   onAddToCart?: (productId: string, quantity: number) => void;
   className?: string;
   layout?: 'grid' | 'list' | 'bento';
+  priority?: boolean; // For above-the-fold images
+  index?: number; // For performance tracking
 }
 
 // Format Chilean Peso
@@ -60,7 +62,9 @@ export function ProductCard({
   product, 
   onAddToCart, 
   className, 
-  layout = 'grid' 
+  layout = 'grid',
+  priority = false,
+  index = 0
 }: ProductCardProps) {
   const [isLoading, setIsLoading] = useState(false);
   const [quantity, setQuantity] = useState(1);
@@ -149,8 +153,14 @@ export function ProductCard({
             <Image
               src={product.images[0]?.url || '/placeholder-product.jpg'}
               alt={product.images[0]?.alt || product.name}
-              fill
+              width={96}
+              height={96}
+              sizes="96px"
               className="object-cover rounded-md"
+              priority={priority && index < 4} // First 4 items above fold
+              loading={priority && index < 4 ? 'eager' : 'lazy'}
+              placeholder="blur"
+              blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdABmX/9k="
             />
             {renderStatusBadges()}
           </div>
@@ -216,7 +226,12 @@ export function ProductCard({
               src={product.images[0]?.url || '/placeholder-product.jpg'}
               alt={product.images[0]?.alt || product.name}
               fill
+              sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
               className="object-cover transition-transform duration-300 group-hover:scale-105"
+              priority={priority && index < 8} // First 8 items above fold
+              loading={priority && index < 8 ? 'eager' : 'lazy'}
+              placeholder="blur"
+              blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdABmX/9k="
             />
           </Link>
           

@@ -16,9 +16,15 @@ const formatCLP = (price: number) => new Intl.NumberFormat('es-CL', { style: 'cu
 export default function Page() {
   const { userId } = useAuth();
   const sessionId = useGuestSessionId();
-  const cart = useQuery(api.carts.getUserCart, userId || sessionId ? { userId: userId ?? undefined, sessionId: userId ? undefined : sessionId } : undefined) as any;
-  const updateItem = useMutation(api.carts.updateCartItem);
-  const removeItem = useMutation(api.carts.removeFromCart);
+  const cartsApi: any = (api as any).carts;
+  const cart = useQuery(
+    cartsApi?.getUserCart,
+    (userId || sessionId) && cartsApi?.getUserCart
+      ? { userId: userId ?? undefined, sessionId: userId ? undefined : sessionId }
+      : undefined
+  ) as any;
+  const updateItem = useMutation(cartsApi?.updateCartItem);
+  const removeItem = useMutation(cartsApi?.removeFromCart);
 
   const handleUpdate = async (productId: string, quantity: number) => {
     await updateItem({ productId, quantity, userId: userId ?? undefined, sessionId: userId ? undefined : sessionId });

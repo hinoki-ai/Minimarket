@@ -29,7 +29,7 @@ const menuItems = [
 
 export const HeroHeader = () => {
     const pathname = usePathname()
-    if (pathname?.startsWith('/dashboard')) return null
+    const isDashboard = pathname?.startsWith('/dashboard') ?? false
     const [menuState, setMenuState] = React.useState(false)
     const [isScrolled, setIsScrolled] = React.useState(false)
     const [isSearchOpen, setIsSearchOpen] = React.useState(false)
@@ -102,6 +102,8 @@ export const HeroHeader = () => {
         document.addEventListener('keydown', handleKeyDown)
         return () => document.removeEventListener('keydown', handleKeyDown)
     }, [menuState])
+    if (isDashboard) return null
+
     return (
         <header>
             <nav

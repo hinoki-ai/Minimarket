@@ -10,6 +10,7 @@ import { OrganizationJsonLd } from '@/components/seo/OrganizationJsonLd'
 import { WebSiteJsonLd } from '@/components/seo/WebSiteJsonLd'
 import { HeroHeader } from './(landing)/header'
 import FooterSection from './(landing)/footer'
+import { PerformanceMonitor } from '@/components/performance/web-vitals'
 
 
 const geistSans = Geist({
@@ -85,6 +86,9 @@ export default function RootLayout({
         >
           <ClerkProvider>
             <ConvexClientProvider>
+              {/* Performance monitoring */}
+              <PerformanceMonitor />
+              
               <OrganizationJsonLd 
                 name="Minimarket ARAMAC" 
                 url="https://minimarket-aramac.local" 
