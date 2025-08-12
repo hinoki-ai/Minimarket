@@ -76,7 +76,9 @@ export class PerformanceMonitor {
         longTaskObserver.observe({ entryTypes: ['longtask'] });
         this.observers.push(longTaskObserver);
       } catch (error) {
-        console.warn('Long Task observer not supported');
+        if (process.env.NODE_ENV === 'development') {
+          console.warn('Long Task observer not supported');
+        }
       }
       
       // Monitor Layout Shifts
@@ -94,7 +96,9 @@ export class PerformanceMonitor {
         clsObserver.observe({ entryTypes: ['layout-shift'] });
         this.observers.push(clsObserver);
       } catch (error) {
-        console.warn('Layout Shift observer not supported');
+        if (process.env.NODE_ENV === 'development') {
+          console.warn('Layout Shift observer not supported');
+        }
       }
     }
   }

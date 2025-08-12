@@ -32,13 +32,11 @@ export default function CheckoutPage() {
   const router = useRouter();
   const { userId } = useAuth();
   const sessionId = useGuestSessionId();
-  const cartsApi: any = (api as any).carts;
-  const cart = useQuery(cartsApi?.getUserCart, userId || sessionId ? { 
+  const cart = useQuery(api.carts?.getUserCart, userId || sessionId ? { 
     userId: userId ?? undefined, 
     sessionId: userId ? undefined : sessionId 
-  } : undefined) as any;
-  const ordersApi: any = (api as any).orders;
-  const createOrder = useMutation(ordersApi?.createOrder);
+  } : undefined);
+  const createOrder = useMutation(api.orders?.createOrder);
 
   const [currentStep, setCurrentStep] = useState(1);
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -395,7 +393,7 @@ export default function CheckoutPage() {
                 <div className="space-y-4">
                   <h3 className="font-medium">Productos</h3>
                   <div className="space-y-3">
-                    {cart.items.map((item: any) => (
+                    {cart.items.map((item) => (
                       <div key={item.productId} className="flex items-center gap-4 p-3 border rounded-lg">
                         <div className="relative w-16 h-16 rounded overflow-hidden">
                           <Image

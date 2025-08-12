@@ -160,7 +160,9 @@ export const ensureTouchTarget = (element: HTMLElement) => {
   
   const rect = element.getBoundingClientRect();
   if (rect.width < 44 || rect.height < 44) {
-    console.warn('Touch target too small:', element);
+    if (process.env.NODE_ENV === 'development') {
+      console.warn('Touch target too small:', element);
+    }
   }
 };
 

@@ -4,16 +4,36 @@ import { v, Validator } from "convex/values";
 
 export const current = query({
   args: {},
+  returns: v.union(
+    v.object({
+      _id: v.id("users"),
+      _creationTime: v.number(),
+      name: v.string(),
+      externalId: v.string(),
+      email: v.optional(v.string()),
+      phone: v.optional(v.string()),
+    }),
+    v.null()
+  ),
   handler: async (ctx) => {
     return await getCurrentUser(ctx);
   },
 });
 
 export const upsertFromClerk = internalMutation({
-  args: { data: v.any() as Validator<UserJSON> }, // no runtime validation, trust Clerk
+  args: { 
+    data: v.object({
+      id: v.string(),
+      first_name: v.optional(v.string()),
+      last_name: v.optional(v.string()),
+      email_addresses: v.optional(v.array(v.any())),
+      phone_numbers: v.optional(v.array(v.any())),
+    })
+  },
+  returns: v.null(),
   async handler(ctx, { data }) {
     const userAttributes = {
-      name: `${data.first_name} ${data.last_name}`,
+      name: `${data.first_name || ''} ${data.last_name || ''}`.trim() || 'User',
       externalId: data.id,
     };
 
@@ -28,15 +48,18 @@ export const upsertFromClerk = internalMutation({
 
 export const deleteFromClerk = internalMutation({
   args: { clerkUserId: v.string() },
+  returns: v.null(),
   async handler(ctx, { clerkUserId }) {
     const user = await userByExternalId(ctx, clerkUserId);
 
     if (user !== null) {
       await ctx.db.delete(user._id);
     } else {
-      console.warn(
-        `Can't delete user, there is none for Clerk user ID: ${clerkUserId}`,
-      );
+      if (process.env.NODE_ENV === 'development') {
+        console.warn(
+          `Can't delete user, there is none for Clerk user ID: ${clerkUserId}`,
+        );
+      }
     }
   },
 });
