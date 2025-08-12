@@ -11,6 +11,7 @@ import { WebSiteJsonLd } from '@/components/seo/WebSiteJsonLd'
 import { HeroHeader } from './(landing)/header'
 import FooterSection from './(landing)/footer'
 import { PerformanceMonitor } from '@/components/performance/web-vitals'
+import CookieConsent from '@/components/CookieConsent'
 
 
 const geistSans = Geist({
@@ -103,6 +104,7 @@ export default function RootLayout({
               <main className="pt-20 pb-20 lg:pb-0">
                 {children}
               </main>
+              <CookieConsent />
               <FooterSection />
             </ConvexClientProvider>
           </ClerkProvider>

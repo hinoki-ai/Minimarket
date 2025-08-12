@@ -19,11 +19,29 @@ jobs:
           node-version: '20'
           cache: 'npm'
 
+      - name: Print environment info
+        run: |
+          echo "=== Vercel Deployment Starting ==="
+          echo "Node version: $(node --version)"
+          echo "NPM version: $(npm --version)"
+          echo "Working directory: $(pwd)"
+          echo "Git commit: ${{ github.sha }}"
+          echo "Git ref: ${{ github.ref }}"
+          echo "Timestamp: $(date -Iseconds)"
+
       - name: Install dependencies
-        run: npm ci
+        run: |
+          echo "Installing dependencies..."
+          npm ci --verbose
+          echo "Dependencies installed successfully"
 
       - name: Build
-        run: npm run build
+        run: |
+          echo "Starting build process..."
+          npm run build
+          echo "Build completed successfully"
+          echo "Build output:"
+          ls -la .next/ || echo "No .next directory found"
 
       - name: Deploy to Vercel
         uses: amondnet/vercel-action@v25
@@ -34,10 +52,20 @@ jobs:
           working-directory: .
           vercel-args: '--prod'
 
+      - name: Deployment complete
+        run: |
+          echo "=== Vercel Deployment Completed Successfully ==="
+          echo "Timestamp: $(date -Iseconds)"
+
   no-op:
     runs-on: ubuntu-latest
     if: >-
       ${{ !(secrets.VERCEL_TOKEN != '' && secrets.VERCEL_ORG_ID != '' && secrets.VERCEL_PROJECT_ID != '') }}
     steps:
-      - run: echo "Skipping Vercel deploy: required secrets are not configured."
+      - name: Log skipped deployment
+        run: |
+          echo "=== Vercel Deployment Skipped ==="
+          echo "Reason: Required secrets are not configured"
+          echo "Required secrets: VERCEL_TOKEN, VERCEL_ORG_ID, VERCEL_PROJECT_ID"
+          echo "Timestamp: $(date -Iseconds)"
 

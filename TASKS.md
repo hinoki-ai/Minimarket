@@ -11,10 +11,10 @@
 ## P0 - Critical (Fix Immediately)
 
 ### Stability & Testing
-- [ ] **Health Endpoint**: Create `/api/health` returning 200 status
-- [ ] **Home Page Test Fix**: Make title static or ensure SSR, update E2E assertions
-- [ ] **Monitor Logs**: Add verbose logging to GitHub Actions workflows
-- [ ] **E2E Stability**: Fix flaky selectors and timing issues in Playwright tests
+- [x] **Health Endpoint**: Create `/api/health` returning 200 status ✅ COMPLETED
+- [x] **Home Page Test Fix**: Make title static or ensure SSR, update E2E assertions ✅ COMPLETED
+- [x] **Monitor Logs**: Add verbose logging to GitHub Actions workflows ✅ COMPLETED
+- [x] **E2E Stability**: Fix flaky selectors and timing issues in Playwright tests ✅ COMPLETED
 
 ---
 

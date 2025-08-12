@@ -18,16 +18,40 @@ jobs:
           node-version: '20'
           cache: 'npm'
 
+      - name: Print environment info
+        run: |
+          echo "Node version: $(node --version)"
+          echo "NPM version: $(npm --version)"
+          echo "Target URL: ${{ secrets.SITE_URL }}"
+          echo "Working directory: $(pwd)"
+          echo "Git commit: ${{ github.sha }}"
+
       - name: Install dependencies
-        run: npm ci
+        run: |
+          echo "Installing dependencies..."
+          npm ci --verbose
+          echo "Dependencies installed successfully"
 
       - name: Install Playwright Browsers
-        run: npx playwright install --with-deps
+        run: |
+          echo "Installing Playwright browsers..."
+          npx playwright install --with-deps
+          echo "Playwright browsers installed successfully"
+
+      - name: Verify target URL accessibility
+        env:
+          BASE_URL: ${{ secrets.SITE_URL }}
+        run: |
+          echo "Checking target URL accessibility: $BASE_URL"
+          curl -I "$BASE_URL" || echo "URL check failed, but continuing with tests"
 
       - name: Run Playwright tests against production
         env:
           BASE_URL: ${{ secrets.SITE_URL }}
-        run: npx playwright test -c playwright.config.ts
+        run: |
+          echo "Running E2E tests against: $BASE_URL"
+          npx playwright test -c playwright.config.ts --verbose
+          echo "E2E tests completed"
 
       - name: Upload Playwright HTML report
         if: always()
