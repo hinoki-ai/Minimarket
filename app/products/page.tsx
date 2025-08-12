@@ -14,7 +14,8 @@ export default function ProductsPage() {
   const [sortBy, setSortBy] = useState<'newest' | 'price' | 'name' | 'popularity'>('newest');
   const { userId } = useAuth();
   const sessionId = useGuestSessionId();
-  const addToCart = useMutation(api.carts.addToCart);
+const cartsApi: any = (api as any).carts;
+const addToCart = useMutation(cartsApi?.addToCart);
 
   const products = useQuery(api.products.getProducts, { limit: 24, sortBy });
 

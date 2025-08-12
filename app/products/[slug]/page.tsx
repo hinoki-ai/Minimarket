@@ -28,7 +28,8 @@ export default function ProductDetailPage() {
 
   const { userId } = useAuth();
   const sessionId = useGuestSessionId();
-  const addToCart = useMutation(api.carts.addToCart);
+  const cartsApi: any = (api as any).carts;
+  const addToCart = useMutation(cartsApi?.addToCart);
   const [selectedImageIndex, setSelectedImageIndex] = useState(0);
   const [isZoomOpen, setIsZoomOpen] = useState(false);
 

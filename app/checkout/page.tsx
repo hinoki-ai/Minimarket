@@ -15,7 +15,8 @@ const formatCLP = (price: number) => new Intl.NumberFormat('es-CL', { style: 'cu
 export default function CheckoutPage() {
   const { userId } = useAuth();
   const sessionId = useGuestSessionId();
-  const cart = useQuery(api.carts.getUserCart, userId || sessionId ? { userId: userId ?? undefined, sessionId: userId ? undefined : sessionId } : undefined) as any;
+  const cartsApi: any = (api as any).carts;
+  const cart = useQuery(cartsApi?.getUserCart, userId || sessionId ? { userId: userId ?? undefined, sessionId: userId ? undefined : sessionId } : undefined) as any;
   const createOrder = useMutation(api.orders.createOrder);
 
   const [form, setForm] = useState({

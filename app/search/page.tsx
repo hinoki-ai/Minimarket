@@ -16,7 +16,8 @@ export default function SearchPage() {
 
   const { userId } = useAuth();
   const sessionId = useGuestSessionId();
-  const addToCart = useMutation(api.carts.addToCart);
+  const cartsApi: any = (api as any).carts;
+  const addToCart = useMutation(cartsApi?.addToCart);
 
   return (
     <div className="mx-auto max-w-7xl px-6 py-8 space-y-6">

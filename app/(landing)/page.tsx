@@ -17,11 +17,12 @@ import Testimonials from "./testimonials";
 export default function Home() {
   const { userId } = useAuth();
   const sessionId = useGuestSessionId();
-  const addToCart = useMutation(api.carts.addToCart);
+  const cartsApi: any = (api as any).carts;
+  const addToCart = useMutation(cartsApi?.addToCart);
   const categories = useQuery(api.categories.getCategoriesWithProductCount, {});
   const featuredProducts = useQuery(api.products.getFeaturedProducts, { limit: 8 });
   const freshProducts = useQuery(api.products.getFreshProducts, { limit: 6 });
-  const cart = useQuery(api.carts.getUserCart, (userId || sessionId) ? { userId: userId ?? undefined, sessionId: userId ? undefined : sessionId } : undefined);
+  const cart = useQuery(cartsApi?.getUserCart, (userId || sessionId) && cartsApi?.getUserCart ? { userId: userId ?? undefined, sessionId: userId ? undefined : sessionId } : undefined);
 
   // Delivery / Pickup toggle (persist to localStorage)
   const [fulfillment, setFulfillment] = useState<"delivery" | "pickup">("delivery");

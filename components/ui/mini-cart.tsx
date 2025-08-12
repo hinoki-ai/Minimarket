@@ -25,10 +25,11 @@ export function MiniCartSheet({
   sessionId, 
   freeShippingThreshold = 20000,
 }: MiniCartSheetProps) {
-  const cart = useQuery(api.carts.getUserCart, (userId || sessionId) ? { userId: userId ?? undefined, sessionId: userId ? undefined : sessionId ?? undefined } : undefined);
-  const updateItem = useMutation(api.carts.updateCartItem);
-  const removeItem = useMutation(api.carts.removeFromCart);
-  const clearCart = useMutation(api.carts.clearCart);
+  const cartsApi: any = (api as any).carts;
+  const cart = useQuery(cartsApi?.getUserCart, (userId || sessionId) ? { userId: userId ?? undefined, sessionId: userId ? undefined : sessionId ?? undefined } : undefined);
+  const updateItem = useMutation(cartsApi?.updateCartItem);
+  const removeItem = useMutation(cartsApi?.removeFromCart);
+  const clearCart = useMutation(cartsApi?.clearCart);
 
   const totals = useMemo(() => {
     const subtotal = cart?.subtotal ?? 0;

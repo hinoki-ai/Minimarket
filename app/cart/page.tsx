@@ -17,10 +17,11 @@ export default function CartPage() {
   const { userId } = useAuth();
   const sessionId = useGuestSessionId();
 
-  const cart = useQuery(api.carts.getUserCart, userId || sessionId ? { userId: userId ?? undefined, sessionId: userId ? undefined : sessionId } : undefined);
-  const updateItem = useMutation(api.carts.updateCartItem);
-  const removeItem = useMutation(api.carts.removeFromCart);
-  const clearCart = useMutation(api.carts.clearCart);
+const cartsApi: any = (api as any).carts;
+const cart = useQuery(cartsApi?.getUserCart, userId || sessionId ? { userId: userId ?? undefined, sessionId: userId ? undefined : sessionId } : undefined);
+const updateItem = useMutation(cartsApi?.updateCartItem);
+const removeItem = useMutation(cartsApi?.removeFromCart);
+const clearCart = useMutation(cartsApi?.clearCart);
 
   const handleUpdate = async (productId: string, quantity: number) => {
     await updateItem({ productId, quantity, userId: userId ?? undefined, sessionId: userId ? undefined : sessionId });
