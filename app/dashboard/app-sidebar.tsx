@@ -36,7 +36,6 @@ import {
   SidebarMenuItem,
 } from "@/components/ui/sidebar"
 import { ChatMaxingIconColoured } from "@/components/logo"
-import { Badge } from "@/components/ui/badge"
 import Link from "next/link"
 
 const data = {
@@ -100,8 +99,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
             >
               <Link href="/">
                 <ChatMaxingIconColoured className="!size-6" />
-                <span className="text-base font-semibold">Starter DIY</span>
-                <Badge variant="outline" className="text-muted-foreground  text-xs">Demo</Badge>
+                <span className="text-base font-semibold">Minimarket ARAMAC</span>
               </Link>
             </SidebarMenuButton>
           </SidebarMenuItem>

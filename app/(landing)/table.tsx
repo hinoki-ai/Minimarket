@@ -9,39 +9,39 @@ export const Table = ({ className }: { className?: string }) => {
     const customers = [
         {
             id: 1,
-            date: '10/31/2023',
-            status: 'Paid',
+            date: '31/10/2023',
+            status: 'Pagado',
             statusVariant: 'success',
-            name: 'Bernard Ng',
+            name: 'Venta mostrador',
             avatar: BERNARD_AVATAR,
-            revenue: '$43.99',
+            revenue: '$ 12.490 CLP',
         },
         {
             id: 2,
-            date: '10/21/2023',
-            status: 'Ref',
+            date: '21/10/2023',
+            status: 'Devuelto',
             statusVariant: 'warning',
-            name: 'Méschac Irung',
+            name: 'Venta tarjeta',
             avatar: MESCHAC_AVATAR,
-            revenue: '$19.99',
+            revenue: '$ 6.990 CLP',
         },
         {
             id: 3,
-            date: '10/15/2023',
-            status: 'Paid',
+            date: '15/10/2023',
+            status: 'Pagado',
             statusVariant: 'success',
-            name: 'Glodie Ng',
+            name: 'Venta delivery',
             avatar: GLODIE_AVATAR,
-            revenue: '$99.99',
+            revenue: '$ 28.990 CLP',
         },
         {
             id: 4,
-            date: '10/12/2023',
-            status: 'Cancelled',
+            date: '12/10/2023',
+            status: 'Anulado',
             statusVariant: 'danger',
-            name: 'Theo Ng',
+            name: 'Venta mostrador',
             avatar: THEO_AVATAR,
-            revenue: '$19.99',
+            revenue: '$ 5.990 CLP',
         },
     ]
 
@@ -53,8 +53,8 @@ export const Table = ({ className }: { className?: string }) => {
                     <div className="bg-muted size-2 rounded-full border border-black/5"></div>
                     <div className="bg-muted size-2 rounded-full border border-black/5"></div>
                 </div>
-                <div className="mt-3 text-lg font-medium">Customers</div>
-                <p className="mt-1 text-sm">New users by First user primary channel group (Default Channel Group)</p>
+                <div className="mt-3 text-lg font-medium">Ventas</div>
+                <p className="mt-1 text-sm">Resumen diario de operaciones y canales de venta</p>
             </div>
             <table
                 className="w-max table-auto border-collapse lg:w-full"
@@ -62,10 +62,10 @@ export const Table = ({ className }: { className?: string }) => {
                 <thead className="dark:bg-background bg-gray-950/5">
                     <tr className="*:border *:p-3 *:text-left *:text-sm *:font-medium">
                         <th className="rounded-l-[--card-radius]">#</th>
-                        <th>Date</th>
-                        <th>Status</th>
-                        <th>Customer</th>
-                        <th className="rounded-r-[--card-radius]">Revenue</th>
+                        <th>Fecha</th>
+                        <th>Estado</th>
+                        <th>Tipo</th>
+                        <th className="rounded-r-[--card-radius]">Monto</th>
                     </tr>
                 </thead>
                 <tbody className="text-sm">

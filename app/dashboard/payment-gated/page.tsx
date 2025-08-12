@@ -5,8 +5,8 @@ function UpgradeCard() {
   return (
     <>
       <div className="mx-auto max-w-2xl space-y-4 text-center">
-        <h1 className="text-center text-2xl font-semibold lg:text-3xl">Upgrade to a paid plan</h1>
-        <p>This page is available on paid plans. Choose a plan that fits your needs.</p>
+        <h1 className="text-center text-2xl font-semibold lg:text-3xl">Cámbiate a un plan pagado</h1>
+        <p>Esta página está disponible en planes pagados. Elige el plan que mejor se adapte a tu negocio.</p>
       </div>
       <div className="px-8 lg:px-12">
         <CustomClerkPricing />
@@ -21,12 +21,12 @@ function FeaturesCard() {
     <div className="px-4 lg:px-6">
       <div className="flex flex-col gap-4">
         <div className="flex items-center justify-between">
-          <h1 className="text-2xl font-bold">Advanced features</h1>
+          <h1 className="text-2xl font-bold">Funciones avanzadas</h1>
         </div>
         <div className="rounded-lg border bg-card p-6">
-          <h2 className="text-lg font-semibold mb-4">Page with advanced features</h2>
+          <h2 className="text-lg font-semibold mb-4">Página con funciones avanzadas</h2>
             <p className="text-muted-foreground">
-              Access to advanced features.
+              Acceso a funciones avanzadas.
             </p>
           </div>
         </div>
@@ -40,7 +40,6 @@ export default function TeamPage() {
     <Protect
     condition={(has) => {
       // Check if user has any of the paid plans
-      // return has({ plan: "starter" }) || has({ plan: "hobby" }) || has({ plan: "pro" })
       // Or alternatively, check if user doesn't have free plan (if free plan exists)
       return !has({ plan: "free_user" })
     }}

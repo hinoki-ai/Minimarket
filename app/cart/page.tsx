@@ -1,57 +1,64 @@
-"use client";
+'use client';
 
-import Link from "next/link";
-import Image from "next/image";
-import { useAuth } from "@clerk/nextjs";
-import { useQuery, useMutation } from "convex/react";
-import { api } from "@/convex/_generated/api";
-import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
-import { Separator } from "@/components/ui/separator";
-import { Minus, Plus, Trash2, ArrowLeft } from "lucide-react";
-import { useGuestSessionId } from "@/hooks/use-guest-session";
+import Link from 'next/link';
+import Image from 'next/image';
+import { useAuth } from '@clerk/nextjs';
+import { useQuery, useMutation } from 'convex/react';
+import { api } from '@/convex/_generated/api';
+import { useGuestSessionId } from '@/hooks/use-guest-session';
+import { Button } from '@/components/ui/button';
+import { Card, CardContent } from '@/components/ui/card';
+import { Separator } from '@/components/ui/separator';
+import { Minus, Plus, Trash2, ArrowLeft } from 'lucide-react';
 
 const formatCLP = (price: number) => new Intl.NumberFormat('es-CL', { style: 'currency', currency: 'CLP', minimumFractionDigits: 0 }).format(price);
 
-export default function Page() {
+export default function CartPage() {
   const { userId } = useAuth();
   const sessionId = useGuestSessionId();
-  const cart = useQuery(api.carts.getUserCart, userId || sessionId ? { userId: userId ?? undefined, sessionId: userId ? undefined : sessionId } : undefined) as any;
+
+  const cart = useQuery(api.carts.getUserCart, userId || sessionId ? { userId: userId ?? undefined, sessionId: userId ? undefined : sessionId } : undefined);
   const updateItem = useMutation(api.carts.updateCartItem);
   const removeItem = useMutation(api.carts.removeFromCart);
+  const clearCart = useMutation(api.carts.clearCart);
 
   const handleUpdate = async (productId: string, quantity: number) => {
     await updateItem({ productId, quantity, userId: userId ?? undefined, sessionId: userId ? undefined : sessionId });
   };
+
   const handleRemove = async (productId: string) => {
     await removeItem({ productId, userId: userId ?? undefined, sessionId: userId ? undefined : sessionId });
+  };
+
+  const handleClear = async () => {
+    await clearCart({ userId: userId ?? undefined, sessionId: userId ? undefined : sessionId });
   };
 
   const isEmpty = !cart || cart.items.length === 0;
 
   return (
-    <div className="px-4 lg:px-6 py-4">
+    <div className="mx-auto max-w-7xl px-6 py-8">
       <div className="mb-6 flex items-center justify-between">
-        <h1 className="text-2xl md:text-3xl font-semibold">Carrito</h1>
+        <h1 className="text-2xl md:text-3xl font-semibold">Tu carrito</h1>
         {!isEmpty && (
-          <Button asChild variant="outline">
-            <Link href="/checkout">Ir al pago</Link>
-          </Button>
+          <Button variant="ghost" onClick={handleClear}>Vaciar carrito</Button>
         )}
       </div>
+
       {isEmpty ? (
         <Card>
           <CardContent className="p-8 text-center space-y-4">
             <p className="text-muted-foreground">Tu carrito está vacío.</p>
             <Button asChild>
-              <Link href="/products">
-                <ArrowLeft className="h-4 w-4 mr-2" /> Ver productos
+              <Link href="/">
+                <ArrowLeft className="h-4 w-4 mr-2" /> Seguir comprando
               </Link>
             </Button>
           </CardContent>
         </Card>
       ) : (
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+          {/* Items */}
           <div className="lg:col-span-2 space-y-4">
             {cart.items.map((item: any) => (
               <Card key={item.productId} className="overflow-hidden">
@@ -82,6 +89,8 @@ export default function Page() {
               </Card>
             ))}
           </div>
+
+          {/* Summary */}
           <div>
             <Card>
               <CardContent className="p-6 space-y-3">
@@ -109,3 +118,4 @@ export default function Page() {
     </div>
   );
 }
+

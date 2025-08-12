@@ -1,0 +1,36 @@
+name: Uptime & Lighthouse Monitor
+
+on:
+  schedule:
+    - cron: '*/30 * * * *' # every 30 minutes
+  workflow_dispatch:
+
+jobs:
+  lighthouse:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install Lighthouse CI
+        run: |
+          npm i -g @lhci/cli@0.13.x
+      - name: Run Lighthouse CI
+        env:
+          SITE_URL: ${{ secrets.SITE_URL }}
+        run: |
+          lhci autorun --collect.url=$SITE_URL --collect.numberOfRuns=1 --upload.target=temporary-public-storage || echo "LHCI completed with warnings"
+
+  uptime:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check uptime
+        env:
+          SITE_URL: ${{ secrets.SITE_URL }}
+        run: |
+          code=$(curl -s -o /dev/null -w "%{http_code}" "$SITE_URL")
+          echo "HTTP $code"
+          if [ "$code" -ge 200 ] && [ "$code" -lt 400 ]; then
+            exit 0
+          else
+            echo "Site down or error code: $code" >&2
+            exit 1
+          fi
+

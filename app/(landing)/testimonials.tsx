@@ -1,5 +1,6 @@
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
 import { Card, CardContent } from '@/components/ui/card'
+import { ShieldCheck, CreditCard, Lock } from 'lucide-react'
 
 type Testimonial = {
     name: string
@@ -10,40 +11,40 @@ type Testimonial = {
 
 const testimonials: Testimonial[] = [
     {
-        name: 'Jonathan Yombo',
-        role: 'Software Engineer',
+        name: 'Paula Muñoz',
+        role: 'Dueña de almacén',
         image: 'https://randomuser.me/api/portraits/men/1.jpg',
-        quote: 'Tailus is really extraordinary and very practical, no need to break your head. A real gold mine.',
+        quote: 'Minimarket ARAMAC nos simplificó el día a día. Rápido, claro y muy fácil.',
     },
     {
-        name: 'Yves Kalume',
-        role: 'GDE - Android',
+        name: 'Carlos Rojas',
+        role: 'Administrador',
         image: 'https://randomuser.me/api/portraits/men/6.jpg',
-        quote: 'With no experience in webdesign I just redesigned my entire website in a few minutes with tailwindcss thanks to Tailus.',
+        quote: 'La gestión es simple y ordenada. Ideal para negocios locales.',
     },
     {
-        name: 'Yucel Faruksahan',
-        role: 'Tailkits Creator',
+        name: 'Andrea Fuentes',
+        role: 'Emprendedora',
         image: 'https://randomuser.me/api/portraits/men/7.jpg',
-        quote: 'Great work on tailfolio template. This is one of the best personal website that I have seen so far :)',
+        quote: 'Servicio confiable y muy intuitivo. Lo recomiendo.',
     },
     {
-        name: 'Shekinah Tshiokufila',
-        role: 'Senior Software Engineer',
+        name: 'Javier Pérez',
+        role: 'Reponedor',
         image: 'https://randomuser.me/api/portraits/men/4.jpg',
-        quote: 'Tailus is redefining the standard of web design, with these blocks it provides an easy and efficient way for those who love beauty but may lack the time to implement it. I can only recommend this incredible wonder.',
+        quote: 'Nos ayudó a ordenar inventario y ventas sin enredos.',
     },
     {
-        name: 'Oketa Fred',
-        role: 'Fullstack Developer',
+        name: 'Marcela Díaz',
+        role: 'Comerciante',
         image: 'https://randomuser.me/api/portraits/men/2.jpg',
-        quote: 'I absolutely love Tailus! The component blocks are beautifully designed and easy to use, which makes creating a great-looking website a breeze.',
+        quote: 'Rápido de implementar y muy fácil para el equipo.',
     },
     {
-        name: 'Yves Kalume',
-        role: 'GDE - Android',
+        name: 'Tomás Herrera',
+        role: 'Cajero',
         image: 'https://randomuser.me/api/portraits/men/6.jpg',
-        quote: 'With no experience in webdesign I just redesigned my entire website in a few minutes with tailwindcss thanks to Tailus.',
+        quote: 'Atención amable y plataforma estable. Muy buena experiencia.',
     },
 ]
 
@@ -63,8 +64,20 @@ export default function WallOfLoveSection() {
             <div className="py-16 md:py-32">
                 <div className="mx-auto max-w-6xl px-6">
                     <div className="text-center">
-                        <h2 className="text-foreground text-4xl font-semibold">Loved by the Community</h2>
-                        <p className="text-muted-foreground mb-12 mt-4 text-balance text-lg">Harum quae dolore orrupti aut temporibus ariatur.</p>
+                        <h2 className="text-foreground text-4xl font-semibold">Clientes felices</h2>
+                        <p className="text-muted-foreground mb-8 mt-4 text-balance text-lg">Rápido, claro y confiable para negocios locales en Chile.</p>
+                        {/* Trust badges */}
+                        <div className="mx-auto mb-8 flex flex-wrap items-center justify-center gap-3 text-sm">
+                            <span className="inline-flex items-center gap-2 rounded-full border px-3 py-1">
+                                <ShieldCheck className="h-4 w-4" /> Convex en tiempo real
+                            </span>
+                            <span className="inline-flex items-center gap-2 rounded-full border px-3 py-1">
+                                <CreditCard className="h-4 w-4" /> Pagos seguros con Stripe
+                            </span>
+                            <span className="inline-flex items-center gap-2 rounded-full border px-3 py-1">
+                                <Lock className="h-4 w-4" /> Sesiones protegidas con Clerk
+                            </span>
+                        </div>
                     </div>
                     <div className="mt-8 grid gap-3 sm:grid-cols-2 md:mt-12 lg:grid-cols-3">
                         {testimonialChunks.map((chunk, chunkIndex) => (
@@ -82,7 +95,7 @@ export default function WallOfLoveSection() {
                                                     width="120"
                                                     height="120"
                                                 />
-                                                <AvatarFallback>ST</AvatarFallback>
+                                                <AvatarFallback>MA</AvatarFallback>
                                             </Avatar>
 
                                             <div>

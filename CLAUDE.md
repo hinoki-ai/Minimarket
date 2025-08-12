@@ -3,7 +3,7 @@
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
 ## Project Overview
-This is a Next.js 15 SaaS starter template with integrated authentication (Clerk), real-time database (Convex), and subscription billing (Clerk Billing).
+This repository contains the Minimarket ARAMAC web application built with Next.js 15, using Clerk for authentication, Convex for real-time data, and Clerk Billing for subscriptions.
 
 ## Development Commands
 

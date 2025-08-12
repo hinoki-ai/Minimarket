@@ -1,0 +1,12 @@
+{
+  "name": "Minimarket ARAMAC",
+  "short_name": "ARAMAC",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0a0a0a",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "512x512", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
+

@@ -1,7 +1,8 @@
 {
-  "name": "elite-next-starter",
+  "name": "minimarket-aramac",
   "version": "0.1.0",
   "private": true,
+  "description": "Minimarket ARAMAC web app",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",

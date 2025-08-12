@@ -4,14 +4,27 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
+  /* Japanese-inspired Minimarket Design System */
   --radius: 0.625rem;
+  
+  /* MA (間) principle spacing - strategic white space */
+  --ma-xs: 0.5rem;    /* 8px - minimal breathing room */
+  --ma-sm: 1rem;      /* 16px - standard spacing */
+  --ma-md: 1.5rem;    /* 24px - comfortable spacing */
+  --ma-lg: 2rem;      /* 32px - generous spacing */
+  --ma-xl: 3rem;      /* 48px - spacious sections */
+  --ma-2xl: 4rem;     /* 64px - major section breaks */
+  
+  /* Konbini-inspired color system */
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.145 0 0);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
+  
+  /* Primary colors - inspired by Japanese convenience stores */
+  --primary: oklch(0.26 0.15 240);        /* Deep blue like FamilyMart */
   --primary-foreground: oklch(0.985 0 0);
   --secondary: oklch(0.97 0 0);
   --secondary-foreground: oklch(0.205 0 0);
@@ -19,10 +32,33 @@
   --muted-foreground: oklch(0.556 0 0);
   --accent: oklch(0.97 0 0);
   --accent-foreground: oklch(0.205 0 0);
+  
+  /* Status colors for fresh/new/popular indicators */
+  --fresh: oklch(0.65 0.15 145);          /* Fresh green */
+  --fresh-foreground: oklch(0.985 0 0);
+  --new: oklch(0.55 0.2 25);              /* New orange */
+  --new-foreground: oklch(0.985 0 0);
+  --popular: oklch(0.45 0.2 345);         /* Popular red */
+  --popular-foreground: oklch(0.985 0 0);
+  --sale: oklch(0.6 0.25 60);             /* Sale yellow */
+  --sale-foreground: oklch(0.145 0 0);
+  
+  /* Stock status colors */
+  --in-stock: oklch(0.65 0.15 145);       /* Green */
+  --low-stock: oklch(0.6 0.25 60);        /* Yellow */
+  --out-stock: oklch(0.55 0.2 25);        /* Orange */
+  
   --destructive: oklch(0.577 0.245 27.325);
   --border: oklch(0.922 0 0);
   --input: oklch(0.922 0 0);
   --ring: oklch(0.708 0 0);
+  
+  /* Bento box grid colors */
+  --bento-primary: oklch(0.26 0.15 240);
+  --bento-secondary: oklch(0.65 0.15 145);
+  --bento-accent: oklch(0.55 0.2 25);
+  --bento-muted: oklch(0.97 0 0);
+  
   --chart-1: oklch(0.81 0.1 252);
   --chart-2: oklch(0.62 0.19 260);
   --chart-3: oklch(0.55 0.22 263);
@@ -150,6 +186,144 @@
   }
   body {
     @apply bg-background text-foreground;
+    font-feature-settings: "kern" 1, "liga" 1;
+  }
+  
+  /* Japanese typography principles */
+  .typography-hierarchy {
+    line-height: 1.6; /* Japanese standard for readability */
+    letter-spacing: 0.025em; /* Subtle character spacing */
+  }
+  
+  /* Mobile-first thumb-friendly targets */
+  .touch-target {
+    min-height: 44px; /* iOS/Android recommended minimum */
+    min-width: 44px;
+  }
+}
+
+@layer utilities {
+  /* MA (間) principle utilities */
+  .ma-xs { margin: var(--ma-xs); }
+  .ma-sm { margin: var(--ma-sm); }
+  .ma-md { margin: var(--ma-md); }
+  .ma-lg { margin: var(--ma-lg); }
+  .ma-xl { margin: var(--ma-xl); }
+  .ma-2xl { margin: var(--ma-2xl); }
+  
+  .ma-x-xs { margin-left: var(--ma-xs); margin-right: var(--ma-xs); }
+  .ma-x-sm { margin-left: var(--ma-sm); margin-right: var(--ma-sm); }
+  .ma-x-md { margin-left: var(--ma-md); margin-right: var(--ma-md); }
+  .ma-x-lg { margin-left: var(--ma-lg); margin-right: var(--ma-lg); }
+  .ma-x-xl { margin-left: var(--ma-xl); margin-right: var(--ma-xl); }
+  .ma-x-2xl { margin-left: var(--ma-2xl); margin-right: var(--ma-2xl); }
+  
+  .ma-y-xs { margin-top: var(--ma-xs); margin-bottom: var(--ma-xs); }
+  .ma-y-sm { margin-top: var(--ma-sm); margin-bottom: var(--ma-sm); }
+  .ma-y-md { margin-top: var(--ma-md); margin-bottom: var(--ma-md); }
+  .ma-y-lg { margin-top: var(--ma-lg); margin-bottom: var(--ma-lg); }
+  .ma-y-xl { margin-top: var(--ma-xl); margin-bottom: var(--ma-xl); }
+  .ma-y-2xl { margin-top: var(--ma-2xl); margin-bottom: var(--ma-2xl); }
+  
+  /* Bento-style grid system */
+  .bento-grid {
+    display: grid;
+    gap: var(--ma-sm);
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+  
+  .bento-card {
+    @apply rounded-lg border bg-card p-4 shadow-sm transition-all duration-200 hover:shadow-md;
+  }
+  
+  .bento-card-featured {
+    @apply bento-card col-span-full md:col-span-2;
+    background: linear-gradient(135deg, 
+      rgb(from var(--bento-primary) r g b / 0.05) 0%, 
+      rgb(from var(--bento-secondary) r g b / 0.05) 100%);
+  }
+  
+  /* Status indicators */
+  .status-fresh {
+    @apply bg-green-100 text-green-800 border-green-200;
+    background-color: rgb(from var(--fresh) r g b / 0.1);
+    color: rgb(from var(--fresh) r g b / 0.8);
+    border-color: rgb(from var(--fresh) r g b / 0.2);
+  }
+  
+  .status-new {
+    @apply bg-orange-100 text-orange-800 border-orange-200;
+    background-color: rgb(from var(--new) r g b / 0.1);
+    color: rgb(from var(--new) r g b / 0.8);
+    border-color: rgb(from var(--new) r g b / 0.2);
+  }
+  
+  .status-popular {
+    @apply bg-red-100 text-red-800 border-red-200;
+    background-color: rgb(from var(--popular) r g b / 0.1);
+    color: rgb(from var(--popular) r g b / 0.8);
+    border-color: rgb(from var(--popular) r g b / 0.2);
+  }
+  
+  .status-sale {
+    @apply bg-yellow-100 text-yellow-800 border-yellow-200;
+    background-color: rgb(from var(--sale) r g b / 0.1);
+    color: rgb(from var(--sale) r g b / 0.8);
+    border-color: rgb(from var(--sale) r g b / 0.2);
+  }
+  
+  /* Stock status indicators */
+  .stock-in {
+    @apply inline-flex items-center px-2 py-1 rounded-full text-xs font-medium;
+    background-color: rgb(from var(--in-stock) r g b / 0.1);
+    color: rgb(from var(--in-stock) r g b / 0.8);
+  }
+  
+  .stock-low {
+    @apply inline-flex items-center px-2 py-1 rounded-full text-xs font-medium;
+    background-color: rgb(from var(--low-stock) r g b / 0.1);
+    color: rgb(from var(--low-stock) r g b / 0.8);
+  }
+  
+  .stock-out {
+    @apply inline-flex items-center px-2 py-1 rounded-full text-xs font-medium;
+    background-color: rgb(from var(--out-stock) r g b / 0.1);
+    color: rgb(from var(--out-stock) r g b / 0.8);
+  }
+  
+  /* Mobile-first responsive patterns */
+  .mobile-stack {
+    @apply flex flex-col space-y-4 md:flex-row md:space-y-0 md:space-x-4;
+  }
+  
+  .mobile-center {
+    @apply text-center md:text-left;
+  }
+  
+  /* Thumb-friendly interactive elements */
+  .thumb-friendly {
+    @apply touch-target cursor-pointer select-none;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  /* Japanese-inspired subtle animations */
+  .subtle-hover {
+    @apply transition-all duration-200 ease-out;
+  }
+  
+  .subtle-hover:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgb(from var(--shadow-color) r g b / 0.1);
+  }
+  
+  /* Progressive disclosure patterns */
+  .disclosure-content {
+    @apply overflow-hidden transition-all duration-300 ease-in-out;
+    max-height: 0;
+  }
+  
+  .disclosure-content.open {
+    max-height: 500px; /* Adjust based on content */
   }
 }
 
