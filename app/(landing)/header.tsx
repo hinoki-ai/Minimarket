@@ -38,7 +38,12 @@ export const HeroHeader = () => {
     const { userId } = useAuth()
     const sessionId = useGuestSessionId()
 
-    const itemCount = useQuery(api.carts.getCartItemCount, userId || sessionId ? { userId: userId ?? undefined, sessionId: userId ? undefined : sessionId } : undefined) ?? 0
+    // Guard Convex generated API in environments where carts may not be present in types
+    const cartsApi: any = (api as any).carts
+    const itemCount = useQuery(
+        cartsApi?.getCartItemCount,
+        (userId || sessionId) && cartsApi?.getCartItemCount ? { userId: userId ?? undefined, sessionId: userId ? undefined : sessionId } : undefined
+    ) ?? 0
 
     const appearance = {
         baseTheme: theme === "dark" ? dark : undefined,
