@@ -14,7 +14,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const staticRoutes: MetadataRoute.Sitemap = [
     '',
     '/products',
-    '/cart',
+    '/dashboard',
     '/checkout',
     '/search',
   ].map((path) => ({ url: `${baseUrl}${path}`, changeFrequency: 'weekly', priority: 0.7 }));

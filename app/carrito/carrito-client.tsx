@@ -15,7 +15,7 @@ import { useState, useEffect } from 'react';
 
 const formatCLP = (price: number) => new Intl.NumberFormat('es-CL', { style: 'currency', currency: 'CLP', minimumFractionDigits: 0 }).format(price);
 
-export default function CartPageClient() {
+export default function CarritoPageClient() {
   const { userId } = useAuth();
   const sessionId = useGuestSessionId();
   const [activeTab, setActiveTab] = useState('cart');
@@ -56,8 +56,8 @@ export default function CartPageClient() {
   return (
     <div>
       {/* Enhanced Header */}
-      <div className="mb-8 lg:mb-12">
-        <h2 className="text-xl md:text-2xl lg:text-3xl font-semibold mb-6">Mi Cuenta & Carrito</h2>
+      <div className="mb-8">
+        <h2 className="text-2xl font-bold mb-6">Mi Cuenta & Carrito</h2>
         
         {/* Tab Navigation */}
         <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
@@ -80,30 +80,30 @@ export default function CartPageClient() {
 
           {/* Cart Tab */}
           <TabsContent value="cart" className="mt-6">
-            <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-4 mb-6">
-              <h3 className="text-lg md:text-xl font-semibold">Tu carrito</h3>
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
+              <h3 className="text-xl font-semibold">Tu carrito</h3>
               {!isEmpty && (
-                <Button variant="ghost" size="lg" onClick={handleClear}>Vaciar carrito</Button>
+                <Button variant="outline" size="sm" onClick={handleClear}>Vaciar carrito</Button>
               )}
             </div>
 
       {isEmpty ? (
         <Card>
-          <CardContent className="py-16 lg:py-24 text-center">
-            <p className="text-muted-foreground text-base lg:text-lg mb-6">Tu carrito está vacío</p>
-            <Button size="lg" asChild>
+          <CardContent className="py-16 text-center">
+            <p className="text-muted-foreground mb-6">Tu carrito está vacío</p>
+            <Button asChild>
               <Link href="/products">Explorar productos</Link>
             </Button>
           </CardContent>
         </Card>
       ) : (
-        <div className="grid gap-8 lg:gap-12 xl:grid-cols-3">
-          <div className="xl:col-span-2 space-y-4 lg:space-y-6">
+        <div className="grid gap-6 xl:grid-cols-3">
+          <div className="xl:col-span-2 space-y-4">
             {cart.items.map((item: any) => (
               <Card key={item.productId}>
-                <CardContent className="p-4 lg:p-6">
-                  <div className="flex gap-4 lg:gap-6">
-                    <div className="relative h-20 w-20 lg:h-28 lg:w-28 flex-shrink-0 rounded-md overflow-hidden">
+                <CardContent className="p-6">
+                  <div className="flex gap-4">
+                    <div className="relative h-20 w-20 flex-shrink-0 rounded-md overflow-hidden">
                       <Image
                         src={item.product?.images?.[0]?.url || '/placeholder-product.jpg'}
                         alt={item.product?.images?.[0]?.alt || item.product?.name || 'Producto'}
@@ -112,43 +112,43 @@ export default function CartPageClient() {
                         className="object-cover rounded-md"
                       />
                     </div>
-                    <div className="flex-1 space-y-2 lg:space-y-4">
+                    <div className="flex-1 space-y-2">
                       <Link href={`/products/${item.product?.slug}`}>
-                      <h3 className="font-medium text-base lg:text-lg hover:text-primary line-clamp-2">{item.product?.name || 'Producto'}</h3>
+                      <h3 className="font-medium hover:text-primary line-clamp-2">{item.product?.name || 'Producto'}</h3>
                       </Link>
-                      <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4">
-                        <div className="flex items-center space-x-2 lg:space-x-3">
+                      <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+                        <div className="flex items-center space-x-2">
                           <Button
                             variant="outline"
-                            size="sm"
-                            className="lg:h-10 lg:w-10"
+                            size="icon"
+                            className="h-9 w-9"
                             aria-label="Disminuir cantidad"
                             onClick={() => handleUpdate(item.productId, item.quantity - 1)}
                             disabled={item.quantity <= 1}
                           >
-                            <Minus className="h-3 w-3 lg:h-4 lg:w-4" />
+                            <Minus className="h-4 w-4" />
                           </Button>
-                          <span className="w-8 lg:w-12 text-center text-base lg:text-lg font-medium">{item.quantity}</span>
+                          <span className="min-w-[2rem] text-center text-sm font-medium">{item.quantity}</span>
                           <Button
                             variant="outline"
-                            size="sm"
-                            className="lg:h-10 lg:w-10"
+                            size="icon"
+                            className="h-9 w-9"
                             aria-label="Aumentar cantidad"
                             onClick={() => handleUpdate(item.productId, item.quantity + 1)}
                           >
-                            <Plus className="h-3 w-3 lg:h-4 lg:w-4" />
+                            <Plus className="h-4 w-4" />
                           </Button>
                         </div>
-                        <div className="flex items-center justify-between lg:gap-6">
-                          <div className="font-medium text-lg lg:text-xl">{formatCLP(item.price * item.quantity)}</div>
+                        <div className="flex items-center justify-between gap-4">
+                          <div className="font-semibold text-lg">{formatCLP(item.price * item.quantity)}</div>
                           <Button
                             variant="ghost"
-                            size="sm"
-                            className="lg:h-10 lg:w-10"
+                            size="icon"
+                            className="h-9 w-9 text-destructive hover:text-destructive"
                             aria-label="Eliminar del carrito"
                             onClick={() => handleRemove(item.productId)}
                           >
-                            <Trash2 className="h-4 w-4 lg:h-5 lg:w-5" />
+                            <Trash2 className="h-4 w-4" />
                           </Button>
                         </div>
                       </div>
@@ -159,31 +159,31 @@ export default function CartPageClient() {
             ))}
           </div>
 
-          <div className="space-y-4 lg:space-y-6">
+          <div className="space-y-4">
             <Card>
-              <CardContent className="p-6 lg:p-8 space-y-4 lg:space-y-6">
-                <div className="flex justify-between text-base lg:text-lg">
+              <CardContent className="p-6 space-y-4">
+                <div className="flex justify-between text-sm">
                   <span>Subtotal</span>
                   <span className="font-medium">{formatCLP(cart.subtotal)}</span>
                 </div>
-                <div className="flex justify-between text-base lg:text-lg">
+                <div className="flex justify-between text-sm">
                   <span>IVA</span>
                   <span className="font-medium">{formatCLP(cart.tax)}</span>
                 </div>
                 <Separator />
-                <div className="flex justify-between text-lg lg:text-xl">
-                  <span className="font-semibold">Total</span>
-                  <span className="font-bold">{formatCLP(cart.total)}</span>
+                <div className="flex justify-between text-base">
+                  <span className="font-bold">Total</span>
+                  <span className="font-bold text-lg">{formatCLP(cart.total)}</span>
                 </div>
-                <Button asChild className="w-full lg:h-12 lg:text-lg" size="lg">
+                <Button asChild className="w-full h-12" size="lg">
                   <Link href="/checkout">Proceder al pago</Link>
                 </Button>
               </CardContent>
             </Card>
             
-            <Button variant="outline" asChild className="w-full lg:h-12 lg:text-lg" size="lg">
+            <Button variant="outline" asChild className="w-full h-12" size="lg">
               <Link href="/products">
-                <ArrowLeft className="h-4 w-4 lg:h-5 lg:w-5 mr-2" />
+                <ArrowLeft className="h-4 w-4 mr-2" />
                 Seguir comprando
               </Link>
             </Button>
@@ -196,7 +196,7 @@ export default function CartPageClient() {
           {userId && (
             <TabsContent value="orders" className="mt-6">
               <div className="mb-6">
-                <h3 className="text-lg md:text-xl font-semibold">Tus pedidos</h3>
+                <h3 className="text-xl font-semibold">Tus pedidos</h3>
                 <p className="text-muted-foreground">Historial de compras y seguimiento de pedidos</p>
               </div>
               
@@ -211,7 +211,7 @@ export default function CartPageClient() {
                   {orders.map((order) => (
                     <Card key={order._id}>
                       <CardContent className="p-6">
-                        <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-4">
+                        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
                           <div className="space-y-2">
                             <div className="flex items-center gap-2">
                               <h4 className="font-semibold">Pedido #{order.orderNumber}</h4>
@@ -268,11 +268,11 @@ export default function CartPageClient() {
           {/* Profile Tab */}
           <TabsContent value="profile" className="mt-6">
             <div className="mb-6">
-              <h3 className="text-lg md:text-xl font-semibold">Mi perfil</h3>
+              <h3 className="text-xl font-semibold">Mi perfil</h3>
               <p className="text-muted-foreground">Gestiona tu información personal y preferencias</p>
             </div>
             
-            <div className="grid gap-6 lg:grid-cols-2">
+            <div className="grid gap-6 md:grid-cols-2">
               {/* Account Information */}
               <Card>
                 <CardHeader>

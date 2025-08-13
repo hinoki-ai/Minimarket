@@ -50,10 +50,10 @@ export function BottomNav() {
       onClick: () => setIsSearchOpen(true)
     },
     {
-      href: '/cart',
+      href: '/dashboard',
       icon: ShoppingCart,
       label: 'Carrito',
-      isActive: pathname?.startsWith('/cart'),
+      isActive: pathname?.startsWith('/dashboard'),
       showCount: true
     },
     {
@@ -145,7 +145,7 @@ export function BottomNav() {
           <div className="p-2 mt-4">
             <div className="grid grid-cols-3 gap-3 text-xs">
               <Link 
-                href="/cart#profile" 
+                href="/dashboard#profile" 
                 className="flex flex-col items-center justify-center rounded-lg border p-4 hover:bg-accent transition-colors"
                 onClick={() => setIsAccountOpen(false)}
               >
@@ -153,7 +153,7 @@ export function BottomNav() {
                 <span>Perfil</span>
               </Link>
               <Link 
-                href="/cart#orders" 
+                href="/dashboard#orders" 
                 className="flex flex-col items-center justify-center rounded-lg border p-4 hover:bg-accent transition-colors"
                 onClick={() => setIsAccountOpen(false)}
               >

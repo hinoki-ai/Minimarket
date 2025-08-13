@@ -21,7 +21,7 @@ export default function UserSection({ theme }: { isScrolled: boolean; theme: str
             <Authenticated>
                 <Button asChild size="sm">
                     <Link href="/dashboard">
-                        <span>Panel</span>
+                        <span>Mi Cuenta</span>
                     </Link>
                 </Button>
                 <UserButton appearance={appearance} />

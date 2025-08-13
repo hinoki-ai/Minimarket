@@ -12,6 +12,6 @@ export const metadata: Metadata = {
   },
 };
 
-export default function CartPage() {
+export default function CarritoPage() {
   redirect('/dashboard')
 }
