@@ -1,0 +1,108 @@
+[2025-08-13T17:01:47.240Z] 🧭 STARTING ENHANCED NAVIGATION SCRAPER
+[2025-08-13T17:01:47.245Z] 🎯 Target: 200 products per store
+[2025-08-13T17:01:47.250Z] 📊 Navigation depth: 3 levels
+[2025-08-13T17:01:47.251Z] 🚀 Starting enhanced navigation for LIDER
+[2025-08-13T17:01:47.501Z] 🏠 Accessing home page: https://www.lider.cl
+[2025-08-13T17:01:49.109Z]   ✅ Home page accessible
+[2025-08-13T17:01:59.113Z]       ⚠️ Product extraction error: page.waitForSelector: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('[data-testid="product-item"], .product-card, .product-item, [class*="product"]') to be visible[22m
+
+[2025-08-13T17:01:59.114Z] 🗂️ Navigating to category: https://www.lider.cl/categoria/bebidas
+[2025-08-13T17:02:01.658Z]   ❌ Category failed: 404
+[2025-08-13T17:02:04.673Z] 🗂️ Navigating to category: https://www.lider.cl/categoria/lacteos
+[2025-08-13T17:02:06.092Z]   ❌ Category failed: 404
+[2025-08-13T17:02:09.095Z] 🗂️ Navigating to category: https://www.lider.cl/categoria/carnes
+[2025-08-13T17:02:11.477Z]   ❌ Category failed: 404
+[2025-08-13T17:02:14.496Z] 🗂️ Navigating to category: https://www.lider.cl/categoria/panaderia
+[2025-08-13T17:02:15.701Z]   ❌ Category failed: 404
+[2025-08-13T17:02:18.719Z] 🗂️ Navigating to category: https://www.lider.cl/categoria/frutas-verduras
+[2025-08-13T17:02:20.226Z]   ❌ Category failed: 404
+[2025-08-13T17:02:23.233Z] 🗂️ Navigating to category: https://www.lider.cl/categoria/despensa
+[2025-08-13T17:02:25.475Z]   ❌ Category failed: 404
+[2025-08-13T17:02:28.476Z] 🗂️ Navigating to category: https://www.lider.cl/categoria/congelados
+[2025-08-13T17:02:29.873Z]   ❌ Category failed: 404
+[2025-08-13T17:02:32.874Z] 🗂️ Navigating to category: https://www.lider.cl/categoria/aseo-hogar
+[2025-08-13T17:02:34.375Z]   ❌ Category failed: 404
+[2025-08-13T17:02:37.486Z] 🎉 lider complete: 0 products
+[2025-08-13T17:02:42.512Z] 🚀 Starting enhanced navigation for JUMBO
+[2025-08-13T17:02:42.733Z] 🏠 Accessing home page: https://www.jumbo.cl
+[2025-08-13T17:02:43.662Z]   ✅ Home page accessible
+[2025-08-13T17:02:53.663Z]       ⚠️ Product extraction error: page.waitForSelector: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('.product-card, .product-item, [data-automation-id*="product"]') to be visible[22m
+
+[2025-08-13T17:02:53.664Z] 🗂️ Navigating to category: https://www.jumbo.cl/bebidas
+[2025-08-13T17:02:54.218Z]   ✅ Category loaded: https://www.jumbo.cl/bebidas
+[2025-08-13T17:02:57.221Z]     📄 Processing page 1
+[2025-08-13T17:03:07.223Z]       ⚠️ Product extraction error: page.waitForSelector: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('.product-card, .product-item, [data-automation-id*="product"]') to be visible[22m
+
+[2025-08-13T17:03:07.225Z]     ⚠️ No products found on page 1, stopping pagination
+[2025-08-13T17:03:07.227Z]   🎯 Category total: 0 products
+[2025-08-13T17:03:10.228Z] 🗂️ Navigating to category: https://www.jumbo.cl/lacteos
+[2025-08-13T17:03:10.804Z]   ✅ Category loaded: https://www.jumbo.cl/lacteos
+[2025-08-13T17:03:13.809Z]     📄 Processing page 1
+[2025-08-13T17:03:23.810Z]       ⚠️ Product extraction error: page.waitForSelector: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('.product-card, .product-item, [data-automation-id*="product"]') to be visible[22m
+
+[2025-08-13T17:03:23.810Z]     ⚠️ No products found on page 1, stopping pagination
+[2025-08-13T17:03:23.810Z]   🎯 Category total: 0 products
+[2025-08-13T17:03:26.811Z] 🗂️ Navigating to category: https://www.jumbo.cl/carnes-aves-pescados
+[2025-08-13T17:03:27.262Z]   ✅ Category loaded: https://www.jumbo.cl/carnes-aves-pescados
+[2025-08-13T17:03:30.269Z]     📄 Processing page 1
+[2025-08-13T17:03:40.270Z]       ⚠️ Product extraction error: page.waitForSelector: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('.product-card, .product-item, [data-automation-id*="product"]') to be visible[22m
+
+[2025-08-13T17:03:40.270Z]     ⚠️ No products found on page 1, stopping pagination
+[2025-08-13T17:03:40.270Z]   🎯 Category total: 0 products
+[2025-08-13T17:03:43.271Z] 🗂️ Navigating to category: https://www.jumbo.cl/panaderia-pasteleria
+[2025-08-13T17:03:43.898Z]   ✅ Category loaded: https://www.jumbo.cl/panaderia-pasteleria
+[2025-08-13T17:03:46.904Z]     📄 Processing page 1
+[2025-08-13T17:03:56.904Z]       ⚠️ Product extraction error: page.waitForSelector: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('.product-card, .product-item, [data-automation-id*="product"]') to be visible[22m
+
+[2025-08-13T17:03:56.905Z]     ⚠️ No products found on page 1, stopping pagination
+[2025-08-13T17:03:56.905Z]   🎯 Category total: 0 products
+[2025-08-13T17:03:59.906Z] 🗂️ Navigating to category: https://www.jumbo.cl/frutas-verduras
+[2025-08-13T17:04:00.367Z]   ✅ Category loaded: https://www.jumbo.cl/frutas-verduras
+[2025-08-13T17:04:03.369Z]     📄 Processing page 1
+[2025-08-13T17:04:13.371Z]       ⚠️ Product extraction error: page.waitForSelector: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('.product-card, .product-item, [data-automation-id*="product"]') to be visible[22m
+
+[2025-08-13T17:04:13.371Z]     ⚠️ No products found on page 1, stopping pagination
+[2025-08-13T17:04:13.372Z]   🎯 Category total: 0 products
+[2025-08-13T17:04:16.373Z] 🗂️ Navigating to category: https://www.jumbo.cl/despensa
+[2025-08-13T17:04:16.892Z]   ✅ Category loaded: https://www.jumbo.cl/despensa
+[2025-08-13T17:04:19.906Z]     📄 Processing page 1
+[2025-08-13T17:04:29.907Z]       ⚠️ Product extraction error: page.waitForSelector: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('.product-card, .product-item, [data-automation-id*="product"]') to be visible[22m
+
+[2025-08-13T17:04:29.909Z]     ⚠️ No products found on page 1, stopping pagination
+[2025-08-13T17:04:29.910Z]   🎯 Category total: 0 products
+[2025-08-13T17:04:32.913Z] 🗂️ Navigating to category: https://www.jumbo.cl/congelados
+[2025-08-13T17:04:33.357Z]   ✅ Category loaded: https://www.jumbo.cl/congelados
+[2025-08-13T17:04:36.361Z]     📄 Processing page 1
+[2025-08-13T17:04:46.368Z]       ⚠️ Product extraction error: page.waitForSelector: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('.product-card, .product-item, [data-automation-id*="product"]') to be visible[22m
+
+[2025-08-13T17:04:46.369Z]     ⚠️ No products found on page 1, stopping pagination
+[2025-08-13T17:04:46.369Z]   🎯 Category total: 0 products
+[2025-08-13T17:04:49.370Z] 🗂️ Navigating to category: https://www.jumbo.cl/aseo-y-hogar
+[2025-08-13T17:04:49.852Z]   ✅ Category loaded: https://www.jumbo.cl/aseo-y-hogar
+[2025-08-13T17:04:52.860Z]     📄 Processing page 1
+[2025-08-13T17:05:02.860Z]       ⚠️ Product extraction error: page.waitForSelector: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('.product-card, .product-item, [data-automation-id*="product"]') to be visible[22m
+
+[2025-08-13T17:05:02.861Z]     ⚠️ No products found on page 1, stopping pagination
+[2025-08-13T17:05:02.861Z]   🎯 Category total: 0 products
+[2025-08-13T17:05:06.218Z] 🎉 jumbo complete: 0 products
+[2025-08-13T17:05:11.244Z] 🎉 ENHANCED NAVIGATION COMPLETE

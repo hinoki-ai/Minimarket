@@ -1,0 +1,858 @@
+[JUMBO] Starting Enhanced Universal Product Scraper
+[JUMBO] Store: jumbo
+[JUMBO] Categories: bebidas, snacks, lacteos, carnes, panaderia, aseo, hogar
+[JUMBO] Max products: 8000
+[JUMBO] Max pages per category: 1000
+[JUMBO] Dry run: false
+[JUMBO] Navigating to https://www.jumbo.cl
+[JUMBO] Request failed: https://dev.visualwebsiteoptimizer.com/j.php?a=642581&u=https%3A%2F%2Fwww.jumbo.cl%2F&f=1&vn=1.5 net::ERR_FAILED
+[JUMBO] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[JUMBO] Request failed: https://pwcdauseo-zone.cnstrc.com/behavior?action=session_start&c=ciojs-2.1237.3&i=8c58744a-1964-4e0d-8207-0a1c9e43eed4&s=1&key=key_JopvNXKS61kwGkBe&origin_referrer=www.jumbo.cl%2F&_dt=1755077379415 net::ERR_ABORTED
+[JUMBO] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-5WWDCL8&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[JUMBO] No category URLs discovered from homepage
+[JUMBO] Starting category 1/7: bebidas
+[JUMBO] Scraping category: bebidas with 1 URL patterns
+[JUMBO] Navigating to https://www.jumbo.cl
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://sp.vtex.com/event-api/v1/jumbocl/event net::ERR_ABORTED
+[JUMBO] Request failed: https://assets-jumbo.ecomm.cencosud.com/0e5c3fe4110c20355e59-5394.bundle.js net::ERR_ABORTED
+[JUMBO] Request failed: https://sm-web-api.ecomm.cencosud.com/orderform/api/v1/orderForm net::ERR_ABORTED
+[JUMBO] Request failed: https://ads01.groovinads.com/grv/track/bhpx.os?idc=7315&fgjs=1&sku=undefined&idcategory=undefined net::ERR_ABORTED
+[JUMBO] Request failed: https://assets-jumbo.ecomm.cencosud.com/cb4cd7376aad2d5d68f6-9838.bundle.js net::ERR_ABORTED
+[JUMBO] Request failed: https://sm-web-api.ecomm.cencosud.com/cms/api/v1/cms/datetime net::ERR_ABORTED
+[JUMBO] Request failed: https://assets-jumbo.ecomm.cencosud.com/9fd77b6cacc4db7310cf.svg net::ERR_ABORTED
+[JUMBO] Request failed: https://assets-jumbo.ecomm.cencosud.com/de0735c19a91b116c94b.svg net::ERR_ABORTED
+[JUMBO] Request failed: https://assets-jumbo.ecomm.cencosud.com/c8d9d3abe5e0362e6636-800.bundle.css net::ERR_ABORTED
+[JUMBO] Request failed: https://assets-jumbo.ecomm.cencosud.com/7224fbda9c50559ae999.svg net::ERR_ABORTED
+[JUMBO] Request failed: https://fonts.gstatic.com/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwlxdu.woff2 net::ERR_ABORTED
+[JUMBO] Request failed: https://assets-jumbo.ecomm.cencosud.com/f13a8dc5e4ed55aa01bc.svg net::ERR_ABORTED
+[JUMBO] Request failed: https://assets-jumbo.ecomm.cencosud.com/92f783c6dbd7e73ba7a4.svg net::ERR_ABORTED
+[JUMBO] Request failed: https://assets-jumbo.ecomm.cencosud.com/627a44244b7af61ff751.svg net::ERR_ABORTED
+[JUMBO] Request failed: https://dev.visualwebsiteoptimizer.com/j.php?a=642581&u=https%3A%2F%2Fwww.jumbo.cl%2F&f=1&vn=1.5 net::ERR_FAILED
+[JUMBO] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[JUMBO] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-5WWDCL8&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Discovered 7 category URLs from homepage navigation
+[JUMBO] Discovered 1 URLs for bebidas
+[JUMBO] Attempting to load: https://www.jumbo.cl/licores-bebidas-y-aguas?page=1
+[JUMBO] Request failed: https://www.googletagmanager.com/gtag/js?id=AW-10844377008 net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/uploads/2025/08/desktop-home-grilla-tesoros-carnes-tartar-de-asiento-s32-05082025.webp net::ERR_ABORTED
+[JUMBO] Request failed: https://bff.jumbo.cl/catalog/plp net::ERR_ABORTED
+[JUMBO] Request failed: https://bff.jumbo.cl/catalog/plp net::ERR_ABORTED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_ABORTED
+[JUMBO] Request failed: https://assets.jumbo.cl/uploads/2025/08/desktop-home-grilla-tesoros-carnes-asado-de-tira-s32-05082025.webp net::ERR_ABORTED
+[JUMBO] Request failed: https://bff.jumbo.cl/catalog/plp net::ERR_ABORTED
+[JUMBO] Request failed: https://assets.jumbo.cl/uploads/2025/08/desktop-home-grilla-tesoros-carnes-malaya-de-cerdo-s32-05082025.webp net::ERR_ABORTED
+[JUMBO] Request failed: https://assets.jumbo.cl/uploads/2025/08/BANNER_CENCOSUD_642x100.webp net::ERR_ABORTED
+[JUMBO] Request failed: https://dev.visualwebsiteoptimizer.com/j.php?a=642581&u=https%3A%2F%2Fwww.jumbo.cl%2Flicores-bebidas-y-aguas%3Fpage%3D1&f=1&vn=1.5 net::ERR_FAILED
+[JUMBO] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[JUMBO] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-5WWDCL8&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] No products found on page, trying next URL pattern
+[JUMBO] Attempting to load: https://www.jumbo.cl/licores-bebidas-y-aguas?p=1
+[JUMBO] Request failed: https://bff.jumbo.cl/catalog/plp net::ERR_ABORTED
+[JUMBO] Request failed: https://dev.visualwebsiteoptimizer.com/j.php?a=642581&u=https%3A%2F%2Fwww.jumbo.cl%2Flicores-bebidas-y-aguas%3Fp%3D1&f=1&vn=1.5 net::ERR_FAILED
+[JUMBO] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[JUMBO] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-5WWDCL8&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] No products found on page, trying next URL pattern
+[JUMBO] Attempting to load: https://www.jumbo.cl/licores-bebidas-y-aguas?pagina=1
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://bff.jumbo.cl/catalog/plp net::ERR_ABORTED
+[JUMBO] Request failed: https://dev.visualwebsiteoptimizer.com/j.php?a=642581&u=https%3A%2F%2Fwww.jumbo.cl%2Flicores-bebidas-y-aguas%3Fpagina%3D1&f=1&vn=1.5 net::ERR_FAILED
+[JUMBO] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[JUMBO] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-5WWDCL8&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] No products found on page, trying next URL pattern
+[JUMBO] Attempting to load: https://www.jumbo.cl/licores-bebidas-y-aguas/1
+[JUMBO] Request failed: https://bff.jumbo.cl/catalog/plp net::ERR_ABORTED
+[JUMBO] Request failed: https://dev.visualwebsiteoptimizer.com/j.php?a=642581&u=https%3A%2F%2Fwww.jumbo.cl%2Flicores-bebidas-y-aguas%2F1&f=1&vn=1.5 net::ERR_FAILED
+[JUMBO] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[JUMBO] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-5WWDCL8&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] No products found on page, trying next URL pattern
+[JUMBO] Attempting to load: https://www.jumbo.cl/licores-bebidas-y-aguas&page=1
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://dev.visualwebsiteoptimizer.com/j.php?a=642581&u=https%3A%2F%2Fwww.jumbo.cl%2Flicores-bebidas-y-aguas%26page%3D1&f=1&vn=1.5 net::ERR_FAILED
+[JUMBO] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-5WWDCL8&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] No products found on page, trying next URL pattern
+[JUMBO] Attempting to load: https://www.jumbo.cl/licores-bebidas-y-aguas#?page=1
+[JUMBO] Request failed: https://dev.visualwebsiteoptimizer.com/j.php?a=642581&u=https%3A%2F%2Fwww.jumbo.cl%2Flicores-bebidas-y-aguas%23%3Fpage%3D1&f=1&vn=1.5 net::ERR_FAILED
+[JUMBO] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[JUMBO] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-5WWDCL8&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] No products found on page, trying next URL pattern
+[JUMBO] Attempting to load: https://www.jumbo.cl/licores-bebidas-y-aguas#?p=1
+[JUMBO] Page returned undefined: https://www.jumbo.cl/licores-bebidas-y-aguas#?p=1
+[JUMBO] Attempting to load: https://www.jumbo.cl/licores-bebidas-y-aguas
+[JUMBO] Request failed: https://sm-web-api.ecomm.cencosud.com/cms/api/v1/cms/datetime net::ERR_ABORTED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/cms/page-11732.json net::ERR_ABORTED
+[JUMBO] Request failed: https://bff.jumbo.cl/catalog/plp net::ERR_ABORTED
+[JUMBO] Request failed: https://assets-jumbo.ecomm.cencosud.com/0e5c3fe4110c20355e59-5394.bundle.js net::ERR_ABORTED
+[JUMBO] Request failed: https://assets-jumbo.ecomm.cencosud.com/d09ab9e01c2b36759dc0-800.bundle.js net::ERR_ABORTED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/cms/list-category.json net::ERR_ABORTED
+[JUMBO] Request failed: https://assets-jumbo.ecomm.cencosud.com/cb4cd7376aad2d5d68f6-9838.bundle.js net::ERR_ABORTED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/cms/page-101453.json net::ERR_ABORTED
+[JUMBO] Request failed: https://ads01.groovinads.com/grv/track/bhpx.os?idc=7315&fgjs=1&sku=undefined&idcategory=licores-bebidas-y-aguas net::ERR_ABORTED
+[JUMBO] Request failed: https://assets-jumbo.ecomm.cencosud.com/bb6a8dff7718fb3fd24d-ModalGiftsProducts.bundle.js net::ERR_ABORTED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_ABORTED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/cms/page-67845.json net::ERR_ABORTED
+[JUMBO] Request failed: https://fonts.gstatic.com/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwlxdu.woff2 net::ERR_ABORTED
+[JUMBO] Request failed: https://assets-jumbo.ecomm.cencosud.com/7224fbda9c50559ae999.svg net::ERR_ABORTED
+[JUMBO] Request failed: https://assets-jumbo.ecomm.cencosud.com/92f783c6dbd7e73ba7a4.svg net::ERR_ABORTED
+[JUMBO] Request failed: https://assets-jumbo.ecomm.cencosud.com/627a44244b7af61ff751.svg net::ERR_ABORTED
+[JUMBO] Request failed: https://assets-jumbo.ecomm.cencosud.com/c8d9d3abe5e0362e6636-800.bundle.css net::ERR_ABORTED
+[JUMBO] Request failed: https://assets-jumbo.ecomm.cencosud.com/de0735c19a91b116c94b.svg net::ERR_ABORTED
+[JUMBO] Request failed: https://assets-jumbo.ecomm.cencosud.com/9fd77b6cacc4db7310cf.svg net::ERR_ABORTED
+[JUMBO] Request failed: https://fonts.gstatic.com/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlxdu.woff2 net::ERR_ABORTED
+[JUMBO] Request failed: https://assets-jumbo.ecomm.cencosud.com/f13a8dc5e4ed55aa01bc.svg net::ERR_ABORTED
+[JUMBO] Request failed: https://assets-jumbo.ecomm.cencosud.com/fe3275ac08d71221a4b2-2783.bundle.css net::ERR_ABORTED
+[JUMBO] Request failed: https://dev.visualwebsiteoptimizer.com/j.php?a=642581&u=https%3A%2F%2Fwww.jumbo.cl%2Flicores-bebidas-y-aguas&f=1&vn=1.5 net::ERR_FAILED
+[JUMBO] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[JUMBO] No products found on page, trying next URL pattern
+[JUMBO] No valid URL pattern worked for page 1 of bebidas
+[JUMBO] Completed scraping category bebidas: 0 total products
+[JUMBO] Category bebidas completed. Estimated remaining time: 4 minutes
+[JUMBO] Starting category 2/7: snacks
+[JUMBO] Scraping category: snacks with 1 URL patterns
+[JUMBO] Attempting to load: https://www.jumbo.cl/chocolates-galletas-y-dulces?page=1
+[JUMBO] Request failed: https://assets-jumbo.ecomm.cencosud.com/7e5c4c5f57b718499d0e-2150.bundle.js net::ERR_ABORTED
+[JUMBO] Request failed: https://dev.visualwebsiteoptimizer.com/j.php?a=642581&u=https%3A%2F%2Fwww.jumbo.cl%2Fchocolates-galletas-y-dulces%3Fpage%3D1&f=1&vn=1.5 net::ERR_FAILED
+[JUMBO] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[JUMBO] No products found on page, trying next URL pattern
+[JUMBO] Attempting to load: https://www.jumbo.cl/chocolates-galletas-y-dulces?p=1
+[JUMBO] Request failed: https://assets-jumbo.ecomm.cencosud.com/7e5c4c5f57b718499d0e-2150.bundle.js net::ERR_ABORTED
+[JUMBO] Request failed: https://dev.visualwebsiteoptimizer.com/j.php?a=642581&u=https%3A%2F%2Fwww.jumbo.cl%2Fchocolates-galletas-y-dulces%3Fp%3D1&f=1&vn=1.5 net::ERR_FAILED
+[JUMBO] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[JUMBO] No products found on page, trying next URL pattern
+[JUMBO] Attempting to load: https://www.jumbo.cl/chocolates-galletas-y-dulces?pagina=1
+[JUMBO] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-5WWDCL8&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/cms/page-16512.json net::ERR_ABORTED
+[JUMBO] Request failed: https://sp.vtex.com/event-api/v1/jumbocl/event net::ERR_ABORTED
+[JUMBO] Request failed: https://sm-web-api.ecomm.cencosud.com/orderform/api/v1/orderform/0402dfe43d81434198e35e13a702aca1 net::ERR_ABORTED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/cms/page-11484.json net::ERR_ABORTED
+[JUMBO] Request failed: https://dev.visualwebsiteoptimizer.com/j.php?a=642581&u=https%3A%2F%2Fwww.jumbo.cl%2Fchocolates-galletas-y-dulces%3Fpagina%3D1&f=1&vn=1.5 net::ERR_FAILED
+[JUMBO] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[JUMBO] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-5WWDCL8&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://pwcdauseo-zone.cnstrc.com/v2/behavioral_action/browse_result_load?c=ciojs-2.1237.3&i=8c58744a-1964-4e0d-8207-0a1c9e43eed4&s=1&key=key_JopvNXKS61kwGkBe&origin_referrer=www.jumbo.cl%2Fchocolates-galletas-y-dulces&_dt=1755077436261 net::ERR_ABORTED
+[JUMBO] No products found on page, trying next URL pattern
+[JUMBO] Attempting to load: https://www.jumbo.cl/chocolates-galletas-y-dulces/1
+[JUMBO] Request failed: https://dev.visualwebsiteoptimizer.com/j.php?a=642581&u=https%3A%2F%2Fwww.jumbo.cl%2Fchocolates-galletas-y-dulces%2F1&f=1&vn=1.5 net::ERR_FAILED
+[JUMBO] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[JUMBO] No products found on page, trying next URL pattern
+[JUMBO] Attempting to load: https://www.jumbo.cl/chocolates-galletas-y-dulces&page=1
+[JUMBO] Request failed: https://assets.jumbo.cl/json/cms/page-57057.json net::ERR_ABORTED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_ABORTED
+[JUMBO] Request failed: https://sm-web-api.ecomm.cencosud.com/orderform/api/v1/orderform/0402dfe43d81434198e35e13a702aca1 net::ERR_ABORTED
+[JUMBO] Request failed: https://assets-jumbo.ecomm.cencosud.com/a27f48d82321f389f108-Product.bundle.js net::ERR_ABORTED
+[JUMBO] Request failed: https://dev.visualwebsiteoptimizer.com/j.php?a=642581&u=https%3A%2F%2Fwww.jumbo.cl%2Fchocolates-galletas-y-dulces%26page%3D1&f=1&vn=1.5 net::ERR_FAILED
+[JUMBO] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[JUMBO] No products found on page, trying next URL pattern
+[JUMBO] Attempting to load: https://www.jumbo.cl/chocolates-galletas-y-dulces#?page=1
+[JUMBO] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-5WWDCL8&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://sm-web-api.ecomm.cencosud.com/orderform/api/v1/orderform/0402dfe43d81434198e35e13a702aca1 net::ERR_ABORTED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/cms/page-11484.json net::ERR_ABORTED
+[JUMBO] Request failed: https://dev.visualwebsiteoptimizer.com/j.php?a=642581&u=https%3A%2F%2Fwww.jumbo.cl%2Fchocolates-galletas-y-dulces%23%3Fpage%3D1&f=1&vn=1.5 net::ERR_FAILED
+[JUMBO] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[JUMBO] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-5WWDCL8&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] No products found on page, trying next URL pattern
+[JUMBO] Attempting to load: https://www.jumbo.cl/chocolates-galletas-y-dulces#?p=1
+[JUMBO] Page returned undefined: https://www.jumbo.cl/chocolates-galletas-y-dulces#?p=1
+[JUMBO] Attempting to load: https://www.jumbo.cl/chocolates-galletas-y-dulces
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/cms/chocolates-galletas-y-dulces.json net::ERR_ABORTED
+[JUMBO] Request failed: https://sm-web-api.ecomm.cencosud.com/catalog/api/v1/reviews/ratings?ids=3696,150343,112461,112812,112460,3728,152928,79833,106025,112809,115631,3697,4074,4069,4147,3690,4065,134678,150342,4073,122437,19083,126035,149238,4026,4133,148968,3926,119411,3940,139666,148969,148965,3954,139659,115343,3924,122805,3928,3935 net::ERR_ABORTED
+[JUMBO] Request failed: https://pwcdauseo-zone.cnstrc.com/v2/behavioral_action/browse_result_load?c=ciojs-2.1237.3&i=8c58744a-1964-4e0d-8207-0a1c9e43eed4&s=1&key=key_JopvNXKS61kwGkBe&origin_referrer=www.jumbo.cl%2Fchocolates-galletas-y-dulces&_dt=1755077454695 net::ERR_ABORTED
+[JUMBO] Request failed: https://dev.visualwebsiteoptimizer.com/j.php?a=642581&u=https%3A%2F%2Fwww.jumbo.cl%2Fchocolates-galletas-y-dulces&f=1&vn=1.5 net::ERR_FAILED
+[JUMBO] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[JUMBO] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-5WWDCL8&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] No products found on page, trying next URL pattern
+[JUMBO] No valid URL pattern worked for page 1 of snacks
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Completed scraping category snacks: 0 total products
+[JUMBO] Category snacks completed. Estimated remaining time: 3 minutes
+[JUMBO] Starting category 3/7: lacteos
+[JUMBO] Scraping category: lacteos with 1 URL patterns
+[JUMBO] Attempting to load: https://www.jumbo.cl/lacteos-y-quesos?page=1
+[JUMBO] Request failed: https://assets.jumbo.cl/json/cms/page-121827.json net::ERR_ABORTED
+[JUMBO] Request failed: https://bff.jumbo.cl/catalog/personalize/top-sale-products net::ERR_ABORTED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/cms/chocolates-galletas-y-dulces.json net::ERR_ABORTED
+[JUMBO] Request failed: https://sm-web-api.ecomm.cencosud.com/fidelity/api/v1/loyalty-events net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/347032-250-250/Galletas-Donuts-leche-100-g.jpg?v=638776466150270000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/380073-250-250/Galleta-de-arroz-manzana-16-g.jpg?v=638776821726500000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/300175-250-250/Galleta-Ba%C3%B1ada-Morocha-50-g.jpg?v=638776371922070000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/388267-250-250/Chocolate-65--bitter-160-g.jpg?v=638776855144970000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/375497-250-250/1898634-01_610808.jpg?v=638776803909170000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/380079-250-250/Galleta-de-arroz-con-chocolate-y-naranja-25-g.jpg?v=638776821767000000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/353239-250-250/Galletas-Chocochips-35-g.jpg?v=638776696572830000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/347044-250-250/Galletas-Obsesion-85-g.jpg?v=638776466312630000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/379692-250-250/Galletas-wafers-avellana-150-g.jpg?v=638776820147670000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/438089-250-250/Chocolate-Milka-Relleno-con-Avellanas-Enteras-95-g.jpg?v=638831040238470000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/379700-250-250/Galletas-wafers-chocolate-150-g.jpg?v=638776820216770000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/479026-250-250/Galleta-Triton-Intensa-Sabor-Vainilla-79-g.jpg?v=638877533446000000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/347116-250-250/Galletas-Rigochoc-ba%C3%B1adas-en-chocolate-9-unid-113-g.jpg?v=638776467341000000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/300111-250-250/Galleta-Chips-Kuky-Mini-40-g.jpg?v=638776371799800000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/364315-250-250/Oblea-Super-8-bolsa-292-g.jpg?v=638776753440230000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/346864-250-250/Chocolate-bitter-250-g.jpg?v=638776464189000000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/347099-250-250/Galletas-Vino-155-g.jpg?v=638776467047630000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/300188-250-250/Chocolate-Sahne-Nuss-Barra-250-g.jpg?v=638776371949500000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/317084-250-250/Bombones-de-Chocolate-Surtido-Lindt-Lindor-75-g.jpg?v=638776410729400000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/300163-250-250/Chocolate-de-Leche-Sahne-Nuss-160-g.jpg?v=638776371899900000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/460413-250-250/Galletas-Oreo-Sabor-Limon-108-g.jpg?v=638864736096570000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/316512-250-250/Galletas-Oreo-Rollo-Sabor-Original-108g.jpg?v=638808917179800000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/300158-250-250/Galletas-Oreo-Sabor-Original-Sixpack-de-36g-c-u.jpg?v=638776371891730000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/347082-250-250/Galletas-300-g.jpg?v=638776466839200000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/487551-250-250/Chocolate-Lindt-Dubai-Style-Bar-145-g.jpg?v=638894124761730000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/493298-250-250/Galletas-Oreo-Selena-Gomez-Sabor-Canela-108-g.jpg?v=638906472516630000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/300155-250-250/Chocolate-de-Leche-Trencito-150-g.jpg?v=638776371882430000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/322883-250-250/Galletas-Cracker-Tradicional-3-Pack-270-g.jpg?v=638776426479830000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/300221-250-250/Galleta-Triton-Mini-Vainilla-40-g.jpg?v=638776372046970000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/318963-250-250/Malva-Choc-Costa-196-g.jpg?v=638776416236630000 net::ERR_ABORTED
+[JUMBO] Request failed: https://dev.visualwebsiteoptimizer.com/j.php?a=642581&u=https%3A%2F%2Fwww.jumbo.cl%2Flacteos-y-quesos%3Fpage%3D1&f=1&vn=1.5 net::ERR_FAILED
+[JUMBO] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[JUMBO] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-5WWDCL8&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] No products found on page, trying next URL pattern
+[JUMBO] Attempting to load: https://www.jumbo.cl/lacteos-y-quesos?p=1
+[JUMBO] Request failed: https://bff.jumbo.cl/catalog/plp net::ERR_ABORTED
+[JUMBO] Request failed: https://dev.visualwebsiteoptimizer.com/j.php?a=642581&u=https%3A%2F%2Fwww.jumbo.cl%2Flacteos-y-quesos%3Fp%3D1&f=1&vn=1.5 net::ERR_FAILED
+[JUMBO] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[JUMBO] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-5WWDCL8&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] No products found on page, trying next URL pattern
+[JUMBO] Attempting to load: https://www.jumbo.cl/lacteos-y-quesos?pagina=1
+[JUMBO] Request failed: https://bff.jumbo.cl/catalog/plp net::ERR_ABORTED
+[JUMBO] Request failed: https://dev.visualwebsiteoptimizer.com/j.php?a=642581&u=https%3A%2F%2Fwww.jumbo.cl%2Flacteos-y-quesos%3Fpagina%3D1&f=1&vn=1.5 net::ERR_FAILED
+[JUMBO] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[JUMBO] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-5WWDCL8&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] No products found on page, trying next URL pattern
+[JUMBO] Attempting to load: https://www.jumbo.cl/lacteos-y-quesos/1
+[JUMBO] Request failed: https://bff.jumbo.cl/catalog/personalize/top-sale-products net::ERR_ABORTED
+[JUMBO] Request failed: https://sm-web-api.ecomm.cencosud.com/catalog/api/v1/reviews/ratings?ids=134750,134755,94566,100435,94567,94568,6782,103785,6797,84334,6643,112391,82577,10706,102142,10508,10725,10679,10680,126572,10731,24007,80749,87841,73513,10448,80748,126862,10717,24054,10841,81607,7003,82316,10840,40035,82315,125402,6885,10553 net::ERR_ABORTED
+[JUMBO] Request failed: https://dev.visualwebsiteoptimizer.com/j.php?a=642581&u=https%3A%2F%2Fwww.jumbo.cl%2Flacteos-y-quesos%2F1&f=1&vn=1.5 net::ERR_FAILED
+[JUMBO] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[JUMBO] No products found on page, trying next URL pattern
+[JUMBO] Attempting to load: https://www.jumbo.cl/lacteos-y-quesos&page=1
+[JUMBO] Request failed: https://pwcdauseo-zone.cnstrc.com/v2/behavioral_action/browse_result_load?c=ciojs-2.1237.3&i=8c58744a-1964-4e0d-8207-0a1c9e43eed4&s=1&key=key_JopvNXKS61kwGkBe&origin_referrer=www.jumbo.cl%2Flacteos-y-quesos&_dt=1755077470979 net::ERR_ABORTED
+[JUMBO] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-5WWDCL8&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://sp.vtex.com/event-api/v1/jumbocl/event net::ERR_ABORTED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_ABORTED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/cms/page-16512.json net::ERR_ABORTED
+[JUMBO] Request failed: https://sm-web-api.ecomm.cencosud.com/orderform/api/v1/orderform/0402dfe43d81434198e35e13a702aca1 net::ERR_ABORTED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/cms/page-11484.json net::ERR_ABORTED
+[JUMBO] Request failed: https://assets-jumbo.ecomm.cencosud.com/a27f48d82321f389f108-Product.bundle.js net::ERR_ABORTED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/cms/page-57057.json net::ERR_ABORTED
+[JUMBO] Request failed: https://dev.visualwebsiteoptimizer.com/j.php?a=642581&u=https%3A%2F%2Fwww.jumbo.cl%2Flacteos-y-quesos%26page%3D1&f=1&vn=1.5 net::ERR_FAILED
+[JUMBO] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-5WWDCL8&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] No products found on page, trying next URL pattern
+[JUMBO] Attempting to load: https://www.jumbo.cl/lacteos-y-quesos#?page=1
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_ABORTED
+[JUMBO] Request failed: https://sm-web-api.ecomm.cencosud.com/cms/api/v1/cms/datetime net::ERR_ABORTED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/cms/page-101453.json net::ERR_ABORTED
+[JUMBO] Request failed: https://assets-jumbo.ecomm.cencosud.com/cb4cd7376aad2d5d68f6-9838.bundle.js net::ERR_ABORTED
+[JUMBO] Request failed: https://ads01.groovinads.com/grv/track/bhpx.os?idc=7315&fgjs=1&sku=undefined&idcategory=lacteos-y-quesos&page=1 net::ERR_ABORTED
+[JUMBO] Request failed: https://assets-jumbo.ecomm.cencosud.com/bb6a8dff7718fb3fd24d-ModalGiftsProducts.bundle.js net::ERR_ABORTED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/cms/list-category.json net::ERR_ABORTED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/cms/page-11732.json net::ERR_ABORTED
+[JUMBO] Request failed: https://bff.jumbo.cl/catalog/plp net::ERR_ABORTED
+[JUMBO] Request failed: https://assets-jumbo.ecomm.cencosud.com/d09ab9e01c2b36759dc0-800.bundle.js net::ERR_ABORTED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/cms/page-67845.json net::ERR_ABORTED
+[JUMBO] Request failed: https://assets-jumbo.ecomm.cencosud.com/0e5c3fe4110c20355e59-5394.bundle.js net::ERR_ABORTED
+[JUMBO] Request failed: https://dev.visualwebsiteoptimizer.com/j.php?a=642581&u=https%3A%2F%2Fwww.jumbo.cl%2Flacteos-y-quesos%23%3Fpage%3D1&f=1&vn=1.5 net::ERR_FAILED
+[JUMBO] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[JUMBO] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-5WWDCL8&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] No products found on page, trying next URL pattern
+[JUMBO] Attempting to load: https://www.jumbo.cl/lacteos-y-quesos#?p=1
+[JUMBO] Page returned undefined: https://www.jumbo.cl/lacteos-y-quesos#?p=1
+[JUMBO] Attempting to load: https://www.jumbo.cl/lacteos-y-quesos
+[JUMBO] Request failed: https://pwcdauseo-zone.cnstrc.com/v2/behavioral_action/browse_result_load?c=ciojs-2.1237.3&i=8c58744a-1964-4e0d-8207-0a1c9e43eed4&s=1&key=key_JopvNXKS61kwGkBe&origin_referrer=www.jumbo.cl%2Flacteos-y-quesos&_dt=1755077483494 net::ERR_ABORTED
+[JUMBO] Request failed: https://dev.visualwebsiteoptimizer.com/j.php?a=642581&u=https%3A%2F%2Fwww.jumbo.cl%2Flacteos-y-quesos&f=1&vn=1.5 net::ERR_FAILED
+[JUMBO] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-5WWDCL8&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] No products found on page, trying next URL pattern
+[JUMBO] No valid URL pattern worked for page 1 of lacteos
+[JUMBO] Completed scraping category lacteos: 0 total products
+[JUMBO] Category lacteos completed. Estimated remaining time: 2 minutes
+[JUMBO] Starting category 4/7: carnes
+[JUMBO] Scraping category: carnes with 1 URL patterns
+[JUMBO] Attempting to load: https://www.jumbo.cl/busca?fq=H%3A23463&nombre_promo=home-especial-tesoros-carnes-productos-farmers-05082025?page=1
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://dev.visualwebsiteoptimizer.com/j.php?a=642581&u=https%3A%2F%2Fwww.jumbo.cl%2Fbusca%3Ffq%3DH%253A23463%26nombre_promo%3Dhome-especial-tesoros-carnes-productos-farmers-05082025%3Fpage%3D1&f=1&vn=1.5 net::ERR_FAILED
+[JUMBO] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[JUMBO] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-5WWDCL8&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] No products found on page, trying next URL pattern
+[JUMBO] Attempting to load: https://www.jumbo.cl/busca?fq=H%3A23463&nombre_promo=home-especial-tesoros-carnes-productos-farmers-05082025?p=1
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://bff.jumbo.cl/catalog/plp net::ERR_ABORTED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_ABORTED
+[JUMBO] Request failed: https://dev.visualwebsiteoptimizer.com/j.php?a=642581&u=https%3A%2F%2Fwww.jumbo.cl%2Fbusca%3Ffq%3DH%253A23463%26nombre_promo%3Dhome-especial-tesoros-carnes-productos-farmers-05082025%3Fp%3D1&f=1&vn=1.5 net::ERR_FAILED
+[JUMBO] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[JUMBO] No products found on page, trying next URL pattern
+[JUMBO] Attempting to load: https://www.jumbo.cl/busca?fq=H%3A23463&nombre_promo=home-especial-tesoros-carnes-productos-farmers-05082025?pagina=1
+[JUMBO] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-5WWDCL8&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/cms/page-16512.json net::ERR_ABORTED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/cms/page-11484.json net::ERR_ABORTED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/cms/page-57057.json net::ERR_ABORTED
+[JUMBO] Request failed: https://assets-jumbo.ecomm.cencosud.com/a27f48d82321f389f108-Product.bundle.js net::ERR_ABORTED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_ABORTED
+[JUMBO] Request failed: https://sm-web-api.ecomm.cencosud.com/orderform/api/v1/orderform/0402dfe43d81434198e35e13a702aca1 net::ERR_ABORTED
+[JUMBO] Request failed: https://sp.vtex.com/event-api/v1/jumbocl/event net::ERR_ABORTED
+[JUMBO] Request failed: https://dev.visualwebsiteoptimizer.com/j.php?a=642581&u=https%3A%2F%2Fwww.jumbo.cl%2Fbusca%3Ffq%3DH%253A23463%26nombre_promo%3Dhome-especial-tesoros-carnes-productos-farmers-05082025%3Fpagina%3D1&f=1&vn=1.5 net::ERR_FAILED
+[JUMBO] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-5WWDCL8&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] No products found on page, trying next URL pattern
+[JUMBO] Attempting to load: https://www.jumbo.cl/busca?fq=H%3A23463&nombre_promo=home-especial-tesoros-carnes-productos-farmers-05082025/1
+[JUMBO] Request failed: https://sm-web-api.ecomm.cencosud.com/catalog/api/v1/reviews/ratings?ids=138713,138717,138716,138714,138718,146055,146051,146054,138712,138715,140165,138711 net::ERR_ABORTED
+[JUMBO] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[JUMBO] Request failed: https://dev.visualwebsiteoptimizer.com/j.php?a=642581&u=https%3A%2F%2Fwww.jumbo.cl%2Fbusca%3Ffq%3DH%253A23463%26nombre_promo%3Dhome-especial-tesoros-carnes-productos-farmers-05082025%2F1&f=1&vn=1.5 net::ERR_FAILED
+[JUMBO] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-5WWDCL8&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://pwcdauseo-zone.cnstrc.com/v2/behavioral_action/browse_result_load?c=ciojs-2.1237.3&i=8c58744a-1964-4e0d-8207-0a1c9e43eed4&s=1&key=key_JopvNXKS61kwGkBe&origin_referrer=www.jumbo.cl%2Fbusca&_dt=1755077500071 net::ERR_ABORTED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] No products found on page, trying next URL pattern
+[JUMBO] Attempting to load: https://www.jumbo.cl/busca?fq=H%3A23463&nombre_promo=home-especial-tesoros-carnes-productos-farmers-05082025&page=1
+[JUMBO] Request failed: https://pwcdauseo-zone.cnstrc.com/v2/behavioral_action/browse_result_load?c=ciojs-2.1237.3&i=8c58744a-1964-4e0d-8207-0a1c9e43eed4&s=1&key=key_JopvNXKS61kwGkBe&origin_referrer=www.jumbo.cl%2Fbusca&_dt=1755077502870 net::ERR_ABORTED
+[JUMBO] Request failed: https://sm-web-api.ecomm.cencosud.com/fidelity/api/v1/loyalty-events net::ERR_ABORTED
+[JUMBO] Request failed: https://dev.visualwebsiteoptimizer.com/j.php?a=642581&u=https%3A%2F%2Fwww.jumbo.cl%2Fbusca%3Ffq%3DH%253A23463%26nombre_promo%3Dhome-especial-tesoros-carnes-productos-farmers-05082025%26page%3D1&f=1&vn=1.5 net::ERR_FAILED
+[JUMBO] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[JUMBO] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-5WWDCL8&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] No products found on page, trying next URL pattern
+[JUMBO] Attempting to load: https://www.jumbo.cl/busca?fq=H%3A23463&nombre_promo=home-especial-tesoros-carnes-productos-farmers-05082025#?page=1
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://pwcdauseo-zone.cnstrc.com/v2/behavioral_action/browse_result_load?c=ciojs-2.1237.3&i=8c58744a-1964-4e0d-8207-0a1c9e43eed4&s=1&key=key_JopvNXKS61kwGkBe&origin_referrer=www.jumbo.cl%2Fbusca&_dt=1755077506690 net::ERR_ABORTED
+[JUMBO] Request failed: https://bff.jumbo.cl/catalog/personalize/top-sale-products net::ERR_ABORTED
+[JUMBO] Request failed: https://sm-web-api.ecomm.cencosud.com/catalog/api/v1/reviews/ratings?ids=138713,138717,138716,138714,138718,146055,146051,146054,138712,138715,140165,138711 net::ERR_ABORTED
+[JUMBO] Request failed: https://dev.visualwebsiteoptimizer.com/j.php?a=642581&u=https%3A%2F%2Fwww.jumbo.cl%2Fbusca%3Ffq%3DH%253A23463%26nombre_promo%3Dhome-especial-tesoros-carnes-productos-farmers-05082025%23%3Fpage%3D1&f=1&vn=1.5 net::ERR_FAILED
+[JUMBO] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[JUMBO] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-5WWDCL8&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] No products found on page, trying next URL pattern
+[JUMBO] Attempting to load: https://www.jumbo.cl/busca?fq=H%3A23463&nombre_promo=home-especial-tesoros-carnes-productos-farmers-05082025#?p=1
+[JUMBO] Page returned undefined: https://www.jumbo.cl/busca?fq=H%3A23463&nombre_promo=home-especial-tesoros-carnes-productos-farmers-05082025#?p=1
+[JUMBO] Attempting to load: https://www.jumbo.cl/busca?fq=H%3A23463&nombre_promo=home-especial-tesoros-carnes-productos-farmers-05082025
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets-jumbo.ecomm.cencosud.com/cb4cd7376aad2d5d68f6-9838.bundle.js net::ERR_ABORTED
+[JUMBO] Request failed: https://assets-jumbo.ecomm.cencosud.com/favicon/favicon-32.png net::ERR_ABORTED
+[JUMBO] Request failed: https://ads01.groovinads.com/grv/track/bhpx.os?idc=7315&fgjs=1&sku=undefined&idcategory=busca net::ERR_ABORTED
+[JUMBO] Request failed: https://assets-jumbo.ecomm.cencosud.com/0e5c3fe4110c20355e59-5394.bundle.js net::ERR_ABORTED
+[JUMBO] Request failed: https://sm-web-api.ecomm.cencosud.com/cms/api/v1/cms/datetime net::ERR_ABORTED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_ABORTED
+[JUMBO] Request failed: https://bff.jumbo.cl/catalog/plp net::ERR_ABORTED
+[JUMBO] Request failed: https://dev.visualwebsiteoptimizer.com/j.php?a=642581&u=https%3A%2F%2Fwww.jumbo.cl%2Fbusca%3Ffq%3DH%253A23463%26nombre_promo%3Dhome-especial-tesoros-carnes-productos-farmers-05082025&f=1&vn=1.5 net::ERR_FAILED
+[JUMBO] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[JUMBO] No products found on page, trying next URL pattern
+[JUMBO] No valid URL pattern worked for page 1 of carnes
+[JUMBO] Completed scraping category carnes: 0 total products
+[JUMBO] Category carnes completed. Estimated remaining time: 2 minutes
+[JUMBO] Starting category 5/7: panaderia
+[JUMBO] Scraping category: panaderia with 1 URL patterns
+[JUMBO] Attempting to load: https://www.jumbo.cl/mi-bebe/panales-y-toallas-humedas?page=1
+[JUMBO] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-5WWDCL8&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://assets-jumbo.ecomm.cencosud.com/0e5c3fe4110c20355e59-5394.bundle.js net::ERR_ABORTED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/cms/page-11732.json net::ERR_ABORTED
+[JUMBO] Request failed: https://assets-jumbo.ecomm.cencosud.com/cb4cd7376aad2d5d68f6-9838.bundle.js net::ERR_ABORTED
+[JUMBO] Request failed: https://assets-jumbo.ecomm.cencosud.com/bb6a8dff7718fb3fd24d-ModalGiftsProducts.bundle.js net::ERR_ABORTED
+[JUMBO] Request failed: https://ads01.groovinads.com/grv/track/bhpx.os?idc=7315&fgjs=1&sku=undefined&idcategory=busca net::ERR_ABORTED
+[JUMBO] Request failed: https://sm-web-api.ecomm.cencosud.com/cms/api/v1/cms/datetime net::ERR_ABORTED
+[JUMBO] Request failed: https://bff.jumbo.cl/catalog/plp net::ERR_ABORTED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/cms/list-collection.json net::ERR_ABORTED
+[JUMBO] Request failed: https://assets-jumbo.ecomm.cencosud.com/d09ab9e01c2b36759dc0-800.bundle.js net::ERR_ABORTED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/cms/page-67845.json net::ERR_ABORTED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/cms/page-101453.json net::ERR_ABORTED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_ABORTED
+[JUMBO] Request failed: https://fonts.gstatic.com/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlxdu.woff2 net::ERR_ABORTED
+[JUMBO] Request failed: https://assets-jumbo.ecomm.cencosud.com/9fd77b6cacc4db7310cf.svg net::ERR_ABORTED
+[JUMBO] Request failed: https://assets-jumbo.ecomm.cencosud.com/7224fbda9c50559ae999.svg net::ERR_ABORTED
+[JUMBO] Request failed: https://assets-jumbo.ecomm.cencosud.com/627a44244b7af61ff751.svg net::ERR_ABORTED
+[JUMBO] Request failed: https://assets-jumbo.ecomm.cencosud.com/c8d9d3abe5e0362e6636-800.bundle.css net::ERR_ABORTED
+[JUMBO] Request failed: https://assets-jumbo.ecomm.cencosud.com/fe3275ac08d71221a4b2-2783.bundle.css net::ERR_ABORTED
+[JUMBO] Request failed: https://assets-jumbo.ecomm.cencosud.com/92f783c6dbd7e73ba7a4.svg net::ERR_ABORTED
+[JUMBO] Request failed: https://fonts.gstatic.com/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwlxdu.woff2 net::ERR_ABORTED
+[JUMBO] Request failed: https://assets-jumbo.ecomm.cencosud.com/de0735c19a91b116c94b.svg net::ERR_ABORTED
+[JUMBO] Request failed: https://assets-jumbo.ecomm.cencosud.com/f13a8dc5e4ed55aa01bc.svg net::ERR_ABORTED
+[JUMBO] Request failed: https://dev.visualwebsiteoptimizer.com/j.php?a=642581&u=https%3A%2F%2Fwww.jumbo.cl%2Fmi-bebe%2Fpanales-y-toallas-humedas%3Fpage%3D1&f=1&vn=1.5 net::ERR_FAILED
+[JUMBO] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[JUMBO] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-5WWDCL8&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] No products found on page, trying next URL pattern
+[JUMBO] Attempting to load: https://www.jumbo.cl/mi-bebe/panales-y-toallas-humedas?p=1
+[JUMBO] Request failed: https://bff.jumbo.cl/catalog/personalize/top-sale-products net::ERR_ABORTED
+[JUMBO] Request failed: https://sm-web-api.ecomm.cencosud.com/catalog/api/v1/reviews/ratings?ids=112470,112472,118936,134224,118930,8714,136892,118935,120564,134222,137008,95532,8715,59866,134989,137001,135523,134973,81293,137028,143079,118942,145968,13288,113755,137019,64970,81237,136897,134219,117744,134983,134969,136888,146625,136878,134971,117923,117750,80001 net::ERR_ABORTED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/cms/panales-y-toallas-humedas.json net::ERR_ABORTED
+[JUMBO] Request failed: https://sm-web-api.ecomm.cencosud.com/fidelity/api/v1/loyalty-events net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/483487-250-250/Toallas-Humedas-Huggies-Cuidado-4-en-1---80-un.jpg?v=638888078899830000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/327631-250-250/Pa%C3%B1ales-Babysec-Super-Premium-Talla-XXG-54-un.jpg?v=638776430169400000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/384280-250-250/Pa%C3%B1al-Pampers-Pants-Premium-Care-talla-XXG-104-un.jpg?v=638776839353730000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/327366-250-250/Toallas-Humedas-Zeukid-999--Agua-60-un.jpg?v=638776429960200000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/327369-250-250/Pa%C3%B1ales-Babysec-Super-Premium-Talla-XXG-112-un.jpg?v=638776429962400000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/483787-250-250/Pa%C3%B1ales-Huggies-Dermacare-Talla-P-68-un.jpg?v=638888079978630000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/327368-250-250/Toallas-Humedas-Zeukid-999--Agua-30-un.jpg?v=638776429961170000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/384271-250-250/PA%C3%91AL-PREMIUM-XG-74-UN-ZEUKID.jpg?v=638776839319170000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/349608-250-250/Toallitas-humedas-2-paquetes-80-un-c-u.jpg?v=638776677648900000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/483726-250-250/Pa%C3%B1ales-Huggies-Dermacare-Talla-M-58-un.jpg?v=638888079767500000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/344416-250-250/CAJA-TOALLAS-HUMAQUA-BABY-BIO-360UN.jpg?v=638776443912230000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/361429-250-250/Pa%C3%B1ales-desechables-Premium-Care-RN-P-36-un.jpg?v=638776737276270000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/380965-250-250/Toallas-humedas-Simond-s-Gloss-2-x-60-un.jpg?v=638776825404230000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/325296-250-250/Pa%C3%B1ales-Pampers-Premium-Care-Hipoalergenico-Talla-XXXG-52-un.jpg?v=638776428263600000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/327923-250-250/Toallas-Humedas-Zeukid-999--Agua-180-un.jpg?v=638776430390470000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/338431-250-250/Pa%C3%B1ales-Pampers-Pants-Premium-Care-XXXG-46-un.jpg?v=638776439334470000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/351625-250-250/Pa%C3%B1ales-desechables-Premium-Care-M-86-un.jpg?v=638776686343000000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/384274-250-250/PA%C3%91AL-PREMIUM-G-94-UN-ZEUKID.jpg?v=638776839323130000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/403199-250-250/Pa%C3%B1ales-Pampers-Premium-Care-Talla-XXG-128-un.jpg?v=638776910397000000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/349611-250-250/Toallitas-humedas-2-paquetes-80-un-c-u.jpg?v=638776677658300000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/327849-250-250/Toallas-Humedas-Aqua-Baby-Biodegradables-240-un.jpg?v=638776430335100000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/403198-250-250/Pa%C3%B1ales-Pampers-Premium-Care-Talla-XG-128-un.jpg?v=638776910396030000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/360676-250-250/Toallas-Humedas-100-un.jpg?v=638776733539800000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/311246-250-250/Pa%C3%B1ales-Pampers-Premium-Care-Pants-Talla-XXG-52-un.jpg?v=638776393205430000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/312759-250-250/Toallas-Humedas-Babysec-Premium-135-un.jpg?v=638776397511570000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/311100-250-250/Toallitas-Humedas-WaterWipes-180-un.jpg?v=638776392912100000 net::ERR_ABORTED
+[JUMBO] Request failed: https://dev.visualwebsiteoptimizer.com/j.php?a=642581&u=https%3A%2F%2Fwww.jumbo.cl%2Fmi-bebe%2Fpanales-y-toallas-humedas%3Fp%3D1&f=1&vn=1.5 net::ERR_FAILED
+[JUMBO] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[JUMBO] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-5WWDCL8&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://pwcdauseo-zone.cnstrc.com/v2/behavioral_action/browse_result_load?c=ciojs-2.1237.3&i=8c58744a-1964-4e0d-8207-0a1c9e43eed4&s=1&key=key_JopvNXKS61kwGkBe&origin_referrer=www.jumbo.cl%2Fmi-bebe%2Fpanales-y-toallas-humedas&_dt=1755077517465 net::ERR_ABORTED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] No products found on page, trying next URL pattern
+[JUMBO] Attempting to load: https://www.jumbo.cl/mi-bebe/panales-y-toallas-humedas?pagina=1
+[JUMBO] Request failed: https://bff.jumbo.cl/catalog/plp net::ERR_ABORTED
+[JUMBO] Request failed: https://dev.visualwebsiteoptimizer.com/j.php?a=642581&u=https%3A%2F%2Fwww.jumbo.cl%2Fmi-bebe%2Fpanales-y-toallas-humedas%3Fpagina%3D1&f=1&vn=1.5 net::ERR_FAILED
+[JUMBO] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[JUMBO] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-5WWDCL8&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] No products found on page, trying next URL pattern
+[JUMBO] Attempting to load: https://www.jumbo.cl/mi-bebe/panales-y-toallas-humedas/1
+[JUMBO] Request failed: https://assets.jumbo.cl/json/cms/panales-y-toallas-humedas.json net::ERR_ABORTED
+[JUMBO] Request failed: https://sm-web-api.ecomm.cencosud.com/fidelity/api/v1/loyalty-events net::ERR_ABORTED
+[JUMBO] Request failed: https://bff.jumbo.cl/catalog/personalize/top-sale-products net::ERR_ABORTED
+[JUMBO] Request failed: https://sm-web-api.ecomm.cencosud.com/catalog/api/v1/reviews/ratings?ids=112470,112472,118936,134224,118930,8714,136892,118935,120564,134222,137008,95532,8715,59866,134989,137001,135523,134973,81293,137028,143079,118942,145968,13288,113755,137019,64970,81237,136897,134219,117744,134983,134969,136888,146625,136878,134971,117923,117750,80001 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/327631-250-250/Pa%C3%B1ales-Babysec-Super-Premium-Talla-XXG-54-un.jpg?v=638776430169400000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/311246-250-250/Pa%C3%B1ales-Pampers-Premium-Care-Pants-Talla-XXG-52-un.jpg?v=638776393205430000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/325296-250-250/Pa%C3%B1ales-Pampers-Premium-Care-Hipoalergenico-Talla-XXXG-52-un.jpg?v=638776428263600000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/338431-250-250/Pa%C3%B1ales-Pampers-Pants-Premium-Care-XXXG-46-un.jpg?v=638776439334470000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/483726-250-250/Pa%C3%B1ales-Huggies-Dermacare-Talla-M-58-un.jpg?v=638888079767500000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/361429-250-250/Pa%C3%B1ales-desechables-Premium-Care-RN-P-36-un.jpg?v=638776737276270000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/312759-250-250/Toallas-Humedas-Babysec-Premium-135-un.jpg?v=638776397511570000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/311100-250-250/Toallitas-Humedas-WaterWipes-180-un.jpg?v=638776392912100000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/327366-250-250/Toallas-Humedas-Zeukid-999--Agua-60-un.jpg?v=638776429960200000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/327849-250-250/Toallas-Humedas-Aqua-Baby-Biodegradables-240-un.jpg?v=638776430335100000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/360676-250-250/Toallas-Humedas-100-un.jpg?v=638776733539800000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/380965-250-250/Toallas-humedas-Simond-s-Gloss-2-x-60-un.jpg?v=638776825404230000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/384280-250-250/Pa%C3%B1al-Pampers-Pants-Premium-Care-talla-XXG-104-un.jpg?v=638776839353730000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/344416-250-250/CAJA-TOALLAS-HUMAQUA-BABY-BIO-360UN.jpg?v=638776443912230000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/483787-250-250/Pa%C3%B1ales-Huggies-Dermacare-Talla-P-68-un.jpg?v=638888079978630000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/403198-250-250/Pa%C3%B1ales-Pampers-Premium-Care-Talla-XG-128-un.jpg?v=638776910396030000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/351625-250-250/Pa%C3%B1ales-desechables-Premium-Care-M-86-un.jpg?v=638776686343000000 net::ERR_ABORTED
+[JUMBO] Request failed: https://dev.visualwebsiteoptimizer.com/j.php?a=642581&u=https%3A%2F%2Fwww.jumbo.cl%2Fmi-bebe%2Fpanales-y-toallas-humedas%2F1&f=1&vn=1.5 net::ERR_FAILED
+[JUMBO] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[JUMBO] Request failed: https://pwcdauseo-zone.cnstrc.com/v2/behavioral_action/browse_result_load?c=ciojs-2.1237.3&i=8c58744a-1964-4e0d-8207-0a1c9e43eed4&s=1&key=key_JopvNXKS61kwGkBe&origin_referrer=www.jumbo.cl%2Fmi-bebe%2Fpanales-y-toallas-humedas&_dt=1755077525520 net::ERR_ABORTED
+[JUMBO] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-5WWDCL8&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] No products found on page, trying next URL pattern
+[JUMBO] Attempting to load: https://www.jumbo.cl/mi-bebe/panales-y-toallas-humedas&page=1
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://bff.jumbo.cl/catalog/plp net::ERR_ABORTED
+[JUMBO] Request failed: https://dev.visualwebsiteoptimizer.com/j.php?a=642581&u=https%3A%2F%2Fwww.jumbo.cl%2Fmi-bebe%2Fpanales-y-toallas-humedas%26page%3D1&f=1&vn=1.5 net::ERR_FAILED
+[JUMBO] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[JUMBO] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-5WWDCL8&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] No products found on page, trying next URL pattern
+[JUMBO] Attempting to load: https://www.jumbo.cl/mi-bebe/panales-y-toallas-humedas#?page=1
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://bff.jumbo.cl/catalog/plp net::ERR_ABORTED
+[JUMBO] Request failed: https://sm-web-api.ecomm.cencosud.com/cms/api/v1/cms/datetime net::ERR_ABORTED
+[JUMBO] Request failed: https://dev.visualwebsiteoptimizer.com/j.php?a=642581&u=https%3A%2F%2Fwww.jumbo.cl%2Fmi-bebe%2Fpanales-y-toallas-humedas%23%3Fpage%3D1&f=1&vn=1.5 net::ERR_FAILED
+[JUMBO] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[JUMBO] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-5WWDCL8&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] No products found on page, trying next URL pattern
+[JUMBO] Attempting to load: https://www.jumbo.cl/mi-bebe/panales-y-toallas-humedas#?p=1
+[JUMBO] Page returned undefined: https://www.jumbo.cl/mi-bebe/panales-y-toallas-humedas#?p=1
+[JUMBO] Attempting to load: https://www.jumbo.cl/mi-bebe/panales-y-toallas-humedas
+[JUMBO] Request failed: https://bff.jumbo.cl/catalog/plp net::ERR_ABORTED
+[JUMBO] Request failed: https://dev.visualwebsiteoptimizer.com/j.php?a=642581&u=https%3A%2F%2Fwww.jumbo.cl%2Fmi-bebe%2Fpanales-y-toallas-humedas&f=1&vn=1.5 net::ERR_FAILED
+[JUMBO] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[JUMBO] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-5WWDCL8&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] No products found on page, trying next URL pattern
+[JUMBO] No valid URL pattern worked for page 1 of panaderia
+[JUMBO] Completed scraping category panaderia: 0 total products
+[JUMBO] Category panaderia completed. Estimated remaining time: 1 minutes
+[JUMBO] Starting category 6/7: aseo
+[JUMBO] Scraping category: aseo with 1 URL patterns
+[JUMBO] Attempting to load: https://www.jumbo.cl/limpieza?page=1
+[JUMBO] Request failed: https://bff.jumbo.cl/catalog/plp net::ERR_ABORTED
+[JUMBO] Request failed: https://sm-web-api.ecomm.cencosud.com/orderform/api/v1/orderform/0402dfe43d81434198e35e13a702aca1 net::ERR_ABORTED
+[JUMBO] Request failed: https://dev.visualwebsiteoptimizer.com/j.php?a=642581&u=https%3A%2F%2Fwww.jumbo.cl%2Flimpieza%3Fpage%3D1&f=1&vn=1.5 net::ERR_FAILED
+[JUMBO] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[JUMBO] No products found on page, trying next URL pattern
+[JUMBO] Attempting to load: https://www.jumbo.cl/limpieza?p=1
+[JUMBO] Request failed: https://assets-jumbo.ecomm.cencosud.com/7e5c4c5f57b718499d0e-2150.bundle.js net::ERR_ABORTED
+[JUMBO] Request failed: https://dev.visualwebsiteoptimizer.com/j.php?a=642581&u=https%3A%2F%2Fwww.jumbo.cl%2Flimpieza%3Fp%3D1&f=1&vn=1.5 net::ERR_FAILED
+[JUMBO] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[JUMBO] No products found on page, trying next URL pattern
+[JUMBO] Attempting to load: https://www.jumbo.cl/limpieza?pagina=1
+[JUMBO] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-5WWDCL8&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://sm-web-api.ecomm.cencosud.com/cms/api/v1/cms/datetime net::ERR_ABORTED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/cms/list-category.json net::ERR_ABORTED
+[JUMBO] Request failed: https://bff.jumbo.cl/catalog/plp net::ERR_ABORTED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/cms/page-11732.json net::ERR_ABORTED
+[JUMBO] Request failed: https://assets-jumbo.ecomm.cencosud.com/cb4cd7376aad2d5d68f6-9838.bundle.js net::ERR_ABORTED
+[JUMBO] Request failed: https://ads01.groovinads.com/grv/track/bhpx.os?idc=7315&fgjs=1&sku=undefined&idcategory=limpieza net::ERR_ABORTED
+[JUMBO] Request failed: https://assets-jumbo.ecomm.cencosud.com/0e5c3fe4110c20355e59-5394.bundle.js net::ERR_ABORTED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/cms/page-67845.json net::ERR_ABORTED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/cms/page-101453.json net::ERR_ABORTED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_ABORTED
+[JUMBO] Request failed: https://dev.visualwebsiteoptimizer.com/j.php?a=642581&u=https%3A%2F%2Fwww.jumbo.cl%2Flimpieza%3Fpagina%3D1&f=1&vn=1.5 net::ERR_FAILED
+[JUMBO] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-5WWDCL8&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] No products found on page, trying next URL pattern
+[JUMBO] Attempting to load: https://www.jumbo.cl/limpieza/1
+[JUMBO] Request failed: https://sm-web-api.ecomm.cencosud.com/catalog/api/v1/reviews/ratings?ids=7997,111438,105320,128234,118575 net::ERR_ABORTED
+[JUMBO] Request failed: https://sm-web-api.ecomm.cencosud.com/catalog/api/v1/reviews/ratings?ids=7997,105320,118575,128234,7999,103456,141706,134493,134910,124189,123147,111438,7240,140719,57941,7311,112201,73689,48752,143609,105498,8088,8109,115308,72150,77325,7671,8087,13782,48753,143608,67171,98163,7275,127270,7694,144343,77323,122771,7491 net::ERR_ABORTED
+[JUMBO] Request failed: https://dev.visualwebsiteoptimizer.com/j.php?a=642581&u=https%3A%2F%2Fwww.jumbo.cl%2Flimpieza%2F1&f=1&vn=1.5 net::ERR_FAILED
+[JUMBO] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[JUMBO] No products found on page, trying next URL pattern
+[JUMBO] Attempting to load: https://www.jumbo.cl/limpieza&page=1
+[JUMBO] Request failed: https://pwcdauseo-zone.cnstrc.com/v2/behavioral_action/browse_result_load?c=ciojs-2.1237.3&i=8c58744a-1964-4e0d-8207-0a1c9e43eed4&s=1&key=key_JopvNXKS61kwGkBe&origin_referrer=www.jumbo.cl%2Flimpieza&_dt=1755077555615 net::ERR_ABORTED
+[JUMBO] Request failed: https://assets-jumbo.ecomm.cencosud.com/7e5c4c5f57b718499d0e-2150.bundle.js net::ERR_ABORTED
+[JUMBO] Request failed: https://dev.visualwebsiteoptimizer.com/j.php?a=642581&u=https%3A%2F%2Fwww.jumbo.cl%2Flimpieza%26page%3D1&f=1&vn=1.5 net::ERR_FAILED
+[JUMBO] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[JUMBO] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-5WWDCL8&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] No products found on page, trying next URL pattern
+[JUMBO] Attempting to load: https://www.jumbo.cl/limpieza#?page=1
+[JUMBO] Request failed: https://dev.visualwebsiteoptimizer.com/j.php?a=642581&u=https%3A%2F%2Fwww.jumbo.cl%2Flimpieza%23%3Fpage%3D1&f=1&vn=1.5 net::ERR_FAILED
+[JUMBO] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[JUMBO] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-5WWDCL8&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] No products found on page, trying next URL pattern
+[JUMBO] Attempting to load: https://www.jumbo.cl/limpieza#?p=1
+[JUMBO] Page returned undefined: https://www.jumbo.cl/limpieza#?p=1
+[JUMBO] Attempting to load: https://www.jumbo.cl/limpieza
+[JUMBO] Request failed: https://bff.jumbo.cl/catalog/personalize/top-sale-products net::ERR_ABORTED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/cms/limpieza.json net::ERR_ABORTED
+[JUMBO] Request failed: https://sm-web-api.ecomm.cencosud.com/catalog/api/v1/reviews/ratings?ids=7997,105320,118575,128234,7999,103456,141706,134493,134910,124189,123147,111438,7240,140719,57941,7311,112201,73689,48752,143609,105498,8088,8109,115308,72150,77325,7671,8087,13782,48753,143608,67171,98163,7275,127270,7694,144343,77323,122771,7491 net::ERR_ABORTED
+[JUMBO] Request failed: https://sm-web-api.ecomm.cencosud.com/fidelity/api/v1/loyalty-events net::ERR_ABORTED
+[JUMBO] Request failed: https://dev.visualwebsiteoptimizer.com/j.php?a=642581&u=https%3A%2F%2Fwww.jumbo.cl%2Flimpieza&f=1&vn=1.5 net::ERR_FAILED
+[JUMBO] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[JUMBO] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-5WWDCL8&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] No products found on page, trying next URL pattern
+[JUMBO] No valid URL pattern worked for page 1 of aseo
+[JUMBO] Completed scraping category aseo: 0 total products
+[JUMBO] Category aseo completed. Estimated remaining time: 1 minutes
+[JUMBO] Starting category 7/7: hogar
+[JUMBO] Scraping category: hogar with 1 URL patterns
+[JUMBO] Attempting to load: https://www.jumbo.cl/hogar?page=1
+[JUMBO] Request failed: https://bff.jumbo.cl/catalog/plp net::ERR_ABORTED
+[JUMBO] Request failed: https://dev.visualwebsiteoptimizer.com/j.php?a=642581&u=https%3A%2F%2Fwww.jumbo.cl%2Fhogar%3Fpage%3D1&f=1&vn=1.5 net::ERR_FAILED
+[JUMBO] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[JUMBO] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-5WWDCL8&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] No products found on page, trying next URL pattern
+[JUMBO] Attempting to load: https://www.jumbo.cl/hogar?p=1
+[JUMBO] Request failed: https://sm-web-api.ecomm.cencosud.com/catalog/api/v1/reviews/ratings?ids=48757,92022,84944,48761,47004,118202,6157,122920,12558,118318,12561,5989,136303,119816,6159,5991,120308,123975,48759,121598,118201,144134,47003,48764,5995,144208,119817,90053,113112,145999,5990,5997,5996,118119,110369,92020,120317,139534,145302,48762 net::ERR_ABORTED
+[JUMBO] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[JUMBO] Request failed: https://dev.visualwebsiteoptimizer.com/j.php?a=642581&u=https%3A%2F%2Fwww.jumbo.cl%2Fhogar%3Fp%3D1&f=1&vn=1.5 net::ERR_FAILED
+[JUMBO] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-5WWDCL8&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://pwcdauseo-zone.cnstrc.com/v2/behavioral_action/browse_result_load?c=ciojs-2.1237.3&i=8c58744a-1964-4e0d-8207-0a1c9e43eed4&s=1&key=key_JopvNXKS61kwGkBe&origin_referrer=www.jumbo.cl%2Fhogar&_dt=1755077572404 net::ERR_ABORTED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] No products found on page, trying next URL pattern
+[JUMBO] Attempting to load: https://www.jumbo.cl/hogar?pagina=1
+[JUMBO] Request failed: https://sm-web-api.ecomm.cencosud.com/fidelity/api/v1/loyalty-events net::ERR_ABORTED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/cms/page-121827.json net::ERR_ABORTED
+[JUMBO] Request failed: https://bff.jumbo.cl/catalog/personalize/top-sale-products net::ERR_ABORTED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/cms/hogar.json net::ERR_ABORTED
+[JUMBO] Request failed: https://assets-jumbo.ecomm.cencosud.com/a6d4aa4296ecf6a801ba.svg net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/387509-250-250/Set-6-Vasos-Altos-Lisos-Basicos-255-ml.jpg?v=638776852009700000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/351308-250-250/Papel-aluminio-profesional-30-m.jpg?v=638776684856730000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/326260-250-250/Set-6-Vasos-Lal-354-ml-Turquia.jpg?v=638776429061800000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/358513-250-250/Hermetico-de-vidrio-cuadrado-25-L.jpg?v=638776723766370000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/348140-250-250/113752-01_5809.jpg?v=638776480708270000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/390375-250-250/BOLSA-HERMETICA-DOBLE-CIERRE-50-UN-165X.jpg?v=638776862875600000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/367744-250-250/Hermetico-rectangular-600-ml.jpg?v=638776769282870000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/440295-250-250/Set-de-4-Tablas-Bambu-con-Base-Metal.jpg?v=638833779471470000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/348266-250-250/Papel-mantequilla-para-hornear-rollo-75-m.jpg?v=638776482088670000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/388763-250-250/Contenedor-Pote-1-L.jpg?v=638776857336970000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/351310-250-250/Film-plastico-institucional-300-m.jpg?v=638776684859070000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/404249-250-250/Botella-Oasis-700-ml.jpg?v=638776917835930000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/348142-250-250/Bolsas-Hermeticas-Ziploc-Grandes-Con-Cierre-268-x-241-x-66-cm-10-un.jpg?v=638776480741430000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/348264-250-250/Pack-papel-aluminio-75-m---Film-plastico-adherente-15-m.jpg?v=638776482067830000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/383855-250-250/Contenedor-Hermetico-Vidrio-Cuadrado-1-L.jpg?v=638776837497230000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/385210-250-250/Olla-24-cm-ceramica-mango-wood.jpg?v=638776843323470000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/358514-250-250/Hermetico-de-vidrio-1-L.jpg?v=638776723766830000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/358500-250-250/Hermetico-de-vidrio-cuadrado-320-cc.jpg?v=638776723725870000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/383988-250-250/Ensaladera-Mediana.jpg?v=638776838108170000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/367403-250-250/Set-6-tapas-silicona.jpg?v=638776767789070000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/365731-250-250/Set-3-contenedores-herm-ticos-cuadrados-900-ml-c-u-1-174997423.jpg?v=638776760317100000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/380358-250-250/Set-4-Copas-Glasso-Aperitivo.jpg?v=638776822915630000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/385722-250-250/Tetera-vidrio-800-ml.jpg?v=638776845535800000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/440380-250-250/Set-de-3-Pa%C3%B1os-Toalla-Lineas.jpg?v=638833779717500000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/385211-250-250/Olla-28-cm-ceramica-mango-wood.jpg?v=638776843323600000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/358290-250-250/1675292.jpg?v=638776722853000000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/383856-250-250/Pack-4-hermeticos-vidrios-en-caja.jpg?v=638776837498330000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/358502-250-250/Principal-444470.jpg?v=638776723729470000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/348138-250-250/Bolsas-Multiuso-100-un-20-x-30-cm.jpg?v=638776480682230000 net::ERR_ABORTED
+[JUMBO] Request failed: https://jumbocl.vteximg.com.br/arquivos/ids/358287-250-250/1675295.jpg?v=638776722848630000 net::ERR_ABORTED
+[JUMBO] Request failed: https://dev.visualwebsiteoptimizer.com/j.php?a=642581&u=https%3A%2F%2Fwww.jumbo.cl%2Fhogar%3Fpagina%3D1&f=1&vn=1.5 net::ERR_FAILED
+[JUMBO] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[JUMBO] Request failed: https://pwcdauseo-zone.cnstrc.com/v2/behavioral_action/browse_result_load?c=ciojs-2.1237.3&i=8c58744a-1964-4e0d-8207-0a1c9e43eed4&s=1&key=key_JopvNXKS61kwGkBe&origin_referrer=www.jumbo.cl%2Fhogar&_dt=1755077575960 net::ERR_ABORTED
+[JUMBO] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-5WWDCL8&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] No products found on page, trying next URL pattern
+[JUMBO] Attempting to load: https://www.jumbo.cl/hogar/1
+[JUMBO] Request failed: https://bff.jumbo.cl/catalog/plp net::ERR_ABORTED
+[JUMBO] Request failed: https://dev.visualwebsiteoptimizer.com/j.php?a=642581&u=https%3A%2F%2Fwww.jumbo.cl%2Fhogar%2F1&f=1&vn=1.5 net::ERR_FAILED
+[JUMBO] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[JUMBO] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-5WWDCL8&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] No products found on page, trying next URL pattern
+[JUMBO] Attempting to load: https://www.jumbo.cl/hogar&page=1
+[JUMBO] Request failed: https://assets-jumbo.ecomm.cencosud.com/0e5c3fe4110c20355e59-5394.bundle.js net::ERR_ABORTED
+[JUMBO] Request failed: https://assets-jumbo.ecomm.cencosud.com/cb4cd7376aad2d5d68f6-9838.bundle.js net::ERR_ABORTED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/cms/page-11732.json net::ERR_ABORTED
+[JUMBO] Request failed: https://bff.jumbo.cl/catalog/plp net::ERR_ABORTED
+[JUMBO] Request failed: https://assets-jumbo.ecomm.cencosud.com/bb6a8dff7718fb3fd24d-ModalGiftsProducts.bundle.js net::ERR_ABORTED
+[JUMBO] Request failed: https://assets-jumbo.ecomm.cencosud.com/d09ab9e01c2b36759dc0-800.bundle.js net::ERR_ABORTED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/cms/list-category.json net::ERR_ABORTED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/cms/page-67845.json net::ERR_ABORTED
+[JUMBO] Request failed: https://sm-web-api.ecomm.cencosud.com/orderform/api/v1/orderform/0402dfe43d81434198e35e13a702aca1 net::ERR_ABORTED
+[JUMBO] Request failed: https://ads01.groovinads.com/grv/track/bhpx.os?idc=7315&fgjs=1&sku=undefined&idcategory=1 net::ERR_ABORTED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/cms/page-101453.json net::ERR_ABORTED
+[JUMBO] Request failed: https://sm-web-api.ecomm.cencosud.com/cms/api/v1/cms/datetime net::ERR_ABORTED
+[JUMBO] Request failed: https://assets-jumbo.ecomm.cencosud.com/7224fbda9c50559ae999.svg net::ERR_ABORTED
+[JUMBO] Request failed: https://assets-jumbo.ecomm.cencosud.com/627a44244b7af61ff751.svg net::ERR_ABORTED
+[JUMBO] Request failed: https://fonts.gstatic.com/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlxdu.woff2 net::ERR_ABORTED
+[JUMBO] Request failed: https://fonts.gstatic.com/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwlxdu.woff2 net::ERR_ABORTED
+[JUMBO] Request failed: https://assets-jumbo.ecomm.cencosud.com/9fd77b6cacc4db7310cf.svg net::ERR_ABORTED
+[JUMBO] Request failed: https://assets-jumbo.ecomm.cencosud.com/fe3275ac08d71221a4b2-2783.bundle.css net::ERR_ABORTED
+[JUMBO] Request failed: https://assets-jumbo.ecomm.cencosud.com/f13a8dc5e4ed55aa01bc.svg net::ERR_ABORTED
+[JUMBO] Request failed: https://assets-jumbo.ecomm.cencosud.com/c8d9d3abe5e0362e6636-800.bundle.css net::ERR_ABORTED
+[JUMBO] Request failed: https://assets-jumbo.ecomm.cencosud.com/de0735c19a91b116c94b.svg net::ERR_ABORTED
+[JUMBO] Request failed: https://assets-jumbo.ecomm.cencosud.com/92f783c6dbd7e73ba7a4.svg net::ERR_ABORTED
+[JUMBO] Request failed: https://dev.visualwebsiteoptimizer.com/j.php?a=642581&u=https%3A%2F%2Fwww.jumbo.cl%2Fhogar%26page%3D1&f=1&vn=1.5 net::ERR_FAILED
+[JUMBO] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[JUMBO] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-5WWDCL8&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] No products found on page, trying next URL pattern
+[JUMBO] Attempting to load: https://www.jumbo.cl/hogar#?page=1
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/cms/page-100823.json net::ERR_ABORTED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/cms/page-34823.json net::ERR_ABORTED
+[JUMBO] Request failed: https://dev.visualwebsiteoptimizer.com/j.php?a=642581&u=https%3A%2F%2Fwww.jumbo.cl%2Fhogar%23%3Fpage%3D1&f=1&vn=1.5 net::ERR_FAILED
+[JUMBO] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[JUMBO] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-5WWDCL8&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] No products found on page, trying next URL pattern
+[JUMBO] Attempting to load: https://www.jumbo.cl/hogar#?p=1
+[JUMBO] Page returned undefined: https://www.jumbo.cl/hogar#?p=1
+[JUMBO] Attempting to load: https://www.jumbo.cl/hogar
+[JUMBO] Request failed: https://bff.jumbo.cl/catalog/plp net::ERR_ABORTED
+[JUMBO] Request failed: https://dev.visualwebsiteoptimizer.com/j.php?a=642581&u=https%3A%2F%2Fwww.jumbo.cl%2Fhogar&f=1&vn=1.5 net::ERR_FAILED
+[JUMBO] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-5WWDCL8&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[JUMBO] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.1.min.js net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] Request failed: https://assets.jumbo.cl/json/jumbocl/promotions-v2.json net::ERR_FAILED
+[JUMBO] No products found on page, trying next URL pattern
+[JUMBO] No valid URL pattern worked for page 1 of hogar
+[JUMBO] Completed scraping category hogar: 0 total products
+[JUMBO] Category hogar completed. Estimated remaining time: 0 minutes
+[JUMBO] Updated global products: 0 total products across 0 stores
+[JUMBO] Removed old backup: products-backup-1755075717215.json
+[JUMBO] Saved 0 products to /home/kuromatsu/Documents/ΛRΛMΛC/Websites/Minimarket/data/products/jumbo/products.json
+[JUMBO] Scraping duration: 4 minutes
+[JUMBO] ============================================================
+[JUMBO] MASS SCRAPING COMPLETE
+[JUMBO] Store: jumbo
+[JUMBO] Total Duration: 4 minutes (212 seconds)
+[JUMBO] Categories scraped: 7/7
+[JUMBO] Pages visited: 0
+[JUMBO] Products found: 0
+[JUMBO] Images downloaded: 0
+[JUMBO] Retries: 0
+[JUMBO] Errors: 0
+[JUMBO] Success rate: 0%
+[JUMBO] Average products per page: 0
+[JUMBO] Products per minute: 0
+[JUMBO] ============================================================

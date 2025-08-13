@@ -1,0 +1,662 @@
+[UNIMARC] Starting Enhanced Universal Product Scraper
+[UNIMARC] Store: unimarc
+[UNIMARC] Categories: bebidas, snacks, lacteos, carnes, panaderia, aseo, hogar
+[UNIMARC] Max products: 8000
+[UNIMARC] Max pages per category: 1000
+[UNIMARC] Dry run: false
+[UNIMARC] Navigating to https://www.unimarc.cl
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Discovered 7 category URLs from homepage navigation
+[UNIMARC] Starting category 1/7: bebidas
+[UNIMARC] Scraping category: bebidas with 1 URL patterns
+[UNIMARC] Attempting to load: https://www.unimarc.cl/category/bebidas-y-licores?page=1
+[UNIMARC] Request failed: https://config.ff.harness.io/api/1.0/stream?cluster=2 net::ERR_ABORTED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Scroll 1/50 (height: 6458)
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Scroll 2/50 (height: 6478)
+[UNIMARC] Scroll 3/50 (height: 6492)
+[UNIMARC] Height stable (1/3)
+[UNIMARC] Scroll 4/50 (height: 6492)
+[UNIMARC] Height stable (2/3)
+[UNIMARC] Scroll 5/50 (height: 6492)
+[UNIMARC] Height stable (3/3)
+[UNIMARC] Scroll 6/50 (height: 6492)
+[UNIMARC] Scrolling complete: 6 scrolls, final height: 6492
+[UNIMARC] Failed to load https://www.unimarc.cl/category/bebidas-y-licores?page=1: this.extractProductsFromApis is not a function
+[UNIMARC] Attempting to load: https://www.unimarc.cl/category/bebidas-y-licores?p=1
+[UNIMARC] Request failed: https://config.ff.harness.io/api/1.0/stream?cluster=2 net::ERR_ABORTED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Scroll 1/50 (height: 6478)
+[UNIMARC] Height stable (1/3)
+[UNIMARC] Scroll 2/50 (height: 6478)
+[UNIMARC] Scroll 3/50 (height: 6492)
+[UNIMARC] Height stable (1/3)
+[UNIMARC] Scroll 4/50 (height: 6492)
+[UNIMARC] Height stable (2/3)
+[UNIMARC] Scroll 5/50 (height: 6492)
+[UNIMARC] Height stable (3/3)
+[UNIMARC] Scroll 6/50 (height: 6492)
+[UNIMARC] Scrolling complete: 6 scrolls, final height: 6492
+[UNIMARC] Failed to load https://www.unimarc.cl/category/bebidas-y-licores?p=1: this.extractProductsFromApis is not a function
+[UNIMARC] Attempting to load: https://www.unimarc.cl/category/bebidas-y-licores?pagina=1
+[UNIMARC] Request failed: https://config.ff.harness.io/api/1.0/stream?cluster=2 net::ERR_ABORTED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Scroll 1/50 (height: 6487)
+[UNIMARC] Scroll 2/50 (height: 6492)
+[UNIMARC] Height stable (1/3)
+[UNIMARC] Scroll 3/50 (height: 6492)
+[UNIMARC] Height stable (2/3)
+[UNIMARC] Scroll 4/50 (height: 6492)
+[UNIMARC] Height stable (3/3)
+[UNIMARC] Scroll 5/50 (height: 6492)
+[UNIMARC] Scrolling complete: 5 scrolls, final height: 6492
+[UNIMARC] Failed to load https://www.unimarc.cl/category/bebidas-y-licores?pagina=1: this.extractProductsFromApis is not a function
+[UNIMARC] Attempting to load: https://www.unimarc.cl/category/bebidas-y-licores/1
+[UNIMARC] Request failed: https://config.ff.harness.io/api/1.0/stream?cluster=2 net::ERR_ABORTED
+[UNIMARC] Page returned 404: https://www.unimarc.cl/category/bebidas-y-licores/1
+[UNIMARC] Attempting to load: https://www.unimarc.cl/category/bebidas-y-licores&page=1
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Request failed: https://config.ff.harness.io/api/1.0/stream?cluster=2 net::ERR_ABORTED
+[UNIMARC] Request failed: https://www.unimarc.cl/_next/data/MbvSQIyvKsVUOXRNlk4mo/category/bebidas-y-licores/1.json?categories=bebidas-y-licores&categories=1 net::ERR_ABORTED
+[UNIMARC] Page returned 404: https://www.unimarc.cl/category/bebidas-y-licores&page=1
+[UNIMARC] Attempting to load: https://www.unimarc.cl/category/bebidas-y-licores#?page=1
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Request failed: https://config.ff.harness.io/api/1.0/stream?cluster=2 net::ERR_ABORTED
+[UNIMARC] Request failed: https://www.unimarc.cl/_next/static/chunks/pages/category/%5B...categories%5D-cbedd934fea9efd7.js net::ERR_ABORTED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Scroll 1/50 (height: 6467)
+[UNIMARC] Page error: Timeout (z)
+[UNIMARC] Scroll 2/50 (height: 6492)
+[UNIMARC] Height stable (1/3)
+[UNIMARC] Scroll 3/50 (height: 6492)
+[UNIMARC] Height stable (2/3)
+[UNIMARC] Scroll 4/50 (height: 6492)
+[UNIMARC] Height stable (3/3)
+[UNIMARC] Scroll 5/50 (height: 6492)
+[UNIMARC] Scrolling complete: 5 scrolls, final height: 6492
+[UNIMARC] Failed to load https://www.unimarc.cl/category/bebidas-y-licores#?page=1: this.extractProductsFromApis is not a function
+[UNIMARC] Attempting to load: https://www.unimarc.cl/category/bebidas-y-licores#?p=1
+[UNIMARC] Page returned undefined: https://www.unimarc.cl/category/bebidas-y-licores#?p=1
+[UNIMARC] Attempting to load: https://www.unimarc.cl/category/bebidas-y-licores
+[UNIMARC] Request failed: https://config.ff.harness.io/api/1.0/stream?cluster=2 net::ERR_ABORTED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Scroll 1/50 (height: 6487)
+[UNIMARC] Scroll 2/50 (height: 6492)
+[UNIMARC] Height stable (1/3)
+[UNIMARC] Scroll 3/50 (height: 6492)
+[UNIMARC] Height stable (2/3)
+[UNIMARC] Scroll 4/50 (height: 6492)
+[UNIMARC] Height stable (3/3)
+[UNIMARC] Scroll 5/50 (height: 6492)
+[UNIMARC] Scrolling complete: 5 scrolls, final height: 6492
+[UNIMARC] Failed to load https://www.unimarc.cl/category/bebidas-y-licores: this.extractProductsFromApis is not a function
+[UNIMARC] No valid URL pattern worked for page 1 of bebidas
+[UNIMARC] Completed scraping category bebidas: 0 total products
+[UNIMARC] Category bebidas completed. Estimated remaining time: 21 minutes
+[UNIMARC] Starting category 2/7: snacks
+[UNIMARC] Scraping category: snacks with 1 URL patterns
+[UNIMARC] Attempting to load: https://www.unimarc.cl/category/desayuno-y-dulces?page=1
+[UNIMARC] Request failed: https://config.ff.harness.io/api/1.0/stream?cluster=2 net::ERR_ABORTED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Scroll 1/50 (height: 6385)
+[UNIMARC] Scroll 2/50 (height: 6404)
+[UNIMARC] Scroll 3/50 (height: 6409)
+[UNIMARC] Height stable (1/3)
+[UNIMARC] Scroll 4/50 (height: 6409)
+[UNIMARC] Height stable (2/3)
+[UNIMARC] Scroll 5/50 (height: 6409)
+[UNIMARC] Height stable (3/3)
+[UNIMARC] Scroll 6/50 (height: 6409)
+[UNIMARC] Scrolling complete: 6 scrolls, final height: 6409
+[UNIMARC] Failed to load https://www.unimarc.cl/category/desayuno-y-dulces?page=1: this.extractProductsFromApis is not a function
+[UNIMARC] Attempting to load: https://www.unimarc.cl/category/desayuno-y-dulces?p=1
+[UNIMARC] Request failed: https://config.ff.harness.io/api/1.0/stream?cluster=2 net::ERR_ABORTED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Scroll 1/50 (height: 6404)
+[UNIMARC] Scroll 2/50 (height: 6409)
+[UNIMARC] Height stable (1/3)
+[UNIMARC] Scroll 3/50 (height: 6409)
+[UNIMARC] Height stable (2/3)
+[UNIMARC] Scroll 4/50 (height: 6409)
+[UNIMARC] Height stable (3/3)
+[UNIMARC] Scroll 5/50 (height: 6409)
+[UNIMARC] Scrolling complete: 5 scrolls, final height: 6409
+[UNIMARC] Failed to load https://www.unimarc.cl/category/desayuno-y-dulces?p=1: this.extractProductsFromApis is not a function
+[UNIMARC] Attempting to load: https://www.unimarc.cl/category/desayuno-y-dulces?pagina=1
+[UNIMARC] Request failed: https://config.ff.harness.io/api/1.0/stream?cluster=2 net::ERR_ABORTED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Scroll 1/50 (height: 6404)
+[UNIMARC] Scroll 2/50 (height: 6409)
+[UNIMARC] Height stable (1/3)
+[UNIMARC] Scroll 3/50 (height: 6409)
+[UNIMARC] Height stable (2/3)
+[UNIMARC] Scroll 4/50 (height: 6409)
+[UNIMARC] Height stable (3/3)
+[UNIMARC] Scroll 5/50 (height: 6409)
+[UNIMARC] Scrolling complete: 5 scrolls, final height: 6409
+[UNIMARC] Failed to load https://www.unimarc.cl/category/desayuno-y-dulces?pagina=1: this.extractProductsFromApis is not a function
+[UNIMARC] Attempting to load: https://www.unimarc.cl/category/desayuno-y-dulces/1
+[UNIMARC] Request failed: https://config.ff.harness.io/api/1.0/stream?cluster=2 net::ERR_ABORTED
+[UNIMARC] Page returned 404: https://www.unimarc.cl/category/desayuno-y-dulces/1
+[UNIMARC] Attempting to load: https://www.unimarc.cl/category/desayuno-y-dulces&page=1
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Request failed: https://config.ff.harness.io/api/1.0/stream?cluster=2 net::ERR_ABORTED
+[UNIMARC] Request failed: https://www.unimarc.cl/_next/data/MbvSQIyvKsVUOXRNlk4mo/category/desayuno-y-dulces/1.json?categories=desayuno-y-dulces&categories=1 net::ERR_ABORTED
+[UNIMARC] Page returned 404: https://www.unimarc.cl/category/desayuno-y-dulces&page=1
+[UNIMARC] Attempting to load: https://www.unimarc.cl/category/desayuno-y-dulces#?page=1
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Request failed: https://www.unimarc.cl/_next/data/MbvSQIyvKsVUOXRNlk4mo/category/desayuno-y-dulces%26page%3D1.json?categories=desayuno-y-dulces%26page%3D1 net::ERR_ABORTED
+[UNIMARC] Request failed: https://config.ff.harness.io/api/1.0/stream?cluster=2 net::ERR_ABORTED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Scroll 1/50 (height: 6404)
+[UNIMARC] Scroll 2/50 (height: 6409)
+[UNIMARC] Height stable (1/3)
+[UNIMARC] Scroll 3/50 (height: 6409)
+[UNIMARC] Height stable (2/3)
+[UNIMARC] Scroll 4/50 (height: 6409)
+[UNIMARC] Height stable (3/3)
+[UNIMARC] Scroll 5/50 (height: 6409)
+[UNIMARC] Scrolling complete: 5 scrolls, final height: 6409
+[UNIMARC] Failed to load https://www.unimarc.cl/category/desayuno-y-dulces#?page=1: this.extractProductsFromApis is not a function
+[UNIMARC] Attempting to load: https://www.unimarc.cl/category/desayuno-y-dulces#?p=1
+[UNIMARC] Page returned undefined: https://www.unimarc.cl/category/desayuno-y-dulces#?p=1
+[UNIMARC] Attempting to load: https://www.unimarc.cl/category/desayuno-y-dulces
+[UNIMARC] Request failed: https://config.ff.harness.io/api/1.0/stream?cluster=2 net::ERR_ABORTED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Scroll 1/50 (height: 6404)
+[UNIMARC] Scroll 2/50 (height: 6409)
+[UNIMARC] Height stable (1/3)
+[UNIMARC] Scroll 3/50 (height: 6409)
+[UNIMARC] Height stable (2/3)
+[UNIMARC] Scroll 4/50 (height: 6409)
+[UNIMARC] Height stable (3/3)
+[UNIMARC] Scroll 5/50 (height: 6409)
+[UNIMARC] Scrolling complete: 5 scrolls, final height: 6409
+[UNIMARC] Failed to load https://www.unimarc.cl/category/desayuno-y-dulces: this.extractProductsFromApis is not a function
+[UNIMARC] No valid URL pattern worked for page 1 of snacks
+[UNIMARC] Completed scraping category snacks: 0 total products
+[UNIMARC] Category snacks completed. Estimated remaining time: 14 minutes
+[UNIMARC] Starting category 3/7: lacteos
+[UNIMARC] Scraping category: lacteos with 1 URL patterns
+[UNIMARC] Attempting to load: https://www.unimarc.cl/category/lacteos-huevos-y-refrigerados?page=1
+[UNIMARC] Request failed: https://config.ff.harness.io/api/1.0/stream?cluster=2 net::ERR_ABORTED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Scroll 1/50 (height: 6322)
+[UNIMARC] Scroll 2/50 (height: 6327)
+[UNIMARC] Height stable (1/3)
+[UNIMARC] Scroll 3/50 (height: 6327)
+[UNIMARC] Height stable (2/3)
+[UNIMARC] Scroll 4/50 (height: 6327)
+[UNIMARC] Height stable (3/3)
+[UNIMARC] Scroll 5/50 (height: 6327)
+[UNIMARC] Scrolling complete: 5 scrolls, final height: 6327
+[UNIMARC] Failed to load https://www.unimarc.cl/category/lacteos-huevos-y-refrigerados?page=1: this.extractProductsFromApis is not a function
+[UNIMARC] Attempting to load: https://www.unimarc.cl/category/lacteos-huevos-y-refrigerados?p=1
+[UNIMARC] Request failed: https://config.ff.harness.io/api/1.0/stream?cluster=2 net::ERR_ABORTED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Scroll 1/50 (height: 6322)
+[UNIMARC] Scroll 2/50 (height: 6327)
+[UNIMARC] Height stable (1/3)
+[UNIMARC] Scroll 3/50 (height: 6327)
+[UNIMARC] Height stable (2/3)
+[UNIMARC] Scroll 4/50 (height: 6327)
+[UNIMARC] Height stable (3/3)
+[UNIMARC] Scroll 5/50 (height: 6327)
+[UNIMARC] Scrolling complete: 5 scrolls, final height: 6327
+[UNIMARC] Failed to load https://www.unimarc.cl/category/lacteos-huevos-y-refrigerados?p=1: this.extractProductsFromApis is not a function
+[UNIMARC] Attempting to load: https://www.unimarc.cl/category/lacteos-huevos-y-refrigerados?pagina=1
+[UNIMARC] Request failed: https://config.ff.harness.io/api/1.0/stream?cluster=2 net::ERR_ABORTED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Scroll 1/50 (height: 6322)
+[UNIMARC] Scroll 2/50 (height: 6327)
+[UNIMARC] Height stable (1/3)
+[UNIMARC] Scroll 3/50 (height: 6327)
+[UNIMARC] Height stable (2/3)
+[UNIMARC] Scroll 4/50 (height: 6327)
+[UNIMARC] Height stable (3/3)
+[UNIMARC] Scroll 5/50 (height: 6327)
+[UNIMARC] Scrolling complete: 5 scrolls, final height: 6327
+[UNIMARC] Failed to load https://www.unimarc.cl/category/lacteos-huevos-y-refrigerados?pagina=1: this.extractProductsFromApis is not a function
+[UNIMARC] Attempting to load: https://www.unimarc.cl/category/lacteos-huevos-y-refrigerados/1
+[UNIMARC] Request failed: https://config.ff.harness.io/api/1.0/stream?cluster=2 net::ERR_ABORTED
+[UNIMARC] Page returned 404: https://www.unimarc.cl/category/lacteos-huevos-y-refrigerados/1
+[UNIMARC] Attempting to load: https://www.unimarc.cl/category/lacteos-huevos-y-refrigerados&page=1
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Request failed: https://www.unimarc.cl/_next/data/MbvSQIyvKsVUOXRNlk4mo/category/lacteos-huevos-y-refrigerados/1.json?categories=lacteos-huevos-y-refrigerados&categories=1 net::ERR_ABORTED
+[UNIMARC] Request failed: https://config.ff.harness.io/api/1.0/stream?cluster=2 net::ERR_ABORTED
+[UNIMARC] Page returned 404: https://www.unimarc.cl/category/lacteos-huevos-y-refrigerados&page=1
+[UNIMARC] Attempting to load: https://www.unimarc.cl/category/lacteos-huevos-y-refrigerados#?page=1
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Request failed: https://config.ff.harness.io/api/1.0/stream?cluster=2 net::ERR_ABORTED
+[UNIMARC] Request failed: https://www.unimarc.cl/_next/data/MbvSQIyvKsVUOXRNlk4mo/category/lacteos-huevos-y-refrigerados%26page%3D1.json?categories=lacteos-huevos-y-refrigerados%26page%3D1 net::ERR_ABORTED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Scroll 1/50 (height: 6322)
+[UNIMARC] Scroll 2/50 (height: 6327)
+[UNIMARC] Height stable (1/3)
+[UNIMARC] Scroll 3/50 (height: 6327)
+[UNIMARC] Height stable (2/3)
+[UNIMARC] Scroll 4/50 (height: 6327)
+[UNIMARC] Height stable (3/3)
+[UNIMARC] Scroll 5/50 (height: 6327)
+[UNIMARC] Scrolling complete: 5 scrolls, final height: 6327
+[UNIMARC] Failed to load https://www.unimarc.cl/category/lacteos-huevos-y-refrigerados#?page=1: this.extractProductsFromApis is not a function
+[UNIMARC] Attempting to load: https://www.unimarc.cl/category/lacteos-huevos-y-refrigerados#?p=1
+[UNIMARC] Page returned undefined: https://www.unimarc.cl/category/lacteos-huevos-y-refrigerados#?p=1
+[UNIMARC] Attempting to load: https://www.unimarc.cl/category/lacteos-huevos-y-refrigerados
+[UNIMARC] Request failed: https://config.ff.harness.io/api/1.0/stream?cluster=2 net::ERR_ABORTED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Scroll 1/50 (height: 6322)
+[UNIMARC] Scroll 2/50 (height: 6327)
+[UNIMARC] Height stable (1/3)
+[UNIMARC] Scroll 3/50 (height: 6327)
+[UNIMARC] Height stable (2/3)
+[UNIMARC] Scroll 4/50 (height: 6327)
+[UNIMARC] Height stable (3/3)
+[UNIMARC] Scroll 5/50 (height: 6327)
+[UNIMARC] Scrolling complete: 5 scrolls, final height: 6327
+[UNIMARC] Failed to load https://www.unimarc.cl/category/lacteos-huevos-y-refrigerados: this.extractProductsFromApis is not a function
+[UNIMARC] No valid URL pattern worked for page 1 of lacteos
+[UNIMARC] Completed scraping category lacteos: 0 total products
+[UNIMARC] Category lacteos completed. Estimated remaining time: 11 minutes
+[UNIMARC] Starting category 4/7: carnes
+[UNIMARC] Scraping category: carnes with 1 URL patterns
+[UNIMARC] Attempting to load: https://www.unimarc.cl/category/carnes?page=1
+[UNIMARC] Request failed: https://config.ff.harness.io/api/1.0/stream?cluster=2 net::ERR_ABORTED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Scroll 1/50 (height: 5452)
+[UNIMARC] Scroll 2/50 (height: 5457)
+[UNIMARC] Height stable (1/3)
+[UNIMARC] Scroll 3/50 (height: 5457)
+[UNIMARC] Height stable (2/3)
+[UNIMARC] Scroll 4/50 (height: 5457)
+[UNIMARC] Scroll 5/50 (height: 6372)
+[UNIMARC] Height stable (1/3)
+[UNIMARC] Scroll 6/50 (height: 6372)
+[UNIMARC] Height stable (2/3)
+[UNIMARC] Scroll 7/50 (height: 6372)
+[UNIMARC] Height stable (3/3)
+[UNIMARC] Scroll 8/50 (height: 6372)
+[UNIMARC] Scrolling complete: 8 scrolls, final height: 6372
+[UNIMARC] Failed to load https://www.unimarc.cl/category/carnes?page=1: this.extractProductsFromApis is not a function
+[UNIMARC] Attempting to load: https://www.unimarc.cl/category/carnes?p=1
+[UNIMARC] Request failed: https://config.ff.harness.io/api/1.0/stream?cluster=2 net::ERR_ABORTED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Scroll 1/50 (height: 5452)
+[UNIMARC] Scroll 2/50 (height: 5457)
+[UNIMARC] Height stable (1/3)
+[UNIMARC] Scroll 3/50 (height: 5457)
+[UNIMARC] Height stable (2/3)
+[UNIMARC] Scroll 4/50 (height: 5457)
+[UNIMARC] Scroll 5/50 (height: 6372)
+[UNIMARC] Height stable (1/3)
+[UNIMARC] Scroll 6/50 (height: 6372)
+[UNIMARC] Height stable (2/3)
+[UNIMARC] Scroll 7/50 (height: 6372)
+[UNIMARC] Height stable (3/3)
+[UNIMARC] Scroll 8/50 (height: 6372)
+[UNIMARC] Scrolling complete: 8 scrolls, final height: 6372
+[UNIMARC] Failed to load https://www.unimarc.cl/category/carnes?p=1: this.extractProductsFromApis is not a function
+[UNIMARC] Attempting to load: https://www.unimarc.cl/category/carnes?pagina=1
+[UNIMARC] Request failed: https://config.ff.harness.io/api/1.0/stream?cluster=2 net::ERR_ABORTED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Scroll 1/50 (height: 5452)
+[UNIMARC] Height stable (1/3)
+[UNIMARC] Scroll 2/50 (height: 5452)
+[UNIMARC] Scroll 3/50 (height: 5457)
+[UNIMARC] Height stable (1/3)
+[UNIMARC] Scroll 4/50 (height: 5457)
+[UNIMARC] Height stable (2/3)
+[UNIMARC] Scroll 5/50 (height: 5457)
+[UNIMARC] Scroll 6/50 (height: 6372)
+[UNIMARC] Height stable (1/3)
+[UNIMARC] Scroll 7/50 (height: 6372)
+[UNIMARC] Height stable (2/3)
+[UNIMARC] Scroll 8/50 (height: 6372)
+[UNIMARC] Height stable (3/3)
+[UNIMARC] Scroll 9/50 (height: 6372)
+[UNIMARC] Scrolling complete: 9 scrolls, final height: 6372
+[UNIMARC] Failed to load https://www.unimarc.cl/category/carnes?pagina=1: this.extractProductsFromApis is not a function
+[UNIMARC] Attempting to load: https://www.unimarc.cl/category/carnes/1
+[UNIMARC] Request failed: https://config.ff.harness.io/api/1.0/stream?cluster=2 net::ERR_ABORTED
+[UNIMARC] Page returned 404: https://www.unimarc.cl/category/carnes/1
+[UNIMARC] Attempting to load: https://www.unimarc.cl/category/carnes&page=1
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Request failed: https://config.ff.harness.io/api/1.0/stream?cluster=2 net::ERR_ABORTED
+[UNIMARC] Request failed: https://www.unimarc.cl/_next/static/chunks/pages/category/%5B...categories%5D-cbedd934fea9efd7.js net::ERR_ABORTED
+[UNIMARC] Page returned 404: https://www.unimarc.cl/category/carnes&page=1
+[UNIMARC] Attempting to load: https://www.unimarc.cl/category/carnes#?page=1
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Request failed: https://www.unimarc.cl/_next/data/MbvSQIyvKsVUOXRNlk4mo/category/carnes%26page%3D1.json?categories=carnes%26page%3D1 net::ERR_ABORTED
+[UNIMARC] Request failed: https://config.ff.harness.io/api/1.0/stream?cluster=2 net::ERR_ABORTED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] No products found on page, trying next URL pattern
+[UNIMARC] Attempting to load: https://www.unimarc.cl/category/carnes#?p=1
+[UNIMARC] Page returned undefined: https://www.unimarc.cl/category/carnes#?p=1
+[UNIMARC] Attempting to load: https://www.unimarc.cl/category/carnes
+[UNIMARC] Request failed: https://config.ff.harness.io/api/1.0/stream?cluster=2 net::ERR_ABORTED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] No products found on page, trying next URL pattern
+[UNIMARC] No valid URL pattern worked for page 1 of carnes
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Completed scraping category carnes: 0 total products
+[UNIMARC] Category carnes completed. Estimated remaining time: 8 minutes
+[UNIMARC] Starting category 5/7: panaderia
+[UNIMARC] Scraping category: panaderia with 1 URL patterns
+[UNIMARC] Attempting to load: https://www.unimarc.cl/category/panaderia-y-pasteleria?page=1
+[UNIMARC] Request failed: https://config.ff.harness.io/api/1.0/stream?cluster=2 net::ERR_ABORTED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Request failed: https://csp.withgoogle.com/csp/frame-ancestors/38fac9d5b82543fc4729580d18ff2d3d net::ERR_BLOCKED_BY_ORB
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Scroll 1/50 (height: 5926)
+[UNIMARC] Height stable (1/3)
+[UNIMARC] Scroll 2/50 (height: 5926)
+[UNIMARC] Scroll 3/50 (height: 5931)
+[UNIMARC] Height stable (1/3)
+[UNIMARC] Scroll 4/50 (height: 5931)
+[UNIMARC] Height stable (2/3)
+[UNIMARC] Scroll 5/50 (height: 5931)
+[UNIMARC] Height stable (3/3)
+[UNIMARC] Scroll 6/50 (height: 5931)
+[UNIMARC] Scrolling complete: 6 scrolls, final height: 5931
+[UNIMARC] Failed to load https://www.unimarc.cl/category/panaderia-y-pasteleria?page=1: this.extractProductsFromApis is not a function
+[UNIMARC] Attempting to load: https://www.unimarc.cl/category/panaderia-y-pasteleria?p=1
+[UNIMARC] Request failed: https://config.ff.harness.io/api/1.0/stream?cluster=2 net::ERR_ABORTED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Scroll 1/50 (height: 5926)
+[UNIMARC] Scroll 2/50 (height: 5931)
+[UNIMARC] Height stable (1/3)
+[UNIMARC] Scroll 3/50 (height: 5931)
+[UNIMARC] Height stable (2/3)
+[UNIMARC] Scroll 4/50 (height: 5931)
+[UNIMARC] Height stable (3/3)
+[UNIMARC] Scroll 5/50 (height: 5931)
+[UNIMARC] Scrolling complete: 5 scrolls, final height: 5931
+[UNIMARC] Failed to load https://www.unimarc.cl/category/panaderia-y-pasteleria?p=1: this.extractProductsFromApis is not a function
+[UNIMARC] Attempting to load: https://www.unimarc.cl/category/panaderia-y-pasteleria?pagina=1
+[UNIMARC] Request failed: https://config.ff.harness.io/api/1.0/stream?cluster=2 net::ERR_ABORTED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Scroll 1/50 (height: 5926)
+[UNIMARC] Scroll 2/50 (height: 5931)
+[UNIMARC] Height stable (1/3)
+[UNIMARC] Scroll 3/50 (height: 5931)
+[UNIMARC] Height stable (2/3)
+[UNIMARC] Scroll 4/50 (height: 5931)
+[UNIMARC] Height stable (3/3)
+[UNIMARC] Scroll 5/50 (height: 5931)
+[UNIMARC] Scrolling complete: 5 scrolls, final height: 5931
+[UNIMARC] Failed to load https://www.unimarc.cl/category/panaderia-y-pasteleria?pagina=1: this.extractProductsFromApis is not a function
+[UNIMARC] Attempting to load: https://www.unimarc.cl/category/panaderia-y-pasteleria/1
+[UNIMARC] Request failed: https://config.ff.harness.io/api/1.0/stream?cluster=2 net::ERR_ABORTED
+[UNIMARC] Page returned 404: https://www.unimarc.cl/category/panaderia-y-pasteleria/1
+[UNIMARC] Attempting to load: https://www.unimarc.cl/category/panaderia-y-pasteleria&page=1
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Request failed: https://www.unimarc.cl/_next/data/MbvSQIyvKsVUOXRNlk4mo/category/panaderia-y-pasteleria/1.json?categories=panaderia-y-pasteleria&categories=1 net::ERR_ABORTED
+[UNIMARC] Request failed: https://config.ff.harness.io/api/1.0/stream?cluster=2 net::ERR_ABORTED
+[UNIMARC] Page returned 404: https://www.unimarc.cl/category/panaderia-y-pasteleria&page=1
+[UNIMARC] Attempting to load: https://www.unimarc.cl/category/panaderia-y-pasteleria#?page=1
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Request failed: https://config.ff.harness.io/api/1.0/stream?cluster=2 net::ERR_ABORTED
+[UNIMARC] Request failed: https://www.unimarc.cl/_next/data/MbvSQIyvKsVUOXRNlk4mo/category/panaderia-y-pasteleria%26page%3D1.json?categories=panaderia-y-pasteleria%26page%3D1 net::ERR_ABORTED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Scroll 1/50 (height: 5926)
+[UNIMARC] Scroll 2/50 (height: 5931)
+[UNIMARC] Height stable (1/3)
+[UNIMARC] Scroll 3/50 (height: 5931)
+[UNIMARC] Height stable (2/3)
+[UNIMARC] Scroll 4/50 (height: 5931)
+[UNIMARC] Height stable (3/3)
+[UNIMARC] Scroll 5/50 (height: 5931)
+[UNIMARC] Scrolling complete: 5 scrolls, final height: 5931
+[UNIMARC] Failed to load https://www.unimarc.cl/category/panaderia-y-pasteleria#?page=1: this.extractProductsFromApis is not a function
+[UNIMARC] Attempting to load: https://www.unimarc.cl/category/panaderia-y-pasteleria#?p=1
+[UNIMARC] Page returned undefined: https://www.unimarc.cl/category/panaderia-y-pasteleria#?p=1
+[UNIMARC] Attempting to load: https://www.unimarc.cl/category/panaderia-y-pasteleria
+[UNIMARC] Request failed: https://config.ff.harness.io/api/1.0/stream?cluster=2 net::ERR_ABORTED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Scroll 1/50 (height: 5926)
+[UNIMARC] Scroll 2/50 (height: 5931)
+[UNIMARC] Height stable (1/3)
+[UNIMARC] Scroll 3/50 (height: 5931)
+[UNIMARC] Height stable (2/3)
+[UNIMARC] Scroll 4/50 (height: 5931)
+[UNIMARC] Height stable (3/3)
+[UNIMARC] Scroll 5/50 (height: 5931)
+[UNIMARC] Scrolling complete: 5 scrolls, final height: 5931
+[UNIMARC] Failed to load https://www.unimarc.cl/category/panaderia-y-pasteleria: this.extractProductsFromApis is not a function
+[UNIMARC] No valid URL pattern worked for page 1 of panaderia
+[UNIMARC] Completed scraping category panaderia: 0 total products
+[UNIMARC] Category panaderia completed. Estimated remaining time: 5 minutes
+[UNIMARC] Starting category 6/7: aseo
+[UNIMARC] Scraping category: aseo with 1 URL patterns
+[UNIMARC] Attempting to load: https://www.unimarc.cl/category/limpieza?page=1
+[UNIMARC] Request failed: https://config.ff.harness.io/api/1.0/stream?cluster=2 net::ERR_ABORTED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Request failed: https://csp.withgoogle.com/csp/frame-ancestors/38fac9d5b82543fc4729580d18ff2d3d net::ERR_BLOCKED_BY_ORB
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Scroll 1/50 (height: 6146)
+[UNIMARC] Height stable (1/3)
+[UNIMARC] Scroll 2/50 (height: 6146)
+[UNIMARC] Scroll 3/50 (height: 6151)
+[UNIMARC] Height stable (1/3)
+[UNIMARC] Scroll 4/50 (height: 6151)
+[UNIMARC] Height stable (2/3)
+[UNIMARC] Scroll 5/50 (height: 6151)
+[UNIMARC] Height stable (3/3)
+[UNIMARC] Scroll 6/50 (height: 6151)
+[UNIMARC] Scrolling complete: 6 scrolls, final height: 6151
+[UNIMARC] Failed to load https://www.unimarc.cl/category/limpieza?page=1: this.extractProductsFromApis is not a function
+[UNIMARC] Attempting to load: https://www.unimarc.cl/category/limpieza?p=1
+[UNIMARC] Request failed: https://config.ff.harness.io/api/1.0/stream?cluster=2 net::ERR_ABORTED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Scroll 1/50 (height: 6146)
+[UNIMARC] Scroll 2/50 (height: 6151)
+[UNIMARC] Height stable (1/3)
+[UNIMARC] Scroll 3/50 (height: 6151)
+[UNIMARC] Height stable (2/3)
+[UNIMARC] Scroll 4/50 (height: 6151)
+[UNIMARC] Height stable (3/3)
+[UNIMARC] Scroll 5/50 (height: 6151)
+[UNIMARC] Scrolling complete: 5 scrolls, final height: 6151
+[UNIMARC] Failed to load https://www.unimarc.cl/category/limpieza?p=1: this.extractProductsFromApis is not a function
+[UNIMARC] Attempting to load: https://www.unimarc.cl/category/limpieza?pagina=1
+[UNIMARC] Request failed: https://config.ff.harness.io/api/1.0/stream?cluster=2 net::ERR_ABORTED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Scroll 1/50 (height: 6146)
+[UNIMARC] Scroll 2/50 (height: 6151)
+[UNIMARC] Height stable (1/3)
+[UNIMARC] Scroll 3/50 (height: 6151)
+[UNIMARC] Height stable (2/3)
+[UNIMARC] Scroll 4/50 (height: 6151)
+[UNIMARC] Height stable (3/3)
+[UNIMARC] Scroll 5/50 (height: 6151)
+[UNIMARC] Scrolling complete: 5 scrolls, final height: 6151
+[UNIMARC] Failed to load https://www.unimarc.cl/category/limpieza?pagina=1: this.extractProductsFromApis is not a function
+[UNIMARC] Attempting to load: https://www.unimarc.cl/category/limpieza/1
+[UNIMARC] Request failed: https://config.ff.harness.io/api/1.0/stream?cluster=2 net::ERR_ABORTED
+[UNIMARC] Page returned 404: https://www.unimarc.cl/category/limpieza/1
+[UNIMARC] Attempting to load: https://www.unimarc.cl/category/limpieza&page=1
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Request failed: https://www.unimarc.cl/_next/data/MbvSQIyvKsVUOXRNlk4mo/category/limpieza/1.json?categories=limpieza&categories=1 net::ERR_ABORTED
+[UNIMARC] Request failed: https://config.ff.harness.io/api/1.0/stream?cluster=2 net::ERR_ABORTED
+[UNIMARC] Page returned 404: https://www.unimarc.cl/category/limpieza&page=1
+[UNIMARC] Attempting to load: https://www.unimarc.cl/category/limpieza#?page=1
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Request failed: https://www.unimarc.cl/_next/data/MbvSQIyvKsVUOXRNlk4mo/category/limpieza&page=1.json?categories=limpieza%26page%3D1 net::ERR_ABORTED
+[UNIMARC] Request failed: https://config.ff.harness.io/api/1.0/stream?cluster=2 net::ERR_ABORTED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Scroll 1/50 (height: 6146)
+[UNIMARC] Scroll 2/50 (height: 6151)
+[UNIMARC] Height stable (1/3)
+[UNIMARC] Scroll 3/50 (height: 6151)
+[UNIMARC] Height stable (2/3)
+[UNIMARC] Scroll 4/50 (height: 6151)
+[UNIMARC] Height stable (3/3)
+[UNIMARC] Scroll 5/50 (height: 6151)
+[UNIMARC] Scrolling complete: 5 scrolls, final height: 6151
+[UNIMARC] Failed to load https://www.unimarc.cl/category/limpieza#?page=1: this.extractProductsFromApis is not a function
+[UNIMARC] Attempting to load: https://www.unimarc.cl/category/limpieza#?p=1
+[UNIMARC] Page returned undefined: https://www.unimarc.cl/category/limpieza#?p=1
+[UNIMARC] Attempting to load: https://www.unimarc.cl/category/limpieza
+[UNIMARC] Request failed: https://config.ff.harness.io/api/1.0/stream?cluster=2 net::ERR_ABORTED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Scroll 1/50 (height: 6146)
+[UNIMARC] Height stable (1/3)
+[UNIMARC] Scroll 2/50 (height: 6146)
+[UNIMARC] Scroll 3/50 (height: 6151)
+[UNIMARC] Height stable (1/3)
+[UNIMARC] Scroll 4/50 (height: 6151)
+[UNIMARC] Height stable (2/3)
+[UNIMARC] Scroll 5/50 (height: 6151)
+[UNIMARC] Height stable (3/3)
+[UNIMARC] Scroll 6/50 (height: 6151)
+[UNIMARC] Scrolling complete: 6 scrolls, final height: 6151
+[UNIMARC] Failed to load https://www.unimarc.cl/category/limpieza: this.extractProductsFromApis is not a function
+[UNIMARC] No valid URL pattern worked for page 1 of aseo
+[UNIMARC] Completed scraping category aseo: 0 total products
+[UNIMARC] Category aseo completed. Estimated remaining time: 2 minutes
+[UNIMARC] Starting category 7/7: hogar
+[UNIMARC] Scraping category: hogar with 1 URL patterns
+[UNIMARC] Attempting to load: https://www.unimarc.cl/category/hogar?page=1
+[UNIMARC] Request failed: https://config.ff.harness.io/api/1.0/stream?cluster=2 net::ERR_ABORTED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Scroll 1/50 (height: 5954)
+[UNIMARC] Scroll 2/50 (height: 5974)
+[UNIMARC] Scroll 3/50 (height: 5979)
+[UNIMARC] Height stable (1/3)
+[UNIMARC] Scroll 4/50 (height: 5979)
+[UNIMARC] Height stable (2/3)
+[UNIMARC] Scroll 5/50 (height: 5979)
+[UNIMARC] Height stable (3/3)
+[UNIMARC] Scroll 6/50 (height: 5979)
+[UNIMARC] Scrolling complete: 6 scrolls, final height: 5979
+[UNIMARC] Failed to load https://www.unimarc.cl/category/hogar?page=1: this.extractProductsFromApis is not a function
+[UNIMARC] Attempting to load: https://www.unimarc.cl/category/hogar?p=1
+[UNIMARC] Request failed: https://config.ff.harness.io/api/1.0/stream?cluster=2 net::ERR_ABORTED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Scroll 1/50 (height: 5954)
+[UNIMARC] Scroll 2/50 (height: 5974)
+[UNIMARC] Scroll 3/50 (height: 5979)
+[UNIMARC] Height stable (1/3)
+[UNIMARC] Scroll 4/50 (height: 5979)
+[UNIMARC] Height stable (2/3)
+[UNIMARC] Scroll 5/50 (height: 5979)
+[UNIMARC] Height stable (3/3)
+[UNIMARC] Scroll 6/50 (height: 5979)
+[UNIMARC] Scrolling complete: 6 scrolls, final height: 5979
+[UNIMARC] Failed to load https://www.unimarc.cl/category/hogar?p=1: this.extractProductsFromApis is not a function
+[UNIMARC] Attempting to load: https://www.unimarc.cl/category/hogar?pagina=1
+[UNIMARC] Request failed: https://config.ff.harness.io/api/1.0/stream?cluster=2 net::ERR_ABORTED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Scroll 1/50 (height: 5954)
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Scroll 2/50 (height: 5974)
+[UNIMARC] Scroll 3/50 (height: 5979)
+[UNIMARC] Height stable (1/3)
+[UNIMARC] Scroll 4/50 (height: 5979)
+[UNIMARC] Height stable (2/3)
+[UNIMARC] Page error: Timeout (o)
+[UNIMARC] Scroll 5/50 (height: 5979)
+[UNIMARC] Height stable (3/3)
+[UNIMARC] Scroll 6/50 (height: 5979)
+[UNIMARC] Scrolling complete: 6 scrolls, final height: 5979
+[UNIMARC] Failed to load https://www.unimarc.cl/category/hogar?pagina=1: this.extractProductsFromApis is not a function
+[UNIMARC] Attempting to load: https://www.unimarc.cl/category/hogar/1
+[UNIMARC] Request failed: https://config.ff.harness.io/api/1.0/stream?cluster=2 net::ERR_ABORTED
+[UNIMARC] Page returned 404: https://www.unimarc.cl/category/hogar/1
+[UNIMARC] Attempting to load: https://www.unimarc.cl/category/hogar&page=1
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Request failed: https://config.ff.harness.io/api/1.0/stream?cluster=2 net::ERR_ABORTED
+[UNIMARC] Request failed: https://www.unimarc.cl/_next/data/MbvSQIyvKsVUOXRNlk4mo/category/hogar/1.json?categories=hogar&categories=1 net::ERR_ABORTED
+[UNIMARC] Page returned 404: https://www.unimarc.cl/category/hogar&page=1
+[UNIMARC] Attempting to load: https://www.unimarc.cl/category/hogar#?page=1
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Request failed: https://www.unimarc.cl/_next/data/MbvSQIyvKsVUOXRNlk4mo/category/hogar%26page%3D1.json?categories=hogar%26page%3D1 net::ERR_ABORTED
+[UNIMARC] Request failed: https://config.ff.harness.io/api/1.0/stream?cluster=2 net::ERR_ABORTED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Scroll 1/50 (height: 5974)
+[UNIMARC] Scroll 2/50 (height: 5979)
+[UNIMARC] Height stable (1/3)
+[UNIMARC] Scroll 3/50 (height: 5979)
+[UNIMARC] Height stable (2/3)
+[UNIMARC] Scroll 4/50 (height: 5979)
+[UNIMARC] Height stable (3/3)
+[UNIMARC] Scroll 5/50 (height: 5979)
+[UNIMARC] Scrolling complete: 5 scrolls, final height: 5979
+[UNIMARC] Failed to load https://www.unimarc.cl/category/hogar#?page=1: this.extractProductsFromApis is not a function
+[UNIMARC] Attempting to load: https://www.unimarc.cl/category/hogar#?p=1
+[UNIMARC] Page returned undefined: https://www.unimarc.cl/category/hogar#?p=1
+[UNIMARC] Attempting to load: https://www.unimarc.cl/category/hogar
+[UNIMARC] Request failed: https://config.ff.harness.io/api/1.0/stream?cluster=2 net::ERR_ABORTED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-TSJPRBR net::ERR_FAILED
+[UNIMARC] Scroll 1/50 (height: 5974)
+[UNIMARC] Height stable (1/3)
+[UNIMARC] Scroll 2/50 (height: 5974)
+[UNIMARC] Scroll 3/50 (height: 5979)
+[UNIMARC] Height stable (1/3)
+[UNIMARC] Scroll 4/50 (height: 5979)
+[UNIMARC] Height stable (2/3)
+[UNIMARC] Scroll 5/50 (height: 5979)
+[UNIMARC] Height stable (3/3)
+[UNIMARC] Scroll 6/50 (height: 5979)
+[UNIMARC] Scrolling complete: 6 scrolls, final height: 5979
+[UNIMARC] Failed to load https://www.unimarc.cl/category/hogar: this.extractProductsFromApis is not a function
+[UNIMARC] No valid URL pattern worked for page 1 of hogar
+[UNIMARC] Completed scraping category hogar: 0 total products
+[UNIMARC] Category hogar completed. Estimated remaining time: 0 minutes
+[UNIMARC] Updated global products: 0 total products across 0 stores
+[UNIMARC] Removed old backup: products-backup-1755076104770.json
+[UNIMARC] Saved 0 products to /home/kuromatsu/Documents/ΛRΛMΛC/Websites/Minimarket/data/products/unimarc/products.json
+[UNIMARC] Scraping duration: 17 minutes
+[UNIMARC] ============================================================
+[UNIMARC] MASS SCRAPING COMPLETE
+[UNIMARC] Store: unimarc
+[UNIMARC] Total Duration: 17 minutes (1034 seconds)
+[UNIMARC] Categories scraped: 7/7
+[UNIMARC] Pages visited: 0
+[UNIMARC] Products found: 0
+[UNIMARC] Images downloaded: 0
+[UNIMARC] Retries: 0
+[UNIMARC] Errors: 0
+[UNIMARC] Success rate: 0%
+[UNIMARC] Average products per page: 0
+[UNIMARC] Products per minute: 0
+[UNIMARC] ============================================================

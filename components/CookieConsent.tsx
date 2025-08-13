@@ -204,7 +204,7 @@ export default function CookieConsent() {
           role="dialog"
           aria-modal="true"
           aria-label="Consentimiento de cookies"
-          className="fixed inset-x-0 bottom-0 z-[1000] pointer-events-auto border-t bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80 data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=open]:slide-in-from-bottom data-[state=closed]:slide-out-to-bottom"
+          className="fixed inset-x-0 bottom-0 z-[10000] pointer-events-auto border-t bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80 data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=open]:slide-in-from-bottom data-[state=closed]:slide-out-to-bottom"
         >
           <div className="mx-auto max-w-screen-xl container-padding py-4 pointer-events-auto">
             <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">

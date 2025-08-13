@@ -1,0 +1,42 @@
+{
+  "sessionId": "fc7d0f74-ea2b-4a29-b8c7-98130e8c7991",
+  "timestamp": "2025-08-13T18:10:08.463Z",
+  "duration": {
+    "total": 3098747,
+    "minutes": 52,
+    "productRate": 1
+  },
+  "summary": {
+    "totalProducts": 38,
+    "targetReached": false,
+    "storesProcessed": 9,
+    "storesSuccessful": 4,
+    "errorsTotal": 1
+  },
+  "breakdown": {
+    "byStore": {
+      "santa isabel": 20,
+      "tottus": 5,
+      "falabella": 3,
+      "sodimac": 10
+    },
+    "byCategory": {
+      "bebidas": 31,
+      "panaderia": 7
+    },
+    "byStrategy": {
+      "StandardStrategy": 29
+    },
+    "qualityMetrics": {
+      "withImages": 20,
+      "withPrices": 25,
+      "withDescriptions": 37,
+      "withBrands": 38
+    }
+  },
+  "performance": {
+    "averageResponseTime": 472414,
+    "successRate": "44.44%",
+    "errorRate": "3.45%"
+  }
+}

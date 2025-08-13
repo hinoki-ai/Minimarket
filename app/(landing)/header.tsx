@@ -32,7 +32,7 @@ const menuItems = [
 
 export const HeroHeader = () => {
     const pathname = usePathname()
-    const isDashboard = pathname?.startsWith('/dashboard') ?? false
+    const isDashboard = pathname?.startsWith('/carrito') ?? false
     const [menuState, setMenuState] = React.useState(false)
     const [isScrolled, setIsScrolled] = React.useState(false)
     const [isSearchOpen, setIsSearchOpen] = React.useState(false)
@@ -155,7 +155,7 @@ export const HeroHeader = () => {
                         </div>
 
                         <div className="hidden lg:flex lg:items-center lg:gap-4 xl:gap-6">
-                            <Link href="/dashboard" aria-label="Abrir carrito" className="relative inline-flex items-center justify-center h-10 w-10 lg:h-12 lg:w-12 rounded-full border subtle-hover">
+                            <Link href="/carrito" aria-label="Abrir carrito" className="relative inline-flex items-center justify-center h-10 w-10 lg:h-12 lg:w-12 rounded-full border subtle-hover">
                                 <ShoppingCart className="h-5 w-5 lg:h-6 lg:w-6" />
                                 <CartItemCount sessionId={sessionId ?? null} />
                             </Link>
@@ -186,7 +186,7 @@ export const HeroHeader = () => {
                                 </ul>
                             </div>
                             <div className="flex w-full flex-col space-y-3 sm:flex-row sm:gap-3 sm:space-y-0 md:w-fit items-center">
-                                <Link href="/dashboard" aria-label="Abrir carrito" className="relative inline-flex items-center justify-center h-10 w-10 rounded-full border subtle-hover">
+                                <Link href="/carrito" aria-label="Abrir carrito" className="relative inline-flex items-center justify-center h-10 w-10 rounded-full border subtle-hover">
                                     <ShoppingCart className="h-5 w-5" />
                                     <CartItemCount sessionId={sessionId ?? null} />
                                 </Link>

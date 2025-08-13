@@ -3,15 +3,15 @@ import { redirect } from 'next/navigation'
 
 export const metadata: Metadata = {
   title: "Carrito | Redirigiendo…",
-  description: "Esta ruta ahora es Mi Cuenta. Redirigiendo a /dashboard.",
-  alternates: { canonical: "/dashboard" },
+  description: "Esta ruta ahora es Carrito. Redirigiendo a /carrito.",
+  alternates: { canonical: "/carrito" },
   openGraph: {
-    title: "Mi Cuenta | Minimarket ARAMAC",
+    title: "Carrito | Minimarket ARAMAC",
     description: "Carrito, pedidos y perfil en un solo lugar.",
-    url: "/dashboard",
+    url: "/carrito",
   },
 };
 
 export default function CartPage() {
-  redirect('/dashboard')
+  redirect('/carrito')
 }

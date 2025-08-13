@@ -1,0 +1,51 @@
+{
+  "sessionId": "360997f1-e917-4a82-85da-56e7ec287ff1",
+  "startTime": 1755105735676,
+  "options": {
+    "strategy": "intelligent",
+    "stores": [
+      "tottus"
+    ],
+    "categories": [
+      "bebidas",
+      "panaderia",
+      "carnes",
+      "lacteos",
+      "snacks",
+      "aseo",
+      "hogar",
+      "herramientas",
+      "ferreteria",
+      "construccion",
+      "electricidad",
+      "jardineria",
+      "pinturas",
+      "plomeria"
+    ],
+    "maxProducts": 30,
+    "concurrent": 1,
+    "retryAttempts": 5,
+    "outputDir": "/home/kuromatsu/Documents/ΛRΛMΛC/Websites/Minimarket/data/ultra-scraper-test",
+    "resumeSession": true,
+    "realTime": true,
+    "verbose": true,
+    "resume": true
+  },
+  "products": 5,
+  "statistics": {
+    "tottus": {
+      "name": "tottus",
+      "startTime": 1755105735702,
+      "attempts": 1,
+      "products": 60,
+      "errors": 0,
+      "strategies": [
+        "StandardStrategy"
+      ],
+      "endTime": 1755105740755,
+      "duration": 5053
+    }
+  },
+  "errors": [],
+  "timestamp": "2025-08-13T17:22:20.756Z"
+}

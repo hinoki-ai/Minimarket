@@ -1,0 +1,31 @@
+{
+  "store": "easy",
+  "totalProducts": 0,
+  "categories": [],
+  "categoryBreakdown": {},
+  "priceRange": {
+    "min": 0,
+    "max": 0,
+    "average": 0
+  },
+  "brandsCount": 0,
+  "averageRating": 0,
+  "lastUpdated": "2025-08-13T12:58:02.309Z",
+  "scrapingDuration": 685,
+  "stats": {
+    "pagesVisited": 0,
+    "productsFound": 0,
+    "imagesDownloaded": 0,
+    "errors": 0,
+    "retries": 0,
+    "categoriesCompleted": 14,
+    "totalCategories": 14,
+    "startTime": "2025-08-13T12:46:37.757Z",
+    "lastSaved": "2025-08-13T12:58:02.309Z",
+    "estimatedRemaining": null,
+    "endTime": "2025-08-13T12:58:02.309Z",
+    "duration": 684552,
+    "averageProductsPerPage": 0,
+    "errorRate": 0
+  }
+}

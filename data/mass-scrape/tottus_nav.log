@@ -1,0 +1,228 @@
+[TOTTUS] Starting Enhanced Universal Product Scraper
+[TOTTUS] Store: tottus
+[TOTTUS] Categories: bebidas, snacks, lacteos, carnes, panaderia, aseo, hogar
+[TOTTUS] Max products: 8000
+[TOTTUS] Max pages per category: 1000
+[TOTTUS] Dry run: false
+[TOTTUS] Navigating to https://www.tottus.cl
+[TOTTUS] Page error: Cannot set properties of null (setting 'onclick')
+[TOTTUS] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-MJQ3SH25 net::ERR_FAILED
+[TOTTUS] Page error: Cannot read properties of null (reading 'style')
+[TOTTUS] Request failed: https://dev.visualwebsiteoptimizer.com/j.php?a=1038064&u=https%3A%2F%2Fwww.tottus.cl%2Ftottus-cl&f=1&vn=1.5 net::ERR_FAILED
+[TOTTUS] Discovered 7 category URLs from homepage navigation
+[TOTTUS] Starting category 1/7: bebidas
+[TOTTUS] Scraping category: bebidas with 1 URL patterns
+[TOTTUS] Attempting to load: https://www.tottus.cl/tottus-cl/lista/CATG27195/Bebidas-Vegetales?page=1
+[TOTTUS] Page returned 403: https://www.tottus.cl/tottus-cl/lista/CATG27195/Bebidas-Vegetales?page=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/tottus-cl/lista/CATG27195/Bebidas-Vegetales?p=1
+[TOTTUS] Request failed: https://www.tottus.cl/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=96e73171af602a02 net::ERR_ABORTED
+[TOTTUS] Page returned 403: https://www.tottus.cl/tottus-cl/lista/CATG27195/Bebidas-Vegetales?p=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/tottus-cl/lista/CATG27195/Bebidas-Vegetales?pagina=1
+[TOTTUS] Page returned 403: https://www.tottus.cl/tottus-cl/lista/CATG27195/Bebidas-Vegetales?pagina=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/tottus-cl/lista/CATG27195/Bebidas-Vegetales/1
+[TOTTUS] Request failed: https://challenges.cloudflare.com/turnstile/v0/b/8359bcf47b68/api.js?onload=Xwypo8&render=explicit net::ERR_ABORTED
+[TOTTUS] Page returned 403: https://www.tottus.cl/tottus-cl/lista/CATG27195/Bebidas-Vegetales/1
+[TOTTUS] Attempting to load: https://www.tottus.cl/tottus-cl/lista/CATG27195/Bebidas-Vegetales&page=1
+[TOTTUS] Request failed: https://challenges.cloudflare.com/turnstile/v0/b/8359bcf47b68/api.js?onload=Xwypo8&render=explicit net::ERR_ABORTED
+[TOTTUS] Page returned 403: https://www.tottus.cl/tottus-cl/lista/CATG27195/Bebidas-Vegetales&page=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/tottus-cl/lista/CATG27195/Bebidas-Vegetales#?page=1
+[TOTTUS] Request failed: https://challenges.cloudflare.com/turnstile/v0/b/8359bcf47b68/api.js?onload=Xwypo8&render=explicit net::ERR_ABORTED
+[TOTTUS] Page returned 403: https://www.tottus.cl/tottus-cl/lista/CATG27195/Bebidas-Vegetales#?page=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/tottus-cl/lista/CATG27195/Bebidas-Vegetales#?p=1
+[TOTTUS] Request failed: https://www.tottus.cl/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=96e7317cccef2a02 net::ERR_ABORTED
+[TOTTUS] Page returned 403: https://www.tottus.cl/tottus-cl/lista/CATG27195/Bebidas-Vegetales#?p=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/tottus-cl/lista/CATG27195/Bebidas-Vegetales
+[TOTTUS] Request failed: https://challenges.cloudflare.com/turnstile/v0/b/8359bcf47b68/api.js?onload=Xwypo8&render=explicit net::ERR_ABORTED
+[TOTTUS] Page returned 403: https://www.tottus.cl/tottus-cl/lista/CATG27195/Bebidas-Vegetales
+[TOTTUS] No valid URL pattern worked for page 1 of bebidas
+[TOTTUS] Completed scraping category bebidas: 0 total products
+[TOTTUS] Category bebidas completed. Estimated remaining time: 2 minutes
+[TOTTUS] Starting category 2/7: snacks
+[TOTTUS] Scraping category: snacks with 1 URL patterns
+[TOTTUS] Attempting to load: https://www.tottus.cl/tottus-cl/lista/CATG27328/Salsas-Dulces?page=1
+[TOTTUS] Request failed: https://www.tottus.cl/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=96e7317ece002a02 net::ERR_ABORTED
+[TOTTUS] Page returned 403: https://www.tottus.cl/tottus-cl/lista/CATG27328/Salsas-Dulces?page=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/tottus-cl/lista/CATG27328/Salsas-Dulces?p=1
+[TOTTUS] Request failed: https://www.tottus.cl/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=96e731803e9d2a02 net::ERR_ABORTED
+[TOTTUS] Page returned 403: https://www.tottus.cl/tottus-cl/lista/CATG27328/Salsas-Dulces?p=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/tottus-cl/lista/CATG27328/Salsas-Dulces?pagina=1
+[TOTTUS] Request failed: https://www.tottus.cl/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=96e73182afde2a02 net::ERR_ABORTED
+[TOTTUS] Page returned 403: https://www.tottus.cl/tottus-cl/lista/CATG27328/Salsas-Dulces?pagina=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/tottus-cl/lista/CATG27328/Salsas-Dulces/1
+[TOTTUS] Request failed: https://challenges.cloudflare.com/turnstile/v0/b/8359bcf47b68/api.js?onload=Xwypo8&render=explicit net::ERR_ABORTED
+[TOTTUS] Page returned 403: https://www.tottus.cl/tottus-cl/lista/CATG27328/Salsas-Dulces/1
+[TOTTUS] Attempting to load: https://www.tottus.cl/tottus-cl/lista/CATG27328/Salsas-Dulces&page=1
+[TOTTUS] Request failed: https://challenges.cloudflare.com/turnstile/v0/b/8359bcf47b68/api.js?onload=Xwypo8&render=explicit net::ERR_ABORTED
+[TOTTUS] Page returned 403: https://www.tottus.cl/tottus-cl/lista/CATG27328/Salsas-Dulces&page=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/tottus-cl/lista/CATG27328/Salsas-Dulces#?page=1
+[TOTTUS] Request failed: https://challenges.cloudflare.com/turnstile/v0/b/8359bcf47b68/api.js?onload=Xwypo8&render=explicit net::ERR_ABORTED
+[TOTTUS] Page returned 403: https://www.tottus.cl/tottus-cl/lista/CATG27328/Salsas-Dulces#?page=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/tottus-cl/lista/CATG27328/Salsas-Dulces#?p=1
+[TOTTUS] Request failed: https://www.tottus.cl/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=96e73186aa652a02 net::ERR_ABORTED
+[TOTTUS] Page returned 403: https://www.tottus.cl/tottus-cl/lista/CATG27328/Salsas-Dulces#?p=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/tottus-cl/lista/CATG27328/Salsas-Dulces
+[TOTTUS] Request failed: https://www.tottus.cl/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=96e73187fb412a02 net::ERR_ABORTED
+[TOTTUS] Page returned 403: https://www.tottus.cl/tottus-cl/lista/CATG27328/Salsas-Dulces
+[TOTTUS] No valid URL pattern worked for page 1 of snacks
+[TOTTUS] Completed scraping category snacks: 0 total products
+[TOTTUS] Category snacks completed. Estimated remaining time: 1 minutes
+[TOTTUS] Starting category 3/7: lacteos
+[TOTTUS] Scraping category: lacteos with 1 URL patterns
+[TOTTUS] Attempting to load: https://www.tottus.cl/tottus-cl/lista/CATG27329/Leches-Condensadas-y-Evaporadas?page=1
+[TOTTUS] Request failed: https://challenges.cloudflare.com/turnstile/v0/b/8359bcf47b68/api.js?onload=Xwypo8&render=explicit net::ERR_ABORTED
+[TOTTUS] Request failed: https://www.tottus.cl/cdn-cgi/challenge-platform/h/b/flow/ov1/714889257:1755073802:Am55hekcvyxPKemAbT9cP4-wEIRa62PHJrii5jrGvmg/96e731888ba12a02/nREDNjJeo6F2s0IBL2nKcFq7.lSFPfjjQZkD5HUoI2Y-1755077423-1.2.1.1-hG8.20KZWe.K58BIcYBxlC_hyldpOjHaudjBPN08gAdAKPdBpWJggrr7sOYaFwe0 net::ERR_ABORTED
+[TOTTUS] Page returned 403: https://www.tottus.cl/tottus-cl/lista/CATG27329/Leches-Condensadas-y-Evaporadas?page=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/tottus-cl/lista/CATG27329/Leches-Condensadas-y-Evaporadas?p=1
+[TOTTUS] Request failed: https://www.tottus.cl/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=96e7318d2ea32a02 net::ERR_ABORTED
+[TOTTUS] Page returned 403: https://www.tottus.cl/tottus-cl/lista/CATG27329/Leches-Condensadas-y-Evaporadas?p=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/tottus-cl/lista/CATG27329/Leches-Condensadas-y-Evaporadas?pagina=1
+[TOTTUS] Request failed: https://www.tottus.cl/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=96e7318f2ff22a02 net::ERR_ABORTED
+[TOTTUS] Page returned 403: https://www.tottus.cl/tottus-cl/lista/CATG27329/Leches-Condensadas-y-Evaporadas?pagina=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/tottus-cl/lista/CATG27329/Leches-Condensadas-y-Evaporadas/1
+[TOTTUS] Request failed: https://www.tottus.cl/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=96e7318fd8592a02 net::ERR_ABORTED
+[TOTTUS] Page returned 403: https://www.tottus.cl/tottus-cl/lista/CATG27329/Leches-Condensadas-y-Evaporadas/1
+[TOTTUS] Attempting to load: https://www.tottus.cl/tottus-cl/lista/CATG27329/Leches-Condensadas-y-Evaporadas&page=1
+[TOTTUS] Request failed: https://www.tottus.cl/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=96e7319098bf2a02 net::ERR_ABORTED
+[TOTTUS] Page returned 403: https://www.tottus.cl/tottus-cl/lista/CATG27329/Leches-Condensadas-y-Evaporadas&page=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/tottus-cl/lista/CATG27329/Leches-Condensadas-y-Evaporadas#?page=1
+[TOTTUS] Request failed: https://www.tottus.cl/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=96e73191391c2a02 net::ERR_ABORTED
+[TOTTUS] Page returned 403: https://www.tottus.cl/tottus-cl/lista/CATG27329/Leches-Condensadas-y-Evaporadas#?page=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/tottus-cl/lista/CATG27329/Leches-Condensadas-y-Evaporadas#?p=1
+[TOTTUS] Request failed: https://www.tottus.cl/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=96e73191e97c2a02 net::ERR_ABORTED
+[TOTTUS] Page returned 403: https://www.tottus.cl/tottus-cl/lista/CATG27329/Leches-Condensadas-y-Evaporadas#?p=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/tottus-cl/lista/CATG27329/Leches-Condensadas-y-Evaporadas
+[TOTTUS] Request failed: https://challenges.cloudflare.com/turnstile/v0/b/8359bcf47b68/api.js?onload=Xwypo8&render=explicit net::ERR_ABORTED
+[TOTTUS] Page returned 403: https://www.tottus.cl/tottus-cl/lista/CATG27329/Leches-Condensadas-y-Evaporadas
+[TOTTUS] No valid URL pattern worked for page 1 of lacteos
+[TOTTUS] Completed scraping category lacteos: 0 total products
+[TOTTUS] Category lacteos completed. Estimated remaining time: 1 minutes
+[TOTTUS] Starting category 4/7: carnes
+[TOTTUS] Scraping category: carnes with 1 URL patterns
+[TOTTUS] Attempting to load: https://www.tottus.cl/tottus-cl/lista/CATG27301/Pescados-en-Conserva?page=1
+[TOTTUS] Request failed: https://www.tottus.cl/cdn-cgi/challenge-platform/h/b/flow/ov1/1162909761:1755073733:dON7DsHGqEGFqNniTuI1Fmb2ZoOHNHRfsucpzbuC8ho/96e731942aa22a02/ateWL9thrntsCzK5gU2L5PUp.NiRRc13fGy8p8Z9fwk-1755077425-1.2.1.1-vmR0FvPn.70FA.Ux5H70ta.I.LR4X7kCvkhRj5JvRzTFqlgY4_2kngurAarqbr8H net::ERR_ABORTED
+[TOTTUS] Request failed: https://challenges.cloudflare.com/turnstile/v0/b/8359bcf47b68/api.js?onload=Xwypo8&render=explicit net::ERR_ABORTED
+[TOTTUS] Page returned 403: https://www.tottus.cl/tottus-cl/lista/CATG27301/Pescados-en-Conserva?page=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/tottus-cl/lista/CATG27301/Pescados-en-Conserva?p=1
+[TOTTUS] Request failed: https://www.tottus.cl/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=96e731969be32a02 net::ERR_ABORTED
+[TOTTUS] Page returned 403: https://www.tottus.cl/tottus-cl/lista/CATG27301/Pescados-en-Conserva?p=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/tottus-cl/lista/CATG27301/Pescados-en-Conserva?pagina=1
+[TOTTUS] Request failed: https://www.tottus.cl/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=96e7319d8fbc2a02 net::ERR_ABORTED
+[TOTTUS] Page returned 403: https://www.tottus.cl/tottus-cl/lista/CATG27301/Pescados-en-Conserva?pagina=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/tottus-cl/lista/CATG27301/Pescados-en-Conserva/1
+[TOTTUS] Request failed: https://www.tottus.cl/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=96e731b51c692a02 net::ERR_ABORTED
+[TOTTUS] Page returned 403: https://www.tottus.cl/tottus-cl/lista/CATG27301/Pescados-en-Conserva/1
+[TOTTUS] Attempting to load: https://www.tottus.cl/tottus-cl/lista/CATG27301/Pescados-en-Conserva&page=1
+[TOTTUS] Request failed: https://challenges.cloudflare.com/turnstile/v0/b/8359bcf47b68/api.js?onload=Xwypo8&render=explicit net::ERR_ABORTED
+[TOTTUS] Page returned 403: https://www.tottus.cl/tottus-cl/lista/CATG27301/Pescados-en-Conserva&page=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/tottus-cl/lista/CATG27301/Pescados-en-Conserva#?page=1
+[TOTTUS] Request failed: https://www.tottus.cl/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=96e731b63d142a02 net::ERR_ABORTED
+[TOTTUS] Page returned 403: https://www.tottus.cl/tottus-cl/lista/CATG27301/Pescados-en-Conserva#?page=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/tottus-cl/lista/CATG27301/Pescados-en-Conserva#?p=1
+[TOTTUS] Request failed: https://www.tottus.cl/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=96e731b73dbd2a02 net::ERR_ABORTED
+[TOTTUS] Page returned 403: https://www.tottus.cl/tottus-cl/lista/CATG27301/Pescados-en-Conserva#?p=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/tottus-cl/lista/CATG27301/Pescados-en-Conserva
+[TOTTUS] Request failed: https://challenges.cloudflare.com/turnstile/v0/b/8359bcf47b68/api.js?onload=Xwypo8&render=explicit net::ERR_ABORTED
+[TOTTUS] Page returned 403: https://www.tottus.cl/tottus-cl/lista/CATG27301/Pescados-en-Conserva
+[TOTTUS] No valid URL pattern worked for page 1 of carnes
+[TOTTUS] Completed scraping category carnes: 0 total products
+[TOTTUS] Category carnes completed. Estimated remaining time: 0 minutes
+[TOTTUS] Starting category 5/7: panaderia
+[TOTTUS] Scraping category: panaderia with 1 URL patterns
+[TOTTUS] Attempting to load: https://www.tottus.cl/tottus-cl/lista/CATG27140/Panaderia?page=1
+[TOTTUS] Request failed: https://www.tottus.cl/cdn-cgi/challenge-platform/h/b/flow/ov1/222499624:1755073693:KIjNDUq_MqdbCRdQlR6Iz1vcTornzEiX5ZTr_wkyKzg/96e731b84e492a02/nrP3O8xj9.1Tjr05GJgQ_Q292CMTmEwET4BPSdC7OMk-1755077431-1.2.1.1-Rewreisfctba8NnQ0aV9qtEmI.omUnnn3BRsKwb0q6KWGboWevvZYmtOqvGPQVFA net::ERR_ABORTED
+[TOTTUS] Page returned 403: https://www.tottus.cl/tottus-cl/lista/CATG27140/Panaderia?page=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/tottus-cl/lista/CATG27140/Panaderia?p=1
+[TOTTUS] Request failed: https://challenges.cloudflare.com/turnstile/v0/b/8359bcf47b68/api.js?onload=Xwypo8&render=explicit net::ERR_ABORTED
+[TOTTUS] Page returned 403: https://www.tottus.cl/tottus-cl/lista/CATG27140/Panaderia?p=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/tottus-cl/lista/CATG27140/Panaderia?pagina=1
+[TOTTUS] Request failed: https://www.tottus.cl/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=96e731bc38612a02 net::ERR_ABORTED
+[TOTTUS] Page returned 403: https://www.tottus.cl/tottus-cl/lista/CATG27140/Panaderia?pagina=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/tottus-cl/lista/CATG27140/Panaderia/1
+[TOTTUS] Request failed: https://www.tottus.cl/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=96e731bd590e2a02 net::ERR_ABORTED
+[TOTTUS] Page returned 403: https://www.tottus.cl/tottus-cl/lista/CATG27140/Panaderia/1
+[TOTTUS] Attempting to load: https://www.tottus.cl/tottus-cl/lista/CATG27140/Panaderia&page=1
+[TOTTUS] Request failed: https://www.tottus.cl/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=96e731be096e2a02 net::ERR_ABORTED
+[TOTTUS] Page returned 403: https://www.tottus.cl/tottus-cl/lista/CATG27140/Panaderia&page=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/tottus-cl/lista/CATG27140/Panaderia#?page=1
+[TOTTUS] Request failed: https://challenges.cloudflare.com/turnstile/v0/b/8359bcf47b68/api.js?onload=Xwypo8&render=explicit net::ERR_ABORTED
+[TOTTUS] Page returned 403: https://www.tottus.cl/tottus-cl/lista/CATG27140/Panaderia#?page=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/tottus-cl/lista/CATG27140/Panaderia#?p=1
+[TOTTUS] Page returned 403: https://www.tottus.cl/tottus-cl/lista/CATG27140/Panaderia#?p=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/tottus-cl/lista/CATG27140/Panaderia
+[TOTTUS] Page returned 403: https://www.tottus.cl/tottus-cl/lista/CATG27140/Panaderia
+[TOTTUS] No valid URL pattern worked for page 1 of panaderia
+[TOTTUS] Completed scraping category panaderia: 0 total products
+[TOTTUS] Category panaderia completed. Estimated remaining time: 0 minutes
+[TOTTUS] Starting category 6/7: aseo
+[TOTTUS] Scraping category: aseo with 1 URL patterns
+[TOTTUS] Attempting to load: https://www.tottus.cl/tottus-cl/lista/CATG27138/Accesorios-de-Aseo-y-Cocina?page=1
+[TOTTUS] Request failed: https://www.tottus.cl/cdn-cgi/challenge-platform/h/b/flow/ov1/1463967402:1755073704:0DZsmdmbk2PPBb1QsWWayaSaLWHmMuu-hS354KtAxyE/96e731c13bb92a02/ZnaIGqwJAp4UjGa.bkNcLYYxwk_B6zz5InJDTpieD4k-1755077432-1.2.1.1-7HJm_EIL8LHS2XnHt4AFJx67NiB6rPjqYmc6BoXeLkgR.Iukp_hwjkeLd0yeub52 net::ERR_ABORTED
+[TOTTUS] Page returned 403: https://www.tottus.cl/tottus-cl/lista/CATG27138/Accesorios-de-Aseo-y-Cocina?page=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/tottus-cl/lista/CATG27138/Accesorios-de-Aseo-y-Cocina?p=1
+[TOTTUS] Request failed: https://challenges.cloudflare.com/turnstile/v0/b/8359bcf47b68/api.js?onload=Xwypo8&render=explicit net::ERR_ABORTED
+[TOTTUS] Page returned 403: https://www.tottus.cl/tottus-cl/lista/CATG27138/Accesorios-de-Aseo-y-Cocina?p=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/tottus-cl/lista/CATG27138/Accesorios-de-Aseo-y-Cocina?pagina=1
+[TOTTUS] Request failed: https://www.tottus.cl/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=96e731c7af1d2a02 net::ERR_ABORTED
+[TOTTUS] Page returned 403: https://www.tottus.cl/tottus-cl/lista/CATG27138/Accesorios-de-Aseo-y-Cocina?pagina=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/tottus-cl/lista/CATG27138/Accesorios-de-Aseo-y-Cocina/1
+[TOTTUS] Request failed: https://challenges.cloudflare.com/turnstile/v0/b/8359bcf47b68/api.js?onload=Xwypo8&render=explicit net::ERR_ABORTED
+[TOTTUS] Page returned 403: https://www.tottus.cl/tottus-cl/lista/CATG27138/Accesorios-de-Aseo-y-Cocina/1
+[TOTTUS] Attempting to load: https://www.tottus.cl/tottus-cl/lista/CATG27138/Accesorios-de-Aseo-y-Cocina&page=1
+[TOTTUS] Request failed: https://www.tottus.cl/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=96e731c9485e2a02 net::ERR_ABORTED
+[TOTTUS] Page returned 403: https://www.tottus.cl/tottus-cl/lista/CATG27138/Accesorios-de-Aseo-y-Cocina&page=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/tottus-cl/lista/CATG27138/Accesorios-de-Aseo-y-Cocina#?page=1
+[TOTTUS] Request failed: https://www.tottus.cl/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=96e731ca490e2a02 net::ERR_ABORTED
+[TOTTUS] Page returned 403: https://www.tottus.cl/tottus-cl/lista/CATG27138/Accesorios-de-Aseo-y-Cocina#?page=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/tottus-cl/lista/CATG27138/Accesorios-de-Aseo-y-Cocina#?p=1
+[TOTTUS] Page returned 403: https://www.tottus.cl/tottus-cl/lista/CATG27138/Accesorios-de-Aseo-y-Cocina#?p=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/tottus-cl/lista/CATG27138/Accesorios-de-Aseo-y-Cocina
+[TOTTUS] Request failed: https://www.tottus.cl/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=96e731cbb9d02a02 net::ERR_ABORTED
+[TOTTUS] Page returned 403: https://www.tottus.cl/tottus-cl/lista/CATG27138/Accesorios-de-Aseo-y-Cocina
+[TOTTUS] No valid URL pattern worked for page 1 of aseo
+[TOTTUS] Completed scraping category aseo: 0 total products
+[TOTTUS] Category aseo completed. Estimated remaining time: 0 minutes
+[TOTTUS] Starting category 7/7: hogar
+[TOTTUS] Scraping category: hogar with 1 URL patterns
+[TOTTUS] Attempting to load: https://www.tottus.cl/tottus-cl/lista/CATG27134/Papeles-para-el-Hogar?page=1
+[TOTTUS] Request failed: https://challenges.cloudflare.com/turnstile/v0/b/8359bcf47b68/api.js?onload=Xwypo8&render=explicit net::ERR_ABORTED
+[TOTTUS] Page returned 403: https://www.tottus.cl/tottus-cl/lista/CATG27134/Papeles-para-el-Hogar?page=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/tottus-cl/lista/CATG27134/Papeles-para-el-Hogar?p=1
+[TOTTUS] Request failed: https://www.tottus.cl/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=96e731d72faa2a02 net::ERR_ABORTED
+[TOTTUS] Page returned 403: https://www.tottus.cl/tottus-cl/lista/CATG27134/Papeles-para-el-Hogar?p=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/tottus-cl/lista/CATG27134/Papeles-para-el-Hogar?pagina=1
+[TOTTUS] Request failed: https://www.tottus.cl/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=96e731d8b8812a02 net::ERR_ABORTED
+[TOTTUS] Page returned 403: https://www.tottus.cl/tottus-cl/lista/CATG27134/Papeles-para-el-Hogar?pagina=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/tottus-cl/lista/CATG27134/Papeles-para-el-Hogar/1
+[TOTTUS] Request failed: https://www.tottus.cl/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=96e731d968e32a02 net::ERR_ABORTED
+[TOTTUS] Page returned 403: https://www.tottus.cl/tottus-cl/lista/CATG27134/Papeles-para-el-Hogar/1
+[TOTTUS] Attempting to load: https://www.tottus.cl/tottus-cl/lista/CATG27134/Papeles-para-el-Hogar&page=1
+[TOTTUS] Request failed: https://www.tottus.cl/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=96e731d9f9282a02 net::ERR_ABORTED
+[TOTTUS] Page returned 403: https://www.tottus.cl/tottus-cl/lista/CATG27134/Papeles-para-el-Hogar&page=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/tottus-cl/lista/CATG27134/Papeles-para-el-Hogar#?page=1
+[TOTTUS] Request failed: https://www.tottus.cl/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=96e731daa9822a02 net::ERR_ABORTED
+[TOTTUS] Page returned 403: https://www.tottus.cl/tottus-cl/lista/CATG27134/Papeles-para-el-Hogar#?page=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/tottus-cl/lista/CATG27134/Papeles-para-el-Hogar#?p=1
+[TOTTUS] Request failed: https://www.tottus.cl/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=96e731db5a1b2a02 net::ERR_ABORTED
+[TOTTUS] Page returned 403: https://www.tottus.cl/tottus-cl/lista/CATG27134/Papeles-para-el-Hogar#?p=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/tottus-cl/lista/CATG27134/Papeles-para-el-Hogar
+[TOTTUS] Page returned 403: https://www.tottus.cl/tottus-cl/lista/CATG27134/Papeles-para-el-Hogar
+[TOTTUS] No valid URL pattern worked for page 1 of hogar
+[TOTTUS] Completed scraping category hogar: 0 total products
+[TOTTUS] Category hogar completed. Estimated remaining time: 0 minutes
+[TOTTUS] Updated global products: 0 total products across 0 stores
+[TOTTUS] Saved 0 products to /home/kuromatsu/Documents/ΛRΛMΛC/Websites/Minimarket/data/products/tottus/products.json
+[TOTTUS] Scraping duration: 1 minutes
+[TOTTUS] ============================================================
+[TOTTUS] MASS SCRAPING COMPLETE
+[TOTTUS] Store: tottus
+[TOTTUS] Total Duration: 1 minutes (36 seconds)
+[TOTTUS] Categories scraped: 7/7
+[TOTTUS] Pages visited: 0
+[TOTTUS] Products found: 0
+[TOTTUS] Images downloaded: 0
+[TOTTUS] Retries: 0
+[TOTTUS] Errors: 0
+[TOTTUS] Success rate: 0%
+[TOTTUS] Average products per page: 0
+[TOTTUS] Products per minute: 0
+[TOTTUS] ============================================================

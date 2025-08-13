@@ -1,0 +1,159 @@
+[
+  {
+    "id": "sprite-cachantn-agua-15l",
+    "name": "Cachantún Agua 1.5L",
+    "brand": "Sprite",
+    "category": "bebidas",
+    "price": 1943,
+    "currency": "CLP",
+    "description": "Cachantún Agua 1.5L - Producto de calidad de Sprite",
+    "shortDescription": "Cachantún Agua 1.5L",
+    "imageUrl": "/images/products/bebidas/sprite-cachantn-agua-15l.webp",
+    "thumbnailUrl": "/images/products/bebidas/thumbs/sprite-cachantn-agua-15l.webp",
+    "stock": 95,
+    "inStock": true,
+    "rating": 5,
+    "reviewCount": 171,
+    "popularity": 60,
+    "tags": [
+      "bebidas",
+      "familiar"
+    ],
+    "origin": "Chile",
+    "store": {
+      "name": "lider",
+      "url": "https://www.lider.cl/product/sprite-cachantn-agua-15l",
+      "scraped": "2025-08-13T08:33:58.864Z",
+      "section": "bebidas"
+    },
+    "sourceFile": "validated-products.json",
+    "createdAt": "2025-08-13T08:33:58.864Z",
+    "updatedAt": "2025-08-13T16:52:23.633Z"
+  },
+  {
+    "id": "watts-fanta-naranja-500ml",
+    "name": "Fanta Naranja 500ml",
+    "brand": "Watts",
+    "category": "bebidas",
+    "price": 5164,
+    "currency": "CLP",
+    "description": "Fanta Naranja 500ml - Producto de calidad de Watts",
+    "shortDescription": "Fanta Naranja 500ml",
+    "imageUrl": "/images/products/bebidas/watts-fanta-naranja-500ml.webp",
+    "thumbnailUrl": "/images/products/bebidas/thumbs/watts-fanta-naranja-500ml.webp",
+    "stock": 48,
+    "inStock": true,
+    "rating": 4,
+    "reviewCount": 141,
+    "popularity": 30,
+    "tags": [
+      "bebidas",
+      "individual"
+    ],
+    "origin": "Chile",
+    "store": {
+      "name": "lider",
+      "url": "https://www.lider.cl/product/watts-fanta-naranja-500ml",
+      "scraped": "2025-08-13T08:33:58.864Z",
+      "section": "bebidas"
+    },
+    "sourceFile": "validated-products.json",
+    "createdAt": "2025-08-13T08:33:58.864Z",
+    "updatedAt": "2025-08-13T16:52:23.633Z"
+  },
+  {
+    "id": "fanta-coca-cola-15l",
+    "name": "Coca-Cola 1.5L",
+    "brand": "Fanta",
+    "category": "bebidas",
+    "price": 4468,
+    "currency": "CLP",
+    "description": "Coca-Cola 1.5L - Producto de calidad de Fanta",
+    "shortDescription": "Coca-Cola 1.5L",
+    "imageUrl": "/images/products/bebidas/fanta-coca-cola-15l.webp",
+    "thumbnailUrl": "/images/products/bebidas/thumbs/fanta-coca-cola-15l.webp",
+    "stock": 104,
+    "inStock": true,
+    "rating": 4.4,
+    "reviewCount": 2,
+    "popularity": 37,
+    "tags": [
+      "bebidas",
+      "familiar"
+    ],
+    "origin": "Chile",
+    "store": {
+      "name": "lider",
+      "url": "https://www.lider.cl/product/fanta-coca-cola-15l",
+      "scraped": "2025-08-13T08:33:58.864Z",
+      "section": "bebidas"
+    },
+    "sourceFile": "validated-products.json",
+    "createdAt": "2025-08-13T08:33:58.864Z",
+    "updatedAt": "2025-08-13T16:52:23.633Z"
+  },
+  {
+    "id": "coca-cola-jugo-natural-1l",
+    "name": "Jugo Natural 1L",
+    "brand": "Coca-Cola",
+    "category": "bebidas",
+    "price": 939,
+    "currency": "CLP",
+    "description": "Jugo Natural 1L - Producto de calidad de Coca-Cola",
+    "shortDescription": "Jugo Natural 1L",
+    "imageUrl": "/images/products/bebidas/coca-cola-jugo-natural-1l.webp",
+    "thumbnailUrl": "/images/products/bebidas/thumbs/coca-cola-jugo-natural-1l.webp",
+    "stock": 85,
+    "inStock": true,
+    "rating": 3.7,
+    "reviewCount": 123,
+    "popularity": 78,
+    "tags": [
+      "bebidas",
+      "familiar",
+      "natural"
+    ],
+    "origin": "Chile",
+    "store": {
+      "name": "lider",
+      "url": "https://www.lider.cl/product/coca-cola-jugo-natural-1l",
+      "scraped": "2025-08-13T08:33:58.864Z",
+      "section": "bebidas"
+    },
+    "sourceFile": "validated-products.json",
+    "createdAt": "2025-08-13T08:33:58.864Z",
+    "updatedAt": "2025-08-13T16:52:23.633Z"
+  },
+  {
+    "id": "cachantn-jugo-natural-1l",
+    "name": "Jugo Natural 1L",
+    "brand": "Cachantún",
+    "category": "bebidas",
+    "price": 5191,
+    "currency": "CLP",
+    "description": "Jugo Natural 1L - Producto de calidad de Cachantún",
+    "shortDescription": "Jugo Natural 1L",
+    "imageUrl": "/images/products/bebidas/cachantn-jugo-natural-1l.webp",
+    "thumbnailUrl": "/images/products/bebidas/thumbs/cachantn-jugo-natural-1l.webp",
+    "stock": 35,
+    "inStock": true,
+    "rating": 5,
+    "reviewCount": 190,
+    "popularity": 52,
+    "tags": [
+      "bebidas",
+      "familiar",
+      "natural"
+    ],
+    "origin": "Chile",
+    "store": {
+      "name": "lider",
+      "url": "https://www.lider.cl/product/cachantn-jugo-natural-1l",
+      "scraped": "2025-08-13T08:33:58.864Z",
+      "section": "bebidas"
+    },
+    "sourceFile": "validated-products.json",
+    "createdAt": "2025-08-13T08:33:58.864Z",
+    "updatedAt": "2025-08-13T16:52:23.633Z"
+  }
+]

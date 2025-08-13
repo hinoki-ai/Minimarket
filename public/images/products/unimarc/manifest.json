@@ -1,0 +1,31 @@
+{
+  "store": "unimarc",
+  "totalProducts": 0,
+  "categories": [],
+  "categoryBreakdown": {},
+  "priceRange": {
+    "min": 0,
+    "max": 0,
+    "average": 0
+  },
+  "brandsCount": 0,
+  "averageRating": 0,
+  "lastUpdated": "2025-08-13T09:46:56.737Z",
+  "scrapingDuration": 1033,
+  "stats": {
+    "pagesVisited": 0,
+    "productsFound": 0,
+    "imagesDownloaded": 0,
+    "errors": 0,
+    "retries": 0,
+    "categoriesCompleted": 7,
+    "totalCategories": 7,
+    "startTime": "2025-08-13T09:29:43.816Z",
+    "lastSaved": "2025-08-13T09:46:56.737Z",
+    "estimatedRemaining": null,
+    "endTime": "2025-08-13T09:46:56.737Z",
+    "duration": 1032921,
+    "averageProductsPerPage": 0,
+    "errorRate": 0
+  }
+}

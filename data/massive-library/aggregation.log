@@ -1,0 +1,51 @@
+[2025-08-13T16:52:23.591Z] 🚀 Starting massive data aggregation
+[2025-08-13T16:52:23.603Z] Found 38 potential data files
+[2025-08-13T16:52:23.604Z] Loading products from: /home/kuromatsu/Documents/ΛRΛMΛC/Websites/Minimarket/data/products/all-products.json
+[2025-08-13T16:52:23.605Z] Loading products from: /home/kuromatsu/Documents/ΛRΛMΛC/Websites/Minimarket/data/products/easy/products.json
+[2025-08-13T16:52:23.606Z] Loading products from: /home/kuromatsu/Documents/ΛRΛMΛC/Websites/Minimarket/data/products/falabella/products.json
+[2025-08-13T16:52:23.607Z] Loading products from: /home/kuromatsu/Documents/ΛRΛMΛC/Websites/Minimarket/data/products/jumbo/products-backup-1755077036177.json
+[2025-08-13T16:52:23.607Z] Loading products from: /home/kuromatsu/Documents/ΛRΛMΛC/Websites/Minimarket/data/products/jumbo/products-backup-1755077364653.json
+[2025-08-13T16:52:23.608Z] Loading products from: /home/kuromatsu/Documents/ΛRΛMΛC/Websites/Minimarket/data/products/jumbo/products-backup-1755077590426.json
+[2025-08-13T16:52:23.609Z] Loading products from: /home/kuromatsu/Documents/ΛRΛMΛC/Websites/Minimarket/data/products/jumbo/products-backup-1755089794224.json
+[2025-08-13T16:52:23.610Z] Loading products from: /home/kuromatsu/Documents/ΛRΛMΛC/Websites/Minimarket/data/products/jumbo/products-backup-1755089804185.json
+[2025-08-13T16:52:23.611Z] Loading products from: /home/kuromatsu/Documents/ΛRΛMΛC/Websites/Minimarket/data/products/jumbo/products.json
+[2025-08-13T16:52:23.611Z] Loading products from: /home/kuromatsu/Documents/ΛRΛMΛC/Websites/Minimarket/data/products/lider/products-backup-1755075222794.json
+[2025-08-13T16:52:23.612Z]   Loaded 12 valid products from products-backup-1755075222794.json
+[2025-08-13T16:52:23.613Z] Loading products from: /home/kuromatsu/Documents/ΛRΛMΛC/Websites/Minimarket/data/products/lider/products-backup-1755075234235.json
+[2025-08-13T16:52:23.616Z] Loading products from: /home/kuromatsu/Documents/ΛRΛMΛC/Websites/Minimarket/data/products/lider/products-backup-1755076248169.json
+[2025-08-13T16:52:23.617Z] Loading products from: /home/kuromatsu/Documents/ΛRΛMΛC/Websites/Minimarket/data/products/lider/products-backup-1755089989269.json
+[2025-08-13T16:52:23.618Z] Loading products from: /home/kuromatsu/Documents/ΛRΛMΛC/Websites/Minimarket/data/products/lider/products-backup-1755090169764.json
+[2025-08-13T16:52:23.619Z] Loading products from: /home/kuromatsu/Documents/ΛRΛMΛC/Websites/Minimarket/data/products/lider/products.json
+[2025-08-13T16:52:23.619Z] Loading products from: /home/kuromatsu/Documents/ΛRΛMΛC/Websites/Minimarket/data/products/paris/products.json
+[2025-08-13T16:52:23.620Z] Loading products from: /home/kuromatsu/Documents/ΛRΛMΛC/Websites/Minimarket/data/products/products-summary.json
+[2025-08-13T16:52:23.620Z]   Loaded 0 valid products from products-summary.json
+[2025-08-13T16:52:23.621Z] Loading products from: /home/kuromatsu/Documents/ΛRΛMΛC/Websites/Minimarket/data/products/santa_isabel/products-backup-1755073807131.json
+[2025-08-13T16:52:23.622Z] Loading products from: /home/kuromatsu/Documents/ΛRΛMΛC/Websites/Minimarket/data/products/santa_isabel/products-backup-1755075072330.json
+[2025-08-13T16:52:23.622Z] Loading products from: /home/kuromatsu/Documents/ΛRΛMΛC/Websites/Minimarket/data/products/santa_isabel/products-backup-1755075378686.json
+[2025-08-13T16:52:23.623Z] Loading products from: /home/kuromatsu/Documents/ΛRΛMΛC/Websites/Minimarket/data/products/santa_isabel/products-backup-1755076221223.json
+[2025-08-13T16:52:23.623Z] Loading products from: /home/kuromatsu/Documents/ΛRΛMΛC/Websites/Minimarket/data/products/santa_isabel/products-backup-1755077613631.json
+[2025-08-13T16:52:23.624Z] Loading products from: /home/kuromatsu/Documents/ΛRΛMΛC/Websites/Minimarket/data/products/santa_isabel/products.json
+[2025-08-13T16:52:23.624Z] Loading products from: /home/kuromatsu/Documents/ΛRΛMΛC/Websites/Minimarket/data/products/sodimac/products-backup-1755090915526.json
+[2025-08-13T16:52:23.625Z] Loading products from: /home/kuromatsu/Documents/ΛRΛMΛC/Websites/Minimarket/data/products/sodimac/products.json
+[2025-08-13T16:52:23.625Z] Loading products from: /home/kuromatsu/Documents/ΛRΛMΛC/Websites/Minimarket/data/products/tottus/products-backup-1755075475831.json
+[2025-08-13T16:52:23.625Z] Loading products from: /home/kuromatsu/Documents/ΛRΛMΛC/Websites/Minimarket/data/products/tottus/products-backup-1755075566813.json
+[2025-08-13T16:52:23.626Z] Loading products from: /home/kuromatsu/Documents/ΛRΛMΛC/Websites/Minimarket/data/products/tottus/products-backup-1755077438077.json
+[2025-08-13T16:52:23.626Z] Loading products from: /home/kuromatsu/Documents/ΛRΛMΛC/Websites/Minimarket/data/products/tottus/products-backup-1755089400537.json
+[2025-08-13T16:52:23.627Z] Loading products from: /home/kuromatsu/Documents/ΛRΛMΛC/Websites/Minimarket/data/products/tottus/products-backup-1755089421736.json
+[2025-08-13T16:52:23.628Z] Loading products from: /home/kuromatsu/Documents/ΛRΛMΛC/Websites/Minimarket/data/products/tottus/products.json
+[2025-08-13T16:52:23.629Z] Loading products from: /home/kuromatsu/Documents/ΛRΛMΛC/Websites/Minimarket/data/products/unimarc/products-backup-1755076207488.json
+[2025-08-13T16:52:23.629Z] Loading products from: /home/kuromatsu/Documents/ΛRΛMΛC/Websites/Minimarket/data/products/unimarc/products-backup-1755076501075.json
+[2025-08-13T16:52:23.630Z] Loading products from: /home/kuromatsu/Documents/ΛRΛMΛC/Websites/Minimarket/data/products/unimarc/products-backup-1755077341119.json
+[2025-08-13T16:52:23.630Z] Loading products from: /home/kuromatsu/Documents/ΛRΛMΛC/Websites/Minimarket/data/products/unimarc/products-backup-1755077367658.json
+[2025-08-13T16:52:23.631Z] Loading products from: /home/kuromatsu/Documents/ΛRΛMΛC/Websites/Minimarket/data/products/unimarc/products-backup-1755078416736.json
+[2025-08-13T16:52:23.631Z] Loading products from: /home/kuromatsu/Documents/ΛRΛMΛC/Websites/Minimarket/data/products/unimarc/products.json
+[2025-08-13T16:52:23.633Z] Loading products from: /home/kuromatsu/Documents/ΛRΛMΛC/Websites/Minimarket/data/products/validated-products.json
+[2025-08-13T16:52:23.633Z]   Loaded 8 valid products from validated-products.json
+[2025-08-13T16:52:23.634Z] 📊 Aggregation complete: 11 unique products from 1 stores
+[2025-08-13T16:52:23.634Z] 💾 Saved 11 products to /home/kuromatsu/Documents/ΛRΛMΛC/Websites/Minimarket/data/massive-library/massive-product-library.json
+[2025-08-13T16:52:23.635Z] 💾 Saved 11 products for lider
+[2025-08-13T16:52:23.656Z] 📄 Reports saved:
+[2025-08-13T16:52:23.656Z]   - JSON: /home/kuromatsu/Documents/ΛRΛMΛC/Websites/Minimarket/data/massive-library/massive-library-report.json
+[2025-08-13T16:52:23.657Z]   - Summary: /home/kuromatsu/Documents/ΛRΛMΛC/Websites/Minimarket/data/massive-library/LIBRARY-SUMMARY.txt
+[2025-08-13T16:52:23.657Z] 🎉 MASSIVE DATA AGGREGATION COMPLETE!
+[2025-08-13T16:52:23.657Z] 🎯 FINAL RESULT: 11 products in comprehensive library

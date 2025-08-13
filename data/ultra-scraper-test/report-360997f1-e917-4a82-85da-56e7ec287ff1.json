@@ -1,0 +1,38 @@
+{
+  "sessionId": "360997f1-e917-4a82-85da-56e7ec287ff1",
+  "timestamp": "2025-08-13T17:22:20.758Z",
+  "duration": {
+    "total": 5081,
+    "minutes": 0,
+    "productRate": 59
+  },
+  "summary": {
+    "totalProducts": 5,
+    "targetReached": false,
+    "storesProcessed": 1,
+    "storesSuccessful": 1,
+    "errorsTotal": 0
+  },
+  "breakdown": {
+    "byStore": {
+      "tottus": 5
+    },
+    "byCategory": {
+      "bebidas": 5
+    },
+    "byStrategy": {
+      "StandardStrategy": 1
+    },
+    "qualityMetrics": {
+      "withImages": 0,
+      "withPrices": 5,
+      "withDescriptions": 5,
+      "withBrands": 5
+    }
+  },
+  "performance": {
+    "averageResponseTime": 5053,
+    "successRate": "100.00%",
+    "errorRate": "0.00%"
+  }
+}

@@ -31,13 +31,13 @@ import Link from "next/link"
 const data = {
   navMain: [
     {
-      title: "Dashboard",
-      url: "/dashboard",
+      title: "Mi Cuenta",
+      url: "/carrito",
       icon: IconDashboard,
     },
     {
-      title: "Payment gated",
-      url: "/dashboard/payment-gated",
+      title: "Pedidos",
+      url: "/carrito#orders",
       icon: IconSparkles,
     },
   ],

@@ -20,7 +20,7 @@ export default function UserSection({ theme }: { isScrolled: boolean; theme: str
             </AuthLoading>
             <Authenticated>
                 <Button asChild size="sm">
-                    <Link href="/dashboard">
+                    <Link href="/carrito">
                         <span>Mi Cuenta</span>
                     </Link>
                 </Button>

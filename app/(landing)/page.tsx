@@ -17,9 +17,6 @@ export default function HomePage() {
   return (
     <AuroraBackground>
       <main className="relative z-10 mx-auto max-w-7xl px-6 py-8 lg:py-12 space-y-6 lg:space-y-8">
-        <div className="text-center lg:text-left">
-          <h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-semibold">Inicio</h1>
-        </div>
         <HomeClient />
       </main>
     </AuroraBackground>

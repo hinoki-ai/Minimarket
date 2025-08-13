@@ -1,0 +1,183 @@
+[
+  {
+    "id": "mckay-chocolate-sahne-nuss",
+    "name": "Chocolate Sahne-Nuss",
+    "brand": "McKay",
+    "category": "snacks",
+    "price": 4996,
+    "currency": "CLP",
+    "description": "Chocolate Sahne-Nuss - Producto de calidad de McKay",
+    "shortDescription": "Chocolate Sahne-Nuss",
+    "imageUrl": "/images/products/snacks/mckay-chocolate-sahne-nuss.webp",
+    "thumbnailUrl": "/images/products/snacks/thumbs/mckay-chocolate-sahne-nuss.webp",
+    "stock": 86,
+    "inStock": true,
+    "rating": 4.3,
+    "reviewCount": 84,
+    "popularity": 67,
+    "tags": [
+      "snacks"
+    ],
+    "origin": "Chile",
+    "store": {
+      "name": "lider",
+      "url": "https://www.lider.cl/product/mckay-chocolate-sahne-nuss",
+      "scraped": "2025-08-13T08:33:58.864Z",
+      "section": "snacks"
+    },
+    "sourceFile": "validated-products.json",
+    "createdAt": "2025-08-13T08:33:58.864Z",
+    "updatedAt": "2025-08-13T16:52:23.633Z"
+  },
+  {
+    "id": "nestl-ramitas-queso",
+    "name": "Ramitas Queso",
+    "brand": "Nestlé",
+    "category": "snacks",
+    "price": 1410,
+    "currency": "CLP",
+    "description": "Ramitas Queso - Producto de calidad de Nestlé",
+    "shortDescription": "Ramitas Queso",
+    "imageUrl": "/images/products/snacks/nestl-ramitas-queso.webp",
+    "thumbnailUrl": "/images/products/snacks/thumbs/nestl-ramitas-queso.webp",
+    "stock": 14,
+    "inStock": true,
+    "rating": 4.6,
+    "reviewCount": 1,
+    "popularity": 8,
+    "tags": [
+      "snacks"
+    ],
+    "origin": "Chile",
+    "store": {
+      "name": "lider",
+      "url": "https://www.lider.cl/product/nestl-ramitas-queso",
+      "scraped": "2025-08-13T08:33:58.864Z",
+      "section": "snacks"
+    },
+    "sourceFile": "products-backup-1755075222794.json",
+    "createdAt": "2025-08-13T08:33:58.864Z",
+    "updatedAt": "2025-08-13T16:52:23.613Z"
+  },
+  {
+    "id": "evercrisp-ramitas-queso",
+    "name": "Ramitas Queso",
+    "brand": "Evercrisp",
+    "category": "snacks",
+    "price": 4561,
+    "currency": "CLP",
+    "description": "Ramitas Queso - Producto de calidad de Evercrisp",
+    "shortDescription": "Ramitas Queso",
+    "imageUrl": "/images/products/snacks/evercrisp-ramitas-queso.webp",
+    "thumbnailUrl": "/images/products/snacks/thumbs/evercrisp-ramitas-queso.webp",
+    "stock": 102,
+    "inStock": true,
+    "rating": 4.5,
+    "reviewCount": 50,
+    "popularity": 50,
+    "tags": [
+      "snacks"
+    ],
+    "origin": "Chile",
+    "store": {
+      "name": "lider",
+      "url": "https://www.lider.cl/product/evercrisp-ramitas-queso",
+      "scraped": "2025-08-13T08:33:58.864Z",
+      "section": "snacks"
+    },
+    "sourceFile": "products-backup-1755075222794.json",
+    "createdAt": "2025-08-13T08:33:58.864Z",
+    "updatedAt": "2025-08-13T16:52:23.613Z"
+  },
+  {
+    "id": "evercrisp-cheetos-queso",
+    "name": "Cheetos Queso",
+    "brand": "Evercrisp",
+    "category": "snacks",
+    "price": 810,
+    "currency": "CLP",
+    "description": "Cheetos Queso - Producto de calidad de Evercrisp",
+    "shortDescription": "Cheetos Queso",
+    "imageUrl": "/images/products/snacks/evercrisp-cheetos-queso.webp",
+    "thumbnailUrl": "/images/products/snacks/thumbs/evercrisp-cheetos-queso.webp",
+    "stock": 34,
+    "inStock": true,
+    "rating": 4.3,
+    "reviewCount": 2,
+    "popularity": 23,
+    "tags": [
+      "snacks"
+    ],
+    "origin": "Chile",
+    "store": {
+      "name": "lider",
+      "url": "https://www.lider.cl/product/evercrisp-cheetos-queso",
+      "scraped": "2025-08-13T08:33:58.864Z",
+      "section": "snacks"
+    },
+    "sourceFile": "products-backup-1755075222794.json",
+    "createdAt": "2025-08-13T08:33:58.864Z",
+    "updatedAt": "2025-08-13T16:52:23.613Z"
+  },
+  {
+    "id": "frito-lay-papas-lays-original",
+    "name": "Papas Lays Original",
+    "brand": "Frito-Lay",
+    "category": "snacks",
+    "price": 2627,
+    "currency": "CLP",
+    "description": "Papas Lays Original - Producto de calidad de Frito-Lay",
+    "shortDescription": "Papas Lays Original",
+    "imageUrl": "/images/products/snacks/frito-lay-papas-lays-original.webp",
+    "thumbnailUrl": "/images/products/snacks/thumbs/frito-lay-papas-lays-original.webp",
+    "stock": 81,
+    "inStock": true,
+    "rating": 4.6,
+    "reviewCount": 104,
+    "popularity": 97,
+    "tags": [
+      "snacks",
+      "original"
+    ],
+    "origin": "Chile",
+    "store": {
+      "name": "lider",
+      "url": "https://www.lider.cl/product/frito-lay-papas-lays-original",
+      "scraped": "2025-08-13T08:33:58.864Z",
+      "section": "snacks"
+    },
+    "sourceFile": "products-backup-1755075222794.json",
+    "createdAt": "2025-08-13T08:33:58.864Z",
+    "updatedAt": "2025-08-13T16:52:23.613Z"
+  },
+  {
+    "id": "nestl-chocolate-sahne-nuss",
+    "name": "Chocolate Sahne-Nuss",
+    "brand": "Nestlé",
+    "category": "snacks",
+    "price": 2840,
+    "currency": "CLP",
+    "description": "Chocolate Sahne-Nuss - Producto de calidad de Nestlé",
+    "shortDescription": "Chocolate Sahne-Nuss",
+    "imageUrl": "/images/products/snacks/nestl-chocolate-sahne-nuss.webp",
+    "thumbnailUrl": "/images/products/snacks/thumbs/nestl-chocolate-sahne-nuss.webp",
+    "stock": 76,
+    "inStock": true,
+    "rating": 4.2,
+    "reviewCount": 127,
+    "popularity": 64,
+    "tags": [
+      "snacks"
+    ],
+    "origin": "Chile",
+    "store": {
+      "name": "lider",
+      "url": "https://www.lider.cl/product/nestl-chocolate-sahne-nuss",
+      "scraped": "2025-08-13T08:33:58.864Z",
+      "section": "snacks"
+    },
+    "sourceFile": "validated-products.json",
+    "createdAt": "2025-08-13T08:33:58.864Z",
+    "updatedAt": "2025-08-13T16:52:23.633Z"
+  }
+]

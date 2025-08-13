@@ -1,0 +1,636 @@
+[TOTTUS] Starting Enhanced Universal Product Scraper
+[TOTTUS] Store: tottus
+[TOTTUS] Categories: bebidas, snacks, lacteos, carnes, panaderia, aseo, hogar
+[TOTTUS] Max products: 1200
+[TOTTUS] Max pages per category: 1000
+[TOTTUS] Dry run: false
+[TOTTUS] Starting category 1/7: bebidas
+[TOTTUS] Scraping category: bebidas with 7 URL patterns
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/categoria/bebidas?page=1
+[TOTTUS] Page returned 526: https://www.tottus.cl/supermercado/categoria/bebidas?page=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/categoria/bebidas?p=1
+[TOTTUS] Page returned 526: https://www.tottus.cl/supermercado/categoria/bebidas?p=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/categoria/bebidas/1
+[TOTTUS] Page returned 526: https://www.tottus.cl/supermercado/categoria/bebidas/1
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/categoria/bebidas&page=1
+[TOTTUS] Page returned 526: https://www.tottus.cl/supermercado/categoria/bebidas&page=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/categoria/bebidas
+[TOTTUS] Page returned 526: https://www.tottus.cl/supermercado/categoria/bebidas
+[TOTTUS] No valid URL pattern worked for page 1 of bebidas
+[TOTTUS] Completed scraping category bebidas: 0 total products
+[TOTTUS] Attempting to load: https://www.tottus.cl/categoria/bebidas?page=1
+[TOTTUS] Page returned 526: https://www.tottus.cl/categoria/bebidas?page=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/categoria/bebidas?p=1
+[TOTTUS] Page returned 526: https://www.tottus.cl/categoria/bebidas?p=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/categoria/bebidas/1
+[TOTTUS] Page returned 526: https://www.tottus.cl/categoria/bebidas/1
+[TOTTUS] Attempting to load: https://www.tottus.cl/categoria/bebidas&page=1
+[TOTTUS] Page returned 526: https://www.tottus.cl/categoria/bebidas&page=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/categoria/bebidas
+[TOTTUS] Page returned 526: https://www.tottus.cl/categoria/bebidas
+[TOTTUS] No valid URL pattern worked for page 1 of bebidas
+[TOTTUS] Completed scraping category bebidas: 0 total products
+[TOTTUS] Attempting to load: https://www.tottus.cl/products/bebidas?page=1
+[TOTTUS] Page returned 526: https://www.tottus.cl/products/bebidas?page=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/products/bebidas?p=1
+[TOTTUS] Page returned 526: https://www.tottus.cl/products/bebidas?p=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/products/bebidas/1
+[TOTTUS] Page returned 526: https://www.tottus.cl/products/bebidas/1
+[TOTTUS] Attempting to load: https://www.tottus.cl/products/bebidas&page=1
+[TOTTUS] Page returned 526: https://www.tottus.cl/products/bebidas&page=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/products/bebidas
+[TOTTUS] Page returned 526: https://www.tottus.cl/products/bebidas
+[TOTTUS] No valid URL pattern worked for page 1 of bebidas
+[TOTTUS] Completed scraping category bebidas: 0 total products
+[TOTTUS] Attempting to load: https://www.tottus.cl/bebidas?page=1
+[TOTTUS] Page returned 526: https://www.tottus.cl/bebidas?page=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/bebidas?p=1
+[TOTTUS] Page returned 526: https://www.tottus.cl/bebidas?p=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/bebidas/1
+[TOTTUS] Page returned 526: https://www.tottus.cl/bebidas/1
+[TOTTUS] Attempting to load: https://www.tottus.cl/bebidas&page=1
+[TOTTUS] Page returned 526: https://www.tottus.cl/bebidas&page=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/bebidas
+[TOTTUS] Page returned 526: https://www.tottus.cl/bebidas
+[TOTTUS] No valid URL pattern worked for page 1 of bebidas
+[TOTTUS] Completed scraping category bebidas: 0 total products
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/bebidas?page=1
+[TOTTUS] Page returned 526: https://www.tottus.cl/supermercado/bebidas?page=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/bebidas?p=1
+[TOTTUS] Page returned 526: https://www.tottus.cl/supermercado/bebidas?p=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/bebidas/1
+[TOTTUS] Page returned 526: https://www.tottus.cl/supermercado/bebidas/1
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/bebidas&page=1
+[TOTTUS] Page returned 526: https://www.tottus.cl/supermercado/bebidas&page=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/bebidas
+[TOTTUS] Page returned 526: https://www.tottus.cl/supermercado/bebidas
+[TOTTUS] No valid URL pattern worked for page 1 of bebidas
+[TOTTUS] Completed scraping category bebidas: 0 total products
+[TOTTUS] Attempting to load: https://www.tottus.cl/tienda/categoria/bebidas?page=1
+[TOTTUS] Page returned 526: https://www.tottus.cl/tienda/categoria/bebidas?page=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/tienda/categoria/bebidas?p=1
+[TOTTUS] Page returned 526: https://www.tottus.cl/tienda/categoria/bebidas?p=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/tienda/categoria/bebidas/1
+[TOTTUS] Page returned 526: https://www.tottus.cl/tienda/categoria/bebidas/1
+[TOTTUS] Attempting to load: https://www.tottus.cl/tienda/categoria/bebidas&page=1
+[TOTTUS] Page returned 526: https://www.tottus.cl/tienda/categoria/bebidas&page=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/tienda/categoria/bebidas
+[TOTTUS] Page returned 526: https://www.tottus.cl/tienda/categoria/bebidas
+[TOTTUS] No valid URL pattern worked for page 1 of bebidas
+[TOTTUS] Completed scraping category bebidas: 0 total products
+[TOTTUS] Attempting to load: https://www.tottus.cl/shop/bebidas?page=1
+[TOTTUS] Page returned 526: https://www.tottus.cl/shop/bebidas?page=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/shop/bebidas?p=1
+[TOTTUS] Page returned 526: https://www.tottus.cl/shop/bebidas?p=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/shop/bebidas/1
+[TOTTUS] Page returned 526: https://www.tottus.cl/shop/bebidas/1
+[TOTTUS] Attempting to load: https://www.tottus.cl/shop/bebidas&page=1
+[TOTTUS] Page returned 526: https://www.tottus.cl/shop/bebidas&page=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/shop/bebidas
+[TOTTUS] Page returned 526: https://www.tottus.cl/shop/bebidas
+[TOTTUS] No valid URL pattern worked for page 1 of bebidas
+[TOTTUS] Completed scraping category bebidas: 0 total products
+[TOTTUS] Category bebidas completed. Estimated remaining time: 5 minutes
+[TOTTUS] Starting category 2/7: snacks
+[TOTTUS] Scraping category: snacks with 7 URL patterns
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/categoria/snacks?page=1
+[TOTTUS] Page returned 526: https://www.tottus.cl/supermercado/categoria/snacks?page=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/categoria/snacks?p=1
+[TOTTUS] Page returned 526: https://www.tottus.cl/supermercado/categoria/snacks?p=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/categoria/snacks/1
+[TOTTUS] Page returned 526: https://www.tottus.cl/supermercado/categoria/snacks/1
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/categoria/snacks&page=1
+[TOTTUS] Page returned 526: https://www.tottus.cl/supermercado/categoria/snacks&page=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/categoria/snacks
+[TOTTUS] Page returned 526: https://www.tottus.cl/supermercado/categoria/snacks
+[TOTTUS] No valid URL pattern worked for page 1 of snacks
+[TOTTUS] Completed scraping category snacks: 0 total products
+[TOTTUS] Attempting to load: https://www.tottus.cl/categoria/snacks?page=1
+[TOTTUS] Page returned 526: https://www.tottus.cl/categoria/snacks?page=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/categoria/snacks?p=1
+[TOTTUS] Page returned 526: https://www.tottus.cl/categoria/snacks?p=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/categoria/snacks/1
+[TOTTUS] Page returned 526: https://www.tottus.cl/categoria/snacks/1
+[TOTTUS] Attempting to load: https://www.tottus.cl/categoria/snacks&page=1
+[TOTTUS] Page returned 526: https://www.tottus.cl/categoria/snacks&page=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/categoria/snacks
+[TOTTUS] Page returned 526: https://www.tottus.cl/categoria/snacks
+[TOTTUS] No valid URL pattern worked for page 1 of snacks
+[TOTTUS] Completed scraping category snacks: 0 total products
+[TOTTUS] Attempting to load: https://www.tottus.cl/products/snacks?page=1
+[TOTTUS] Page returned 526: https://www.tottus.cl/products/snacks?page=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/products/snacks?p=1
+[TOTTUS] Page returned 526: https://www.tottus.cl/products/snacks?p=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/products/snacks/1
+[TOTTUS] Page returned 526: https://www.tottus.cl/products/snacks/1
+[TOTTUS] Attempting to load: https://www.tottus.cl/products/snacks&page=1
+[TOTTUS] Page returned 526: https://www.tottus.cl/products/snacks&page=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/products/snacks
+[TOTTUS] Page returned 526: https://www.tottus.cl/products/snacks
+[TOTTUS] No valid URL pattern worked for page 1 of snacks
+[TOTTUS] Completed scraping category snacks: 0 total products
+[TOTTUS] Attempting to load: https://www.tottus.cl/snacks?page=1
+[TOTTUS] Page returned 526: https://www.tottus.cl/snacks?page=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/snacks?p=1
+[TOTTUS] Page returned 526: https://www.tottus.cl/snacks?p=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/snacks/1
+[TOTTUS] Page returned 526: https://www.tottus.cl/snacks/1
+[TOTTUS] Attempting to load: https://www.tottus.cl/snacks&page=1
+[TOTTUS] Page returned 526: https://www.tottus.cl/snacks&page=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/snacks
+[TOTTUS] Page returned 526: https://www.tottus.cl/snacks
+[TOTTUS] No valid URL pattern worked for page 1 of snacks
+[TOTTUS] Completed scraping category snacks: 0 total products
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/snacks?page=1
+[TOTTUS] Page returned 526: https://www.tottus.cl/supermercado/snacks?page=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/snacks?p=1
+[TOTTUS] Page returned 526: https://www.tottus.cl/supermercado/snacks?p=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/snacks/1
+[TOTTUS] Page returned 526: https://www.tottus.cl/supermercado/snacks/1
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/snacks&page=1
+[TOTTUS] Page returned 526: https://www.tottus.cl/supermercado/snacks&page=1
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/snacks
+[TOTTUS] Request failed: https://www.tottus.cl/supermercado/snacks net::ERR_ABORTED
+[TOTTUS] Failed to load https://www.tottus.cl/supermercado/snacks: page.goto: net::ERR_ABORTED; maybe frame was detached?
+Call log:
+[2m  - navigating to "https://www.tottus.cl/supermercado/snacks", waiting until "domcontentloaded"[22m
+
+[TOTTUS] No valid URL pattern worked for page 1 of snacks
+[TOTTUS] Completed scraping category snacks: 0 total products
+[TOTTUS] Attempting to load: https://www.tottus.cl/tienda/categoria/snacks?page=1
+[TOTTUS] Failed to load https://www.tottus.cl/tienda/categoria/snacks?page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/tienda/categoria/snacks?p=1
+[TOTTUS] Failed to load https://www.tottus.cl/tienda/categoria/snacks?p=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/tienda/categoria/snacks/1
+[TOTTUS] Failed to load https://www.tottus.cl/tienda/categoria/snacks/1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/tienda/categoria/snacks&page=1
+[TOTTUS] Failed to load https://www.tottus.cl/tienda/categoria/snacks&page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/tienda/categoria/snacks
+[TOTTUS] Failed to load https://www.tottus.cl/tienda/categoria/snacks: page.goto: Target page, context or browser has been closed
+[TOTTUS] No valid URL pattern worked for page 1 of snacks
+[TOTTUS] Completed scraping category snacks: 0 total products
+[TOTTUS] Attempting to load: https://www.tottus.cl/shop/snacks?page=1
+[TOTTUS] Failed to load https://www.tottus.cl/shop/snacks?page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/shop/snacks?p=1
+[TOTTUS] Failed to load https://www.tottus.cl/shop/snacks?p=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/shop/snacks/1
+[TOTTUS] Failed to load https://www.tottus.cl/shop/snacks/1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/shop/snacks&page=1
+[TOTTUS] Failed to load https://www.tottus.cl/shop/snacks&page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/shop/snacks
+[TOTTUS] Failed to load https://www.tottus.cl/shop/snacks: page.goto: Target page, context or browser has been closed
+[TOTTUS] No valid URL pattern worked for page 1 of snacks
+[TOTTUS] Completed scraping category snacks: 0 total products
+[TOTTUS] Category snacks completed. Estimated remaining time: 3 minutes
+[TOTTUS] Starting category 3/7: lacteos
+[TOTTUS] Scraping category: lacteos with 7 URL patterns
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/categoria/lacteos?page=1
+[TOTTUS] Failed to load https://www.tottus.cl/supermercado/categoria/lacteos?page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/categoria/lacteos?p=1
+[TOTTUS] Failed to load https://www.tottus.cl/supermercado/categoria/lacteos?p=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/categoria/lacteos/1
+[TOTTUS] Failed to load https://www.tottus.cl/supermercado/categoria/lacteos/1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/categoria/lacteos&page=1
+[TOTTUS] Failed to load https://www.tottus.cl/supermercado/categoria/lacteos&page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/categoria/lacteos
+[TOTTUS] Failed to load https://www.tottus.cl/supermercado/categoria/lacteos: page.goto: Target page, context or browser has been closed
+[TOTTUS] No valid URL pattern worked for page 1 of lacteos
+[TOTTUS] Completed scraping category lacteos: 0 total products
+[TOTTUS] Attempting to load: https://www.tottus.cl/categoria/lacteos?page=1
+[TOTTUS] Failed to load https://www.tottus.cl/categoria/lacteos?page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/categoria/lacteos?p=1
+[TOTTUS] Failed to load https://www.tottus.cl/categoria/lacteos?p=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/categoria/lacteos/1
+[TOTTUS] Failed to load https://www.tottus.cl/categoria/lacteos/1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/categoria/lacteos&page=1
+[TOTTUS] Failed to load https://www.tottus.cl/categoria/lacteos&page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/categoria/lacteos
+[TOTTUS] Failed to load https://www.tottus.cl/categoria/lacteos: page.goto: Target page, context or browser has been closed
+[TOTTUS] No valid URL pattern worked for page 1 of lacteos
+[TOTTUS] Completed scraping category lacteos: 0 total products
+[TOTTUS] Attempting to load: https://www.tottus.cl/products/lacteos?page=1
+[TOTTUS] Failed to load https://www.tottus.cl/products/lacteos?page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/products/lacteos?p=1
+[TOTTUS] Failed to load https://www.tottus.cl/products/lacteos?p=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/products/lacteos/1
+[TOTTUS] Failed to load https://www.tottus.cl/products/lacteos/1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/products/lacteos&page=1
+[TOTTUS] Failed to load https://www.tottus.cl/products/lacteos&page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/products/lacteos
+[TOTTUS] Failed to load https://www.tottus.cl/products/lacteos: page.goto: Target page, context or browser has been closed
+[TOTTUS] No valid URL pattern worked for page 1 of lacteos
+[TOTTUS] Completed scraping category lacteos: 0 total products
+[TOTTUS] Attempting to load: https://www.tottus.cl/lacteos?page=1
+[TOTTUS] Failed to load https://www.tottus.cl/lacteos?page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/lacteos?p=1
+[TOTTUS] Failed to load https://www.tottus.cl/lacteos?p=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/lacteos/1
+[TOTTUS] Failed to load https://www.tottus.cl/lacteos/1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/lacteos&page=1
+[TOTTUS] Failed to load https://www.tottus.cl/lacteos&page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/lacteos
+[TOTTUS] Failed to load https://www.tottus.cl/lacteos: page.goto: Target page, context or browser has been closed
+[TOTTUS] No valid URL pattern worked for page 1 of lacteos
+[TOTTUS] Completed scraping category lacteos: 0 total products
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/lacteos?page=1
+[TOTTUS] Failed to load https://www.tottus.cl/supermercado/lacteos?page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/lacteos?p=1
+[TOTTUS] Failed to load https://www.tottus.cl/supermercado/lacteos?p=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/lacteos/1
+[TOTTUS] Failed to load https://www.tottus.cl/supermercado/lacteos/1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/lacteos&page=1
+[TOTTUS] Failed to load https://www.tottus.cl/supermercado/lacteos&page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/lacteos
+[TOTTUS] Failed to load https://www.tottus.cl/supermercado/lacteos: page.goto: Target page, context or browser has been closed
+[TOTTUS] No valid URL pattern worked for page 1 of lacteos
+[TOTTUS] Completed scraping category lacteos: 0 total products
+[TOTTUS] Attempting to load: https://www.tottus.cl/tienda/categoria/lacteos?page=1
+[TOTTUS] Failed to load https://www.tottus.cl/tienda/categoria/lacteos?page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/tienda/categoria/lacteos?p=1
+[TOTTUS] Failed to load https://www.tottus.cl/tienda/categoria/lacteos?p=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/tienda/categoria/lacteos/1
+[TOTTUS] Failed to load https://www.tottus.cl/tienda/categoria/lacteos/1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/tienda/categoria/lacteos&page=1
+[TOTTUS] Failed to load https://www.tottus.cl/tienda/categoria/lacteos&page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/tienda/categoria/lacteos
+[TOTTUS] Failed to load https://www.tottus.cl/tienda/categoria/lacteos: page.goto: Target page, context or browser has been closed
+[TOTTUS] No valid URL pattern worked for page 1 of lacteos
+[TOTTUS] Completed scraping category lacteos: 0 total products
+[TOTTUS] Attempting to load: https://www.tottus.cl/shop/lacteos?page=1
+[TOTTUS] Failed to load https://www.tottus.cl/shop/lacteos?page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/shop/lacteos?p=1
+[TOTTUS] Failed to load https://www.tottus.cl/shop/lacteos?p=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/shop/lacteos/1
+[TOTTUS] Failed to load https://www.tottus.cl/shop/lacteos/1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/shop/lacteos&page=1
+[TOTTUS] Failed to load https://www.tottus.cl/shop/lacteos&page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/shop/lacteos
+[TOTTUS] Failed to load https://www.tottus.cl/shop/lacteos: page.goto: Target page, context or browser has been closed
+[TOTTUS] No valid URL pattern worked for page 1 of lacteos
+[TOTTUS] Completed scraping category lacteos: 0 total products
+[TOTTUS] Category lacteos completed. Estimated remaining time: 1 minutes
+[TOTTUS] Starting category 4/7: carnes
+[TOTTUS] Scraping category: carnes with 7 URL patterns
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/categoria/carnes?page=1
+[TOTTUS] Failed to load https://www.tottus.cl/supermercado/categoria/carnes?page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/categoria/carnes?p=1
+[TOTTUS] Failed to load https://www.tottus.cl/supermercado/categoria/carnes?p=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/categoria/carnes/1
+[TOTTUS] Failed to load https://www.tottus.cl/supermercado/categoria/carnes/1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/categoria/carnes&page=1
+[TOTTUS] Failed to load https://www.tottus.cl/supermercado/categoria/carnes&page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/categoria/carnes
+[TOTTUS] Failed to load https://www.tottus.cl/supermercado/categoria/carnes: page.goto: Target page, context or browser has been closed
+[TOTTUS] No valid URL pattern worked for page 1 of carnes
+[TOTTUS] Completed scraping category carnes: 0 total products
+[TOTTUS] Attempting to load: https://www.tottus.cl/categoria/carnes?page=1
+[TOTTUS] Failed to load https://www.tottus.cl/categoria/carnes?page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/categoria/carnes?p=1
+[TOTTUS] Failed to load https://www.tottus.cl/categoria/carnes?p=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/categoria/carnes/1
+[TOTTUS] Failed to load https://www.tottus.cl/categoria/carnes/1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/categoria/carnes&page=1
+[TOTTUS] Failed to load https://www.tottus.cl/categoria/carnes&page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/categoria/carnes
+[TOTTUS] Failed to load https://www.tottus.cl/categoria/carnes: page.goto: Target page, context or browser has been closed
+[TOTTUS] No valid URL pattern worked for page 1 of carnes
+[TOTTUS] Completed scraping category carnes: 0 total products
+[TOTTUS] Attempting to load: https://www.tottus.cl/products/carnes?page=1
+[TOTTUS] Failed to load https://www.tottus.cl/products/carnes?page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/products/carnes?p=1
+[TOTTUS] Failed to load https://www.tottus.cl/products/carnes?p=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/products/carnes/1
+[TOTTUS] Failed to load https://www.tottus.cl/products/carnes/1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/products/carnes&page=1
+[TOTTUS] Failed to load https://www.tottus.cl/products/carnes&page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/products/carnes
+[TOTTUS] Failed to load https://www.tottus.cl/products/carnes: page.goto: Target page, context or browser has been closed
+[TOTTUS] No valid URL pattern worked for page 1 of carnes
+[TOTTUS] Completed scraping category carnes: 0 total products
+[TOTTUS] Attempting to load: https://www.tottus.cl/carnes?page=1
+[TOTTUS] Failed to load https://www.tottus.cl/carnes?page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/carnes?p=1
+[TOTTUS] Failed to load https://www.tottus.cl/carnes?p=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/carnes/1
+[TOTTUS] Failed to load https://www.tottus.cl/carnes/1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/carnes&page=1
+[TOTTUS] Failed to load https://www.tottus.cl/carnes&page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/carnes
+[TOTTUS] Failed to load https://www.tottus.cl/carnes: page.goto: Target page, context or browser has been closed
+[TOTTUS] No valid URL pattern worked for page 1 of carnes
+[TOTTUS] Completed scraping category carnes: 0 total products
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/carnes?page=1
+[TOTTUS] Failed to load https://www.tottus.cl/supermercado/carnes?page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/carnes?p=1
+[TOTTUS] Failed to load https://www.tottus.cl/supermercado/carnes?p=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/carnes/1
+[TOTTUS] Failed to load https://www.tottus.cl/supermercado/carnes/1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/carnes&page=1
+[TOTTUS] Failed to load https://www.tottus.cl/supermercado/carnes&page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/carnes
+[TOTTUS] Failed to load https://www.tottus.cl/supermercado/carnes: page.goto: Target page, context or browser has been closed
+[TOTTUS] No valid URL pattern worked for page 1 of carnes
+[TOTTUS] Completed scraping category carnes: 0 total products
+[TOTTUS] Attempting to load: https://www.tottus.cl/tienda/categoria/carnes?page=1
+[TOTTUS] Failed to load https://www.tottus.cl/tienda/categoria/carnes?page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/tienda/categoria/carnes?p=1
+[TOTTUS] Failed to load https://www.tottus.cl/tienda/categoria/carnes?p=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/tienda/categoria/carnes/1
+[TOTTUS] Failed to load https://www.tottus.cl/tienda/categoria/carnes/1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/tienda/categoria/carnes&page=1
+[TOTTUS] Failed to load https://www.tottus.cl/tienda/categoria/carnes&page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/tienda/categoria/carnes
+[TOTTUS] Failed to load https://www.tottus.cl/tienda/categoria/carnes: page.goto: Target page, context or browser has been closed
+[TOTTUS] No valid URL pattern worked for page 1 of carnes
+[TOTTUS] Completed scraping category carnes: 0 total products
+[TOTTUS] Attempting to load: https://www.tottus.cl/shop/carnes?page=1
+[TOTTUS] Failed to load https://www.tottus.cl/shop/carnes?page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/shop/carnes?p=1
+[TOTTUS] Failed to load https://www.tottus.cl/shop/carnes?p=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/shop/carnes/1
+[TOTTUS] Failed to load https://www.tottus.cl/shop/carnes/1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/shop/carnes&page=1
+[TOTTUS] Failed to load https://www.tottus.cl/shop/carnes&page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/shop/carnes
+[TOTTUS] Failed to load https://www.tottus.cl/shop/carnes: page.goto: Target page, context or browser has been closed
+[TOTTUS] No valid URL pattern worked for page 1 of carnes
+[TOTTUS] Completed scraping category carnes: 0 total products
+[TOTTUS] Category carnes completed. Estimated remaining time: 1 minutes
+[TOTTUS] Starting category 5/7: panaderia
+[TOTTUS] Scraping category: panaderia with 7 URL patterns
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/categoria/panaderia?page=1
+[TOTTUS] Failed to load https://www.tottus.cl/supermercado/categoria/panaderia?page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/categoria/panaderia?p=1
+[TOTTUS] Failed to load https://www.tottus.cl/supermercado/categoria/panaderia?p=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/categoria/panaderia/1
+[TOTTUS] Failed to load https://www.tottus.cl/supermercado/categoria/panaderia/1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/categoria/panaderia&page=1
+[TOTTUS] Failed to load https://www.tottus.cl/supermercado/categoria/panaderia&page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/categoria/panaderia
+[TOTTUS] Failed to load https://www.tottus.cl/supermercado/categoria/panaderia: page.goto: Target page, context or browser has been closed
+[TOTTUS] No valid URL pattern worked for page 1 of panaderia
+[TOTTUS] Completed scraping category panaderia: 0 total products
+[TOTTUS] Attempting to load: https://www.tottus.cl/categoria/panaderia?page=1
+[TOTTUS] Failed to load https://www.tottus.cl/categoria/panaderia?page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/categoria/panaderia?p=1
+[TOTTUS] Failed to load https://www.tottus.cl/categoria/panaderia?p=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/categoria/panaderia/1
+[TOTTUS] Failed to load https://www.tottus.cl/categoria/panaderia/1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/categoria/panaderia&page=1
+[TOTTUS] Failed to load https://www.tottus.cl/categoria/panaderia&page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/categoria/panaderia
+[TOTTUS] Failed to load https://www.tottus.cl/categoria/panaderia: page.goto: Target page, context or browser has been closed
+[TOTTUS] No valid URL pattern worked for page 1 of panaderia
+[TOTTUS] Completed scraping category panaderia: 0 total products
+[TOTTUS] Attempting to load: https://www.tottus.cl/products/panaderia?page=1
+[TOTTUS] Failed to load https://www.tottus.cl/products/panaderia?page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/products/panaderia?p=1
+[TOTTUS] Failed to load https://www.tottus.cl/products/panaderia?p=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/products/panaderia/1
+[TOTTUS] Failed to load https://www.tottus.cl/products/panaderia/1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/products/panaderia&page=1
+[TOTTUS] Failed to load https://www.tottus.cl/products/panaderia&page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/products/panaderia
+[TOTTUS] Failed to load https://www.tottus.cl/products/panaderia: page.goto: Target page, context or browser has been closed
+[TOTTUS] No valid URL pattern worked for page 1 of panaderia
+[TOTTUS] Completed scraping category panaderia: 0 total products
+[TOTTUS] Attempting to load: https://www.tottus.cl/panaderia?page=1
+[TOTTUS] Failed to load https://www.tottus.cl/panaderia?page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/panaderia?p=1
+[TOTTUS] Failed to load https://www.tottus.cl/panaderia?p=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/panaderia/1
+[TOTTUS] Failed to load https://www.tottus.cl/panaderia/1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/panaderia&page=1
+[TOTTUS] Failed to load https://www.tottus.cl/panaderia&page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/panaderia
+[TOTTUS] Failed to load https://www.tottus.cl/panaderia: page.goto: Target page, context or browser has been closed
+[TOTTUS] No valid URL pattern worked for page 1 of panaderia
+[TOTTUS] Completed scraping category panaderia: 0 total products
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/panaderia?page=1
+[TOTTUS] Failed to load https://www.tottus.cl/supermercado/panaderia?page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/panaderia?p=1
+[TOTTUS] Failed to load https://www.tottus.cl/supermercado/panaderia?p=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/panaderia/1
+[TOTTUS] Failed to load https://www.tottus.cl/supermercado/panaderia/1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/panaderia&page=1
+[TOTTUS] Failed to load https://www.tottus.cl/supermercado/panaderia&page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/panaderia
+[TOTTUS] Failed to load https://www.tottus.cl/supermercado/panaderia: page.goto: Target page, context or browser has been closed
+[TOTTUS] No valid URL pattern worked for page 1 of panaderia
+[TOTTUS] Completed scraping category panaderia: 0 total products
+[TOTTUS] Attempting to load: https://www.tottus.cl/tienda/categoria/panaderia?page=1
+[TOTTUS] Failed to load https://www.tottus.cl/tienda/categoria/panaderia?page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/tienda/categoria/panaderia?p=1
+[TOTTUS] Failed to load https://www.tottus.cl/tienda/categoria/panaderia?p=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/tienda/categoria/panaderia/1
+[TOTTUS] Failed to load https://www.tottus.cl/tienda/categoria/panaderia/1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/tienda/categoria/panaderia&page=1
+[TOTTUS] Failed to load https://www.tottus.cl/tienda/categoria/panaderia&page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/tienda/categoria/panaderia
+[TOTTUS] Failed to load https://www.tottus.cl/tienda/categoria/panaderia: page.goto: Target page, context or browser has been closed
+[TOTTUS] No valid URL pattern worked for page 1 of panaderia
+[TOTTUS] Completed scraping category panaderia: 0 total products
+[TOTTUS] Attempting to load: https://www.tottus.cl/shop/panaderia?page=1
+[TOTTUS] Failed to load https://www.tottus.cl/shop/panaderia?page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/shop/panaderia?p=1
+[TOTTUS] Failed to load https://www.tottus.cl/shop/panaderia?p=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/shop/panaderia/1
+[TOTTUS] Failed to load https://www.tottus.cl/shop/panaderia/1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/shop/panaderia&page=1
+[TOTTUS] Failed to load https://www.tottus.cl/shop/panaderia&page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/shop/panaderia
+[TOTTUS] Failed to load https://www.tottus.cl/shop/panaderia: page.goto: Target page, context or browser has been closed
+[TOTTUS] No valid URL pattern worked for page 1 of panaderia
+[TOTTUS] Completed scraping category panaderia: 0 total products
+[TOTTUS] Category panaderia completed. Estimated remaining time: 0 minutes
+[TOTTUS] Starting category 6/7: aseo
+[TOTTUS] Scraping category: aseo with 7 URL patterns
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/categoria/aseo?page=1
+[TOTTUS] Failed to load https://www.tottus.cl/supermercado/categoria/aseo?page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/categoria/aseo?p=1
+[TOTTUS] Failed to load https://www.tottus.cl/supermercado/categoria/aseo?p=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/categoria/aseo/1
+[TOTTUS] Failed to load https://www.tottus.cl/supermercado/categoria/aseo/1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/categoria/aseo&page=1
+[TOTTUS] Failed to load https://www.tottus.cl/supermercado/categoria/aseo&page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/categoria/aseo
+[TOTTUS] Failed to load https://www.tottus.cl/supermercado/categoria/aseo: page.goto: Target page, context or browser has been closed
+[TOTTUS] No valid URL pattern worked for page 1 of aseo
+[TOTTUS] Completed scraping category aseo: 0 total products
+[TOTTUS] Attempting to load: https://www.tottus.cl/categoria/aseo?page=1
+[TOTTUS] Failed to load https://www.tottus.cl/categoria/aseo?page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/categoria/aseo?p=1
+[TOTTUS] Failed to load https://www.tottus.cl/categoria/aseo?p=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/categoria/aseo/1
+[TOTTUS] Failed to load https://www.tottus.cl/categoria/aseo/1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/categoria/aseo&page=1
+[TOTTUS] Failed to load https://www.tottus.cl/categoria/aseo&page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/categoria/aseo
+[TOTTUS] Failed to load https://www.tottus.cl/categoria/aseo: page.goto: Target page, context or browser has been closed
+[TOTTUS] No valid URL pattern worked for page 1 of aseo
+[TOTTUS] Completed scraping category aseo: 0 total products
+[TOTTUS] Attempting to load: https://www.tottus.cl/products/aseo?page=1
+[TOTTUS] Failed to load https://www.tottus.cl/products/aseo?page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/products/aseo?p=1
+[TOTTUS] Failed to load https://www.tottus.cl/products/aseo?p=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/products/aseo/1
+[TOTTUS] Failed to load https://www.tottus.cl/products/aseo/1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/products/aseo&page=1
+[TOTTUS] Failed to load https://www.tottus.cl/products/aseo&page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/products/aseo
+[TOTTUS] Failed to load https://www.tottus.cl/products/aseo: page.goto: Target page, context or browser has been closed
+[TOTTUS] No valid URL pattern worked for page 1 of aseo
+[TOTTUS] Completed scraping category aseo: 0 total products
+[TOTTUS] Attempting to load: https://www.tottus.cl/aseo?page=1
+[TOTTUS] Failed to load https://www.tottus.cl/aseo?page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/aseo?p=1
+[TOTTUS] Failed to load https://www.tottus.cl/aseo?p=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/aseo/1
+[TOTTUS] Failed to load https://www.tottus.cl/aseo/1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/aseo&page=1
+[TOTTUS] Failed to load https://www.tottus.cl/aseo&page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/aseo
+[TOTTUS] Failed to load https://www.tottus.cl/aseo: page.goto: Target page, context or browser has been closed
+[TOTTUS] No valid URL pattern worked for page 1 of aseo
+[TOTTUS] Completed scraping category aseo: 0 total products
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/aseo?page=1
+[TOTTUS] Failed to load https://www.tottus.cl/supermercado/aseo?page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/aseo?p=1
+[TOTTUS] Failed to load https://www.tottus.cl/supermercado/aseo?p=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/aseo/1
+[TOTTUS] Failed to load https://www.tottus.cl/supermercado/aseo/1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/aseo&page=1
+[TOTTUS] Failed to load https://www.tottus.cl/supermercado/aseo&page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/aseo
+[TOTTUS] Failed to load https://www.tottus.cl/supermercado/aseo: page.goto: Target page, context or browser has been closed
+[TOTTUS] No valid URL pattern worked for page 1 of aseo
+[TOTTUS] Completed scraping category aseo: 0 total products
+[TOTTUS] Attempting to load: https://www.tottus.cl/tienda/categoria/aseo?page=1
+[TOTTUS] Failed to load https://www.tottus.cl/tienda/categoria/aseo?page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/tienda/categoria/aseo?p=1
+[TOTTUS] Failed to load https://www.tottus.cl/tienda/categoria/aseo?p=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/tienda/categoria/aseo/1
+[TOTTUS] Failed to load https://www.tottus.cl/tienda/categoria/aseo/1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/tienda/categoria/aseo&page=1
+[TOTTUS] Failed to load https://www.tottus.cl/tienda/categoria/aseo&page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/tienda/categoria/aseo
+[TOTTUS] Failed to load https://www.tottus.cl/tienda/categoria/aseo: page.goto: Target page, context or browser has been closed
+[TOTTUS] No valid URL pattern worked for page 1 of aseo
+[TOTTUS] Completed scraping category aseo: 0 total products
+[TOTTUS] Attempting to load: https://www.tottus.cl/shop/aseo?page=1
+[TOTTUS] Failed to load https://www.tottus.cl/shop/aseo?page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/shop/aseo?p=1
+[TOTTUS] Failed to load https://www.tottus.cl/shop/aseo?p=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/shop/aseo/1
+[TOTTUS] Failed to load https://www.tottus.cl/shop/aseo/1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/shop/aseo&page=1
+[TOTTUS] Failed to load https://www.tottus.cl/shop/aseo&page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/shop/aseo
+[TOTTUS] Failed to load https://www.tottus.cl/shop/aseo: page.goto: Target page, context or browser has been closed
+[TOTTUS] No valid URL pattern worked for page 1 of aseo
+[TOTTUS] Completed scraping category aseo: 0 total products
+[TOTTUS] Category aseo completed. Estimated remaining time: 0 minutes
+[TOTTUS] Starting category 7/7: hogar
+[TOTTUS] Scraping category: hogar with 7 URL patterns
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/categoria/hogar?page=1
+[TOTTUS] Failed to load https://www.tottus.cl/supermercado/categoria/hogar?page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/categoria/hogar?p=1
+[TOTTUS] Failed to load https://www.tottus.cl/supermercado/categoria/hogar?p=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/categoria/hogar/1
+[TOTTUS] Failed to load https://www.tottus.cl/supermercado/categoria/hogar/1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/categoria/hogar&page=1
+[TOTTUS] Failed to load https://www.tottus.cl/supermercado/categoria/hogar&page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/categoria/hogar
+[TOTTUS] Failed to load https://www.tottus.cl/supermercado/categoria/hogar: page.goto: Target page, context or browser has been closed
+[TOTTUS] No valid URL pattern worked for page 1 of hogar
+[TOTTUS] Completed scraping category hogar: 0 total products
+[TOTTUS] Attempting to load: https://www.tottus.cl/categoria/hogar?page=1
+[TOTTUS] Failed to load https://www.tottus.cl/categoria/hogar?page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/categoria/hogar?p=1
+[TOTTUS] Failed to load https://www.tottus.cl/categoria/hogar?p=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/categoria/hogar/1
+[TOTTUS] Failed to load https://www.tottus.cl/categoria/hogar/1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/categoria/hogar&page=1
+[TOTTUS] Failed to load https://www.tottus.cl/categoria/hogar&page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/categoria/hogar
+[TOTTUS] Failed to load https://www.tottus.cl/categoria/hogar: page.goto: Target page, context or browser has been closed
+[TOTTUS] No valid URL pattern worked for page 1 of hogar
+[TOTTUS] Completed scraping category hogar: 0 total products
+[TOTTUS] Attempting to load: https://www.tottus.cl/products/hogar?page=1
+[TOTTUS] Failed to load https://www.tottus.cl/products/hogar?page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/products/hogar?p=1
+[TOTTUS] Failed to load https://www.tottus.cl/products/hogar?p=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/products/hogar/1
+[TOTTUS] Failed to load https://www.tottus.cl/products/hogar/1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/products/hogar&page=1
+[TOTTUS] Failed to load https://www.tottus.cl/products/hogar&page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/products/hogar
+[TOTTUS] Failed to load https://www.tottus.cl/products/hogar: page.goto: Target page, context or browser has been closed
+[TOTTUS] No valid URL pattern worked for page 1 of hogar
+[TOTTUS] Completed scraping category hogar: 0 total products
+[TOTTUS] Attempting to load: https://www.tottus.cl/hogar?page=1
+[TOTTUS] Failed to load https://www.tottus.cl/hogar?page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/hogar?p=1
+[TOTTUS] Failed to load https://www.tottus.cl/hogar?p=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/hogar/1
+[TOTTUS] Failed to load https://www.tottus.cl/hogar/1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/hogar&page=1
+[TOTTUS] Failed to load https://www.tottus.cl/hogar&page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/hogar
+[TOTTUS] Failed to load https://www.tottus.cl/hogar: page.goto: Target page, context or browser has been closed
+[TOTTUS] No valid URL pattern worked for page 1 of hogar
+[TOTTUS] Completed scraping category hogar: 0 total products
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/hogar?page=1
+[TOTTUS] Failed to load https://www.tottus.cl/supermercado/hogar?page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/hogar?p=1
+[TOTTUS] Failed to load https://www.tottus.cl/supermercado/hogar?p=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/hogar/1
+[TOTTUS] Failed to load https://www.tottus.cl/supermercado/hogar/1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/hogar&page=1
+[TOTTUS] Failed to load https://www.tottus.cl/supermercado/hogar&page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/supermercado/hogar
+[TOTTUS] Failed to load https://www.tottus.cl/supermercado/hogar: page.goto: Target page, context or browser has been closed
+[TOTTUS] No valid URL pattern worked for page 1 of hogar
+[TOTTUS] Completed scraping category hogar: 0 total products
+[TOTTUS] Attempting to load: https://www.tottus.cl/tienda/categoria/hogar?page=1
+[TOTTUS] Failed to load https://www.tottus.cl/tienda/categoria/hogar?page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/tienda/categoria/hogar?p=1
+[TOTTUS] Failed to load https://www.tottus.cl/tienda/categoria/hogar?p=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/tienda/categoria/hogar/1
+[TOTTUS] Failed to load https://www.tottus.cl/tienda/categoria/hogar/1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/tienda/categoria/hogar&page=1
+[TOTTUS] Failed to load https://www.tottus.cl/tienda/categoria/hogar&page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/tienda/categoria/hogar
+[TOTTUS] Failed to load https://www.tottus.cl/tienda/categoria/hogar: page.goto: Target page, context or browser has been closed
+[TOTTUS] No valid URL pattern worked for page 1 of hogar
+[TOTTUS] Completed scraping category hogar: 0 total products
+[TOTTUS] Attempting to load: https://www.tottus.cl/shop/hogar?page=1
+[TOTTUS] Failed to load https://www.tottus.cl/shop/hogar?page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/shop/hogar?p=1
+[TOTTUS] Failed to load https://www.tottus.cl/shop/hogar?p=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/shop/hogar/1
+[TOTTUS] Failed to load https://www.tottus.cl/shop/hogar/1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/shop/hogar&page=1
+[TOTTUS] Failed to load https://www.tottus.cl/shop/hogar&page=1: page.goto: Target page, context or browser has been closed
+[TOTTUS] Attempting to load: https://www.tottus.cl/shop/hogar
+[TOTTUS] Failed to load https://www.tottus.cl/shop/hogar: page.goto: Target page, context or browser has been closed
+[TOTTUS] No valid URL pattern worked for page 1 of hogar
+[TOTTUS] Completed scraping category hogar: 0 total products
+[TOTTUS] Category hogar completed. Estimated remaining time: 0 minutes
+[TOTTUS] Updated global products: 0 total products across 0 stores
+[TOTTUS] Saved 0 products to /home/kuromatsu/Documents/ΛRΛMΛC/Websites/Minimarket/data/products/tottus/products.json
+[TOTTUS] Scraping duration: 1 minutes
+[TOTTUS] ============================================================
+[TOTTUS] MASS SCRAPING COMPLETE
+[TOTTUS] Store: tottus
+[TOTTUS] Total Duration: 1 minutes (66 seconds)
+[TOTTUS] Categories scraped: 7/7
+[TOTTUS] Pages visited: 0
+[TOTTUS] Products found: 0
+[TOTTUS] Images downloaded: 0
+[TOTTUS] Retries: 0
+[TOTTUS] Errors: 0
+[TOTTUS] Success rate: 0%
+[TOTTUS] Average products per page: 0
+[TOTTUS] Products per minute: 0
+[TOTTUS] ============================================================

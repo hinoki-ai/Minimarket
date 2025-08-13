@@ -3,6 +3,7 @@
 import { useMemo, useState, useEffect } from "react";
 import { useQuery, useMutation } from "convex/react";
 import { api } from "@/convex/_generated/api";
+import type { Product, Category, Cart } from "@/types/convex";
 
 import { MinimartHero } from "@/components/ui/minimarket-hero";
 import { CategoryGrid, CategoryNav } from "@/components/ui/category-grid";
@@ -15,18 +16,22 @@ import { Button } from "@/components/ui/button";
 import Testimonials from "./testimonials";
 import { CometCard } from "@/components/ui/comet-card";
 import ServiceHighlights from "@/components/ui/service-highlights";
+import Image from "next/image";
 
 export default function HomeClient() {
   const { userId } = useAuth();
   const sessionId = useGuestSessionId();
-  const cartsApi: any = (api as any).carts;
-  const addToCart = useMutation(cartsApi?.addToCart);
-  const categoriesApi: any = (api as any).categories;
-  const productsApi: any = (api as any).products;
-  const categories = useQuery(categoriesApi?.getCategoriesWithProductCount, {});
-  const featuredProducts = useQuery(productsApi?.getFeaturedProducts, { limit: 8 });
-  const freshProducts = useQuery(productsApi?.getFreshProducts, { limit: 6 });
-  const cart = useQuery(cartsApi?.getUserCart, (userId || sessionId) && cartsApi?.getUserCart ? { userId: userId ?? undefined, sessionId: userId ? undefined : sessionId } : undefined);
+  const addToCart = useMutation(api.carts.addToCart);
+  const categories = useQuery(api.categories.getCategoriesWithProductCount, {}) as (Category & { productCount: number })[] | undefined;
+  const featuredProducts = useQuery(api.products.getFeaturedProducts, { limit: 8 }) as Product[] | undefined;
+  const freshProducts = useQuery(api.products.getFreshProducts, { limit: 6 }) as Product[] | undefined;
+  const cart = useQuery(
+    api.carts.getUserCart, 
+    (userId || sessionId) ? { 
+      userId: userId ?? undefined, 
+      sessionId: userId ? undefined : sessionId 
+    } : "skip"
+  ) as Cart | undefined;
 
   // Delivery / Pickup toggle (persist to localStorage)
   const [fulfillment, setFulfillment] = useState<"delivery" | "pickup">("delivery");
@@ -48,48 +53,61 @@ export default function HomeClient() {
   const categoryIdToSlug = useMemo(() => {
     const map = new Map<string, string>();
     if (Array.isArray(categories)) {
-      for (const c of categories as any[]) {
+      for (const c of categories) {
         if (c?._id && c?.slug) map.set(String(c._id), String(c.slug));
       }
     }
     return map;
   }, [categories]);
 
-  // Default square images per category slug (under public/images/products)
+  // Default square images per category slug (using Chilean categories)
   const getDefaultImageForCategory = (slug?: string) => {
     switch (slug) {
-      case 'drinks':
-        return '/images/products/drinks/generic-bottle.webp';
+      case 'bebidas':
+        return '/images/products/bebidas/coca-cola-15l.svg';
       case 'snacks':
-        return '/images/products/snacks/generic-chips.webp';
+        return '/images/products/snacks/papas-lays-original.svg';
+      case 'panaderia':
+        return '/images/products/panaderia/pan-hallulla-4u.svg';
+      case 'lacteos':
+        return '/images/products/lacteos/leche-soprole-entera-1l.svg';
+      case 'carnes':
+        return '/images/products/carnes/jamon-cocido-san-jorge.svg';
+      case 'aseo':
+        return '/images/products/aseo/detergente-ariel-polvo-1kg.svg';
+      case 'hogar':
+        return '/images/products/hogar/pilas-energizer-aa.svg';
+      // Legacy fallbacks for old categories
+      case 'drinks':
+        return '/images/products/bebidas/coca-cola-15l.svg';
       case 'fresh':
-        return '/images/products/fresh/generic-fruits.webp';
+        return '/images/products/panaderia/pan-hallulla-4u.svg';
       case 'bakery':
-        return '/images/products/bakery/generic-bread.webp';
+        return '/images/products/panaderia/pan-hallulla-4u.svg';
       case 'dairy':
-        return '/images/products/dairy/generic-milk.webp';
+        return '/images/products/lacteos/leche-soprole-entera-1l.svg';
       case 'meat':
-        return '/images/products/meat/generic-meat.webp';
+        return '/images/products/carnes/jamon-cocido-san-jorge.svg';
       case 'frozen':
-        return '/images/products/frozen/ice-cream-tub.webp';
+        return '/images/products/bebidas/coca-cola-15l.svg';
       case 'household':
-        return '/images/products/household/generic-spray.webp';
+        return '/images/products/hogar/pilas-energizer-aa.svg';
       case 'personal-care':
-        return '/images/products/personal-care/generic-shampoo.webp';
+        return '/images/products/aseo/detergente-ariel-polvo-1kg.svg';
       case 'electronics':
-        return '/images/products/electronics/generic-headphones.webp';
+        return '/images/products/hogar/pilas-energizer-aa.svg';
       case 'toys':
-        return '/images/products/toys/generic-toy.webp';
+        return '/images/products/snacks/papas-lays-original.svg';
       case 'stationery':
-        return '/images/products/stationery/pens-set.webp';
+        return '/images/products/hogar/pilas-energizer-aa.svg';
       default:
-        return '/images/products/fresh/generic-fruits.webp';
+        return '/images/products/bebidas/coca-cola-15l.svg';
     }
   };
 
   // Ensure products have at least one image; inject category-based fallback
   const withFallbackImages = useMemo(() => {
-    const ensure = (p: any) => {
+    const ensure = (p: Product): Product => {
       if (p?.images && Array.isArray(p.images) && p.images.length > 0 && p.images[0]?.url) return p;
       const slug = categoryIdToSlug.get(String(p?.categoryId));
       const url = getDefaultImageForCategory(slug);
@@ -105,12 +123,29 @@ export default function HomeClient() {
       };
     };
     return {
-      featured: Array.isArray(featuredProducts) ? (featuredProducts as any[]).map(ensure) : [],
-      fresh: Array.isArray(freshProducts) ? (freshProducts as any[]).map(ensure) : [],
+      featured: Array.isArray(featuredProducts) ? featuredProducts.map(ensure) : [],
+      fresh: Array.isArray(freshProducts) ? freshProducts.map(ensure) : [],
     };
   }, [featuredProducts, freshProducts, categoryIdToSlug]);
 
   const [isMiniCartOpen, setIsMiniCartOpen] = useState(false);
+  const [liderImages, setLiderImages] = useState<string[]>([]);
+
+  useEffect(() => {
+    let cancelled = false;
+    async function loadLiderImages() {
+      try {
+        const res = await fetch('/images/products/lider/lider-files.json', { cache: 'force-cache' });
+        if (!res.ok) return;
+        const data = await res.json();
+        if (!cancelled && Array.isArray(data)) setLiderImages(data.slice(0, 20));
+      } catch (_) {
+        // ignore
+      }
+    }
+    loadLiderImages();
+    return () => { cancelled = true; };
+  }, []);
   return (
     <div>
       <MinimartHero />
@@ -120,7 +155,7 @@ export default function HomeClient() {
           {hasData.featured && (
             <ItemListJsonLd
               itemListName="Productos destacados"
-              items={(withFallbackImages.featured as any[]).map((p: any) => ({
+              items={withFallbackImages.featured.map((p) => ({
                 url: `https://minimarket-aramac.local/products/${p.slug}`,
                 name: p.name,
                 image: p.images?.[0]?.url,
@@ -132,10 +167,10 @@ export default function HomeClient() {
           </div>
           {hasData.featured ? (
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-5 gap-4 lg:gap-6 xl:gap-8">
-              {(withFallbackImages.featured as any[]).map((p, idx) => (
+              {withFallbackImages.featured.map((p, idx) => (
                 <CometCard key={p._id} className="group">
                   <ProductCard 
-                    product={p as any}
+                    product={p}
                     index={idx}
                     onAddToCart={async (productId, quantity) => {
                       await addToCart({ productId, quantity, userId: userId ?? undefined, sessionId: userId ? undefined : sessionId });
@@ -154,11 +189,37 @@ export default function HomeClient() {
           )}
         </div>
       </section>
+
+      {/* Imágenes de supermercados (Lider) */}
+      {liderImages.length > 0 && (
+        <section className="py-12 md:py-16 lg:py-20 xl:py-24">
+          <div className="mx-auto max-w-7xl px-6 xl:px-8">
+            <div className="mb-8 lg:mb-12 xl:mb-16 flex items-center justify-between">
+              <h2 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-semibold">Imágenes de supermercados</h2>
+              <span className="text-sm text-muted-foreground">Fuente: Lider</span>
+            </div>
+            <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 gap-4 lg:gap-6 xl:gap-8">
+              {liderImages.map((src) => (
+                <div key={src} className="relative aspect-square rounded-md border overflow-hidden bg-muted">
+                  <Image
+                    src={src}
+                    alt="Lider product image"
+                    fill
+                    sizes="(max-width: 768px) 33vw, (max-width: 1200px) 25vw, 12vw"
+                    className="object-cover"
+                    loading="lazy"
+                  />
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
       {/* Quick category nav under header */}
       <div className="sticky top-16 z-10 bg-transparent border-b">
         <div className="mx-auto max-w-7xl px-6 xl:px-8 py-2 xl:py-3">
-          {hasData.categories && (
-            <CategoryNav categories={categories as any} />
+          {hasData.categories && categories && (
+            <CategoryNav categories={categories} />
           )}
           {/* Fulfillment toggle + Free shipping progress */}
           <div className="mt-3 lg:mt-4 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-3 lg:gap-6">
@@ -227,8 +288,8 @@ export default function HomeClient() {
           <div className="mb-8 lg:mb-12 xl:mb-16 flex items-center justify-between">
             <h2 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-semibold">Categorías</h2>
           </div>
-          {hasData.categories ? (
-            <CategoryGrid categories={categories as any} layout="bento" />
+          {hasData.categories && categories ? (
+            <CategoryGrid categories={categories} layout="bento" />
           ) : (
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4 lg:gap-6">
               {Array.from({ length: 8 }).map((_, i) => (
@@ -247,7 +308,7 @@ export default function HomeClient() {
           {hasData.fresh && (
             <ItemListJsonLd
               itemListName="Recién llegados y frescos"
-              items={(withFallbackImages.fresh as any[]).map((p: any) => ({
+              items={withFallbackImages.fresh.map((p) => ({
                 url: `https://minimarket-aramac.local/products/${p.slug}`,
                 name: p.name,
                 image: p.images?.[0]?.url,
@@ -259,10 +320,10 @@ export default function HomeClient() {
           </div>
           {hasData.fresh ? (
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-5 gap-4 lg:gap-6 xl:gap-8">
-              {(withFallbackImages.fresh as any[]).map((p) => (
+              {withFallbackImages.fresh.map((p) => (
                 <ProductCard 
                   key={p._id} 
-                  product={p as any}
+                  product={p}
                   onAddToCart={async (productId, quantity) => {
                     await addToCart({ productId, quantity, userId: userId ?? undefined, sessionId: userId ? undefined : sessionId });
                     setIsMiniCartOpen(true);

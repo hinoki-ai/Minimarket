@@ -1,0 +1,62 @@
+[
+  {
+    "id": "79e33195-f54a-479d-bd62-c9aecdf77869",
+    "name": "Monitor Gamer 27 FHD IPS HDR 180Hz 1Ms MGMG2740P Master-G",
+    "category": "bebidas",
+    "price": null,
+    "currency": "CLP",
+    "description": "Monitor Gamer 27 FHD IPS HDR 180Hz 1Ms MGMG2740P Master-G",
+    "store": {
+      "name": "falabella",
+      "url": "https://www.falabella.com",
+      "scraped": "2025-08-13T18:00:00.901Z",
+      "strategy": "StandardStrategy"
+    },
+    "stock": 12,
+    "inStock": true,
+    "createdAt": "2025-08-13T18:00:00.901Z",
+    "updatedAt": "2025-08-13T18:01:21.008Z",
+    "brand": "Monitor",
+    "shortDescription": "Monitor Gamer 27\" FHD IPS HDR 180Hz 1Ms MGMG274..."
+  },
+  {
+    "id": "5a6a484b-8d06-475b-b2e9-ba2401e9a39a",
+    "name": "Apple iPhone 13 128Gb",
+    "category": "bebidas",
+    "price": null,
+    "currency": "CLP",
+    "description": "Apple iPhone 13 128Gb",
+    "store": {
+      "name": "falabella",
+      "url": "https://www.falabella.com",
+      "scraped": "2025-08-13T18:00:00.902Z",
+      "strategy": "StandardStrategy"
+    },
+    "stock": 21,
+    "inStock": true,
+    "createdAt": "2025-08-13T18:00:00.902Z",
+    "updatedAt": "2025-08-13T18:01:21.008Z",
+    "brand": "Apple",
+    "shortDescription": "Apple iPhone 13 128Gb"
+  },
+  {
+    "id": "cca29501-6235-43d2-bc6d-b7e03bd56354",
+    "name": "Smart TV Led 43 Google TV Full HD Bluetooth MGG43FFK",
+    "category": "bebidas",
+    "price": null,
+    "currency": "CLP",
+    "description": "Smart TV Led 43 Google TV Full HD Bluetooth MGG43FFK",
+    "store": {
+      "name": "falabella",
+      "url": "https://www.falabella.com",
+      "scraped": "2025-08-13T18:00:00.902Z",
+      "strategy": "StandardStrategy"
+    },
+    "stock": 32,
+    "inStock": true,
+    "createdAt": "2025-08-13T18:00:00.902Z",
+    "updatedAt": "2025-08-13T18:01:21.008Z",
+    "brand": "Smart",
+    "shortDescription": "Smart TV Led 43 Google TV Full HD Bluetooth MGG..."
+  }
+]

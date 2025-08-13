@@ -1,0 +1,65 @@
+[
+  {
+    "id": "d311be85-15eb-47fb-b92d-8634cc32acda",
+    "name": "CategoríasCancelarIr a SupermercadoIngresarCuentaIngresar o crear una cuentaPedidosAyuda0",
+    "category": "general",
+    "price": 0,
+    "currency": "CLP",
+    "description": "CategoríasCancelarIr a SupermercadoIngresarCuentaIngresar o crear una cuentaPedidosAyuda0",
+    "store": {
+      "name": "líder",
+      "url": "https://www.lider.cl/buscar?q=agua",
+      "scraped": "2025-08-13T17:25:33.962Z",
+      "strategy": "AggressiveStrategy",
+      "selector": "[class*=\"item\"]"
+    },
+    "stock": 48,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:25:33.962Z",
+    "updatedAt": "2025-08-13T17:25:55.045Z",
+    "brand": "CategoríasCancelarIr",
+    "shortDescription": "CategoríasCancelarIr a SupermercadoIngresarCuen..."
+  },
+  {
+    "id": "cbee4d1e-4f6b-44e6-8bb7-9a7da6fcf021",
+    "name": "Nuestras marcas Lider.cl - Razón Social Administradora de Supermercados Hiper Limitada, RUT 76.134",
+    "category": "general",
+    "price": null,
+    "currency": "CLP",
+    "description": "Nuestras marcas Lider.cl - Razón Social Administradora de Supermercados Hiper Limitada, RUT 76.134",
+    "store": {
+      "name": "líder",
+      "url": "https://www.lider.cl/productos",
+      "scraped": "2025-08-13T17:25:47.355Z",
+      "strategy": "AggressiveStrategy",
+      "selector": "[class*=\"item\"]"
+    },
+    "stock": 58,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:25:47.355Z",
+    "updatedAt": "2025-08-13T17:25:55.045Z",
+    "brand": "Nuestras",
+    "shortDescription": "Nuestras marcas Lider.cl - Razón Social: Admini..."
+  },
+  {
+    "id": "b85e5a15-be05-4f49-b120-ca542b1a0059",
+    "name": "CategoríasServiciosCancelarIr a SupermercadoIngresarCuentaIngresarCrear una cuentaPedidos0",
+    "category": "general",
+    "price": 0,
+    "currency": "CLP",
+    "description": "CategoríasServiciosCancelarIr a SupermercadoIngresarCuentaIngresarCrear una cuentaPedidos0",
+    "store": {
+      "name": "líder",
+      "url": "https://www.lider.cl/catalog",
+      "scraped": "2025-08-13T17:25:54.622Z",
+      "strategy": "AggressiveStrategy",
+      "selector": "[class*=\"item\"]"
+    },
+    "stock": 30,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:25:54.622Z",
+    "updatedAt": "2025-08-13T17:25:55.046Z",
+    "brand": "CategoríasServiciosCancelarIr",
+    "shortDescription": "CategoríasServiciosCancelarIr a SupermercadoIng..."
+  }
+]

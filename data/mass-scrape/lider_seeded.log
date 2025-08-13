@@ -1,0 +1,143 @@
+[LIDER] Starting Enhanced Universal Product Scraper
+[LIDER] Store: lider
+[LIDER] Categories: bebidas, snacks, lacteos
+[LIDER] Max products: 1000
+[LIDER] Max pages per category: 1000
+[LIDER] Dry run: false
+[LIDER] Starting category 1/3: bebidas
+[LIDER] Scraping category: bebidas with 3 URL patterns
+[LIDER] Attempting to load: https://www.lider.cl/supermercado/bebidas?page=1
+[LIDER] Failed to load https://www.lider.cl/supermercado/bebidas?page=1: page.goto: Target page, context or browser has been closed
+Call log:
+[2m  - navigating to "https://www.lider.cl/supermercado/bebidas?page=1", waiting until "domcontentloaded"[22m
+
+[LIDER] Attempting to load: https://www.lider.cl/supermercado/bebidas?p=1
+[LIDER] Failed to load https://www.lider.cl/supermercado/bebidas?p=1: page.goto: Target page, context or browser has been closed
+[LIDER] Attempting to load: https://www.lider.cl/supermercado/bebidas/1
+[LIDER] Failed to load https://www.lider.cl/supermercado/bebidas/1: page.goto: Target page, context or browser has been closed
+[LIDER] Attempting to load: https://www.lider.cl/supermercado/bebidas&page=1
+[LIDER] Failed to load https://www.lider.cl/supermercado/bebidas&page=1: page.goto: Target page, context or browser has been closed
+[LIDER] Attempting to load: https://www.lider.cl/supermercado/bebidas
+[LIDER] Failed to load https://www.lider.cl/supermercado/bebidas: page.goto: Target page, context or browser has been closed
+[LIDER] No valid URL pattern worked for page 1 of bebidas
+[LIDER] Completed scraping category bebidas: 0 total products
+[LIDER] Attempting to load: https://www.lider.cl/supermercado/lacteos?page=1
+[LIDER] Failed to load https://www.lider.cl/supermercado/lacteos?page=1: page.goto: Target page, context or browser has been closed
+[LIDER] Attempting to load: https://www.lider.cl/supermercado/lacteos?p=1
+[LIDER] Failed to load https://www.lider.cl/supermercado/lacteos?p=1: page.goto: Target page, context or browser has been closed
+[LIDER] Attempting to load: https://www.lider.cl/supermercado/lacteos/1
+[LIDER] Failed to load https://www.lider.cl/supermercado/lacteos/1: page.goto: Target page, context or browser has been closed
+[LIDER] Attempting to load: https://www.lider.cl/supermercado/lacteos&page=1
+[LIDER] Failed to load https://www.lider.cl/supermercado/lacteos&page=1: page.goto: Target page, context or browser has been closed
+[LIDER] Attempting to load: https://www.lider.cl/supermercado/lacteos
+[LIDER] Failed to load https://www.lider.cl/supermercado/lacteos: page.goto: Target page, context or browser has been closed
+[LIDER] No valid URL pattern worked for page 1 of bebidas
+[LIDER] Completed scraping category bebidas: 0 total products
+[LIDER] Attempting to load: https://www.lider.cl/supermercado/snacks?page=1
+[LIDER] Failed to load https://www.lider.cl/supermercado/snacks?page=1: page.goto: Target page, context or browser has been closed
+[LIDER] Attempting to load: https://www.lider.cl/supermercado/snacks?p=1
+[LIDER] Failed to load https://www.lider.cl/supermercado/snacks?p=1: page.goto: Target page, context or browser has been closed
+[LIDER] Attempting to load: https://www.lider.cl/supermercado/snacks/1
+[LIDER] Failed to load https://www.lider.cl/supermercado/snacks/1: page.goto: Target page, context or browser has been closed
+[LIDER] Attempting to load: https://www.lider.cl/supermercado/snacks&page=1
+[LIDER] Failed to load https://www.lider.cl/supermercado/snacks&page=1: page.goto: Target page, context or browser has been closed
+[LIDER] Attempting to load: https://www.lider.cl/supermercado/snacks
+[LIDER] Failed to load https://www.lider.cl/supermercado/snacks: page.goto: Target page, context or browser has been closed
+[LIDER] No valid URL pattern worked for page 1 of bebidas
+[LIDER] Completed scraping category bebidas: 0 total products
+[LIDER] Category bebidas completed. Estimated remaining time: 0 minutes
+[LIDER] Starting category 2/3: snacks
+[LIDER] Scraping category: snacks with 3 URL patterns
+[LIDER] Attempting to load: https://www.lider.cl/supermercado/bebidas?page=1
+[LIDER] Failed to load https://www.lider.cl/supermercado/bebidas?page=1: page.goto: Target page, context or browser has been closed
+[LIDER] Attempting to load: https://www.lider.cl/supermercado/bebidas?p=1
+[LIDER] Failed to load https://www.lider.cl/supermercado/bebidas?p=1: page.goto: Target page, context or browser has been closed
+[LIDER] Attempting to load: https://www.lider.cl/supermercado/bebidas/1
+[LIDER] Failed to load https://www.lider.cl/supermercado/bebidas/1: page.goto: Target page, context or browser has been closed
+[LIDER] Attempting to load: https://www.lider.cl/supermercado/bebidas&page=1
+[LIDER] Failed to load https://www.lider.cl/supermercado/bebidas&page=1: page.goto: Target page, context or browser has been closed
+[LIDER] Attempting to load: https://www.lider.cl/supermercado/bebidas
+[LIDER] Failed to load https://www.lider.cl/supermercado/bebidas: page.goto: Target page, context or browser has been closed
+[LIDER] No valid URL pattern worked for page 1 of snacks
+[LIDER] Completed scraping category snacks: 0 total products
+[LIDER] Attempting to load: https://www.lider.cl/supermercado/lacteos?page=1
+[LIDER] Failed to load https://www.lider.cl/supermercado/lacteos?page=1: page.goto: Target page, context or browser has been closed
+[LIDER] Attempting to load: https://www.lider.cl/supermercado/lacteos?p=1
+[LIDER] Failed to load https://www.lider.cl/supermercado/lacteos?p=1: page.goto: Target page, context or browser has been closed
+[LIDER] Attempting to load: https://www.lider.cl/supermercado/lacteos/1
+[LIDER] Failed to load https://www.lider.cl/supermercado/lacteos/1: page.goto: Target page, context or browser has been closed
+[LIDER] Attempting to load: https://www.lider.cl/supermercado/lacteos&page=1
+[LIDER] Failed to load https://www.lider.cl/supermercado/lacteos&page=1: page.goto: Target page, context or browser has been closed
+[LIDER] Attempting to load: https://www.lider.cl/supermercado/lacteos
+[LIDER] Failed to load https://www.lider.cl/supermercado/lacteos: page.goto: Target page, context or browser has been closed
+[LIDER] No valid URL pattern worked for page 1 of snacks
+[LIDER] Completed scraping category snacks: 0 total products
+[LIDER] Attempting to load: https://www.lider.cl/supermercado/snacks?page=1
+[LIDER] Failed to load https://www.lider.cl/supermercado/snacks?page=1: page.goto: Target page, context or browser has been closed
+[LIDER] Attempting to load: https://www.lider.cl/supermercado/snacks?p=1
+[LIDER] Failed to load https://www.lider.cl/supermercado/snacks?p=1: page.goto: Target page, context or browser has been closed
+[LIDER] Attempting to load: https://www.lider.cl/supermercado/snacks/1
+[LIDER] Failed to load https://www.lider.cl/supermercado/snacks/1: page.goto: Target page, context or browser has been closed
+[LIDER] Attempting to load: https://www.lider.cl/supermercado/snacks&page=1
+[LIDER] Failed to load https://www.lider.cl/supermercado/snacks&page=1: page.goto: Target page, context or browser has been closed
+[LIDER] Attempting to load: https://www.lider.cl/supermercado/snacks
+[LIDER] Failed to load https://www.lider.cl/supermercado/snacks: page.goto: Target page, context or browser has been closed
+[LIDER] No valid URL pattern worked for page 1 of snacks
+[LIDER] Completed scraping category snacks: 0 total products
+[LIDER] Category snacks completed. Estimated remaining time: 0 minutes
+[LIDER] Starting category 3/3: lacteos
+[LIDER] Scraping category: lacteos with 3 URL patterns
+[LIDER] Attempting to load: https://www.lider.cl/supermercado/bebidas?page=1
+[LIDER] Failed to load https://www.lider.cl/supermercado/bebidas?page=1: page.goto: Target page, context or browser has been closed
+[LIDER] Attempting to load: https://www.lider.cl/supermercado/bebidas?p=1
+[LIDER] Failed to load https://www.lider.cl/supermercado/bebidas?p=1: page.goto: Target page, context or browser has been closed
+[LIDER] Attempting to load: https://www.lider.cl/supermercado/bebidas/1
+[LIDER] Failed to load https://www.lider.cl/supermercado/bebidas/1: page.goto: Target page, context or browser has been closed
+[LIDER] Attempting to load: https://www.lider.cl/supermercado/bebidas&page=1
+[LIDER] Failed to load https://www.lider.cl/supermercado/bebidas&page=1: page.goto: Target page, context or browser has been closed
+[LIDER] Attempting to load: https://www.lider.cl/supermercado/bebidas
+[LIDER] Failed to load https://www.lider.cl/supermercado/bebidas: page.goto: Target page, context or browser has been closed
+[LIDER] No valid URL pattern worked for page 1 of lacteos
+[LIDER] Completed scraping category lacteos: 0 total products
+[LIDER] Attempting to load: https://www.lider.cl/supermercado/lacteos?page=1
+[LIDER] Failed to load https://www.lider.cl/supermercado/lacteos?page=1: page.goto: Target page, context or browser has been closed
+[LIDER] Attempting to load: https://www.lider.cl/supermercado/lacteos?p=1
+[LIDER] Failed to load https://www.lider.cl/supermercado/lacteos?p=1: page.goto: Target page, context or browser has been closed
+[LIDER] Attempting to load: https://www.lider.cl/supermercado/lacteos/1
+[LIDER] Failed to load https://www.lider.cl/supermercado/lacteos/1: page.goto: Target page, context or browser has been closed
+[LIDER] Attempting to load: https://www.lider.cl/supermercado/lacteos&page=1
+[LIDER] Failed to load https://www.lider.cl/supermercado/lacteos&page=1: page.goto: Target page, context or browser has been closed
+[LIDER] Attempting to load: https://www.lider.cl/supermercado/lacteos
+[LIDER] Failed to load https://www.lider.cl/supermercado/lacteos: page.goto: Target page, context or browser has been closed
+[LIDER] No valid URL pattern worked for page 1 of lacteos
+[LIDER] Completed scraping category lacteos: 0 total products
+[LIDER] Attempting to load: https://www.lider.cl/supermercado/snacks?page=1
+[LIDER] Failed to load https://www.lider.cl/supermercado/snacks?page=1: page.goto: Target page, context or browser has been closed
+[LIDER] Attempting to load: https://www.lider.cl/supermercado/snacks?p=1
+[LIDER] Failed to load https://www.lider.cl/supermercado/snacks?p=1: page.goto: Target page, context or browser has been closed
+[LIDER] Attempting to load: https://www.lider.cl/supermercado/snacks/1
+[LIDER] Failed to load https://www.lider.cl/supermercado/snacks/1: page.goto: Target page, context or browser has been closed
+[LIDER] Attempting to load: https://www.lider.cl/supermercado/snacks&page=1
+[LIDER] Failed to load https://www.lider.cl/supermercado/snacks&page=1: page.goto: Target page, context or browser has been closed
+[LIDER] Attempting to load: https://www.lider.cl/supermercado/snacks
+[LIDER] Failed to load https://www.lider.cl/supermercado/snacks: page.goto: Target page, context or browser has been closed
+[LIDER] No valid URL pattern worked for page 1 of lacteos
+[LIDER] Completed scraping category lacteos: 0 total products
+[LIDER] Category lacteos completed. Estimated remaining time: 0 minutes
+[LIDER] Updated global products: 0 total products across 0 stores
+[LIDER] Saved 0 products to /home/kuromatsu/Documents/ΛRΛMΛC/Websites/Minimarket/data/products/lider/products.json
+[LIDER] Scraping duration: 0 minutes
+[LIDER] ============================================================
+[LIDER] MASS SCRAPING COMPLETE
+[LIDER] Store: lider
+[LIDER] Total Duration: 0 minutes (2 seconds)
+[LIDER] Categories scraped: 3/3
+[LIDER] Pages visited: 0
+[LIDER] Products found: 0
+[LIDER] Images downloaded: 0
+[LIDER] Retries: 0
+[LIDER] Errors: 0
+[LIDER] Success rate: 0%
+[LIDER] Average products per page: 0
+[LIDER] Products per minute: 0
+[LIDER] ============================================================

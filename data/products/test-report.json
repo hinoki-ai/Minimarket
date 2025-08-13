@@ -1,0 +1,82 @@
+{
+  "testInfo": {
+    "timestamp": "2025-08-13T08:33:59.945Z",
+    "stores": [
+      "lider"
+    ],
+    "categories": [
+      "bebidas",
+      "snacks"
+    ],
+    "dryRun": true,
+    "maxProductsPerStore": 10
+  },
+  "results": {
+    "stores": {
+      "lider": {
+        "success": true,
+        "productCount": 7,
+        "categories": 2,
+        "timestamp": "2025-08-13T08:33:58.867Z"
+      }
+    },
+    "totalProducts": 7,
+    "totalImages": 0,
+    "errors": [],
+    "validation": {
+      "success": true,
+      "stats": {
+        "totalProducts": 12,
+        "validProducts": 12,
+        "invalidProducts": 0,
+        "duplicatesFound": 5,
+        "duplicatesRemoved": 4,
+        "errorsFixed": 0,
+        "finalProductCount": 8,
+        "validationDate": "2025-08-13T08:33:59.872Z"
+      },
+      "timestamp": "2025-08-13T08:33:59.873Z"
+    },
+    "library": {
+      "success": true,
+      "stats": {
+        "totalProducts": 7,
+        "totalImages": 14,
+        "categories": {
+          "bebidas": 5,
+          "snacks": 2
+        },
+        "brands": 7,
+        "stores": 1,
+        "searchTokens": 109,
+        "lastUpdated": "2025-08-13T08:33:59.942Z",
+        "version": "1.0.0"
+      },
+      "validation": {
+        "isValid": false,
+        "issues": [
+          "7 products missing images",
+          "14 orphaned images"
+        ],
+        "stats": {
+          "totalProducts": 7,
+          "totalImages": 14,
+          "productsWithoutImages": 7,
+          "orphanedImages": 14,
+          "brokenImages": 0
+        }
+      },
+      "timestamp": "2025-08-13T08:33:59.944Z"
+    }
+  },
+  "summary": {
+    "totalStoresTested": 1,
+    "successfulStores": 1,
+    "totalProducts": 7,
+    "validationSuccess": true,
+    "librarySuccess": true,
+    "finalProductCount": 7,
+    "totalImages": 14,
+    "errorCount": 0
+  }
+}

@@ -1,0 +1,860 @@
+[SANTA_ISABEL] Starting Enhanced Universal Product Scraper
+[SANTA_ISABEL] Store: santa_isabel
+[SANTA_ISABEL] Categories: bebidas, snacks, lacteos, carnes, panaderia, aseo, hogar
+[SANTA_ISABEL] Max products: 8000
+[SANTA_ISABEL] Max pages per category: 1000
+[SANTA_ISABEL] Dry run: false
+[SANTA_ISABEL] Navigating to https://www.santaisabel.cl
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/j.php?a=642581&u=https%3A%2F%2Fwww.santaisabel.cl%2F&vn=2.1&x=true net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&e=loading_failure:https://dev.visualwebsiteoptimizer.com/j.php?a=642581&u=https%3A%2F%2Fwww.santaisabel.cl%2F&vn=2.1&x=true net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-WGHSBMT&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.2.min.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.2.min.js net::ERR_FAILED
+[SANTA_ISABEL] Discovered 7 category URLs from homepage navigation
+[SANTA_ISABEL] Starting category 1/7: bebidas
+[SANTA_ISABEL] Scraping category: bebidas with 1 URL patterns
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/vinos-cervezas-y-licores?page=1
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/uploads/2025/08/desktop-home-banner-santas-ofertas-helados-san-francisco-s33-12082025.webp net::ERR_BLOCKED_BY_ORB
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/uploads/2025/08/desktop-home-banner-santas-ofertas-carne-molida-cuisine-co-s33-12082025.webp net::ERR_BLOCKED_BY_ORB
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/uploads/2025/08/desktop-home-banner-super-ofertas-galleta-club-social-s33-12082025.webp net::ERR_BLOCKED_BY_ORB
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/474054-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vteximg.com.br/arquivos/ids/168472-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vteximg.com.br/arquivos/ids/490969-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/470465-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/311050-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/504546-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://api.storyly.io/web/v3.3/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NfaWQiOjEzNjEzLCJhcHBfaWQiOjIxMTMzLCJpbnNfaWQiOjIzNzcxfQ.siMz0wCKml0O03_Bvz-cpq8kJBMCd3707UY6PG3bFUc net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vteximg.com.br/arquivos/ids/435682-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/381966-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/378676-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vteximg.com.br/arquivos/ids/438410-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://cl-jumboweb-assets.ecomm.cencosud.com/santaisabel/script.min.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/a6d4aa4296ecf6a801baa0b777eed317.svg net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/f6500f4892d13bd728d388d36056eb7a.svg net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/8522db65a00db824342d6a49d45e3334.svg net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fvinos-cervezas-y-licores%3Fpage%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fvinos-cervezas-y-licores%3Fpage%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&e=loading_failure:https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-WGHSBMT&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[SANTA_ISABEL] No products found on page, trying next URL pattern
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/vinos-cervezas-y-licores?p=1
+[SANTA_ISABEL] Request failed: https://sm-web-api.ecomm.cencosud.com/catalog/api/v4/pedrofontova/products/vinos-cervezas-y-licores?page=1&sc=1 net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fvinos-cervezas-y-licores%3Fp%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fvinos-cervezas-y-licores%3Fp%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&e=loading_failure:https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-WGHSBMT&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[SANTA_ISABEL] No products found on page, trying next URL pattern
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/vinos-cervezas-y-licores?pagina=1
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/435682-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/403857-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/448390-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/478478-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/388428-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/436864-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/473078-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/524218-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://sm-web-api.ecomm.cencosud.com/catalog/api/v1/reviews/ratings?ids=25387,25390,3788,14029,24346,24342,22812,3653,24200,1601,3639,2623,35918,7971,20834,1583,3660,31239,3641,7966,2194,7096,1570,3793,1582,8283,3666,3647,32504,1566,7146,5943,3657,14814,1889,3677,3658,6053,17090,3654 net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/363016-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/505743-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/473177-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/377230-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/361760-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/381567-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/377375-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/428301-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/438410-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/381762-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/439482-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/360506-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/a6d4aa4296ecf6a801baa0b777eed317.svg net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fvinos-cervezas-y-licores%3Fpagina%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fvinos-cervezas-y-licores%3Fpagina%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&e=loading_failure:https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-WGHSBMT&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[SANTA_ISABEL] No products found on page, trying next URL pattern
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/vinos-cervezas-y-licores/1
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/7216e8939e32df637e89-6907-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/a9e30cd3c34d0123be87-3770-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.jumbo.cl/json/santaisabel/promotions-v2.json net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/6e7ea070f179239d48d7-catalog-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/d5907ee8e4768540cf7b-5851-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/json/cms/page-18039.json net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/419325f3f33f9f0efa7f-6907.css net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/ba0c206213bb727dc047-478.css net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/df3c5e24214da3ab7910-5851.css net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://fonts.gstatic.com/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwlxdu.woff2 net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/b7735d8c1af9882ea361-5532.css net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://fonts.gstatic.com/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlxdu.woff2 net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://fonts.gstatic.com/s/sourcesanspro/v22/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7l.woff2 net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[SANTA_ISABEL] Page returned 404: https://www.santaisabel.cl/vinos-cervezas-y-licores/1
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/vinos-cervezas-y-licores&page=1
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fvinos-cervezas-y-licores%2F1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fvinos-cervezas-y-licores%2F1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&e=loading_failure:https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/6c3ca00988d4f98c5a08-99-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/8d60492f3a149587ab8a-99.css net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[SANTA_ISABEL] Page returned 404: https://www.santaisabel.cl/vinos-cervezas-y-licores&page=1
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/vinos-cervezas-y-licores#?page=1
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fvinos-cervezas-y-licores%26page%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fvinos-cervezas-y-licores%26page%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&e=loading_failure:https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/69fa6c14c6ad12795808-1413-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/1e9a394d05917c386d31-utils-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/6c3ca00988d4f98c5a08-99-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/8d60492f3a149587ab8a-99.css net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fvinos-cervezas-y-licores%23%3Fpage%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fvinos-cervezas-y-licores%23%3Fpage%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&e=loading_failure:https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-WGHSBMT&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[SANTA_ISABEL] No products found on page, trying next URL pattern
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/vinos-cervezas-y-licores#?p=1
+[SANTA_ISABEL] Page returned undefined: https://www.santaisabel.cl/vinos-cervezas-y-licores#?p=1
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/vinos-cervezas-y-licores
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/json/cms/page-18039.json net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.jumbo.cl/json/santaisabel/promotions-v2.json net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] No products found on page, trying next URL pattern
+[SANTA_ISABEL] No valid URL pattern worked for page 1 of bebidas
+[SANTA_ISABEL] Completed scraping category bebidas: 0 total products
+[SANTA_ISABEL] Category bebidas completed. Estimated remaining time: 4 minutes
+[SANTA_ISABEL] Starting category 2/7: snacks
+[SANTA_ISABEL] Scraping category: snacks with 1 URL patterns
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/chocolates-galletas-y-dulces?page=1
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fvinos-cervezas-y-licores&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fvinos-cervezas-y-licores&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&e=loading_failure:https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/69fa6c14c6ad12795808-1413-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/6c3ca00988d4f98c5a08-99-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/8d60492f3a149587ab8a-99.css net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fchocolates-galletas-y-dulces%3Fpage%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fchocolates-galletas-y-dulces%3Fpage%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&e=loading_failure:https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-WGHSBMT&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[SANTA_ISABEL] No products found on page, trying next URL pattern
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/chocolates-galletas-y-dulces?p=1
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/json/cms/page-18039.json net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.jumbo.cl/json/santaisabel/promotions-v2.json net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/e81370b9d7ebbe5e0005-5620-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[SANTA_ISABEL] No products found on page, trying next URL pattern
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/chocolates-galletas-y-dulces?pagina=1
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fchocolates-galletas-y-dulces%3Fp%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fchocolates-galletas-y-dulces%3Fp%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&e=loading_failure:https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-WGHSBMT&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/d5907ee8e4768540cf7b-5851-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.jumbo.cl/json/santaisabel/promotions-v2.json net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/a9e30cd3c34d0123be87-3770-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.2.min.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/7216e8939e32df637e89-6907-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/6e7ea070f179239d48d7-catalog-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://fonts.gstatic.com/s/sourcesanspro/v22/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7l.woff2 net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://fonts.gstatic.com/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlxdu.woff2 net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://fonts.gstatic.com/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwlxdu.woff2 net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fchocolates-galletas-y-dulces%3Fpagina%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fchocolates-galletas-y-dulces%3Fpagina%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&e=loading_failure:https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] No products found on page, trying next URL pattern
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/chocolates-galletas-y-dulces/1
+[SANTA_ISABEL] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-WGHSBMT&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/json/cms/page-18039.json net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.2.min.js net::ERR_ABORTED
+[SANTA_ISABEL] Page returned 404: https://www.santaisabel.cl/chocolates-galletas-y-dulces/1
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/chocolates-galletas-y-dulces&page=1
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fchocolates-galletas-y-dulces%2F1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fchocolates-galletas-y-dulces%2F1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&e=loading_failure:https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/69fa6c14c6ad12795808-1413-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://snippet.maze.co/static/9445654d9badcb41b1b2d2b8327695ea8d8b13e9/contextualScaffold.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/6c3ca00988d4f98c5a08-99-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/v.gif?cd=0&a=642581&d=santaisabel.cl&u=DFE6F88E42EFD2AF298C72E0C4C493025&h=21fdf9fb5f9576c731c94bf569493975&t=false net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[SANTA_ISABEL] Page returned 404: https://www.santaisabel.cl/chocolates-galletas-y-dulces&page=1
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/chocolates-galletas-y-dulces#?page=1
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fchocolates-galletas-y-dulces%26page%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fchocolates-galletas-y-dulces%26page%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&e=loading_failure:https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/69fa6c14c6ad12795808-1413-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/6c3ca00988d4f98c5a08-99-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/8d60492f3a149587ab8a-99.css net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fchocolates-galletas-y-dulces%23%3Fpage%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fchocolates-galletas-y-dulces%23%3Fpage%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&e=loading_failure:https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-WGHSBMT&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[SANTA_ISABEL] No products found on page, trying next URL pattern
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/chocolates-galletas-y-dulces#?p=1
+[SANTA_ISABEL] Page returned undefined: https://www.santaisabel.cl/chocolates-galletas-y-dulces#?p=1
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/chocolates-galletas-y-dulces
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/e81370b9d7ebbe5e0005-5620-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/a9e30cd3c34d0123be87-3770-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/6e7ea070f179239d48d7-catalog-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.jumbo.cl/json/santaisabel/promotions-v2.json net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/d5907ee8e4768540cf7b-5851-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/7216e8939e32df637e89-6907-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/c46d8108c38d0dc199f9-3126-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/json/cms/page-18039.json net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/b7735d8c1af9882ea361-5532.css net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://fonts.gstatic.com/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwlxdu.woff2 net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/df3c5e24214da3ab7910-5851.css net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/419325f3f33f9f0efa7f-6907.css net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/ba0c206213bb727dc047-478.css net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://fonts.gstatic.com/s/sourcesanspro/v22/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7l.woff2 net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://fonts.gstatic.com/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlxdu.woff2 net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fchocolates-galletas-y-dulces&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fchocolates-galletas-y-dulces&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&e=loading_failure:https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-WGHSBMT&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.2.min.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.2.min.js net::ERR_FAILED
+[SANTA_ISABEL] No products found on page, trying next URL pattern
+[SANTA_ISABEL] No valid URL pattern worked for page 1 of snacks
+[SANTA_ISABEL] Completed scraping category snacks: 0 total products
+[SANTA_ISABEL] Category snacks completed. Estimated remaining time: 3 minutes
+[SANTA_ISABEL] Starting category 3/7: lacteos
+[SANTA_ISABEL] Scraping category: lacteos with 1 URL patterns
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/lacteos-y-quesos?page=1
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/480191-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/470465-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/353273-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/470045-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/304585-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://sm-web-api.ecomm.cencosud.com/catalog/api/v1/reviews/ratings?ids=24092,700,765,776,740,17111,773,4743,752,24677,742,736,4380,767,31784,21232,761,739,737,770,31753,759,21250,777,21205,33482,12199,33692,14154,4357,469,4345,746,729,726,744,5365,4347,693,22628 net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/470788-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/180850-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/180726-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/474207-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/398822-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/171459-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/470308-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/180724-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/180740-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/365501-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/180446-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/180729-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/257921-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/484533-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/255877-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Flacteos-y-quesos%3Fpage%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Flacteos-y-quesos%3Fpage%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&e=loading_failure:https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-WGHSBMT&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.2.min.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.2.min.js net::ERR_FAILED
+[SANTA_ISABEL] No products found on page, trying next URL pattern
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/lacteos-y-quesos?p=1
+[SANTA_ISABEL] Request failed: https://sm-web-api.ecomm.cencosud.com/catalog/api/v4/pedrofontova/products/lacteos-y-quesos?page=1&sc=1 net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[SANTA_ISABEL] No products found on page, trying next URL pattern
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/lacteos-y-quesos?pagina=1
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Flacteos-y-quesos%3Fp%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Flacteos-y-quesos%3Fp%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/3b56660351f52e9b0fd0-search-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/a9e30cd3c34d0123be87-3770-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/69fa6c14c6ad12795808-1413-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/7216e8939e32df637e89-6907-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/6e7ea070f179239d48d7-catalog-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[SANTA_ISABEL] No products found on page, trying next URL pattern
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/lacteos-y-quesos/1
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/69fa6c14c6ad12795808-1413-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Flacteos-y-quesos%3Fpagina%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Flacteos-y-quesos%3Fpagina%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/8d60492f3a149587ab8a-99.css net::ERR_ABORTED
+[SANTA_ISABEL] Page returned 404: https://www.santaisabel.cl/lacteos-y-quesos/1
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/lacteos-y-quesos&page=1
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Flacteos-y-quesos%2F1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Flacteos-y-quesos%2F1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&e=loading_failure:https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/6c3ca00988d4f98c5a08-99-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/69fa6c14c6ad12795808-1413-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/8d60492f3a149587ab8a-99.css net::ERR_ABORTED
+[SANTA_ISABEL] Page returned 404: https://www.santaisabel.cl/lacteos-y-quesos&page=1
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/lacteos-y-quesos#?page=1
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Flacteos-y-quesos%26page%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Flacteos-y-quesos%26page%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&e=loading_failure:https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/6c3ca00988d4f98c5a08-99-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/69fa6c14c6ad12795808-1413-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&e=loading_failure:https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Flacteos-y-quesos%23%3Fpage%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Flacteos-y-quesos%23%3Fpage%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] No products found on page, trying next URL pattern
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/lacteos-y-quesos#?p=1
+[SANTA_ISABEL] Page returned undefined: https://www.santaisabel.cl/lacteos-y-quesos#?p=1
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/lacteos-y-quesos
+[SANTA_ISABEL] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-WGHSBMT&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://sm-web-api.ecomm.cencosud.com/orderform/api/v1/orderform/6ce80f3bb57f4057ae22d1d79d3de9e3 net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://sp.vtex.com/event-api/v1/santaisabel/event net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/json/cms/page-547.json net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Flacteos-y-quesos&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Flacteos-y-quesos&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&e=loading_failure:https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-WGHSBMT&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.2.min.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.2.min.js net::ERR_FAILED
+[SANTA_ISABEL] No products found on page, trying next URL pattern
+[SANTA_ISABEL] No valid URL pattern worked for page 1 of lacteos
+[SANTA_ISABEL] Completed scraping category lacteos: 0 total products
+[SANTA_ISABEL] Category lacteos completed. Estimated remaining time: 2 minutes
+[SANTA_ISABEL] Starting category 4/7: carnes
+[SANTA_ISABEL] Scraping category: carnes with 1 URL patterns
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/carnes-y-pescados?page=1
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fcarnes-y-pescados%3Fpage%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fcarnes-y-pescados%3Fpage%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&e=loading_failure:https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-WGHSBMT&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.2.min.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.2.min.js net::ERR_FAILED
+[SANTA_ISABEL] No products found on page, trying next URL pattern
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/carnes-y-pescados?p=1
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fcarnes-y-pescados%3Fp%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fcarnes-y-pescados%3Fp%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&e=loading_failure:https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] No products found on page, trying next URL pattern
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/carnes-y-pescados?pagina=1
+[SANTA_ISABEL] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-WGHSBMT&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/json/cms/page-18039.json net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.jumbo.cl/json/santaisabel/promotions-v2.json net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fcarnes-y-pescados%3Fpagina%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fcarnes-y-pescados%3Fpagina%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&e=loading_failure:https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] No products found on page, trying next URL pattern
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/carnes-y-pescados/1
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/e81370b9d7ebbe5e0005-5620-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://sm-web-api.ecomm.cencosud.com/orderform/api/v1/orderform/6ce80f3bb57f4057ae22d1d79d3de9e3 net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/c46d8108c38d0dc199f9-3126-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/json/cms/page-14035.json net::ERR_ABORTED
+[SANTA_ISABEL] Page returned 404: https://www.santaisabel.cl/carnes-y-pescados/1
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/carnes-y-pescados&page=1
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fcarnes-y-pescados%2F1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fcarnes-y-pescados%2F1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/d92ef33961bb48a4cf76-react-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/6c3ca00988d4f98c5a08-99-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/69fa6c14c6ad12795808-1413-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/1e9a394d05917c386d31-utils-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/8d60492f3a149587ab8a-99.css net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/v.gif?cd=0&a=642581&d=santaisabel.cl&u=DFE6F88E42EFD2AF298C72E0C4C493025&h=21fdf9fb5f9576c731c94bf569493975&t=false net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&e=loading_failure:https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_ABORTED
+[SANTA_ISABEL] Page returned 404: https://www.santaisabel.cl/carnes-y-pescados&page=1
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/carnes-y-pescados#?page=1
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/6c3ca00988d4f98c5a08-99-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/d92ef33961bb48a4cf76-react-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/69fa6c14c6ad12795808-1413-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/v.gif?cd=0&a=642581&d=santaisabel.cl&u=DFE6F88E42EFD2AF298C72E0C4C493025&h=21fdf9fb5f9576c731c94bf569493975&t=false net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fcarnes-y-pescados%23%3Fpage%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fcarnes-y-pescados%23%3Fpage%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&e=loading_failure:https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-WGHSBMT&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.2.min.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.2.min.js net::ERR_FAILED
+[SANTA_ISABEL] No products found on page, trying next URL pattern
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/carnes-y-pescados#?p=1
+[SANTA_ISABEL] Page returned undefined: https://www.santaisabel.cl/carnes-y-pescados#?p=1
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/carnes-y-pescados
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fcarnes-y-pescados&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fcarnes-y-pescados&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&e=loading_failure:https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-WGHSBMT&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.2.min.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.2.min.js net::ERR_FAILED
+[SANTA_ISABEL] No products found on page, trying next URL pattern
+[SANTA_ISABEL] No valid URL pattern worked for page 1 of carnes
+[SANTA_ISABEL] Completed scraping category carnes: 0 total products
+[SANTA_ISABEL] Category carnes completed. Estimated remaining time: 2 minutes
+[SANTA_ISABEL] Starting category 5/7: panaderia
+[SANTA_ISABEL] Scraping category: panaderia with 1 URL patterns
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/panaderia-y-pasteleria?page=1
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fpanaderia-y-pasteleria%3Fpage%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fpanaderia-y-pasteleria%3Fpage%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&e=loading_failure:https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-WGHSBMT&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[SANTA_ISABEL] No products found on page, trying next URL pattern
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/panaderia-y-pasteleria?p=1
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/251522-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/447848-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/447917-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/289887-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/192356-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/450467-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/447887-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/446938-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/192001-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/447840-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/339929-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/191994-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/251483-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/164769-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/161500-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://sm-web-api.ecomm.cencosud.com/catalog/api/v1/reviews/ratings?ids=3428,12897,33265,3429,5362,5361,4000,3893,33719,1287,1939,3247,11040,25330,3009,32357,3431,3249,34235,3890,3250,11039,3248,22094,5245,3996,24084,33717,3987,32308,7368,35471,2726,23854,3610,3993,1289,7581,1283,33693 net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/350485-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/164767-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/451301-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/504221-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/419675-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fpanaderia-y-pasteleria%3Fp%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fpanaderia-y-pasteleria%3Fp%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&e=loading_failure:https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-WGHSBMT&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[SANTA_ISABEL] No products found on page, trying next URL pattern
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/panaderia-y-pasteleria?pagina=1
+[SANTA_ISABEL] Request failed: https://sm-web-api.ecomm.cencosud.com/catalog/api/v4/pedrofontova/products/panaderia-y-pasteleria?p=1&page=1&sc=1 net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fpanaderia-y-pasteleria%3Fpagina%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fpanaderia-y-pasteleria%3Fpagina%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&e=loading_failure:https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] No products found on page, trying next URL pattern
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/panaderia-y-pasteleria/1
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/6c3ca00988d4f98c5a08-99-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/8d60492f3a149587ab8a-99.css net::ERR_ABORTED
+[SANTA_ISABEL] Page returned 404: https://www.santaisabel.cl/panaderia-y-pasteleria/1
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/panaderia-y-pasteleria&page=1
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fpanaderia-y-pasteleria%2F1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&e=loading_failure:https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fpanaderia-y-pasteleria%2F1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/69fa6c14c6ad12795808-1413-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/6c3ca00988d4f98c5a08-99-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/8d60492f3a149587ab8a-99.css net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fpanaderia-y-pasteleria%26page%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fpanaderia-y-pasteleria%26page%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&e=loading_failure:https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Page returned 404: https://www.santaisabel.cl/panaderia-y-pasteleria&page=1
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/panaderia-y-pasteleria#?page=1
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/1e9a394d05917c386d31-utils-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/6c3ca00988d4f98c5a08-99-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/d92ef33961bb48a4cf76-react-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/69fa6c14c6ad12795808-1413-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/8d60492f3a149587ab8a-99.css net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/9e9992539c88daa61ded-1413.css net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fpanaderia-y-pasteleria%23%3Fpage%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fpanaderia-y-pasteleria%23%3Fpage%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&e=loading_failure:https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-WGHSBMT&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.2.min.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.2.min.js net::ERR_FAILED
+[SANTA_ISABEL] No products found on page, trying next URL pattern
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/panaderia-y-pasteleria#?p=1
+[SANTA_ISABEL] Page returned undefined: https://www.santaisabel.cl/panaderia-y-pasteleria#?p=1
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/panaderia-y-pasteleria
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fpanaderia-y-pasteleria&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fpanaderia-y-pasteleria&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&e=loading_failure:https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-WGHSBMT&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.2.min.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.2.min.js net::ERR_FAILED
+[SANTA_ISABEL] No products found on page, trying next URL pattern
+[SANTA_ISABEL] No valid URL pattern worked for page 1 of panaderia
+[SANTA_ISABEL] Completed scraping category panaderia: 0 total products
+[SANTA_ISABEL] Category panaderia completed. Estimated remaining time: 1 minutes
+[SANTA_ISABEL] Starting category 6/7: aseo
+[SANTA_ISABEL] Scraping category: aseo with 1 URL patterns
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/limpieza?page=1
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Flimpieza%3Fpage%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Flimpieza%3Fpage%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&e=loading_failure:https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-WGHSBMT&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.2.min.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.2.min.js net::ERR_FAILED
+[SANTA_ISABEL] No products found on page, trying next URL pattern
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/limpieza?p=1
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Flimpieza%3Fp%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Flimpieza%3Fp%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&e=loading_failure:https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-WGHSBMT&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.2.min.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.2.min.js net::ERR_FAILED
+[SANTA_ISABEL] No products found on page, trying next URL pattern
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/limpieza?pagina=1
+[SANTA_ISABEL] Request failed: https://sm-web-api.ecomm.cencosud.com/catalog/api/v1/reviews/ratings?ids=35406,1669,34721,2756,20707,6846,25428,34367,25116,23207,16724,1661,1226,1209,2565,32786,24722,33080,33677,1094,1217,1205,4450,2931,7852,7624,2316,16,3767,11903,10793,1143,33820,9068,10100,2049,1103,13196,2709,31885,34720,4556,1111 net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Flimpieza%3Fpagina%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Flimpieza%3Fpagina%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&e=loading_failure:https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-WGHSBMT&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.2.min.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.2.min.js net::ERR_FAILED
+[SANTA_ISABEL] No products found on page, trying next URL pattern
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/limpieza/1
+[SANTA_ISABEL] Request failed: https://sm-web-api.ecomm.cencosud.com/catalog/api/v1/reviews/ratings?ids=35406,1669,34721,2756,20707,6846,25428,34367,25116,23207,16724,1661,1226,1209,2565,32786,24722,33080,33677,1094,1217,1205,4450,2931,7852,7624,2316,16,3767,11903,10793,1143,33820,9068,10100,2049,1103,13196,2709,31885,34720,4556,1111 net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[SANTA_ISABEL] Page returned 404: https://www.santaisabel.cl/limpieza/1
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/limpieza&page=1
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Flimpieza%2F1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Flimpieza%2F1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&e=loading_failure:https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-WGHSBMT&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.2.min.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.2.min.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[SANTA_ISABEL] Page returned 404: https://www.santaisabel.cl/limpieza&page=1
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/limpieza#?page=1
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Flimpieza%26page%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Flimpieza%26page%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&e=loading_failure:https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/e81370b9d7ebbe5e0005-5620-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/6e7ea070f179239d48d7-catalog-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/3b56660351f52e9b0fd0-search-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/c46d8108c38d0dc199f9-3126-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/json/cms/page-14035.json net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/7216e8939e32df637e89-6907-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/a9e30cd3c34d0123be87-3770-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://sm-web-api.ecomm.cencosud.com/orderform/api/v1/orderform/6ce80f3bb57f4057ae22d1d79d3de9e3 net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Flimpieza%23%3Fpage%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Flimpieza%23%3Fpage%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&e=loading_failure:https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-WGHSBMT&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.2.min.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.2.min.js net::ERR_FAILED
+[SANTA_ISABEL] No products found on page, trying next URL pattern
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/limpieza#?p=1
+[SANTA_ISABEL] Page returned undefined: https://www.santaisabel.cl/limpieza#?p=1
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/limpieza
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Flimpieza&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Flimpieza&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&e=loading_failure:https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-WGHSBMT&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.2.min.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.2.min.js net::ERR_FAILED
+[SANTA_ISABEL] No products found on page, trying next URL pattern
+[SANTA_ISABEL] No valid URL pattern worked for page 1 of aseo
+[SANTA_ISABEL] Completed scraping category aseo: 0 total products
+[SANTA_ISABEL] Category aseo completed. Estimated remaining time: 1 minutes
+[SANTA_ISABEL] Starting category 7/7: hogar
+[SANTA_ISABEL] Scraping category: hogar with 1 URL patterns
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/hogar?page=1
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fhogar%3Fpage%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fhogar%3Fpage%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&e=loading_failure:https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-WGHSBMT&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.2.min.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.2.min.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://cm.g.doubleclick.net/pixel?google_nid=groovinads_mexico_sa_de_cv_&google_hm=NTA3NzQwNTI2Nzg2ODI4 net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/json/cms/hogar.json net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://www.googletagmanager.com/gtag/js?id=AW-10844377008 net::ERR_FAILED
+[SANTA_ISABEL] No products found on page, trying next URL pattern
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/hogar?p=1
+[SANTA_ISABEL] Request failed: https://sm-web-api.ecomm.cencosud.com/catalog/api/v1/reviews/ratings?ids=843,8688,2569,8690,9083,9076,844,8689,23042,24165,8684,1613,34472,21939,36185,8558,9556,36223,9084,9526,848,8397,1612,24164,8400,22727,21984,22989,34382,23010,34134,23041,20077,8403,9513,18126,849,8557,8396,22015 net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/502158-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fhogar%3Fp%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fhogar%3Fp%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&e=loading_failure:https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-WGHSBMT&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.2.min.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.2.min.js net::ERR_FAILED
+[SANTA_ISABEL] No products found on page, trying next URL pattern
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/hogar?pagina=1
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/184910-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/175607-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://sm-web-api.ecomm.cencosud.com/catalog/api/v1/reviews/ratings?ids=843,8688,2569,8690,9083,9076,844,8689,23042,24165,8684,1613,34472,21939,36185,8558,9556,36223,9084,9526,848,8397,1612,24164,8400,22727,21984,22989,34382,23010,34134,23041,20077,8403,9513,18126,849,8557,8396,22015 net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/174316-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://santaisabel.vtexassets.com/arquivos/ids/502232-280-280?width=280&height=280&aspect=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fhogar%3Fpagina%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fhogar%3Fpagina%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&e=loading_failure:https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-WGHSBMT&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[SANTA_ISABEL] No products found on page, trying next URL pattern
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/hogar/1
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/json/cms/page-547.json net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.jumbo.cl/json/santaisabel/promotions-v2.json net::ERR_ABORTED
+[SANTA_ISABEL] Page returned 404: https://www.santaisabel.cl/hogar/1
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/hogar&page=1
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fhogar%2F1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fhogar%2F1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&e=loading_failure:https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/e81370b9d7ebbe5e0005-5620-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/json/cms/page-538.json net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/json/cms/page-14035.json net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/json/cms/page-547.json net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-WGHSBMT&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://sm-web-api.ecomm.cencosud.com/orderform/api/v1/orderform/6ce80f3bb57f4057ae22d1d79d3de9e3 net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://sp.vtex.com/event-api/v1/santaisabel/event net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[SANTA_ISABEL] Page returned 404: https://www.santaisabel.cl/hogar&page=1
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/hogar#?page=1
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fhogar%26page%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fhogar%26page%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&e=loading_failure:https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-WGHSBMT&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://sp.vtex.com/event-api/v1/santaisabel/event net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://sm-web-api.ecomm.cencosud.com/orderform/api/v1/orderform/6ce80f3bb57f4057ae22d1d79d3de9e3 net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/7216e8939e32df637e89-6907-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/a9e30cd3c34d0123be87-3770-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/e81370b9d7ebbe5e0005-5620-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/d5907ee8e4768540cf7b-5851-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/6e7ea070f179239d48d7-catalog-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/c46d8108c38d0dc199f9-3126-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://fonts.gstatic.com/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwlxdu.woff2 net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://fonts.gstatic.com/s/sourcesanspro/v22/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7l.woff2 net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://fonts.gstatic.com/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlxdu.woff2 net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/419325f3f33f9f0efa7f-6907.css net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/ba0c206213bb727dc047-478.css net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/df3c5e24214da3ab7910-5851.css net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/b7735d8c1af9882ea361-5532.css net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fhogar%23%3Fpage%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fhogar%23%3Fpage%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&e=loading_failure:https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-WGHSBMT&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.2.min.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://js-agent.newrelic.com/nr-spa-1.261.2.min.js net::ERR_FAILED
+[SANTA_ISABEL] No products found on page, trying next URL pattern
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/hogar#?p=1
+[SANTA_ISABEL] Page returned undefined: https://www.santaisabel.cl/hogar#?p=1
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/hogar
+[SANTA_ISABEL] Request failed: https://sm-web-api.ecomm.cencosud.com/catalog/api/v1/reviews/ratings?ids=843,8688,2569,8690,9083,9076,844,8689,23042,24165,8684,1613,34472,21939,36185,8558,9556,36223,9084,9526,848,8397,1612,24164,8400,22727,21984,22989,34382,23010,34134,23041,20077,8403,9513,18126,849,8557,8396,22015 net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/tag/js/gpt.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fhogar&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fhogar&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&e=loading_failure:https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] No products found on page, trying next URL pattern
+[SANTA_ISABEL] No valid URL pattern worked for page 1 of hogar
+[SANTA_ISABEL] Completed scraping category hogar: 0 total products
+[SANTA_ISABEL] Category hogar completed. Estimated remaining time: 0 minutes
+[SANTA_ISABEL] Updated global products: 0 total products across 0 stores
+[SANTA_ISABEL] Saved 0 products to /home/kuromatsu/Documents/ΛRΛMΛC/Websites/Minimarket/data/products/santa_isabel/products.json
+[SANTA_ISABEL] Scraping duration: 4 minutes
+[SANTA_ISABEL] ============================================================
+[SANTA_ISABEL] MASS SCRAPING COMPLETE
+[SANTA_ISABEL] Store: santa_isabel
+[SANTA_ISABEL] Total Duration: 4 minutes (223 seconds)
+[SANTA_ISABEL] Categories scraped: 7/7
+[SANTA_ISABEL] Pages visited: 0
+[SANTA_ISABEL] Products found: 0
+[SANTA_ISABEL] Images downloaded: 0
+[SANTA_ISABEL] Retries: 0
+[SANTA_ISABEL] Errors: 0
+[SANTA_ISABEL] Success rate: 0%
+[SANTA_ISABEL] Average products per page: 0
+[SANTA_ISABEL] Products per minute: 0
+[SANTA_ISABEL] ============================================================

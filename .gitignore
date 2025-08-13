@@ -51,3 +51,6 @@ next-env.d.ts
 .next-dev.pid
 .convex-dev.log
 .lighthouseci/
+
+# bundle analysis reports
+/analyze/

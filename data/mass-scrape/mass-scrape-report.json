@@ -1,0 +1,105 @@
+{
+  "summary": {
+    "totalStores": 4,
+    "completedStores": 4,
+    "failedStores": 0,
+    "totalProducts": 0,
+    "startTime": "2025-08-13T12:46:36.965Z",
+    "endTime": "2025-08-13T13:19:53.578Z",
+    "totalDurationHours": 0.6,
+    "averageProductsPerStore": 0,
+    "successRate": 100
+  },
+  "storeResults": {
+    "easy": {
+      "success": true,
+      "products": 0,
+      "duration": 686,
+      "stats": {
+        "pagesVisited": 0,
+        "productsFound": 0,
+        "imagesDownloaded": 0,
+        "errors": 0,
+        "retries": 0,
+        "categoriesCompleted": 14,
+        "totalCategories": 14,
+        "startTime": "2025-08-13T12:46:37.757Z",
+        "lastSaved": "2025-08-13T12:58:02.309Z",
+        "estimatedRemaining": null
+      }
+    },
+    "paris": {
+      "success": true,
+      "products": 0,
+      "duration": 1337,
+      "stats": {
+        "pagesVisited": 0,
+        "productsFound": 0,
+        "imagesDownloaded": 0,
+        "errors": 0,
+        "retries": 0,
+        "categoriesCompleted": 14,
+        "totalCategories": 14,
+        "startTime": "2025-08-13T12:46:37.860Z",
+        "lastSaved": "2025-08-13T13:08:53.899Z",
+        "estimatedRemaining": null
+      }
+    },
+    "sodimac": {
+      "success": true,
+      "products": 0,
+      "duration": 1720,
+      "stats": {
+        "pagesVisited": 0,
+        "productsFound": 0,
+        "imagesDownloaded": 0,
+        "errors": 0,
+        "retries": 0,
+        "categoriesCompleted": 14,
+        "totalCategories": 14,
+        "startTime": "2025-08-13T12:46:37.833Z",
+        "lastSaved": "2025-08-13T13:15:15.526Z",
+        "estimatedRemaining": null
+      }
+    },
+    "falabella": {
+      "success": true,
+      "products": 0,
+      "duration": 1997,
+      "stats": {
+        "pagesVisited": 0,
+        "productsFound": 0,
+        "imagesDownloaded": 0,
+        "errors": 0,
+        "retries": 0,
+        "categoriesCompleted": 14,
+        "totalCategories": 14,
+        "startTime": "2025-08-13T12:46:37.767Z",
+        "lastSaved": "2025-08-13T13:19:53.513Z",
+        "estimatedRemaining": null
+      }
+    }
+  },
+  "topPerformers": [
+    {
+      "store": "easy",
+      "products": 0,
+      "productsPerMinute": 0
+    },
+    {
+      "store": "paris",
+      "products": 0,
+      "productsPerMinute": 0
+    },
+    {
+      "store": "sodimac",
+      "products": 0,
+      "productsPerMinute": 0
+    },
+    {
+      "store": "falabella",
+      "products": 0,
+      "productsPerMinute": 0
+    }
+  ]
+}

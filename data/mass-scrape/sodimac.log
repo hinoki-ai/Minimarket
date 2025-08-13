@@ -1,0 +1,694 @@
+[SODIMAC] Starting Enhanced Universal Product Scraper
+[SODIMAC] Store: sodimac
+[SODIMAC] Categories: herramientas, ferreteria, construccion, electricidad, jardineria, pinturas, plomeria
+[SODIMAC] Max products: 1200
+[SODIMAC] Max pages per category: 1000
+[SODIMAC] Dry run: false
+[SODIMAC] Starting category 1/7: herramientas
+[SODIMAC] Scraping category: herramientas with 7 URL patterns
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/categoria/herramientas?page=1
+[SODIMAC] Page returned 404: https://www.sodimac.cl/supermercado/categoria/herramientas?page=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/categoria/herramientas?p=1
+[SODIMAC] Request failed: https://www.sodimac.cl/cdn-cgi/challenge-platform/h/b/scripts/jsd/8359bcf47b68/main.js? net::ERR_ABORTED
+[SODIMAC] Page returned 404: https://www.sodimac.cl/supermercado/categoria/herramientas?p=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/categoria/herramientas/1
+[SODIMAC] Request failed: https://www.sodimac.cl/cdn-cgi/challenge-platform/h/b/scripts/jsd/8359bcf47b68/main.js? net::ERR_ABORTED
+[SODIMAC] Page returned 404: https://www.sodimac.cl/supermercado/categoria/herramientas/1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/categoria/herramientas&page=1
+[SODIMAC] Request failed: https://www.sodimac.cl/cdn-cgi/challenge-platform/h/b/scripts/jsd/8359bcf47b68/main.js? net::ERR_ABORTED
+[SODIMAC] Page returned 404: https://www.sodimac.cl/supermercado/categoria/herramientas&page=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/categoria/herramientas
+[SODIMAC] Request failed: https://www.sodimac.cl/cdn-cgi/challenge-platform/h/b/scripts/jsd/8359bcf47b68/main.js? net::ERR_ABORTED
+[SODIMAC] Page returned 404: https://www.sodimac.cl/supermercado/categoria/herramientas
+[SODIMAC] No valid URL pattern worked for page 1 of herramientas
+[SODIMAC] Completed scraping category herramientas: 0 total products
+[SODIMAC] Attempting to load: https://www.sodimac.cl/categoria/herramientas?page=1
+[SODIMAC] Request failed: https://www.sodimac.cl/cdn-cgi/challenge-platform/h/b/scripts/jsd/8359bcf47b68/main.js? net::ERR_ABORTED
+[SODIMAC] Page returned 404: https://www.sodimac.cl/categoria/herramientas?page=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/categoria/herramientas?p=1
+[SODIMAC] Request failed: https://www.sodimac.cl/cdn-cgi/challenge-platform/h/b/scripts/jsd/8359bcf47b68/main.js? net::ERR_ABORTED
+[SODIMAC] Page returned 404: https://www.sodimac.cl/categoria/herramientas?p=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/categoria/herramientas/1
+[SODIMAC] Request failed: https://www.sodimac.cl/cdn-cgi/challenge-platform/h/b/scripts/jsd/8359bcf47b68/main.js? net::ERR_ABORTED
+[SODIMAC] Page returned 404: https://www.sodimac.cl/categoria/herramientas/1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/categoria/herramientas&page=1
+[SODIMAC] Request failed: https://www.sodimac.cl/cdn-cgi/challenge-platform/h/b/scripts/jsd/8359bcf47b68/main.js? net::ERR_ABORTED
+[SODIMAC] Page returned 404: https://www.sodimac.cl/categoria/herramientas&page=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/categoria/herramientas
+[SODIMAC] Request failed: https://www.sodimac.cl/cdn-cgi/challenge-platform/h/b/scripts/jsd/8359bcf47b68/main.js? net::ERR_ABORTED
+[SODIMAC] Page returned 404: https://www.sodimac.cl/categoria/herramientas
+[SODIMAC] No valid URL pattern worked for page 1 of herramientas
+[SODIMAC] Completed scraping category herramientas: 0 total products
+[SODIMAC] Attempting to load: https://www.sodimac.cl/products/herramientas?page=1
+[SODIMAC] Request failed: https://www.sodimac.cl/cdn-cgi/challenge-platform/h/b/scripts/jsd/8359bcf47b68/main.js? net::ERR_ABORTED
+[SODIMAC] Page returned 404: https://www.sodimac.cl/products/herramientas?page=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/products/herramientas?p=1
+[SODIMAC] Request failed: https://www.sodimac.cl/cdn-cgi/challenge-platform/h/b/scripts/jsd/8359bcf47b68/main.js? net::ERR_ABORTED
+[SODIMAC] Page returned 404: https://www.sodimac.cl/products/herramientas?p=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/products/herramientas/1
+[SODIMAC] Request failed: https://www.sodimac.cl/cdn-cgi/challenge-platform/h/b/scripts/jsd/8359bcf47b68/main.js? net::ERR_ABORTED
+[SODIMAC] Page returned 404: https://www.sodimac.cl/products/herramientas/1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/products/herramientas&page=1
+[SODIMAC] Request failed: https://www.sodimac.cl/cdn-cgi/challenge-platform/h/b/scripts/jsd/8359bcf47b68/main.js? net::ERR_ABORTED
+[SODIMAC] Page returned 404: https://www.sodimac.cl/products/herramientas&page=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/products/herramientas
+[SODIMAC] Request failed: https://www.sodimac.cl/cdn-cgi/challenge-platform/h/b/scripts/jsd/8359bcf47b68/main.js? net::ERR_ABORTED
+[SODIMAC] Page returned 404: https://www.sodimac.cl/products/herramientas
+[SODIMAC] No valid URL pattern worked for page 1 of herramientas
+[SODIMAC] Completed scraping category herramientas: 0 total products
+[SODIMAC] Attempting to load: https://www.sodimac.cl/herramientas?page=1
+[SODIMAC] Request failed: https://www.sodimac.cl/cdn-cgi/challenge-platform/h/b/scripts/jsd/8359bcf47b68/main.js? net::ERR_ABORTED
+[SODIMAC] Page returned 404: https://www.sodimac.cl/herramientas?page=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/herramientas?p=1
+[SODIMAC] Request failed: https://www.sodimac.cl/cdn-cgi/challenge-platform/h/b/scripts/jsd/8359bcf47b68/main.js? net::ERR_ABORTED
+[SODIMAC] Page returned 404: https://www.sodimac.cl/herramientas?p=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/herramientas/1
+[SODIMAC] Request failed: https://www.sodimac.cl/cdn-cgi/challenge-platform/h/b/scripts/jsd/8359bcf47b68/main.js? net::ERR_ABORTED
+[SODIMAC] Page returned 404: https://www.sodimac.cl/herramientas/1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/herramientas&page=1
+[SODIMAC] Request failed: https://www.sodimac.cl/cdn-cgi/challenge-platform/h/b/scripts/jsd/8359bcf47b68/main.js? net::ERR_ABORTED
+[SODIMAC] Page returned 404: https://www.sodimac.cl/herramientas&page=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/herramientas
+[SODIMAC] Request failed: https://www.sodimac.cl/cdn-cgi/challenge-platform/h/b/scripts/jsd/8359bcf47b68/main.js? net::ERR_ABORTED
+[SODIMAC] Page returned 404: https://www.sodimac.cl/herramientas
+[SODIMAC] No valid URL pattern worked for page 1 of herramientas
+[SODIMAC] Completed scraping category herramientas: 0 total products
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/herramientas?page=1
+[SODIMAC] Request failed: https://www.sodimac.cl/cdn-cgi/challenge-platform/h/b/scripts/jsd/8359bcf47b68/main.js? net::ERR_ABORTED
+[SODIMAC] Page returned 404: https://www.sodimac.cl/supermercado/herramientas?page=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/herramientas?p=1
+[SODIMAC] Request failed: https://www.sodimac.cl/cdn-cgi/challenge-platform/h/b/scripts/jsd/8359bcf47b68/main.js? net::ERR_ABORTED
+[SODIMAC] Page returned 404: https://www.sodimac.cl/supermercado/herramientas?p=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/herramientas/1
+[SODIMAC] Request failed: https://www.sodimac.cl/cdn-cgi/challenge-platform/h/b/scripts/jsd/8359bcf47b68/main.js? net::ERR_ABORTED
+[SODIMAC] Page returned 404: https://www.sodimac.cl/supermercado/herramientas/1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/herramientas&page=1
+[SODIMAC] Request failed: https://www.sodimac.cl/cdn-cgi/challenge-platform/h/b/scripts/jsd/8359bcf47b68/main.js? net::ERR_ABORTED
+[SODIMAC] Page returned 404: https://www.sodimac.cl/supermercado/herramientas&page=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/herramientas
+[SODIMAC] Request failed: https://www.sodimac.cl/cdn-cgi/challenge-platform/h/b/scripts/jsd/8359bcf47b68/main.js? net::ERR_ABORTED
+[SODIMAC] Page returned 404: https://www.sodimac.cl/supermercado/herramientas
+[SODIMAC] No valid URL pattern worked for page 1 of herramientas
+[SODIMAC] Completed scraping category herramientas: 0 total products
+[SODIMAC] Attempting to load: https://www.sodimac.cl/tienda/categoria/herramientas?page=1
+[SODIMAC] Request failed: https://www.sodimac.cl/cdn-cgi/challenge-platform/h/b/scripts/jsd/8359bcf47b68/main.js? net::ERR_ABORTED
+[SODIMAC] Page returned 404: https://www.sodimac.cl/tienda/categoria/herramientas?page=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/tienda/categoria/herramientas?p=1
+[SODIMAC] Request failed: https://www.sodimac.cl/cdn-cgi/challenge-platform/h/b/scripts/jsd/8359bcf47b68/main.js? net::ERR_ABORTED
+[SODIMAC] Page returned 404: https://www.sodimac.cl/tienda/categoria/herramientas?p=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/tienda/categoria/herramientas/1
+[SODIMAC] Request failed: https://www.sodimac.cl/cdn-cgi/challenge-platform/h/b/scripts/jsd/8359bcf47b68/main.js? net::ERR_ABORTED
+[SODIMAC] Page returned 404: https://www.sodimac.cl/tienda/categoria/herramientas/1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/tienda/categoria/herramientas&page=1
+[SODIMAC] Request failed: https://www.sodimac.cl/cdn-cgi/challenge-platform/h/b/scripts/jsd/8359bcf47b68/main.js? net::ERR_ABORTED
+[SODIMAC] Page returned 404: https://www.sodimac.cl/tienda/categoria/herramientas&page=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/tienda/categoria/herramientas
+[SODIMAC] Request failed: https://www.sodimac.cl/cdn-cgi/challenge-platform/h/b/jsd/r/0.6712318364104497:1755073681:LM1ebIgIohKH5mOKBb3XpUrdtxGOceqRnbO08Y0K8aQ/96e6f727d90929fe net::ERR_ABORTED
+[SODIMAC] Page returned 404: https://www.sodimac.cl/tienda/categoria/herramientas
+[SODIMAC] No valid URL pattern worked for page 1 of herramientas
+[SODIMAC] Completed scraping category herramientas: 0 total products
+[SODIMAC] Attempting to load: https://www.sodimac.cl/shop/herramientas?page=1
+[SODIMAC] Request failed: https://www.sodimac.cl/cdn-cgi/challenge-platform/h/b/jsd/r/0.09538900415057351:1755073688:ohJ2iucFGVjdCKL2rs-dqsVBBykD4VzhS5oOhdcekcg/96e6f728c9b129fe net::ERR_ABORTED
+[SODIMAC] Page returned 404: https://www.sodimac.cl/shop/herramientas?page=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/shop/herramientas?p=1
+[SODIMAC] Request failed: https://www.sodimac.cl/cdn-cgi/challenge-platform/h/b/scripts/jsd/8359bcf47b68/main.js? net::ERR_ABORTED
+[SODIMAC] Page returned 404: https://www.sodimac.cl/shop/herramientas?p=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/shop/herramientas/1
+[SODIMAC] Request failed: https://www.sodimac.cl/cdn-cgi/challenge-platform/h/b/scripts/jsd/8359bcf47b68/main.js? net::ERR_ABORTED
+[SODIMAC] Page returned 404: https://www.sodimac.cl/shop/herramientas/1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/shop/herramientas&page=1
+[SODIMAC] Request failed: https://www.sodimac.cl/cdn-cgi/challenge-platform/h/b/scripts/jsd/8359bcf47b68/main.js? net::ERR_ABORTED
+[SODIMAC] Page returned 404: https://www.sodimac.cl/shop/herramientas&page=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/shop/herramientas
+[SODIMAC] Request failed: https://www.sodimac.cl/cdn-cgi/challenge-platform/h/b/scripts/jsd/8359bcf47b68/main.js? net::ERR_ABORTED
+[SODIMAC] Page returned 404: https://www.sodimac.cl/shop/herramientas
+[SODIMAC] No valid URL pattern worked for page 1 of herramientas
+[SODIMAC] Completed scraping category herramientas: 0 total products
+[SODIMAC] Category herramientas completed. Estimated remaining time: 2 minutes
+[SODIMAC] Starting category 2/7: ferreteria
+[SODIMAC] Scraping category: ferreteria with 7 URL patterns
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/categoria/ferreteria?page=1
+[SODIMAC] Request failed: https://www.sodimac.cl/cdn-cgi/challenge-platform/h/b/scripts/jsd/8359bcf47b68/main.js? net::ERR_ABORTED
+[SODIMAC] Page returned 404: https://www.sodimac.cl/supermercado/categoria/ferreteria?page=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/categoria/ferreteria?p=1
+[SODIMAC] Request failed: https://www.sodimac.cl/cdn-cgi/challenge-platform/h/b/scripts/jsd/8359bcf47b68/main.js? net::ERR_ABORTED
+[SODIMAC] Page returned 404: https://www.sodimac.cl/supermercado/categoria/ferreteria?p=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/categoria/ferreteria/1
+[SODIMAC] Request failed: https://www.sodimac.cl/cdn-cgi/challenge-platform/h/b/scripts/jsd/8359bcf47b68/main.js? net::ERR_ABORTED
+[SODIMAC] Page returned 404: https://www.sodimac.cl/supermercado/categoria/ferreteria/1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/categoria/ferreteria&page=1
+[SODIMAC] Request failed: https://www.sodimac.cl/cdn-cgi/challenge-platform/h/b/scripts/jsd/8359bcf47b68/main.js? net::ERR_ABORTED
+[SODIMAC] Page returned 404: https://www.sodimac.cl/supermercado/categoria/ferreteria&page=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/categoria/ferreteria
+[SODIMAC] Request failed: https://www.sodimac.cl/cdn-cgi/challenge-platform/h/b/scripts/jsd/8359bcf47b68/main.js? net::ERR_ABORTED
+[SODIMAC] Page returned 404: https://www.sodimac.cl/supermercado/categoria/ferreteria
+[SODIMAC] No valid URL pattern worked for page 1 of ferreteria
+[SODIMAC] Completed scraping category ferreteria: 0 total products
+[SODIMAC] Attempting to load: https://www.sodimac.cl/categoria/ferreteria?page=1
+[SODIMAC] Request failed: https://www.sodimac.cl/cdn-cgi/challenge-platform/h/b/scripts/jsd/8359bcf47b68/main.js? net::ERR_ABORTED
+[SODIMAC] Page returned 404: https://www.sodimac.cl/categoria/ferreteria?page=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/categoria/ferreteria?p=1
+[SODIMAC] Request failed: https://www.sodimac.cl/cdn-cgi/challenge-platform/h/b/scripts/jsd/8359bcf47b68/main.js? net::ERR_ABORTED
+[SODIMAC] Page returned 404: https://www.sodimac.cl/categoria/ferreteria?p=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/categoria/ferreteria/1
+[SODIMAC] Request failed: https://www.sodimac.cl/cdn-cgi/challenge-platform/h/b/scripts/jsd/8359bcf47b68/main.js? net::ERR_ABORTED
+[SODIMAC] Page returned 404: https://www.sodimac.cl/categoria/ferreteria/1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/categoria/ferreteria&page=1
+[SODIMAC] Request failed: https://www.sodimac.cl/cdn-cgi/challenge-platform/h/b/scripts/jsd/8359bcf47b68/main.js? net::ERR_ABORTED
+[SODIMAC] Page returned 404: https://www.sodimac.cl/categoria/ferreteria&page=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/categoria/ferreteria
+[SODIMAC] Request failed: https://www.sodimac.cl/cdn-cgi/challenge-platform/h/b/scripts/jsd/8359bcf47b68/main.js? net::ERR_ABORTED
+[SODIMAC] Page returned 404: https://www.sodimac.cl/categoria/ferreteria
+[SODIMAC] No valid URL pattern worked for page 1 of ferreteria
+[SODIMAC] Completed scraping category ferreteria: 0 total products
+[SODIMAC] Attempting to load: https://www.sodimac.cl/products/ferreteria?page=1
+[SODIMAC] Request failed: https://www.sodimac.cl/cdn-cgi/challenge-platform/h/b/scripts/jsd/8359bcf47b68/main.js? net::ERR_ABORTED
+[SODIMAC] Page returned 404: https://www.sodimac.cl/products/ferreteria?page=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/products/ferreteria?p=1
+[SODIMAC] Request failed: https://www.sodimac.cl/cdn-cgi/challenge-platform/h/b/scripts/jsd/8359bcf47b68/main.js? net::ERR_ABORTED
+[SODIMAC] Page returned 404: https://www.sodimac.cl/products/ferreteria?p=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/products/ferreteria/1
+[SODIMAC] Request failed: https://www.sodimac.cl/cdn-cgi/challenge-platform/h/b/scripts/jsd/8359bcf47b68/main.js? net::ERR_ABORTED
+[SODIMAC] Page returned 404: https://www.sodimac.cl/products/ferreteria/1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/products/ferreteria&page=1
+[SODIMAC] Request failed: https://www.sodimac.cl/cdn-cgi/challenge-platform/h/b/scripts/jsd/8359bcf47b68/main.js? net::ERR_ABORTED
+[SODIMAC] Page returned 404: https://www.sodimac.cl/products/ferreteria&page=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/products/ferreteria
+[SODIMAC] Request failed: https://www.sodimac.cl/cdn-cgi/challenge-platform/h/b/scripts/jsd/8359bcf47b68/main.js? net::ERR_ABORTED
+[SODIMAC] Page returned 404: https://www.sodimac.cl/products/ferreteria
+[SODIMAC] No valid URL pattern worked for page 1 of ferreteria
+[SODIMAC] Completed scraping category ferreteria: 0 total products
+[SODIMAC] Attempting to load: https://www.sodimac.cl/ferreteria?page=1
+[SODIMAC] Request failed: https://www.sodimac.cl/cdn-cgi/challenge-platform/h/b/jsd/r/0.1488870087708239:1755073688:slvYLs1PQioOdjmtVqn4SsCHTYueO_2LNkImlWDSXK0/96e6f7956d1829fe net::ERR_ABORTED
+[SODIMAC] Page returned 404: https://www.sodimac.cl/ferreteria?page=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/ferreteria?p=1
+[SODIMAC] Request failed: https://www.sodimac.cl/cdn-cgi/challenge-platform/h/b/scripts/jsd/8359bcf47b68/main.js? net::ERR_ABORTED
+[SODIMAC] Page returned 404: https://www.sodimac.cl/ferreteria?p=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/ferreteria/1
+[SODIMAC] Request failed: https://www.sodimac.cl/cdn-cgi/challenge-platform/h/b/scripts/jsd/8359bcf47b68/main.js? net::ERR_ABORTED
+[SODIMAC] Page returned 404: https://www.sodimac.cl/ferreteria/1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/ferreteria&page=1
+[SODIMAC] Request failed: https://www.sodimac.cl/cdn-cgi/challenge-platform/h/b/scripts/jsd/8359bcf47b68/main.js? net::ERR_ABORTED
+[SODIMAC] Page returned 404: https://www.sodimac.cl/ferreteria&page=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/ferreteria
+[SODIMAC] Request failed: https://www.sodimac.cl/cdn-cgi/challenge-platform/h/b/jsd/r/0.28670903419481014:1755073687:1GEVe6_Foz1Lhba_4YU4vyiPWglp7lWrB7B4bbTzMD0/96e6f79e7a1929fe net::ERR_ABORTED
+[SODIMAC] Page returned 404: https://www.sodimac.cl/ferreteria
+[SODIMAC] No valid URL pattern worked for page 1 of ferreteria
+[SODIMAC] Completed scraping category ferreteria: 0 total products
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/ferreteria?page=1
+[SODIMAC] Request failed: https://www.sodimac.cl/cdn-cgi/challenge-platform/h/b/jsd/r/0.6692378991655017:1755073686:NoOOTux3kqxS_G5osN6grrDA4d4usCM_JArEcuEEEGY/96e6f7a07b1929fe net::ERR_ABORTED
+[SODIMAC] Page returned 404: https://www.sodimac.cl/supermercado/ferreteria?page=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/ferreteria?p=1
+[SODIMAC] Page returned 404: https://www.sodimac.cl/supermercado/ferreteria?p=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/ferreteria/1
+[SODIMAC] Page returned 404: https://www.sodimac.cl/supermercado/ferreteria/1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/ferreteria&page=1
+[SODIMAC] Page returned 404: https://www.sodimac.cl/supermercado/ferreteria&page=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/ferreteria
+[SODIMAC] Page returned 404: https://www.sodimac.cl/supermercado/ferreteria
+[SODIMAC] No valid URL pattern worked for page 1 of ferreteria
+[SODIMAC] Completed scraping category ferreteria: 0 total products
+[SODIMAC] Attempting to load: https://www.sodimac.cl/tienda/categoria/ferreteria?page=1
+[SODIMAC] Page returned 404: https://www.sodimac.cl/tienda/categoria/ferreteria?page=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/tienda/categoria/ferreteria?p=1
+[SODIMAC] Page returned 404: https://www.sodimac.cl/tienda/categoria/ferreteria?p=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/tienda/categoria/ferreteria/1
+[SODIMAC] Page returned 404: https://www.sodimac.cl/tienda/categoria/ferreteria/1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/tienda/categoria/ferreteria&page=1
+[SODIMAC] Page returned 404: https://www.sodimac.cl/tienda/categoria/ferreteria&page=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/tienda/categoria/ferreteria
+[SODIMAC] Page returned 404: https://www.sodimac.cl/tienda/categoria/ferreteria
+[SODIMAC] No valid URL pattern worked for page 1 of ferreteria
+[SODIMAC] Completed scraping category ferreteria: 0 total products
+[SODIMAC] Attempting to load: https://www.sodimac.cl/shop/ferreteria?page=1
+[SODIMAC] Page returned 404: https://www.sodimac.cl/shop/ferreteria?page=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/shop/ferreteria?p=1
+[SODIMAC] Page returned 404: https://www.sodimac.cl/shop/ferreteria?p=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/shop/ferreteria/1
+[SODIMAC] Page returned 404: https://www.sodimac.cl/shop/ferreteria/1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/shop/ferreteria&page=1
+[SODIMAC] Page returned 404: https://www.sodimac.cl/shop/ferreteria&page=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/shop/ferreteria
+[SODIMAC] Page returned 404: https://www.sodimac.cl/shop/ferreteria
+[SODIMAC] No valid URL pattern worked for page 1 of ferreteria
+[SODIMAC] Completed scraping category ferreteria: 0 total products
+[SODIMAC] Category ferreteria completed. Estimated remaining time: 2 minutes
+[SODIMAC] Starting category 3/7: construccion
+[SODIMAC] Scraping category: construccion with 7 URL patterns
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/categoria/construccion?page=1
+[SODIMAC] Page returned 404: https://www.sodimac.cl/supermercado/categoria/construccion?page=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/categoria/construccion?p=1
+[SODIMAC] Page returned 404: https://www.sodimac.cl/supermercado/categoria/construccion?p=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/categoria/construccion/1
+[SODIMAC] Page returned 404: https://www.sodimac.cl/supermercado/categoria/construccion/1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/categoria/construccion&page=1
+[SODIMAC] Page returned 404: https://www.sodimac.cl/supermercado/categoria/construccion&page=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/categoria/construccion
+[SODIMAC] Page returned 404: https://www.sodimac.cl/supermercado/categoria/construccion
+[SODIMAC] No valid URL pattern worked for page 1 of construccion
+[SODIMAC] Completed scraping category construccion: 0 total products
+[SODIMAC] Attempting to load: https://www.sodimac.cl/categoria/construccion?page=1
+[SODIMAC] Page returned 404: https://www.sodimac.cl/categoria/construccion?page=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/categoria/construccion?p=1
+[SODIMAC] Page returned 404: https://www.sodimac.cl/categoria/construccion?p=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/categoria/construccion/1
+[SODIMAC] Page returned 404: https://www.sodimac.cl/categoria/construccion/1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/categoria/construccion&page=1
+[SODIMAC] Page returned 404: https://www.sodimac.cl/categoria/construccion&page=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/categoria/construccion
+[SODIMAC] Page returned 404: https://www.sodimac.cl/categoria/construccion
+[SODIMAC] No valid URL pattern worked for page 1 of construccion
+[SODIMAC] Completed scraping category construccion: 0 total products
+[SODIMAC] Attempting to load: https://www.sodimac.cl/products/construccion?page=1
+[SODIMAC] Page returned 404: https://www.sodimac.cl/products/construccion?page=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/products/construccion?p=1
+[SODIMAC] Page returned 404: https://www.sodimac.cl/products/construccion?p=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/products/construccion/1
+[SODIMAC] Page returned 404: https://www.sodimac.cl/products/construccion/1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/products/construccion&page=1
+[SODIMAC] Page returned 404: https://www.sodimac.cl/products/construccion&page=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/products/construccion
+[SODIMAC] Page returned 404: https://www.sodimac.cl/products/construccion
+[SODIMAC] No valid URL pattern worked for page 1 of construccion
+[SODIMAC] Completed scraping category construccion: 0 total products
+[SODIMAC] Attempting to load: https://www.sodimac.cl/construccion?page=1
+[SODIMAC] Page returned 404: https://www.sodimac.cl/construccion?page=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/construccion?p=1
+[SODIMAC] Page returned 404: https://www.sodimac.cl/construccion?p=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/construccion/1
+[SODIMAC] Page returned 404: https://www.sodimac.cl/construccion/1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/construccion&page=1
+[SODIMAC] Page returned 404: https://www.sodimac.cl/construccion&page=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/construccion
+[SODIMAC] Page returned 404: https://www.sodimac.cl/construccion
+[SODIMAC] No valid URL pattern worked for page 1 of construccion
+[SODIMAC] Completed scraping category construccion: 0 total products
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/construccion?page=1
+[SODIMAC] Page returned 404: https://www.sodimac.cl/supermercado/construccion?page=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/construccion?p=1
+[SODIMAC] Page returned 404: https://www.sodimac.cl/supermercado/construccion?p=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/construccion/1
+[SODIMAC] Page returned 404: https://www.sodimac.cl/supermercado/construccion/1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/construccion&page=1
+[SODIMAC] Page returned 404: https://www.sodimac.cl/supermercado/construccion&page=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/construccion
+[SODIMAC] Page returned 404: https://www.sodimac.cl/supermercado/construccion
+[SODIMAC] No valid URL pattern worked for page 1 of construccion
+[SODIMAC] Completed scraping category construccion: 0 total products
+[SODIMAC] Attempting to load: https://www.sodimac.cl/tienda/categoria/construccion?page=1
+[SODIMAC] Page returned 404: https://www.sodimac.cl/tienda/categoria/construccion?page=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/tienda/categoria/construccion?p=1
+[SODIMAC] Page returned 404: https://www.sodimac.cl/tienda/categoria/construccion?p=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/tienda/categoria/construccion/1
+[SODIMAC] Page returned 404: https://www.sodimac.cl/tienda/categoria/construccion/1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/tienda/categoria/construccion&page=1
+[SODIMAC] Page returned 404: https://www.sodimac.cl/tienda/categoria/construccion&page=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/tienda/categoria/construccion
+[SODIMAC] Page returned 404: https://www.sodimac.cl/tienda/categoria/construccion
+[SODIMAC] No valid URL pattern worked for page 1 of construccion
+[SODIMAC] Completed scraping category construccion: 0 total products
+[SODIMAC] Attempting to load: https://www.sodimac.cl/shop/construccion?page=1
+[SODIMAC] Page returned 404: https://www.sodimac.cl/shop/construccion?page=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/shop/construccion?p=1
+[SODIMAC] Page returned 404: https://www.sodimac.cl/shop/construccion?p=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/shop/construccion/1
+[SODIMAC] Page returned 404: https://www.sodimac.cl/shop/construccion/1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/shop/construccion&page=1
+[SODIMAC] Page returned 404: https://www.sodimac.cl/shop/construccion&page=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/shop/construccion
+[SODIMAC] Page returned 404: https://www.sodimac.cl/shop/construccion
+[SODIMAC] No valid URL pattern worked for page 1 of construccion
+[SODIMAC] Completed scraping category construccion: 0 total products
+[SODIMAC] Category construccion completed. Estimated remaining time: 1 minutes
+[SODIMAC] Starting category 4/7: electricidad
+[SODIMAC] Scraping category: electricidad with 7 URL patterns
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/categoria/electricidad?page=1
+[SODIMAC] Page returned 404: https://www.sodimac.cl/supermercado/categoria/electricidad?page=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/categoria/electricidad?p=1
+[SODIMAC] Page returned 404: https://www.sodimac.cl/supermercado/categoria/electricidad?p=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/categoria/electricidad/1
+[SODIMAC] Page returned 404: https://www.sodimac.cl/supermercado/categoria/electricidad/1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/categoria/electricidad&page=1
+[SODIMAC] Page returned 404: https://www.sodimac.cl/supermercado/categoria/electricidad&page=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/categoria/electricidad
+[SODIMAC] Page returned 404: https://www.sodimac.cl/supermercado/categoria/electricidad
+[SODIMAC] No valid URL pattern worked for page 1 of electricidad
+[SODIMAC] Completed scraping category electricidad: 0 total products
+[SODIMAC] Attempting to load: https://www.sodimac.cl/categoria/electricidad?page=1
+[SODIMAC] Page returned 404: https://www.sodimac.cl/categoria/electricidad?page=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/categoria/electricidad?p=1
+[SODIMAC] Page returned 404: https://www.sodimac.cl/categoria/electricidad?p=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/categoria/electricidad/1
+[SODIMAC] Page returned 404: https://www.sodimac.cl/categoria/electricidad/1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/categoria/electricidad&page=1
+[SODIMAC] Page returned 404: https://www.sodimac.cl/categoria/electricidad&page=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/categoria/electricidad
+[SODIMAC] Page returned 404: https://www.sodimac.cl/categoria/electricidad
+[SODIMAC] No valid URL pattern worked for page 1 of electricidad
+[SODIMAC] Completed scraping category electricidad: 0 total products
+[SODIMAC] Attempting to load: https://www.sodimac.cl/products/electricidad?page=1
+[SODIMAC] Page returned 404: https://www.sodimac.cl/products/electricidad?page=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/products/electricidad?p=1
+[SODIMAC] Page returned 404: https://www.sodimac.cl/products/electricidad?p=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/products/electricidad/1
+[SODIMAC] Page returned 404: https://www.sodimac.cl/products/electricidad/1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/products/electricidad&page=1
+[SODIMAC] Page returned 404: https://www.sodimac.cl/products/electricidad&page=1
+[SODIMAC] Attempting to load: https://www.sodimac.cl/products/electricidad
+[SODIMAC] Page returned 404: https://www.sodimac.cl/products/electricidad
+[SODIMAC] No valid URL pattern worked for page 1 of electricidad
+[SODIMAC] Completed scraping category electricidad: 0 total products
+[SODIMAC] Attempting to load: https://www.sodimac.cl/electricidad?page=1
+[SODIMAC] Request failed: https://www.sodimac.cl/sodimac-cl/lista/CATG10737/Electricidad net::ERR_ABORTED
+[SODIMAC] Failed to load https://www.sodimac.cl/electricidad?page=1: page.goto: net::ERR_ABORTED; maybe frame was detached?
+Call log:
+[2m  - navigating to "https://www.sodimac.cl/electricidad?page=1", waiting until "domcontentloaded"[22m
+
+[SODIMAC] Attempting to load: https://www.sodimac.cl/electricidad?p=1
+[SODIMAC] Failed to load https://www.sodimac.cl/electricidad?p=1: page.goto: Target page, context or browser has been closed
+Call log:
+[2m  - navigating to "https://www.sodimac.cl/electricidad?p=1", waiting until "domcontentloaded"[22m
+
+[SODIMAC] Attempting to load: https://www.sodimac.cl/electricidad/1
+[SODIMAC] Failed to load https://www.sodimac.cl/electricidad/1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/electricidad&page=1
+[SODIMAC] Failed to load https://www.sodimac.cl/electricidad&page=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/electricidad
+[SODIMAC] Failed to load https://www.sodimac.cl/electricidad: page.goto: Target page, context or browser has been closed
+[SODIMAC] No valid URL pattern worked for page 1 of electricidad
+[SODIMAC] Completed scraping category electricidad: 0 total products
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/electricidad?page=1
+[SODIMAC] Failed to load https://www.sodimac.cl/supermercado/electricidad?page=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/electricidad?p=1
+[SODIMAC] Failed to load https://www.sodimac.cl/supermercado/electricidad?p=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/electricidad/1
+[SODIMAC] Failed to load https://www.sodimac.cl/supermercado/electricidad/1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/electricidad&page=1
+[SODIMAC] Failed to load https://www.sodimac.cl/supermercado/electricidad&page=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/electricidad
+[SODIMAC] Failed to load https://www.sodimac.cl/supermercado/electricidad: page.goto: Target page, context or browser has been closed
+[SODIMAC] No valid URL pattern worked for page 1 of electricidad
+[SODIMAC] Completed scraping category electricidad: 0 total products
+[SODIMAC] Attempting to load: https://www.sodimac.cl/tienda/categoria/electricidad?page=1
+[SODIMAC] Failed to load https://www.sodimac.cl/tienda/categoria/electricidad?page=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/tienda/categoria/electricidad?p=1
+[SODIMAC] Failed to load https://www.sodimac.cl/tienda/categoria/electricidad?p=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/tienda/categoria/electricidad/1
+[SODIMAC] Failed to load https://www.sodimac.cl/tienda/categoria/electricidad/1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/tienda/categoria/electricidad&page=1
+[SODIMAC] Failed to load https://www.sodimac.cl/tienda/categoria/electricidad&page=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/tienda/categoria/electricidad
+[SODIMAC] Failed to load https://www.sodimac.cl/tienda/categoria/electricidad: page.goto: Target page, context or browser has been closed
+[SODIMAC] No valid URL pattern worked for page 1 of electricidad
+[SODIMAC] Completed scraping category electricidad: 0 total products
+[SODIMAC] Attempting to load: https://www.sodimac.cl/shop/electricidad?page=1
+[SODIMAC] Failed to load https://www.sodimac.cl/shop/electricidad?page=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/shop/electricidad?p=1
+[SODIMAC] Failed to load https://www.sodimac.cl/shop/electricidad?p=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/shop/electricidad/1
+[SODIMAC] Failed to load https://www.sodimac.cl/shop/electricidad/1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/shop/electricidad&page=1
+[SODIMAC] Failed to load https://www.sodimac.cl/shop/electricidad&page=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/shop/electricidad
+[SODIMAC] Failed to load https://www.sodimac.cl/shop/electricidad: page.goto: Target page, context or browser has been closed
+[SODIMAC] No valid URL pattern worked for page 1 of electricidad
+[SODIMAC] Completed scraping category electricidad: 0 total products
+[SODIMAC] Category electricidad completed. Estimated remaining time: 1 minutes
+[SODIMAC] Starting category 5/7: jardineria
+[SODIMAC] Scraping category: jardineria with 7 URL patterns
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/categoria/jardineria?page=1
+[SODIMAC] Failed to load https://www.sodimac.cl/supermercado/categoria/jardineria?page=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/categoria/jardineria?p=1
+[SODIMAC] Failed to load https://www.sodimac.cl/supermercado/categoria/jardineria?p=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/categoria/jardineria/1
+[SODIMAC] Failed to load https://www.sodimac.cl/supermercado/categoria/jardineria/1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/categoria/jardineria&page=1
+[SODIMAC] Failed to load https://www.sodimac.cl/supermercado/categoria/jardineria&page=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/categoria/jardineria
+[SODIMAC] Failed to load https://www.sodimac.cl/supermercado/categoria/jardineria: page.goto: Target page, context or browser has been closed
+[SODIMAC] No valid URL pattern worked for page 1 of jardineria
+[SODIMAC] Completed scraping category jardineria: 0 total products
+[SODIMAC] Attempting to load: https://www.sodimac.cl/categoria/jardineria?page=1
+[SODIMAC] Failed to load https://www.sodimac.cl/categoria/jardineria?page=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/categoria/jardineria?p=1
+[SODIMAC] Failed to load https://www.sodimac.cl/categoria/jardineria?p=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/categoria/jardineria/1
+[SODIMAC] Failed to load https://www.sodimac.cl/categoria/jardineria/1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/categoria/jardineria&page=1
+[SODIMAC] Failed to load https://www.sodimac.cl/categoria/jardineria&page=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/categoria/jardineria
+[SODIMAC] Failed to load https://www.sodimac.cl/categoria/jardineria: page.goto: Target page, context or browser has been closed
+[SODIMAC] No valid URL pattern worked for page 1 of jardineria
+[SODIMAC] Completed scraping category jardineria: 0 total products
+[SODIMAC] Attempting to load: https://www.sodimac.cl/products/jardineria?page=1
+[SODIMAC] Failed to load https://www.sodimac.cl/products/jardineria?page=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/products/jardineria?p=1
+[SODIMAC] Failed to load https://www.sodimac.cl/products/jardineria?p=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/products/jardineria/1
+[SODIMAC] Failed to load https://www.sodimac.cl/products/jardineria/1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/products/jardineria&page=1
+[SODIMAC] Failed to load https://www.sodimac.cl/products/jardineria&page=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/products/jardineria
+[SODIMAC] Failed to load https://www.sodimac.cl/products/jardineria: page.goto: Target page, context or browser has been closed
+[SODIMAC] No valid URL pattern worked for page 1 of jardineria
+[SODIMAC] Completed scraping category jardineria: 0 total products
+[SODIMAC] Attempting to load: https://www.sodimac.cl/jardineria?page=1
+[SODIMAC] Failed to load https://www.sodimac.cl/jardineria?page=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/jardineria?p=1
+[SODIMAC] Failed to load https://www.sodimac.cl/jardineria?p=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/jardineria/1
+[SODIMAC] Failed to load https://www.sodimac.cl/jardineria/1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/jardineria&page=1
+[SODIMAC] Failed to load https://www.sodimac.cl/jardineria&page=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/jardineria
+[SODIMAC] Failed to load https://www.sodimac.cl/jardineria: page.goto: Target page, context or browser has been closed
+[SODIMAC] No valid URL pattern worked for page 1 of jardineria
+[SODIMAC] Completed scraping category jardineria: 0 total products
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/jardineria?page=1
+[SODIMAC] Failed to load https://www.sodimac.cl/supermercado/jardineria?page=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/jardineria?p=1
+[SODIMAC] Failed to load https://www.sodimac.cl/supermercado/jardineria?p=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/jardineria/1
+[SODIMAC] Failed to load https://www.sodimac.cl/supermercado/jardineria/1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/jardineria&page=1
+[SODIMAC] Failed to load https://www.sodimac.cl/supermercado/jardineria&page=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/jardineria
+[SODIMAC] Failed to load https://www.sodimac.cl/supermercado/jardineria: page.goto: Target page, context or browser has been closed
+[SODIMAC] No valid URL pattern worked for page 1 of jardineria
+[SODIMAC] Completed scraping category jardineria: 0 total products
+[SODIMAC] Attempting to load: https://www.sodimac.cl/tienda/categoria/jardineria?page=1
+[SODIMAC] Failed to load https://www.sodimac.cl/tienda/categoria/jardineria?page=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/tienda/categoria/jardineria?p=1
+[SODIMAC] Failed to load https://www.sodimac.cl/tienda/categoria/jardineria?p=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/tienda/categoria/jardineria/1
+[SODIMAC] Failed to load https://www.sodimac.cl/tienda/categoria/jardineria/1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/tienda/categoria/jardineria&page=1
+[SODIMAC] Failed to load https://www.sodimac.cl/tienda/categoria/jardineria&page=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/tienda/categoria/jardineria
+[SODIMAC] Failed to load https://www.sodimac.cl/tienda/categoria/jardineria: page.goto: Target page, context or browser has been closed
+[SODIMAC] No valid URL pattern worked for page 1 of jardineria
+[SODIMAC] Completed scraping category jardineria: 0 total products
+[SODIMAC] Attempting to load: https://www.sodimac.cl/shop/jardineria?page=1
+[SODIMAC] Failed to load https://www.sodimac.cl/shop/jardineria?page=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/shop/jardineria?p=1
+[SODIMAC] Failed to load https://www.sodimac.cl/shop/jardineria?p=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/shop/jardineria/1
+[SODIMAC] Failed to load https://www.sodimac.cl/shop/jardineria/1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/shop/jardineria&page=1
+[SODIMAC] Failed to load https://www.sodimac.cl/shop/jardineria&page=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/shop/jardineria
+[SODIMAC] Failed to load https://www.sodimac.cl/shop/jardineria: page.goto: Target page, context or browser has been closed
+[SODIMAC] No valid URL pattern worked for page 1 of jardineria
+[SODIMAC] Completed scraping category jardineria: 0 total products
+[SODIMAC] Category jardineria completed. Estimated remaining time: 0 minutes
+[SODIMAC] Starting category 6/7: pinturas
+[SODIMAC] Scraping category: pinturas with 7 URL patterns
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/categoria/pinturas?page=1
+[SODIMAC] Failed to load https://www.sodimac.cl/supermercado/categoria/pinturas?page=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/categoria/pinturas?p=1
+[SODIMAC] Failed to load https://www.sodimac.cl/supermercado/categoria/pinturas?p=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/categoria/pinturas/1
+[SODIMAC] Failed to load https://www.sodimac.cl/supermercado/categoria/pinturas/1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/categoria/pinturas&page=1
+[SODIMAC] Failed to load https://www.sodimac.cl/supermercado/categoria/pinturas&page=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/categoria/pinturas
+[SODIMAC] Failed to load https://www.sodimac.cl/supermercado/categoria/pinturas: page.goto: Target page, context or browser has been closed
+[SODIMAC] No valid URL pattern worked for page 1 of pinturas
+[SODIMAC] Completed scraping category pinturas: 0 total products
+[SODIMAC] Attempting to load: https://www.sodimac.cl/categoria/pinturas?page=1
+[SODIMAC] Failed to load https://www.sodimac.cl/categoria/pinturas?page=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/categoria/pinturas?p=1
+[SODIMAC] Failed to load https://www.sodimac.cl/categoria/pinturas?p=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/categoria/pinturas/1
+[SODIMAC] Failed to load https://www.sodimac.cl/categoria/pinturas/1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/categoria/pinturas&page=1
+[SODIMAC] Failed to load https://www.sodimac.cl/categoria/pinturas&page=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/categoria/pinturas
+[SODIMAC] Failed to load https://www.sodimac.cl/categoria/pinturas: page.goto: Target page, context or browser has been closed
+[SODIMAC] No valid URL pattern worked for page 1 of pinturas
+[SODIMAC] Completed scraping category pinturas: 0 total products
+[SODIMAC] Attempting to load: https://www.sodimac.cl/products/pinturas?page=1
+[SODIMAC] Failed to load https://www.sodimac.cl/products/pinturas?page=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/products/pinturas?p=1
+[SODIMAC] Failed to load https://www.sodimac.cl/products/pinturas?p=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/products/pinturas/1
+[SODIMAC] Failed to load https://www.sodimac.cl/products/pinturas/1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/products/pinturas&page=1
+[SODIMAC] Failed to load https://www.sodimac.cl/products/pinturas&page=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/products/pinturas
+[SODIMAC] Failed to load https://www.sodimac.cl/products/pinturas: page.goto: Target page, context or browser has been closed
+[SODIMAC] No valid URL pattern worked for page 1 of pinturas
+[SODIMAC] Completed scraping category pinturas: 0 total products
+[SODIMAC] Attempting to load: https://www.sodimac.cl/pinturas?page=1
+[SODIMAC] Failed to load https://www.sodimac.cl/pinturas?page=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/pinturas?p=1
+[SODIMAC] Failed to load https://www.sodimac.cl/pinturas?p=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/pinturas/1
+[SODIMAC] Failed to load https://www.sodimac.cl/pinturas/1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/pinturas&page=1
+[SODIMAC] Failed to load https://www.sodimac.cl/pinturas&page=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/pinturas
+[SODIMAC] Failed to load https://www.sodimac.cl/pinturas: page.goto: Target page, context or browser has been closed
+[SODIMAC] No valid URL pattern worked for page 1 of pinturas
+[SODIMAC] Completed scraping category pinturas: 0 total products
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/pinturas?page=1
+[SODIMAC] Failed to load https://www.sodimac.cl/supermercado/pinturas?page=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/pinturas?p=1
+[SODIMAC] Failed to load https://www.sodimac.cl/supermercado/pinturas?p=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/pinturas/1
+[SODIMAC] Failed to load https://www.sodimac.cl/supermercado/pinturas/1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/pinturas&page=1
+[SODIMAC] Failed to load https://www.sodimac.cl/supermercado/pinturas&page=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/pinturas
+[SODIMAC] Failed to load https://www.sodimac.cl/supermercado/pinturas: page.goto: Target page, context or browser has been closed
+[SODIMAC] No valid URL pattern worked for page 1 of pinturas
+[SODIMAC] Completed scraping category pinturas: 0 total products
+[SODIMAC] Attempting to load: https://www.sodimac.cl/tienda/categoria/pinturas?page=1
+[SODIMAC] Failed to load https://www.sodimac.cl/tienda/categoria/pinturas?page=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/tienda/categoria/pinturas?p=1
+[SODIMAC] Failed to load https://www.sodimac.cl/tienda/categoria/pinturas?p=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/tienda/categoria/pinturas/1
+[SODIMAC] Failed to load https://www.sodimac.cl/tienda/categoria/pinturas/1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/tienda/categoria/pinturas&page=1
+[SODIMAC] Failed to load https://www.sodimac.cl/tienda/categoria/pinturas&page=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/tienda/categoria/pinturas
+[SODIMAC] Failed to load https://www.sodimac.cl/tienda/categoria/pinturas: page.goto: Target page, context or browser has been closed
+[SODIMAC] No valid URL pattern worked for page 1 of pinturas
+[SODIMAC] Completed scraping category pinturas: 0 total products
+[SODIMAC] Attempting to load: https://www.sodimac.cl/shop/pinturas?page=1
+[SODIMAC] Failed to load https://www.sodimac.cl/shop/pinturas?page=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/shop/pinturas?p=1
+[SODIMAC] Failed to load https://www.sodimac.cl/shop/pinturas?p=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/shop/pinturas/1
+[SODIMAC] Failed to load https://www.sodimac.cl/shop/pinturas/1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/shop/pinturas&page=1
+[SODIMAC] Failed to load https://www.sodimac.cl/shop/pinturas&page=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/shop/pinturas
+[SODIMAC] Failed to load https://www.sodimac.cl/shop/pinturas: page.goto: Target page, context or browser has been closed
+[SODIMAC] No valid URL pattern worked for page 1 of pinturas
+[SODIMAC] Completed scraping category pinturas: 0 total products
+[SODIMAC] Category pinturas completed. Estimated remaining time: 0 minutes
+[SODIMAC] Starting category 7/7: plomeria
+[SODIMAC] Scraping category: plomeria with 7 URL patterns
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/categoria/plomeria?page=1
+[SODIMAC] Failed to load https://www.sodimac.cl/supermercado/categoria/plomeria?page=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/categoria/plomeria?p=1
+[SODIMAC] Failed to load https://www.sodimac.cl/supermercado/categoria/plomeria?p=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/categoria/plomeria/1
+[SODIMAC] Failed to load https://www.sodimac.cl/supermercado/categoria/plomeria/1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/categoria/plomeria&page=1
+[SODIMAC] Failed to load https://www.sodimac.cl/supermercado/categoria/plomeria&page=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/categoria/plomeria
+[SODIMAC] Failed to load https://www.sodimac.cl/supermercado/categoria/plomeria: page.goto: Target page, context or browser has been closed
+[SODIMAC] No valid URL pattern worked for page 1 of plomeria
+[SODIMAC] Completed scraping category plomeria: 0 total products
+[SODIMAC] Attempting to load: https://www.sodimac.cl/categoria/plomeria?page=1
+[SODIMAC] Failed to load https://www.sodimac.cl/categoria/plomeria?page=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/categoria/plomeria?p=1
+[SODIMAC] Failed to load https://www.sodimac.cl/categoria/plomeria?p=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/categoria/plomeria/1
+[SODIMAC] Failed to load https://www.sodimac.cl/categoria/plomeria/1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/categoria/plomeria&page=1
+[SODIMAC] Failed to load https://www.sodimac.cl/categoria/plomeria&page=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/categoria/plomeria
+[SODIMAC] Failed to load https://www.sodimac.cl/categoria/plomeria: page.goto: Target page, context or browser has been closed
+[SODIMAC] No valid URL pattern worked for page 1 of plomeria
+[SODIMAC] Completed scraping category plomeria: 0 total products
+[SODIMAC] Attempting to load: https://www.sodimac.cl/products/plomeria?page=1
+[SODIMAC] Failed to load https://www.sodimac.cl/products/plomeria?page=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/products/plomeria?p=1
+[SODIMAC] Failed to load https://www.sodimac.cl/products/plomeria?p=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/products/plomeria/1
+[SODIMAC] Failed to load https://www.sodimac.cl/products/plomeria/1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/products/plomeria&page=1
+[SODIMAC] Failed to load https://www.sodimac.cl/products/plomeria&page=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/products/plomeria
+[SODIMAC] Failed to load https://www.sodimac.cl/products/plomeria: page.goto: Target page, context or browser has been closed
+[SODIMAC] No valid URL pattern worked for page 1 of plomeria
+[SODIMAC] Completed scraping category plomeria: 0 total products
+[SODIMAC] Attempting to load: https://www.sodimac.cl/plomeria?page=1
+[SODIMAC] Failed to load https://www.sodimac.cl/plomeria?page=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/plomeria?p=1
+[SODIMAC] Failed to load https://www.sodimac.cl/plomeria?p=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/plomeria/1
+[SODIMAC] Failed to load https://www.sodimac.cl/plomeria/1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/plomeria&page=1
+[SODIMAC] Failed to load https://www.sodimac.cl/plomeria&page=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/plomeria
+[SODIMAC] Failed to load https://www.sodimac.cl/plomeria: page.goto: Target page, context or browser has been closed
+[SODIMAC] No valid URL pattern worked for page 1 of plomeria
+[SODIMAC] Completed scraping category plomeria: 0 total products
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/plomeria?page=1
+[SODIMAC] Failed to load https://www.sodimac.cl/supermercado/plomeria?page=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/plomeria?p=1
+[SODIMAC] Failed to load https://www.sodimac.cl/supermercado/plomeria?p=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/plomeria/1
+[SODIMAC] Failed to load https://www.sodimac.cl/supermercado/plomeria/1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/plomeria&page=1
+[SODIMAC] Failed to load https://www.sodimac.cl/supermercado/plomeria&page=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/supermercado/plomeria
+[SODIMAC] Failed to load https://www.sodimac.cl/supermercado/plomeria: page.goto: Target page, context or browser has been closed
+[SODIMAC] No valid URL pattern worked for page 1 of plomeria
+[SODIMAC] Completed scraping category plomeria: 0 total products
+[SODIMAC] Attempting to load: https://www.sodimac.cl/tienda/categoria/plomeria?page=1
+[SODIMAC] Failed to load https://www.sodimac.cl/tienda/categoria/plomeria?page=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/tienda/categoria/plomeria?p=1
+[SODIMAC] Failed to load https://www.sodimac.cl/tienda/categoria/plomeria?p=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/tienda/categoria/plomeria/1
+[SODIMAC] Failed to load https://www.sodimac.cl/tienda/categoria/plomeria/1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/tienda/categoria/plomeria&page=1
+[SODIMAC] Failed to load https://www.sodimac.cl/tienda/categoria/plomeria&page=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/tienda/categoria/plomeria
+[SODIMAC] Failed to load https://www.sodimac.cl/tienda/categoria/plomeria: page.goto: Target page, context or browser has been closed
+[SODIMAC] No valid URL pattern worked for page 1 of plomeria
+[SODIMAC] Completed scraping category plomeria: 0 total products
+[SODIMAC] Attempting to load: https://www.sodimac.cl/shop/plomeria?page=1
+[SODIMAC] Failed to load https://www.sodimac.cl/shop/plomeria?page=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/shop/plomeria?p=1
+[SODIMAC] Failed to load https://www.sodimac.cl/shop/plomeria?p=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/shop/plomeria/1
+[SODIMAC] Failed to load https://www.sodimac.cl/shop/plomeria/1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/shop/plomeria&page=1
+[SODIMAC] Failed to load https://www.sodimac.cl/shop/plomeria&page=1: page.goto: Target page, context or browser has been closed
+[SODIMAC] Attempting to load: https://www.sodimac.cl/shop/plomeria
+[SODIMAC] Failed to load https://www.sodimac.cl/shop/plomeria: page.goto: Target page, context or browser has been closed
+[SODIMAC] No valid URL pattern worked for page 1 of plomeria
+[SODIMAC] Completed scraping category plomeria: 0 total products
+[SODIMAC] Category plomeria completed. Estimated remaining time: 0 minutes
+[SODIMAC] Updated global products: 0 total products across 0 stores
+[SODIMAC] Saved 0 products to /home/kuromatsu/Documents/ΛRΛMΛC/Websites/Minimarket/data/products/sodimac/products.json
+[SODIMAC] Scraping duration: 1 minutes
+[SODIMAC] ============================================================
+[SODIMAC] MASS SCRAPING COMPLETE
+[SODIMAC] Store: sodimac
+[SODIMAC] Total Duration: 1 minutes (52 seconds)
+[SODIMAC] Categories scraped: 7/7
+[SODIMAC] Pages visited: 0
+[SODIMAC] Products found: 0
+[SODIMAC] Images downloaded: 0
+[SODIMAC] Retries: 0
+[SODIMAC] Errors: 0
+[SODIMAC] Success rate: 0%
+[SODIMAC] Average products per page: 0
+[SODIMAC] Products per minute: 0
+[SODIMAC] ============================================================

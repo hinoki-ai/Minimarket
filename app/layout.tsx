@@ -3,6 +3,8 @@ import type { Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
+import { ErrorBoundary } from "@/components/error-boundary";
+import { Toaster } from "sonner";
 
 import { ClerkProvider } from '@clerk/nextjs'
 import ConvexClientProvider from '@/components/ConvexClientProvider'
@@ -91,42 +93,47 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <ClerkProvider>
-            <ConvexClientProvider>
-              {/* Performance monitoring */}
-              <PerformanceMonitor />
-              {/* Vercel Analytics (optional) */}
-              <Script src="/va.js" strategy="lazyOnload" />
-              {/* Register Service Worker for basic offline cache */}
-              <Script id="sw-register" strategy="afterInteractive">{`
-                if ('serviceWorker' in navigator) {
-                  window.addEventListener('load', function() {
-                    navigator.serviceWorker.register('/sw.js').catch(function(err) {
-                      console.warn('SW registration failed', err);
+          <ErrorBoundary>
+            <ClerkProvider>
+              <ConvexClientProvider>
+                {/* Performance monitoring */}
+                <PerformanceMonitor />
+                {/* Vercel Analytics (optional) */}
+                <Script src="/va.js" strategy="lazyOnload" />
+                {/* Register Service Worker for basic offline cache */}
+                <Script id="sw-register" strategy="afterInteractive">{`
+                  if ('serviceWorker' in navigator) {
+                    window.addEventListener('load', function() {
+                      navigator.serviceWorker.register('/sw.js').catch(function(err) {
+                        console.warn('SW registration failed', err);
+                      });
                     });
-                  });
-                }
-              `}</Script>
-              
-              <OrganizationJsonLd 
-                name="Minimarket ARAMAC" 
-                url="https://minimarket-aramac.local" 
-                logoUrl="/favicon.svg"
-              />
-              <WebSiteJsonLd
-                name="Minimarket ARAMAC"
-                url="https://minimarket-aramac.local"
-                searchUrlTemplate="https://minimarket-aramac.local/search?q={search_term_string}"
-              />
-              <HeroHeader />
-              <main id="main" className="pt-20 lg:pt-24 xl:pt-28 pb-20 lg:pb-0">
-                {children}
-              </main>
-              <BottomNav />
-              <CookieConsent />
-              <FooterSection />
-            </ConvexClientProvider>
-          </ClerkProvider>
+                  }
+                `}</Script>
+                
+                <OrganizationJsonLd 
+                  name="Minimarket ARAMAC" 
+                  url="https://minimarket-aramac.local" 
+                  logoUrl="/favicon.svg"
+                />
+                <WebSiteJsonLd
+                  name="Minimarket ARAMAC"
+                  url="https://minimarket-aramac.local"
+                  searchUrlTemplate="https://minimarket-aramac.local/search?q={search_term_string}"
+                />
+                <HeroHeader />
+                <main id="main" className="pt-20 lg:pt-24 xl:pt-28 pb-20 lg:pb-0">
+                  {children}
+                </main>
+                {/* Render cookie consent before bottom nav to ensure it stays on top on mobile */}
+                <CookieConsent />
+                <BottomNav />
+                <FooterSection />
+                {/* Toast notifications */}
+                <Toaster position="top-right" richColors />
+              </ConvexClientProvider>
+            </ClerkProvider>
+          </ErrorBoundary>
         </ThemeProvider>
       </body>
     </html>

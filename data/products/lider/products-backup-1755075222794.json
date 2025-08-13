@@ -1,0 +1,359 @@
+[
+  {
+    "id": "sprite-cachantn-agua-15l",
+    "name": "Cachantún Agua 1.5L",
+    "brand": "Sprite",
+    "category": "bebidas",
+    "price": 3910,
+    "currency": "CLP",
+    "description": "Cachantún Agua 1.5L - Producto de calidad de Sprite",
+    "shortDescription": "Cachantún Agua 1.5L",
+    "imageUrl": "/images/products/bebidas/sprite-cachantn-agua-15l.webp",
+    "thumbnailUrl": "/images/products/bebidas/thumbs/sprite-cachantn-agua-15l.webp",
+    "stock": 100,
+    "inStock": true,
+    "rating": 4.6,
+    "reviewCount": 185,
+    "popularity": 50,
+    "tags": [
+      "bebidas",
+      "familiar"
+    ],
+    "origin": "Chile",
+    "store": {
+      "name": "lider",
+      "url": "https://www.lider.cl/product/sprite-cachantn-agua-15l",
+      "scraped": "2025-08-13T08:33:58.864Z",
+      "section": "bebidas"
+    },
+    "createdAt": "2025-08-13T08:33:58.864Z",
+    "updatedAt": "2025-08-13T08:33:58.864Z"
+  },
+  {
+    "id": "mckay-chocolate-sahne-nuss",
+    "name": "Chocolate Sahne-Nuss",
+    "brand": "McKay",
+    "category": "snacks",
+    "price": 4996,
+    "currency": "CLP",
+    "description": "Chocolate Sahne-Nuss - Producto de calidad de McKay",
+    "shortDescription": "Chocolate Sahne-Nuss",
+    "imageUrl": "/images/products/snacks/mckay-chocolate-sahne-nuss.webp",
+    "thumbnailUrl": "/images/products/snacks/thumbs/mckay-chocolate-sahne-nuss.webp",
+    "stock": 86,
+    "inStock": true,
+    "rating": 4.3,
+    "reviewCount": 84,
+    "popularity": 67,
+    "tags": [
+      "snacks"
+    ],
+    "origin": "Chile",
+    "store": {
+      "name": "lider",
+      "url": "https://www.lider.cl/product/mckay-chocolate-sahne-nuss",
+      "scraped": "2025-08-13T08:33:58.864Z",
+      "section": "snacks"
+    },
+    "createdAt": "2025-08-13T08:33:58.864Z",
+    "updatedAt": "2025-08-13T08:33:58.864Z"
+  },
+  {
+    "id": "sprite-cachantn-agua-15l",
+    "name": "Cachantún Agua 1.5L",
+    "brand": "Sprite",
+    "category": "bebidas",
+    "price": 1943,
+    "currency": "CLP",
+    "description": "Cachantún Agua 1.5L - Producto de calidad de Sprite",
+    "shortDescription": "Cachantún Agua 1.5L",
+    "imageUrl": "/images/products/bebidas/sprite-cachantn-agua-15l.webp",
+    "thumbnailUrl": "/images/products/bebidas/thumbs/sprite-cachantn-agua-15l.webp",
+    "stock": 95,
+    "inStock": true,
+    "rating": 5,
+    "reviewCount": 171,
+    "popularity": 60,
+    "tags": [
+      "bebidas",
+      "familiar"
+    ],
+    "origin": "Chile",
+    "store": {
+      "name": "lider",
+      "url": "https://www.lider.cl/product/sprite-cachantn-agua-15l",
+      "scraped": "2025-08-13T08:33:58.864Z",
+      "section": "bebidas"
+    },
+    "createdAt": "2025-08-13T08:33:58.864Z",
+    "updatedAt": "2025-08-13T08:33:58.864Z"
+  },
+  {
+    "id": "nestl-ramitas-queso",
+    "name": "Ramitas Queso",
+    "brand": "Nestlé",
+    "category": "snacks",
+    "price": 1410,
+    "currency": "CLP",
+    "description": "Ramitas Queso - Producto de calidad de Nestlé",
+    "shortDescription": "Ramitas Queso",
+    "imageUrl": "/images/products/snacks/nestl-ramitas-queso.webp",
+    "thumbnailUrl": "/images/products/snacks/thumbs/nestl-ramitas-queso.webp",
+    "stock": 14,
+    "inStock": true,
+    "rating": 4.6,
+    "reviewCount": 1,
+    "popularity": 8,
+    "tags": [
+      "snacks"
+    ],
+    "origin": "Chile",
+    "store": {
+      "name": "lider",
+      "url": "https://www.lider.cl/product/nestl-ramitas-queso",
+      "scraped": "2025-08-13T08:33:58.864Z",
+      "section": "snacks"
+    },
+    "createdAt": "2025-08-13T08:33:58.864Z",
+    "updatedAt": "2025-08-13T08:33:58.864Z"
+  },
+  {
+    "id": "watts-fanta-naranja-500ml",
+    "name": "Fanta Naranja 500ml",
+    "brand": "Watts",
+    "category": "bebidas",
+    "price": 5164,
+    "currency": "CLP",
+    "description": "Fanta Naranja 500ml - Producto de calidad de Watts",
+    "shortDescription": "Fanta Naranja 500ml",
+    "imageUrl": "/images/products/bebidas/watts-fanta-naranja-500ml.webp",
+    "thumbnailUrl": "/images/products/bebidas/thumbs/watts-fanta-naranja-500ml.webp",
+    "stock": 48,
+    "inStock": true,
+    "rating": 4,
+    "reviewCount": 141,
+    "popularity": 30,
+    "tags": [
+      "bebidas",
+      "individual"
+    ],
+    "origin": "Chile",
+    "store": {
+      "name": "lider",
+      "url": "https://www.lider.cl/product/watts-fanta-naranja-500ml",
+      "scraped": "2025-08-13T08:33:58.864Z",
+      "section": "bebidas"
+    },
+    "createdAt": "2025-08-13T08:33:58.864Z",
+    "updatedAt": "2025-08-13T08:33:58.864Z"
+  },
+  {
+    "id": "evercrisp-ramitas-queso",
+    "name": "Ramitas Queso",
+    "brand": "Evercrisp",
+    "category": "snacks",
+    "price": 4561,
+    "currency": "CLP",
+    "description": "Ramitas Queso - Producto de calidad de Evercrisp",
+    "shortDescription": "Ramitas Queso",
+    "imageUrl": "/images/products/snacks/evercrisp-ramitas-queso.webp",
+    "thumbnailUrl": "/images/products/snacks/thumbs/evercrisp-ramitas-queso.webp",
+    "stock": 102,
+    "inStock": true,
+    "rating": 4.5,
+    "reviewCount": 50,
+    "popularity": 50,
+    "tags": [
+      "snacks"
+    ],
+    "origin": "Chile",
+    "store": {
+      "name": "lider",
+      "url": "https://www.lider.cl/product/evercrisp-ramitas-queso",
+      "scraped": "2025-08-13T08:33:58.864Z",
+      "section": "snacks"
+    },
+    "createdAt": "2025-08-13T08:33:58.864Z",
+    "updatedAt": "2025-08-13T08:33:58.864Z"
+  },
+  {
+    "id": "fanta-coca-cola-15l",
+    "name": "Coca-Cola 1.5L",
+    "brand": "Fanta",
+    "category": "bebidas",
+    "price": 4468,
+    "currency": "CLP",
+    "description": "Coca-Cola 1.5L - Producto de calidad de Fanta",
+    "shortDescription": "Coca-Cola 1.5L",
+    "imageUrl": "/images/products/bebidas/fanta-coca-cola-15l.webp",
+    "thumbnailUrl": "/images/products/bebidas/thumbs/fanta-coca-cola-15l.webp",
+    "stock": 104,
+    "inStock": true,
+    "rating": 4.4,
+    "reviewCount": 2,
+    "popularity": 37,
+    "tags": [
+      "bebidas",
+      "familiar"
+    ],
+    "origin": "Chile",
+    "store": {
+      "name": "lider",
+      "url": "https://www.lider.cl/product/fanta-coca-cola-15l",
+      "scraped": "2025-08-13T08:33:58.864Z",
+      "section": "bebidas"
+    },
+    "createdAt": "2025-08-13T08:33:58.864Z",
+    "updatedAt": "2025-08-13T08:33:58.864Z"
+  },
+  {
+    "id": "evercrisp-cheetos-queso",
+    "name": "Cheetos Queso",
+    "brand": "Evercrisp",
+    "category": "snacks",
+    "price": 810,
+    "currency": "CLP",
+    "description": "Cheetos Queso - Producto de calidad de Evercrisp",
+    "shortDescription": "Cheetos Queso",
+    "imageUrl": "/images/products/snacks/evercrisp-cheetos-queso.webp",
+    "thumbnailUrl": "/images/products/snacks/thumbs/evercrisp-cheetos-queso.webp",
+    "stock": 34,
+    "inStock": true,
+    "rating": 4.3,
+    "reviewCount": 2,
+    "popularity": 23,
+    "tags": [
+      "snacks"
+    ],
+    "origin": "Chile",
+    "store": {
+      "name": "lider",
+      "url": "https://www.lider.cl/product/evercrisp-cheetos-queso",
+      "scraped": "2025-08-13T08:33:58.864Z",
+      "section": "snacks"
+    },
+    "createdAt": "2025-08-13T08:33:58.864Z",
+    "updatedAt": "2025-08-13T08:33:58.864Z"
+  },
+  {
+    "id": "coca-cola-jugo-natural-1l",
+    "name": "Jugo Natural 1L",
+    "brand": "Coca-Cola",
+    "category": "bebidas",
+    "price": 939,
+    "currency": "CLP",
+    "description": "Jugo Natural 1L - Producto de calidad de Coca-Cola",
+    "shortDescription": "Jugo Natural 1L",
+    "imageUrl": "/images/products/bebidas/coca-cola-jugo-natural-1l.webp",
+    "thumbnailUrl": "/images/products/bebidas/thumbs/coca-cola-jugo-natural-1l.webp",
+    "stock": 85,
+    "inStock": true,
+    "rating": 3.7,
+    "reviewCount": 123,
+    "popularity": 78,
+    "tags": [
+      "bebidas",
+      "familiar",
+      "natural"
+    ],
+    "origin": "Chile",
+    "store": {
+      "name": "lider",
+      "url": "https://www.lider.cl/product/coca-cola-jugo-natural-1l",
+      "scraped": "2025-08-13T08:33:58.864Z",
+      "section": "bebidas"
+    },
+    "createdAt": "2025-08-13T08:33:58.864Z",
+    "updatedAt": "2025-08-13T08:33:58.864Z"
+  },
+  {
+    "id": "frito-lay-papas-lays-original",
+    "name": "Papas Lays Original",
+    "brand": "Frito-Lay",
+    "category": "snacks",
+    "price": 2627,
+    "currency": "CLP",
+    "description": "Papas Lays Original - Producto de calidad de Frito-Lay",
+    "shortDescription": "Papas Lays Original",
+    "imageUrl": "/images/products/snacks/frito-lay-papas-lays-original.webp",
+    "thumbnailUrl": "/images/products/snacks/thumbs/frito-lay-papas-lays-original.webp",
+    "stock": 81,
+    "inStock": true,
+    "rating": 4.6,
+    "reviewCount": 104,
+    "popularity": 97,
+    "tags": [
+      "snacks",
+      "original"
+    ],
+    "origin": "Chile",
+    "store": {
+      "name": "lider",
+      "url": "https://www.lider.cl/product/frito-lay-papas-lays-original",
+      "scraped": "2025-08-13T08:33:58.864Z",
+      "section": "snacks"
+    },
+    "createdAt": "2025-08-13T08:33:58.864Z",
+    "updatedAt": "2025-08-13T08:33:58.864Z"
+  },
+  {
+    "id": "cachantn-jugo-natural-1l",
+    "name": "Jugo Natural 1L",
+    "brand": "Cachantún",
+    "category": "bebidas",
+    "price": 5191,
+    "currency": "CLP",
+    "description": "Jugo Natural 1L - Producto de calidad de Cachantún",
+    "shortDescription": "Jugo Natural 1L",
+    "imageUrl": "/images/products/bebidas/cachantn-jugo-natural-1l.webp",
+    "thumbnailUrl": "/images/products/bebidas/thumbs/cachantn-jugo-natural-1l.webp",
+    "stock": 35,
+    "inStock": true,
+    "rating": 5,
+    "reviewCount": 190,
+    "popularity": 52,
+    "tags": [
+      "bebidas",
+      "familiar",
+      "natural"
+    ],
+    "origin": "Chile",
+    "store": {
+      "name": "lider",
+      "url": "https://www.lider.cl/product/cachantn-jugo-natural-1l",
+      "scraped": "2025-08-13T08:33:58.864Z",
+      "section": "bebidas"
+    },
+    "createdAt": "2025-08-13T08:33:58.864Z",
+    "updatedAt": "2025-08-13T08:33:58.864Z"
+  },
+  {
+    "id": "nestl-chocolate-sahne-nuss",
+    "name": "Chocolate Sahne-Nuss",
+    "brand": "Nestlé",
+    "category": "snacks",
+    "price": 2840,
+    "currency": "CLP",
+    "description": "Chocolate Sahne-Nuss - Producto de calidad de Nestlé",
+    "shortDescription": "Chocolate Sahne-Nuss",
+    "imageUrl": "/images/products/snacks/nestl-chocolate-sahne-nuss.webp",
+    "thumbnailUrl": "/images/products/snacks/thumbs/nestl-chocolate-sahne-nuss.webp",
+    "stock": 76,
+    "inStock": true,
+    "rating": 4.2,
+    "reviewCount": 127,
+    "popularity": 64,
+    "tags": [
+      "snacks"
+    ],
+    "origin": "Chile",
+    "store": {
+      "name": "lider",
+      "url": "https://www.lider.cl/product/nestl-chocolate-sahne-nuss",
+      "scraped": "2025-08-13T08:33:58.864Z",
+      "section": "snacks"
+    },
+    "createdAt": "2025-08-13T08:33:58.864Z",
+    "updatedAt": "2025-08-13T08:33:58.864Z"
+  }
+]

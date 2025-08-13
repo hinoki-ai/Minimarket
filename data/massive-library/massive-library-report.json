@@ -1,0 +1,48 @@
+{
+  "timestamp": "2025-08-13T16:52:23.637Z",
+  "summary": {
+    "totalProducts": 11,
+    "stores": [
+      "lider"
+    ],
+    "storeCount": 1,
+    "categories": [
+      "bebidas",
+      "snacks"
+    ],
+    "categoryCount": 2,
+    "brands": [
+      "Sprite",
+      "McKay",
+      "Nestlé",
+      "Watts",
+      "Evercrisp",
+      "Fanta",
+      "Coca-Cola",
+      "Frito-Lay",
+      "Cachantún"
+    ],
+    "brandCount": 9,
+    "totalImages": 20,
+    "averagePrice": 3177,
+    "priceRange": {
+      "min": 810,
+      "max": 5191
+    }
+  },
+  "breakdown": {
+    "byStore": {
+      "lider": 11
+    },
+    "byCategory": {
+      "bebidas": 5,
+      "snacks": 6
+    },
+    "byPriceRange": {
+      "under_1000": 2,
+      "1000_3000": 4,
+      "3000_5000": 3,
+      "over_5000": 2
+    }
+  }
+}

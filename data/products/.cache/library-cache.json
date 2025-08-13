@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "timestamp": "2025-08-13T12:57:27.100Z",
+  "products": 7,
+  "images": 14,
+  "categories": [
+    "bebidas",
+    "snacks"
+  ],
+  "brands": [
+    "sprite",
+    "mckay",
+    "watts",
+    "fanta",
+    "coca-cola",
+    "cachantún",
+    "nestlé"
+  ],
+  "stores": [
+    "lider"
+  ]
+}

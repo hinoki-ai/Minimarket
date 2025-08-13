@@ -24,8 +24,8 @@ export function BottomNav() {
   const [isSearchOpen, setIsSearchOpen] = useState(false)
   const [isAccountOpen, setIsAccountOpen] = useState(false)
 
-  // Hide on dashboard and admin pages
-  if (pathname?.startsWith('/dashboard') || pathname?.startsWith('/admin')) {
+  // Hide on carrito and admin pages
+  if (pathname?.startsWith('/carrito') || pathname?.startsWith('/admin')) {
     return null
   }
 
@@ -50,10 +50,10 @@ export function BottomNav() {
       onClick: () => setIsSearchOpen(true)
     },
     {
-      href: '/dashboard',
+      href: '/carrito',
       icon: ShoppingCart,
       label: 'Carrito',
-      isActive: pathname?.startsWith('/dashboard'),
+      isActive: pathname?.startsWith('/carrito'),
       showCount: true
     },
     {
@@ -145,7 +145,7 @@ export function BottomNav() {
           <div className="p-2 mt-4">
             <div className="grid grid-cols-3 gap-3 text-xs">
               <Link 
-                href="/dashboard#profile" 
+                href="/carrito#profile" 
                 className="flex flex-col items-center justify-center rounded-lg border p-4 hover:bg-accent transition-colors"
                 onClick={() => setIsAccountOpen(false)}
               >
@@ -153,7 +153,7 @@ export function BottomNav() {
                 <span>Perfil</span>
               </Link>
               <Link 
-                href="/dashboard#orders" 
+                href="/carrito#orders" 
                 className="flex flex-col items-center justify-center rounded-lg border p-4 hover:bg-accent transition-colors"
                 onClick={() => setIsAccountOpen(false)}
               >

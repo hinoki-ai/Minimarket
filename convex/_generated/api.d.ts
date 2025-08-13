@@ -19,8 +19,10 @@ import type * as http from "../http.js";
 import type * as orders from "../orders.js";
 import type * as paymentAttemptTypes from "../paymentAttemptTypes.js";
 import type * as paymentAttempts from "../paymentAttempts.js";
+import type * as populateProducts from "../populateProducts.js";
 import type * as products from "../products.js";
 import type * as reviews from "../reviews.js";
+import type * as updateImagePaths from "../updateImagePaths.js";
 import type * as users from "../users.js";
 import type * as wishlists from "../wishlists.js";
 
@@ -39,8 +41,10 @@ declare const fullApi: ApiFromModules<{
   orders: typeof orders;
   paymentAttemptTypes: typeof paymentAttemptTypes;
   paymentAttempts: typeof paymentAttempts;
+  populateProducts: typeof populateProducts;
   products: typeof products;
   reviews: typeof reviews;
+  updateImagePaths: typeof updateImagePaths;
   users: typeof users;
   wishlists: typeof wishlists;
 }>;

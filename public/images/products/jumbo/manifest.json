@@ -1,0 +1,31 @@
+{
+  "store": "jumbo",
+  "totalProducts": 0,
+  "categories": [],
+  "categoryBreakdown": {},
+  "priceRange": {
+    "min": 0,
+    "max": 0,
+    "average": 0
+  },
+  "brandsCount": 0,
+  "averageRating": 0,
+  "lastUpdated": "2025-08-13T12:56:44.188Z",
+  "scrapingDuration": 596,
+  "stats": {
+    "pagesVisited": 0,
+    "productsFound": 0,
+    "imagesDownloaded": 0,
+    "errors": 0,
+    "retries": 0,
+    "categoriesCompleted": 9,
+    "totalCategories": 9,
+    "startTime": "2025-08-13T12:46:48.401Z",
+    "lastSaved": "2025-08-13T12:56:44.188Z",
+    "estimatedRemaining": null,
+    "endTime": "2025-08-13T12:56:44.188Z",
+    "duration": 595787,
+    "averageProductsPerPage": 0,
+    "errorRate": 0
+  }
+}

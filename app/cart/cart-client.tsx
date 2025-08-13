@@ -319,9 +319,9 @@ export default function CartPageClient() {
                 </CardHeader>
                 <CardContent>
                   <div className="grid gap-3">
-                    {userId && (
+                     {userId && (
                        <Button variant="outline" className="justify-start h-auto p-4" asChild>
-                         <Link href="/dashboard#orders">
+                         <Link href="/carrito#orders">
                           <div className="text-left">
                             <div className="font-medium">Ver mis pedidos</div>
                             <div className="text-sm text-muted-foreground">Historial y estado de pedidos</div>

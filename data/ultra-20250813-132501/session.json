@@ -1,0 +1,167 @@
+{
+  "sessionId": "cd4b96c9-9475-4ebc-9f94-2d80ff75c29d",
+  "startTime": 1755105902174,
+  "options": {
+    "strategy": "aggressive",
+    "stores": [
+      "lider",
+      "jumbo",
+      "santa_isabel",
+      "unimarc",
+      "tottus",
+      "easy",
+      "falabella",
+      "paris",
+      "sodimac"
+    ],
+    "categories": [
+      "bebidas",
+      "panaderia",
+      "carnes",
+      "lacteos",
+      "snacks",
+      "aseo",
+      "hogar",
+      "herramientas",
+      "ferreteria",
+      "construccion",
+      "electricidad",
+      "jardineria",
+      "pinturas",
+      "plomeria"
+    ],
+    "maxProducts": 2000,
+    "concurrent": 6,
+    "retryAttempts": 5,
+    "outputDir": "/home/kuromatsu/Documents/ΛRΛMΛC/Websites/Minimarket/data/ultra-20250813-132501",
+    "resumeSession": true,
+    "realTime": true,
+    "verbose": true,
+    "resume": true
+  },
+  "products": 52,
+  "statistics": {
+    "tottus": {
+      "name": "tottus",
+      "startTime": 1755105902198,
+      "attempts": 1,
+      "products": 8,
+      "errors": 0,
+      "strategies": [
+        "AggressiveStrategy"
+      ],
+      "endTime": 1755105931875,
+      "duration": 29677
+    },
+    "lider": {
+      "name": "lider",
+      "startTime": 1755105902198,
+      "attempts": 1,
+      "products": 9,
+      "errors": 0,
+      "strategies": [
+        "AggressiveStrategy"
+      ],
+      "endTime": 1755105955045,
+      "duration": 52847
+    },
+    "jumbo": {
+      "name": "jumbo",
+      "startTime": 1755105902198,
+      "attempts": 1,
+      "products": 12,
+      "errors": 0,
+      "strategies": [
+        "AggressiveStrategy"
+      ],
+      "endTime": 1755105972459,
+      "duration": 70261
+    },
+    "unimarc": {
+      "name": "unimarc",
+      "startTime": 1755105902198,
+      "attempts": 1,
+      "products": 50,
+      "errors": 0,
+      "strategies": [
+        "AggressiveStrategy"
+      ],
+      "endTime": 1755105993930,
+      "duration": 91732
+    },
+    "santa_isabel": {
+      "name": "santa_isabel",
+      "startTime": 1755105902198,
+      "attempts": 3,
+      "products": 19,
+      "errors": 0,
+      "strategies": [
+        "AggressiveStrategy",
+        "AggressiveStrategy",
+        "AggressiveStrategy"
+      ],
+      "endTime": 1755105998119,
+      "duration": 95921
+    },
+    "easy": {
+      "name": "easy",
+      "startTime": 1755105902198,
+      "attempts": 5,
+      "products": 0,
+      "errors": 0,
+      "strategies": [
+        "AggressiveStrategy",
+        "AggressiveStrategy",
+        "AggressiveStrategy",
+        "AggressiveStrategy",
+        "AggressiveStrategy"
+      ],
+      "endTime": 1755106002961,
+      "duration": 100763
+    },
+    "sodimac": {
+      "name": "sodimac",
+      "startTime": 1755106004972,
+      "attempts": 3,
+      "products": 18,
+      "errors": 0,
+      "strategies": [
+        "AggressiveStrategy",
+        "AggressiveStrategy",
+        "AggressiveStrategy"
+      ],
+      "endTime": 1755106084528,
+      "duration": 79556
+    },
+    "paris": {
+      "name": "paris",
+      "startTime": 1755106004972,
+      "attempts": 1,
+      "products": 2,
+      "errors": 0,
+      "strategies": [
+        "AggressiveStrategy"
+      ],
+      "endTime": 1755106089457,
+      "duration": 84485
+    },
+    "falabella": {
+      "name": "falabella",
+      "startTime": 1755106004972,
+      "attempts": 5,
+      "products": 0,
+      "errors": 0,
+      "strategies": [
+        "AggressiveStrategy",
+        "AggressiveStrategy",
+        "AggressiveStrategy",
+        "AggressiveStrategy",
+        "AggressiveStrategy"
+      ],
+      "endTime": 1755106109118,
+      "duration": 104146
+    }
+  },
+  "errors": [],
+  "timestamp": "2025-08-13T17:28:29.118Z"
+}

@@ -1,0 +1,177 @@
+[2025-08-13T16:55:53.572Z] 🔥 STARTING ULTRA-AGGRESSIVE SCRAPING CAMPAIGN
+[2025-08-13T16:55:53.578Z] 🎯 TARGET: 500 products minimum
+[2025-08-13T16:55:53.583Z] ⚡ AGGRESSION LEVEL: MAXIMUM (25 attempts per store)
+[2025-08-13T16:55:53.585Z] 🚀 ULTRA-AGGRESSIVE ATTACK ON LIDER
+[2025-08-13T16:55:53.586Z] Target: 4 URLs × 34 terms × 25 attempts
+[2025-08-13T16:55:53.726Z]   Attempt 1/25
+[2025-08-13T16:55:53.829Z]     Testing: https://www.lider.cl
+[2025-08-13T16:55:56.783Z]     ✅ 200 OK: https://www.lider.cl
+[2025-08-13T16:55:59.947Z]     Testing: https://www.lider.cl/search?q=agua
+[2025-08-13T16:56:03.901Z]     ✅ 200 OK: https://www.lider.cl/search?q=agua
+[2025-08-13T16:56:08.990Z]     Testing: https://www.lider.cl/buscar?q=agua
+[2025-08-13T16:56:14.150Z]     Testing: https://www.lider.cl/productos?search=agua
+[2025-08-13T16:56:18.067Z]     Testing: https://www.lider.cl/categoria/agua
+[2025-08-13T16:56:21.085Z]     Testing: https://www.lider.cl/agua
+[2025-08-13T16:56:24.569Z]     Testing: https://www.lider.cl
+[2025-08-13T16:56:27.577Z]     ✅ 200 OK: https://www.lider.cl
+[2025-08-13T16:56:30.625Z]     Testing: https://www.lider.cl/search?q=leche
+[2025-08-13T16:56:34.421Z]     ✅ 200 OK: https://www.lider.cl/search?q=leche
+[2025-08-13T16:56:37.493Z]     Testing: https://www.lider.cl/buscar?q=leche
+[2025-08-13T16:56:41.304Z]     Testing: https://www.lider.cl/productos?search=leche
+[2025-08-13T16:56:43.865Z]     Testing: https://www.lider.cl/categoria/leche
+[2025-08-13T16:56:46.887Z]     Testing: https://www.lider.cl/leche
+[2025-08-13T16:56:50.003Z]     Testing: https://www.lider.cl
+[2025-08-13T16:56:52.244Z]     ✅ 200 OK: https://www.lider.cl
+[2025-08-13T16:56:55.875Z]     Testing: https://www.lider.cl/search?q=pan
+[2025-08-13T16:56:58.218Z]     ✅ 200 OK: https://www.lider.cl/search?q=pan
+[2025-08-13T16:57:02.198Z]     Testing: https://www.lider.cl/buscar?q=pan
+[2025-08-13T16:57:07.141Z]     Testing: https://www.lider.cl/productos?search=pan
+[2025-08-13T16:57:11.400Z]     Testing: https://www.lider.cl/categoria/pan
+[2025-08-13T16:57:14.594Z]     Testing: https://www.lider.cl/pan
+[2025-08-13T16:57:18.152Z]     Testing: https://www.lider.cl
+[2025-08-13T16:57:20.479Z]     ✅ 200 OK: https://www.lider.cl
+[2025-08-13T16:57:23.338Z]     Testing: https://www.lider.cl/search?q=arroz
+[2025-08-13T16:57:26.769Z]     ✅ 200 OK: https://www.lider.cl/search?q=arroz
+[2025-08-13T16:57:29.671Z]     Testing: https://www.lider.cl/buscar?q=arroz
+[2025-08-13T16:57:34.015Z]     Testing: https://www.lider.cl/productos?search=arroz
+[2025-08-13T16:57:38.240Z]     Testing: https://www.lider.cl/categoria/arroz
+[2025-08-13T16:57:42.562Z]     Testing: https://www.lider.cl/arroz
+[2025-08-13T16:57:46.247Z]     Testing: https://www.lider.cl
+[2025-08-13T16:57:49.182Z]     ✅ 200 OK: https://www.lider.cl
+[2025-08-13T16:57:54.029Z]     Testing: https://www.lider.cl/search?q=aceite
+[2025-08-13T16:57:57.980Z]     ✅ 200 OK: https://www.lider.cl/search?q=aceite
+[2025-08-13T16:58:02.286Z]     Testing: https://www.lider.cl/buscar?q=aceite
+[2025-08-13T16:58:07.360Z]     Testing: https://www.lider.cl/productos?search=aceite
+[2025-08-13T16:58:11.729Z]     Testing: https://www.lider.cl/categoria/aceite
+[2025-08-13T16:58:15.141Z]     Testing: https://www.lider.cl/aceite
+[2025-08-13T16:58:18.768Z]     Testing: https://m.lider.cl
+[2025-08-13T16:58:21.777Z]     Testing: https://m.lider.cl/search?q=agua
+[2025-08-13T16:58:24.777Z]     Testing: https://m.lider.cl/buscar?q=agua
+[2025-08-13T16:58:27.791Z]     Testing: https://m.lider.cl/productos?search=agua
+[2025-08-13T16:58:29.658Z]     Testing: https://m.lider.cl/categoria/agua
+[2025-08-13T16:58:32.675Z]     Testing: https://m.lider.cl/agua
+[2025-08-13T16:58:35.540Z]     Testing: https://m.lider.cl
+[2025-08-13T16:58:38.080Z]     Testing: https://m.lider.cl/search?q=leche
+[2025-08-13T16:58:40.446Z]     Testing: https://m.lider.cl/buscar?q=leche
+[2025-08-13T16:58:42.907Z]     Testing: https://m.lider.cl/productos?search=leche
+[2025-08-13T16:58:44.115Z]     Testing: https://m.lider.cl/categoria/leche
+[2025-08-13T16:58:45.376Z]     Testing: https://m.lider.cl/leche
+[2025-08-13T16:58:48.420Z]     Testing: https://m.lider.cl
+[2025-08-13T16:58:51.328Z]     Testing: https://m.lider.cl/search?q=pan
+[2025-08-13T16:58:53.386Z]     Testing: https://m.lider.cl/buscar?q=pan
+[2025-08-13T16:58:56.346Z]     Testing: https://m.lider.cl/productos?search=pan
+[2025-08-13T16:58:58.916Z]     Testing: https://m.lider.cl/categoria/pan
+[2025-08-13T16:59:00.786Z]     Testing: https://m.lider.cl/pan
+[2025-08-13T16:59:02.359Z]     Testing: https://m.lider.cl
+[2025-08-13T16:59:03.669Z]     Testing: https://m.lider.cl/search?q=arroz
+[2025-08-13T16:59:04.926Z]     Testing: https://m.lider.cl/buscar?q=arroz
+[2025-08-13T16:59:06.516Z]     Testing: https://m.lider.cl/productos?search=arroz
+[2025-08-13T16:59:08.046Z]     Testing: https://m.lider.cl/categoria/arroz
+[2025-08-13T16:59:11.116Z]     Testing: https://m.lider.cl/arroz
+[2025-08-13T16:59:13.940Z]     Testing: https://m.lider.cl
+[2025-08-13T16:59:15.660Z]     Testing: https://m.lider.cl/search?q=aceite
+[2025-08-13T16:59:17.818Z]     Testing: https://m.lider.cl/buscar?q=aceite
+[2025-08-13T16:59:20.475Z]     Testing: https://m.lider.cl/productos?search=aceite
+[2025-08-13T16:59:23.086Z]     Testing: https://m.lider.cl/categoria/aceite
+[2025-08-13T16:59:24.676Z]     Testing: https://m.lider.cl/aceite
+[2025-08-13T16:59:27.668Z]     Testing: https://lider.cl
+[2025-08-13T16:59:30.241Z]     ✅ 200 OK: https://lider.cl
+[2025-08-13T16:59:35.282Z]     Testing: https://lider.cl/search?q=agua
+[2025-08-13T16:59:38.152Z]     ✅ 200 OK: https://lider.cl/search?q=agua
+[2025-08-13T16:59:41.417Z]     Testing: https://lider.cl/buscar?q=agua
+[2025-08-13T16:59:45.592Z]     Testing: https://lider.cl/productos?search=agua
+[2025-08-13T16:59:49.586Z]     Testing: https://lider.cl/categoria/agua
+[2025-08-13T16:59:52.843Z]     Testing: https://lider.cl/agua
+[2025-08-13T16:59:55.536Z]     Testing: https://lider.cl
+[2025-08-13T16:59:58.360Z]     ✅ 200 OK: https://lider.cl
+[2025-08-13T17:00:02.872Z]     Testing: https://lider.cl/search?q=leche
+[2025-08-13T17:00:06.964Z]     ✅ 200 OK: https://lider.cl/search?q=leche
+[2025-08-13T17:00:11.307Z]     Testing: https://lider.cl/buscar?q=leche
+[2025-08-13T17:00:16.196Z]     Testing: https://lider.cl/productos?search=leche
+[2025-08-13T17:00:20.877Z]     Testing: https://lider.cl/categoria/leche
+[2025-08-13T17:00:25.066Z]     Testing: https://lider.cl/leche
+[2025-08-13T17:00:29.481Z]     Testing: https://lider.cl
+[2025-08-13T17:00:34.908Z]     ✅ 200 OK: https://lider.cl
+[2025-08-13T17:00:37.527Z]     Testing: https://lider.cl/search?q=pan
+[2025-08-13T17:00:40.856Z]     ✅ 200 OK: https://lider.cl/search?q=pan
+[2025-08-13T17:00:44.564Z]     Testing: https://lider.cl/buscar?q=pan
+[2025-08-13T17:00:49.881Z]     Testing: https://lider.cl/productos?search=pan
+[2025-08-13T17:00:54.210Z]     Testing: https://lider.cl/categoria/pan
+[2025-08-13T17:00:57.918Z]     Testing: https://lider.cl/pan
+[2025-08-13T17:01:02.154Z]     Testing: https://lider.cl
+[2025-08-13T17:01:05.126Z]     ✅ 200 OK: https://lider.cl
+[2025-08-13T17:01:07.749Z]     Testing: https://lider.cl/search?q=arroz
+[2025-08-13T17:01:10.036Z]     ✅ 200 OK: https://lider.cl/search?q=arroz
+[2025-08-13T17:01:12.684Z]     Testing: https://lider.cl/buscar?q=arroz
+[2025-08-13T17:01:17.894Z]     Testing: https://lider.cl/productos?search=arroz
+[2025-08-13T17:01:22.220Z]     Testing: https://lider.cl/categoria/arroz
+[2025-08-13T17:01:26.519Z]     Testing: https://lider.cl/arroz
+[2025-08-13T17:01:30.423Z]     Testing: https://lider.cl
+[2025-08-13T17:01:34.519Z]     ✅ 200 OK: https://lider.cl
+[2025-08-13T17:01:36.738Z]     Testing: https://lider.cl/search?q=aceite
+[2025-08-13T17:01:40.169Z]     ✅ 200 OK: https://lider.cl/search?q=aceite
+[2025-08-13T17:01:44.559Z]     Testing: https://lider.cl/buscar?q=aceite
+[2025-08-13T17:01:47.977Z]     Testing: https://lider.cl/productos?search=aceite
+[2025-08-13T17:01:52.354Z]     Testing: https://lider.cl/categoria/aceite
+[2025-08-13T17:01:55.841Z]     Testing: https://lider.cl/aceite
+[2025-08-13T17:01:59.005Z]     Testing: https://www.lider.com
+[2025-08-13T17:02:01.438Z]     Testing: https://www.lider.com/search?q=agua
+[2025-08-13T17:02:03.620Z]     Testing: https://www.lider.com/buscar?q=agua
+[2025-08-13T17:02:05.769Z]     Testing: https://www.lider.com/productos?search=agua
+[2025-08-13T17:02:07.276Z]     Testing: https://www.lider.com/categoria/agua
+[2025-08-13T17:02:08.982Z]     Testing: https://www.lider.com/agua
+[2025-08-13T17:02:10.609Z]     Testing: https://www.lider.com
+[2025-08-13T17:02:13.280Z]     Testing: https://www.lider.com/search?q=leche
+[2025-08-13T17:02:15.950Z]     Testing: https://www.lider.com/buscar?q=leche
+[2025-08-13T17:02:17.892Z]     Testing: https://www.lider.com/productos?search=leche
+[2025-08-13T17:02:20.778Z]     Testing: https://www.lider.com/categoria/leche
+[2025-08-13T17:02:22.732Z]     Testing: https://www.lider.com/leche
+[2025-08-13T17:02:25.768Z]     Testing: https://www.lider.com
+[2025-08-13T17:02:27.509Z]     Testing: https://www.lider.com/search?q=pan
+[2025-08-13T17:02:28.824Z]     Testing: https://www.lider.com/buscar?q=pan
+[2025-08-13T17:02:30.838Z]     Testing: https://www.lider.com/productos?search=pan
+[2025-08-13T17:02:32.737Z]     Testing: https://www.lider.com/categoria/pan
+[2025-08-13T17:02:35.638Z]     Testing: https://www.lider.com/pan
+[2025-08-13T17:02:38.739Z]     Testing: https://www.lider.com
+[2025-08-13T17:02:41.824Z]     Testing: https://www.lider.com/search?q=arroz
+[2025-08-13T17:02:43.701Z]     Testing: https://www.lider.com/buscar?q=arroz
+[2025-08-13T17:02:46.642Z]     Testing: https://www.lider.com/productos?search=arroz
+[2025-08-13T17:02:48.922Z]     Testing: https://www.lider.com/categoria/arroz
+[2025-08-13T17:02:51.245Z]     Testing: https://www.lider.com/arroz
+[2025-08-13T17:02:53.752Z]     Testing: https://www.lider.com
+[2025-08-13T17:02:55.313Z]     Testing: https://www.lider.com/search?q=aceite
+[2025-08-13T17:02:57.905Z]     Testing: https://www.lider.com/buscar?q=aceite
+[2025-08-13T17:02:59.205Z]     Testing: https://www.lider.com/productos?search=aceite
+[2025-08-13T17:03:02.388Z]     Testing: https://www.lider.com/categoria/aceite
+[2025-08-13T17:03:03.704Z]     Testing: https://www.lider.com/aceite
+[2025-08-13T17:03:11.569Z]   Attempt 2/25
+[2025-08-13T17:03:11.656Z]     Testing: https://www.lider.cl
+[2025-08-13T17:03:14.073Z]     ✅ 200 OK: https://www.lider.cl
+[2025-08-13T17:03:17.794Z]     Testing: https://www.lider.cl/search?q=agua
+[2025-08-13T17:03:21.839Z]     ✅ 200 OK: https://www.lider.cl/search?q=agua
+[2025-08-13T17:03:26.692Z]     Testing: https://www.lider.cl/buscar?q=agua
+[2025-08-13T17:03:31.319Z]     Testing: https://www.lider.cl/productos?search=agua
+[2025-08-13T17:03:35.039Z]     Testing: https://www.lider.cl/categoria/agua
+[2025-08-13T17:03:39.905Z]     Testing: https://www.lider.cl/agua
+[2025-08-13T17:03:43.861Z]     Testing: https://www.lider.cl
+[2025-08-13T17:03:47.929Z]     ✅ 200 OK: https://www.lider.cl
+[2025-08-13T17:03:52.593Z]     Testing: https://www.lider.cl/search?q=leche
+[2025-08-13T17:03:54.797Z]     ✅ 200 OK: https://www.lider.cl/search?q=leche
+[2025-08-13T17:03:57.974Z]     Testing: https://www.lider.cl/buscar?q=leche
+[2025-08-13T17:04:04.537Z]     Testing: https://www.lider.cl/productos?search=leche
+[2025-08-13T17:04:09.351Z]     Testing: https://www.lider.cl/categoria/leche
+[2025-08-13T17:04:12.257Z]     Testing: https://www.lider.cl/leche
+[2025-08-13T17:04:16.228Z]     Testing: https://www.lider.cl
+[2025-08-13T17:04:20.016Z]     ✅ 200 OK: https://www.lider.cl
+[2025-08-13T17:04:22.512Z]     Testing: https://www.lider.cl/search?q=pan
+[2025-08-13T17:04:25.948Z]     ✅ 200 OK: https://www.lider.cl/search?q=pan
+[2025-08-13T17:04:28.066Z]     Testing: https://www.lider.cl/buscar?q=pan
+[2025-08-13T17:04:36.650Z]     Testing: https://www.lider.cl/productos?search=pan
+[2025-08-13T17:04:40.598Z]     Testing: https://www.lider.cl/categoria/pan
+[2025-08-13T17:04:44.833Z]     Testing: https://www.lider.cl/pan
+[2025-08-13T17:04:49.158Z]     Testing: https://www.lider.cl
+[2025-08-13T17:04:51.196Z]     ✅ 200 OK: https://www.lider.cl
+[2025-08-13T17:04:54.149Z]     Testing: https://www.lider.cl/search?q=arroz
+[2025-08-13T17:04:58.087Z]     ✅ 200 OK: https://www.lider.cl/search?q=arroz
+[2025-08-13T17:05:03.060Z]     Testing: https://www.lider.cl/buscar?q=arroz
+[2025-08-13T17:05:12.231Z]     Testing: https://www.lider.cl/productos?search=arroz

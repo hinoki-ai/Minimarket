@@ -89,7 +89,8 @@ const animatedTestimonials: AnimatedTestimonial[] = testimonials.map((t) => ({
     quote: t.quote,
     name: t.name,
     designation: t.role,
-    src: imageOverrides[t.name] ?? t.image,
+    // Use remote images to avoid broken local overrides
+    src: t.image,
 }))
 
 export default function WallOfLoveSection() {

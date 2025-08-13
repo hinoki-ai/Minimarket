@@ -1,0 +1,782 @@
+[
+  {
+    "id": "f36b4070-c7f6-4c11-aad7-6e70b8a73429",
+    "name": "Pulpa Cerdo Super Cerdo kg",
+    "category": "bebidas",
+    "price": 5,
+    "currency": "CLP",
+    "imageUrl": "https://santaisabel.vtexassets.com/arquivos/ids/311050-280-280?width=280&height=280&aspect=true",
+    "description": "Pulpa Cerdo Super Cerdo kg",
+    "store": {
+      "name": "santa isabel",
+      "url": "https://www.santaisabel.cl",
+      "scraped": "2025-08-13T17:37:50.883Z",
+      "strategy": "StandardStrategy"
+    },
+    "stock": 21,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:37:50.883Z",
+    "updatedAt": "2025-08-13T17:38:30.994Z",
+    "brand": "Pulpa",
+    "shortDescription": "Pulpa Cerdo Super Cerdo kg"
+  },
+  {
+    "id": "dcce7816-39c9-4338-b073-18c03530a650",
+    "name": "Leche Surlat Semidescremada 1 L",
+    "category": "bebidas",
+    "price": 1,
+    "currency": "CLP",
+    "imageUrl": "https://santaisabel.vtexassets.com/arquivos/ids/378676-280-280?width=280&height=280&aspect=true",
+    "description": "Leche Surlat Semidescremada 1 L",
+    "store": {
+      "name": "santa isabel",
+      "url": "https://www.santaisabel.cl",
+      "scraped": "2025-08-13T17:37:50.884Z",
+      "strategy": "StandardStrategy"
+    },
+    "stock": 41,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:37:50.884Z",
+    "updatedAt": "2025-08-13T17:38:30.994Z",
+    "brand": "Leche",
+    "shortDescription": "Leche Surlat Semidescremada 1 L"
+  },
+  {
+    "id": "83b888c7-ba58-4b98-85e2-09f833c407a7",
+    "name": "Carne Molida Vacuno 10 Grasa 250 gr",
+    "category": "bebidas",
+    "price": 2,
+    "currency": "CLP",
+    "imageUrl": "https://santaisabel.vtexassets.com/arquivos/ids/504546-280-280?width=280&height=280&aspect=true",
+    "description": "Carne Molida Vacuno 10 Grasa 250 gr",
+    "store": {
+      "name": "santa isabel",
+      "url": "https://www.santaisabel.cl",
+      "scraped": "2025-08-13T17:37:50.884Z",
+      "strategy": "StandardStrategy"
+    },
+    "stock": 38,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:37:50.884Z",
+    "updatedAt": "2025-08-13T17:38:30.994Z",
+    "brand": "Carne",
+    "shortDescription": "Carne Molida Vacuno 10% Grasa 250 gr"
+  },
+  {
+    "id": "3173ed69-8296-4e8b-9528-ade2ff65d027",
+    "name": "Azúcar Blanca Iansa 900 g",
+    "category": "bebidas",
+    "price": 1,
+    "currency": "CLP",
+    "imageUrl": "https://santaisabel.vtexassets.com/arquivos/ids/474054-280-280?width=280&height=280&aspect=true",
+    "description": "Azúcar Blanca Iansa 900 g",
+    "store": {
+      "name": "santa isabel",
+      "url": "https://www.santaisabel.cl",
+      "scraped": "2025-08-13T17:37:50.884Z",
+      "strategy": "StandardStrategy"
+    },
+    "stock": 15,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:37:50.884Z",
+    "updatedAt": "2025-08-13T17:38:30.994Z",
+    "brand": "Azúcar",
+    "shortDescription": "Azúcar Blanca Iansa 900 g"
+  },
+  {
+    "id": "b5dc41d4-97cb-4544-b8ee-cbe03cf82d52",
+    "name": "Galleta Bañada Morocha 50 g",
+    "category": "bebidas",
+    "price": 480,
+    "currency": "CLP",
+    "imageUrl": "https://santaisabel.vtexassets.com/arquivos/ids/470465-280-280?width=280&height=280&aspect=true",
+    "description": "Galleta Bañada Morocha 50 g",
+    "store": {
+      "name": "santa isabel",
+      "url": "https://www.santaisabel.cl",
+      "scraped": "2025-08-13T17:37:50.884Z",
+      "strategy": "StandardStrategy"
+    },
+    "stock": 32,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:37:50.884Z",
+    "updatedAt": "2025-08-13T17:38:30.994Z",
+    "brand": "Galleta",
+    "shortDescription": "Galleta Bañada Morocha 50 g"
+  },
+  {
+    "id": "ca277664-2130-48e7-8888-5f5a64d58f29",
+    "name": "Papel Higiénico Confort Doble Hoja Rendiplus 18 m 4 un.",
+    "category": "bebidas",
+    "price": 30,
+    "currency": "CLP",
+    "imageUrl": "https://santaisabel.vtexassets.com/arquivos/ids/507363-280-280?width=280&height=280&aspect=true",
+    "description": "Papel Higiénico Confort Doble Hoja Rendiplus 18 m 4 un.",
+    "store": {
+      "name": "santa isabel",
+      "url": "https://www.santaisabel.cl",
+      "scraped": "2025-08-13T17:37:50.884Z",
+      "strategy": "StandardStrategy"
+    },
+    "stock": 56,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:37:50.884Z",
+    "updatedAt": "2025-08-13T17:38:30.994Z",
+    "brand": "Papel",
+    "shortDescription": "Papel Higiénico Confort Doble Hoja Rendiplus 18..."
+  },
+  {
+    "id": "ae7c3244-737f-40c2-9cfc-e5d7e89dc1d7",
+    "name": "Pack 18 un. Cerveza Corona Lager 4.5 330 cc",
+    "category": "bebidas",
+    "price": 10,
+    "currency": "CLP",
+    "imageUrl": "https://santaisabel.vteximg.com.br/arquivos/ids/438410-280-280?width=280&height=280&aspect=true",
+    "description": "Pack 18 un. Cerveza Corona Lager 4.5 330 cc",
+    "store": {
+      "name": "santa isabel",
+      "url": "https://www.santaisabel.cl",
+      "scraped": "2025-08-13T17:37:50.884Z",
+      "strategy": "StandardStrategy"
+    },
+    "stock": 26,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:37:50.884Z",
+    "updatedAt": "2025-08-13T17:38:30.994Z",
+    "brand": "Pack",
+    "shortDescription": "Pack 18 un. Cerveza Corona Lager 4.5° 330 cc"
+  },
+  {
+    "id": "4f2a74ff-6308-4100-99f8-5b2a03317af3",
+    "name": "Pechuga Entera de Pollo A Granel kg",
+    "category": "bebidas",
+    "price": 4,
+    "currency": "CLP",
+    "imageUrl": "https://santaisabel.vteximg.com.br/arquivos/ids/168472-280-280?width=280&height=280&aspect=true",
+    "description": "Pechuga Entera de Pollo A Granel kg",
+    "store": {
+      "name": "santa isabel",
+      "url": "https://www.santaisabel.cl",
+      "scraped": "2025-08-13T17:37:50.884Z",
+      "strategy": "StandardStrategy"
+    },
+    "stock": 52,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:37:50.884Z",
+    "updatedAt": "2025-08-13T17:38:30.994Z",
+    "brand": "Pechuga",
+    "shortDescription": "Pechuga Entera de Pollo A Granel kg"
+  },
+  {
+    "id": "39fc7ae7-0096-4dd5-af67-95adc2f80337",
+    "name": "Posta Paleta Cat. V",
+    "category": "bebidas",
+    "price": 15,
+    "currency": "CLP",
+    "imageUrl": "https://santaisabel.vteximg.com.br/arquivos/ids/490969-280-280?width=280&height=280&aspect=true",
+    "description": "Posta Paleta Cat. V",
+    "store": {
+      "name": "santa isabel",
+      "url": "https://www.santaisabel.cl",
+      "scraped": "2025-08-13T17:37:50.884Z",
+      "strategy": "StandardStrategy"
+    },
+    "stock": 17,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:37:50.884Z",
+    "updatedAt": "2025-08-13T17:38:30.994Z",
+    "brand": "Posta",
+    "shortDescription": "Posta Paleta Cat. V"
+  },
+  {
+    "id": "3ae767f5-b271-4e3c-84ff-355cfe17b131",
+    "name": "Pack 24 un. Cerveza Royal Guard Premium Lager 5.0 355 cc",
+    "category": "bebidas",
+    "price": 45,
+    "currency": "CLP",
+    "imageUrl": "https://santaisabel.vteximg.com.br/arquivos/ids/435682-280-280?width=280&height=280&aspect=true",
+    "description": "Pack 24 un. Cerveza Royal Guard Premium Lager 5.0 355 cc",
+    "store": {
+      "name": "santa isabel",
+      "url": "https://www.santaisabel.cl",
+      "scraped": "2025-08-13T17:37:50.884Z",
+      "strategy": "StandardStrategy"
+    },
+    "stock": 48,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:37:50.884Z",
+    "updatedAt": "2025-08-13T17:38:30.995Z",
+    "brand": "Pack",
+    "shortDescription": "Pack 24 un. Cerveza Royal Guard Premium Lager 5..."
+  },
+  {
+    "id": "0ceb49e4-21dd-410b-81f1-bb6832e4ab3d",
+    "name": "Pack 18 un. Cerveza Sol Lager 4.5 330 cc",
+    "category": "bebidas",
+    "price": 35,
+    "currency": "CLP",
+    "imageUrl": "https://santaisabel.vteximg.com.br/arquivos/ids/448390-280-280?width=280&height=280&aspect=true",
+    "description": "Pack 18 un. Cerveza Sol Lager 4.5 330 cc",
+    "store": {
+      "name": "santa isabel",
+      "url": "https://www.santaisabel.cl",
+      "scraped": "2025-08-13T17:37:50.884Z",
+      "strategy": "StandardStrategy"
+    },
+    "stock": 40,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:37:50.884Z",
+    "updatedAt": "2025-08-13T17:38:30.995Z",
+    "brand": "Pack",
+    "shortDescription": "Pack 18 un. Cerveza Sol Lager 4.5° 330 cc"
+  },
+  {
+    "id": "cd35d491-6a1a-4d7a-a4d5-d13e9ced38f8",
+    "name": "Choclo Congelado Minuto Verde 100 Natural 500 g",
+    "category": "bebidas",
+    "price": 1,
+    "currency": "CLP",
+    "imageUrl": "https://santaisabel.vteximg.com.br/arquivos/ids/381964-280-280?width=280&height=280&aspect=true",
+    "description": "Choclo Congelado Minuto Verde 100 Natural 500 g",
+    "store": {
+      "name": "santa isabel",
+      "url": "https://www.santaisabel.cl",
+      "scraped": "2025-08-13T17:37:50.884Z",
+      "strategy": "StandardStrategy"
+    },
+    "stock": 25,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:37:50.884Z",
+    "updatedAt": "2025-08-13T17:38:30.995Z",
+    "brand": "Choclo",
+    "shortDescription": "Choclo Congelado Minuto Verde 100% Natural 500 g"
+  },
+  {
+    "id": "378dea0b-128a-46e3-9a51-2c476c3885ba",
+    "name": "Pack 6 un. Cerveza Budweiser Lager 5.0 473 cc",
+    "category": "bebidas",
+    "price": 50,
+    "currency": "CLP",
+    "imageUrl": "https://santaisabel.vteximg.com.br/arquivos/ids/524218-280-280?width=280&height=280&aspect=true",
+    "description": "Pack 6 un. Cerveza Budweiser Lager 5.0 473 cc",
+    "store": {
+      "name": "santa isabel",
+      "url": "https://www.santaisabel.cl",
+      "scraped": "2025-08-13T17:37:50.884Z",
+      "strategy": "StandardStrategy"
+    },
+    "stock": 45,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:37:50.884Z",
+    "updatedAt": "2025-08-13T17:38:30.995Z",
+    "brand": "Pack",
+    "shortDescription": "Pack 6 un. Cerveza Budweiser Lager 5.0° 473 cc"
+  },
+  {
+    "id": "c315f09d-f648-415e-b17f-72625a0acac7",
+    "name": "Salsa de Tomate Pomarola 200 g 6 un.",
+    "category": "bebidas",
+    "price": 2,
+    "currency": "CLP",
+    "imageUrl": "https://santaisabel.vteximg.com.br/arquivos/ids/180742-280-280?width=280&height=280&aspect=true",
+    "description": "Salsa de Tomate Pomarola 200 g 6 un.",
+    "store": {
+      "name": "santa isabel",
+      "url": "https://www.santaisabel.cl",
+      "scraped": "2025-08-13T17:37:50.884Z",
+      "strategy": "StandardStrategy"
+    },
+    "stock": 11,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:37:50.884Z",
+    "updatedAt": "2025-08-13T17:38:30.995Z",
+    "brand": "Salsa",
+    "shortDescription": "Salsa de Tomate Pomarola 200 g 6 un."
+  },
+  {
+    "id": "237d4337-7d3c-46b8-95e9-bda0a26ea32a",
+    "name": "Jamón Pierna Artesanal Receta del Abuelo 200 g",
+    "category": "bebidas",
+    "price": 2,
+    "currency": "CLP",
+    "imageUrl": "https://santaisabel.vteximg.com.br/arquivos/ids/160059-280-280?width=280&height=280&aspect=true",
+    "description": "Jamón Pierna Artesanal Receta del Abuelo 200 g",
+    "store": {
+      "name": "santa isabel",
+      "url": "https://www.santaisabel.cl",
+      "scraped": "2025-08-13T17:37:50.884Z",
+      "strategy": "StandardStrategy"
+    },
+    "stock": 27,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:37:50.884Z",
+    "updatedAt": "2025-08-13T17:38:30.995Z",
+    "brand": "Jamón",
+    "shortDescription": "Jamón Pierna Artesanal Receta del Abuelo 200 g"
+  },
+  {
+    "id": "87c85d14-9fde-4e5b-a0bd-1561bce32858",
+    "name": "Jamón Pierna Receta del Abuelo 200 g",
+    "category": "bebidas",
+    "price": 2,
+    "currency": "CLP",
+    "imageUrl": "https://santaisabel.vteximg.com.br/arquivos/ids/290496-280-280?width=280&height=280&aspect=true",
+    "description": "Jamón Pierna Receta del Abuelo 200 g",
+    "store": {
+      "name": "santa isabel",
+      "url": "https://www.santaisabel.cl",
+      "scraped": "2025-08-13T17:37:50.884Z",
+      "strategy": "StandardStrategy"
+    },
+    "stock": 55,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:37:50.884Z",
+    "updatedAt": "2025-08-13T17:38:30.995Z",
+    "brand": "Jamón",
+    "shortDescription": "Jamón Pierna Receta del Abuelo 200 g"
+  },
+  {
+    "id": "9eadad0c-1d1d-46ce-9285-53e106585df9",
+    "name": "Mantequilla Las Parcelas de Valdivia 200 g",
+    "category": "bebidas",
+    "price": 2,
+    "currency": "CLP",
+    "imageUrl": "https://santaisabel.vteximg.com.br/arquivos/ids/473961-280-280?width=280&height=280&aspect=true",
+    "description": "Mantequilla Las Parcelas de Valdivia 200 g",
+    "store": {
+      "name": "santa isabel",
+      "url": "https://www.santaisabel.cl",
+      "scraped": "2025-08-13T17:37:50.884Z",
+      "strategy": "StandardStrategy"
+    },
+    "stock": 40,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:37:50.884Z",
+    "updatedAt": "2025-08-13T17:38:30.995Z",
+    "brand": "Mantequilla",
+    "shortDescription": "Mantequilla Las Parcelas de Valdivia 200 g"
+  },
+  {
+    "id": "202b8c7a-897f-46b4-b280-1a2580bbb99d",
+    "name": "Yerba Mate Supremo 500 g",
+    "category": "bebidas",
+    "price": 2,
+    "currency": "CLP",
+    "imageUrl": "https://santaisabel.vteximg.com.br/arquivos/ids/171758-280-280?width=280&height=280&aspect=true",
+    "description": "Yerba Mate Supremo 500 g",
+    "store": {
+      "name": "santa isabel",
+      "url": "https://www.santaisabel.cl",
+      "scraped": "2025-08-13T17:37:50.884Z",
+      "strategy": "StandardStrategy"
+    },
+    "stock": 10,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:37:50.884Z",
+    "updatedAt": "2025-08-13T17:38:30.995Z",
+    "brand": "Yerba",
+    "shortDescription": "Yerba Mate Supremo 500 g"
+  },
+  {
+    "id": "ea6745cf-b455-4973-8637-adc766f42459",
+    "name": "Yerba Mate Argentina Supremo Bolsa 500 g",
+    "category": "bebidas",
+    "price": 2,
+    "currency": "CLP",
+    "imageUrl": "https://santaisabel.vteximg.com.br/arquivos/ids/171596-280-280?width=280&height=280&aspect=true",
+    "description": "Yerba Mate Argentina Supremo Bolsa 500 g",
+    "store": {
+      "name": "santa isabel",
+      "url": "https://www.santaisabel.cl",
+      "scraped": "2025-08-13T17:37:50.884Z",
+      "strategy": "StandardStrategy"
+    },
+    "stock": 15,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:37:50.884Z",
+    "updatedAt": "2025-08-13T17:38:30.995Z",
+    "brand": "Yerba",
+    "shortDescription": "Yerba Mate Argentina Supremo Bolsa 500 g"
+  },
+  {
+    "id": "69f9a881-30d6-48de-bbfb-566aa961ae92",
+    "name": "Garbanzos 230 g drenado, 390 g neto",
+    "category": "bebidas",
+    "price": 1,
+    "currency": "CLP",
+    "imageUrl": "https://santaisabel.vteximg.com.br/arquivos/ids/267521-280-280?width=280&height=280&aspect=true",
+    "description": "Garbanzos 230 g drenado, 390 g neto",
+    "store": {
+      "name": "santa isabel",
+      "url": "https://www.santaisabel.cl",
+      "scraped": "2025-08-13T17:37:50.884Z",
+      "strategy": "StandardStrategy"
+    },
+    "stock": 23,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:37:50.884Z",
+    "updatedAt": "2025-08-13T17:38:30.995Z",
+    "brand": "Garbanzos",
+    "shortDescription": "Garbanzos 230 g drenado, 390 g neto"
+  },
+  {
+    "id": "94d3e26b-67d4-4c18-b3c5-b929d0d7de60",
+    "name": "Lomo Liso Importado Cat-V Vacío",
+    "category": "bebidas",
+    "price": 11,
+    "currency": "CLP",
+    "description": "Lomo Liso Importado Cat-V Vacío",
+    "store": {
+      "name": "tottus",
+      "url": "https://www.tottus.cl",
+      "scraped": "2025-08-13T17:47:03.423Z",
+      "strategy": "StandardStrategy"
+    },
+    "stock": 47,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:47:03.423Z",
+    "updatedAt": "2025-08-13T17:47:03.750Z",
+    "brand": "Lomo",
+    "shortDescription": "Lomo Liso Importado Cat-V Vacío"
+  },
+  {
+    "id": "352edef8-9e67-4938-8b1c-d981f99ccd44",
+    "name": "Lomo Vetado Importado Cat-V Vacío",
+    "category": "bebidas",
+    "price": 12,
+    "currency": "CLP",
+    "description": "Lomo Vetado Importado Cat-V Vacío",
+    "store": {
+      "name": "tottus",
+      "url": "https://www.tottus.cl",
+      "scraped": "2025-08-13T17:47:03.423Z",
+      "strategy": "StandardStrategy"
+    },
+    "stock": 37,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:47:03.423Z",
+    "updatedAt": "2025-08-13T17:47:03.750Z",
+    "brand": "Lomo",
+    "shortDescription": "Lomo Vetado Importado Cat-V Vacío"
+  },
+  {
+    "id": "6cfafeb8-e5fb-44c2-be7f-2d540bbd0d8f",
+    "name": "Café Moka Súper Molido",
+    "category": "bebidas",
+    "price": 4,
+    "currency": "CLP",
+    "description": "Café Moka Súper Molido",
+    "store": {
+      "name": "tottus",
+      "url": "https://www.tottus.cl",
+      "scraped": "2025-08-13T17:47:03.424Z",
+      "strategy": "StandardStrategy"
+    },
+    "stock": 41,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:47:03.424Z",
+    "updatedAt": "2025-08-13T17:47:03.750Z",
+    "brand": "Café",
+    "shortDescription": "Café Moka Súper Molido"
+  },
+  {
+    "id": "6d737c78-a79b-4d3f-8c0e-00a521ef0c5f",
+    "name": "Queso Mantecoso Laminado Quilque 500 g",
+    "category": "bebidas",
+    "price": 500,
+    "currency": "CLP",
+    "description": "Queso Mantecoso Laminado Quilque 500 g",
+    "store": {
+      "name": "tottus",
+      "url": "https://www.tottus.cl",
+      "scraped": "2025-08-13T17:47:03.424Z",
+      "strategy": "StandardStrategy"
+    },
+    "stock": 40,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:47:03.424Z",
+    "updatedAt": "2025-08-13T17:47:03.750Z",
+    "brand": "Queso",
+    "shortDescription": "Queso Mantecoso Laminado Quilque 500 g"
+  },
+  {
+    "id": "3aa3af45-cdc6-4cb2-8e00-93edd6278c54",
+    "name": "Mantequilla con Sal Calo 250 g",
+    "category": "bebidas",
+    "price": 250,
+    "currency": "CLP",
+    "description": "Mantequilla con Sal Calo 250 g",
+    "store": {
+      "name": "tottus",
+      "url": "https://www.tottus.cl",
+      "scraped": "2025-08-13T17:47:03.424Z",
+      "strategy": "StandardStrategy"
+    },
+    "stock": 57,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:47:03.424Z",
+    "updatedAt": "2025-08-13T17:47:03.750Z",
+    "brand": "Mantequilla",
+    "shortDescription": "Mantequilla con Sal Calo 250 g"
+  },
+  {
+    "id": "79e33195-f54a-479d-bd62-c9aecdf77869",
+    "name": "Monitor Gamer 27 FHD IPS HDR 180Hz 1Ms MGMG2740P Master-G",
+    "category": "bebidas",
+    "price": null,
+    "currency": "CLP",
+    "description": "Monitor Gamer 27 FHD IPS HDR 180Hz 1Ms MGMG2740P Master-G",
+    "store": {
+      "name": "falabella",
+      "url": "https://www.falabella.com",
+      "scraped": "2025-08-13T18:00:00.901Z",
+      "strategy": "StandardStrategy"
+    },
+    "stock": 12,
+    "inStock": true,
+    "createdAt": "2025-08-13T18:00:00.901Z",
+    "updatedAt": "2025-08-13T18:01:21.008Z",
+    "brand": "Monitor",
+    "shortDescription": "Monitor Gamer 27\" FHD IPS HDR 180Hz 1Ms MGMG274..."
+  },
+  {
+    "id": "5a6a484b-8d06-475b-b2e9-ba2401e9a39a",
+    "name": "Apple iPhone 13 128Gb",
+    "category": "bebidas",
+    "price": null,
+    "currency": "CLP",
+    "description": "Apple iPhone 13 128Gb",
+    "store": {
+      "name": "falabella",
+      "url": "https://www.falabella.com",
+      "scraped": "2025-08-13T18:00:00.902Z",
+      "strategy": "StandardStrategy"
+    },
+    "stock": 21,
+    "inStock": true,
+    "createdAt": "2025-08-13T18:00:00.902Z",
+    "updatedAt": "2025-08-13T18:01:21.008Z",
+    "brand": "Apple",
+    "shortDescription": "Apple iPhone 13 128Gb"
+  },
+  {
+    "id": "cca29501-6235-43d2-bc6d-b7e03bd56354",
+    "name": "Smart TV Led 43 Google TV Full HD Bluetooth MGG43FFK",
+    "category": "bebidas",
+    "price": null,
+    "currency": "CLP",
+    "description": "Smart TV Led 43 Google TV Full HD Bluetooth MGG43FFK",
+    "store": {
+      "name": "falabella",
+      "url": "https://www.falabella.com",
+      "scraped": "2025-08-13T18:00:00.902Z",
+      "strategy": "StandardStrategy"
+    },
+    "stock": 32,
+    "inStock": true,
+    "createdAt": "2025-08-13T18:00:00.902Z",
+    "updatedAt": "2025-08-13T18:01:21.008Z",
+    "brand": "Smart",
+    "shortDescription": "Smart TV Led 43 Google TV Full HD Bluetooth MGG..."
+  },
+  {
+    "id": "02d345f7-b74a-4a25-b219-8bd8b31ea9bf",
+    "name": "Estufa Parafina Negro",
+    "category": "bebidas",
+    "price": null,
+    "currency": "CLP",
+    "description": "Estufa Parafina Negro",
+    "store": {
+      "name": "sodimac",
+      "url": "https://www.sodimac.cl",
+      "scraped": "2025-08-13T18:10:06.922Z",
+      "strategy": "StandardStrategy"
+    },
+    "stock": 36,
+    "inStock": true,
+    "createdAt": "2025-08-13T18:10:06.922Z",
+    "updatedAt": "2025-08-13T18:10:08.201Z",
+    "brand": "Estufa",
+    "shortDescription": "Estufa Parafina  Negro"
+  },
+  {
+    "id": "f8cb4be8-ee54-4008-9254-ca0af10189e4",
+    "name": "Parrilla a gas Boston Pro 3 quemadores",
+    "category": "bebidas",
+    "price": null,
+    "currency": "CLP",
+    "description": "Parrilla a gas Boston Pro 3 quemadores",
+    "store": {
+      "name": "sodimac",
+      "url": "https://www.sodimac.cl",
+      "scraped": "2025-08-13T18:10:06.922Z",
+      "strategy": "StandardStrategy"
+    },
+    "stock": 52,
+    "inStock": true,
+    "createdAt": "2025-08-13T18:10:06.922Z",
+    "updatedAt": "2025-08-13T18:10:08.202Z",
+    "brand": "Parrilla",
+    "shortDescription": "Parrilla a gas Boston Pro 3 quemadores"
+  },
+  {
+    "id": "9fca2e9b-806c-47d1-929d-49621accd350",
+    "name": "Estufa Parafina EP-520NG Negro",
+    "category": "bebidas",
+    "price": null,
+    "currency": "CLP",
+    "description": "Estufa Parafina EP-520NG Negro",
+    "store": {
+      "name": "sodimac",
+      "url": "https://www.sodimac.cl",
+      "scraped": "2025-08-13T18:10:06.922Z",
+      "strategy": "StandardStrategy"
+    },
+    "stock": 15,
+    "inStock": true,
+    "createdAt": "2025-08-13T18:10:06.922Z",
+    "updatedAt": "2025-08-13T18:10:08.202Z",
+    "brand": "Estufa",
+    "shortDescription": "Estufa Parafina EP-520NG Negro"
+  },
+  {
+    "id": "63335734-d2b6-412a-8c8d-1b2debc8b5ed",
+    "name": "Parrilla a gas buffalo black 4 quemadores  quemador lateral  funda",
+    "category": "panaderia",
+    "price": null,
+    "currency": "CLP",
+    "description": "Parrilla a gas buffalo black 4 quemadores  quemador lateral  funda",
+    "store": {
+      "name": "sodimac",
+      "url": "https://www.sodimac.cl",
+      "scraped": "2025-08-13T18:10:06.974Z",
+      "strategy": "StandardStrategy"
+    },
+    "stock": 11,
+    "inStock": true,
+    "createdAt": "2025-08-13T18:10:06.974Z",
+    "updatedAt": "2025-08-13T18:10:08.202Z",
+    "brand": "Parrilla",
+    "shortDescription": "Parrilla a gas buffalo black 4 quemadores + que..."
+  },
+  {
+    "id": "bd655b17-3e0b-48f4-9929-32e70e063a1d",
+    "name": "Saco Pellet Premium 15Kg Timbermac",
+    "category": "panaderia",
+    "price": null,
+    "currency": "CLP",
+    "description": "Saco Pellet Premium 15Kg Timbermac",
+    "store": {
+      "name": "sodimac",
+      "url": "https://www.sodimac.cl",
+      "scraped": "2025-08-13T18:10:06.974Z",
+      "strategy": "StandardStrategy"
+    },
+    "stock": 29,
+    "inStock": true,
+    "createdAt": "2025-08-13T18:10:06.974Z",
+    "updatedAt": "2025-08-13T18:10:08.202Z",
+    "brand": "Saco",
+    "shortDescription": "Saco Pellet Premium 15Kg Timbermac"
+  },
+  {
+    "id": "f5e37d66-e58b-4d91-a7a4-01dfd1ac53a5",
+    "name": "Estufa eléctrica Blanco 1200 W Radiación NSB-99Y Blanco",
+    "category": "panaderia",
+    "price": null,
+    "currency": "CLP",
+    "description": "Estufa eléctrica Blanco 1200 W Radiación NSB-99Y Blanco",
+    "store": {
+      "name": "sodimac",
+      "url": "https://www.sodimac.cl",
+      "scraped": "2025-08-13T18:10:06.974Z",
+      "strategy": "StandardStrategy"
+    },
+    "stock": 40,
+    "inStock": true,
+    "createdAt": "2025-08-13T18:10:06.974Z",
+    "updatedAt": "2025-08-13T18:10:08.202Z",
+    "brand": "Estufa",
+    "shortDescription": "Estufa eléctrica Blanco 1200 W Radiación NSB-99..."
+  },
+  {
+    "id": "f8f9a5a1-d60d-4416-ad36-1ae97aeaa5b3",
+    "name": "Parrilla a Carbón con Ruedas y 2 Bandejas laterales 135x47,5x106cm",
+    "category": "panaderia",
+    "price": null,
+    "currency": "CLP",
+    "description": "Parrilla a Carbón con Ruedas y 2 Bandejas laterales 135x47,5x106cm",
+    "store": {
+      "name": "sodimac",
+      "url": "https://www.sodimac.cl",
+      "scraped": "2025-08-13T18:10:06.974Z",
+      "strategy": "StandardStrategy"
+    },
+    "stock": 33,
+    "inStock": true,
+    "createdAt": "2025-08-13T18:10:06.974Z",
+    "updatedAt": "2025-08-13T18:10:08.202Z",
+    "brand": "Parrilla",
+    "shortDescription": "Parrilla a Carbón con Ruedas y 2 Bandejas later..."
+  },
+  {
+    "id": "c1371f5a-8a77-4d9c-891e-1ead7e492a27",
+    "name": "Parrilla a Gas 4 Quemadores  Quemador Lateral Buffalo BBQ Grill",
+    "category": "panaderia",
+    "price": null,
+    "currency": "CLP",
+    "description": "Parrilla a Gas 4 Quemadores  Quemador Lateral Buffalo BBQ Grill",
+    "store": {
+      "name": "sodimac",
+      "url": "https://www.sodimac.cl",
+      "scraped": "2025-08-13T18:10:06.974Z",
+      "strategy": "StandardStrategy"
+    },
+    "stock": 58,
+    "inStock": true,
+    "createdAt": "2025-08-13T18:10:06.974Z",
+    "updatedAt": "2025-08-13T18:10:08.202Z",
+    "brand": "Parrilla",
+    "shortDescription": "Parrilla a Gas 4 Quemadores + Quemador Lateral ..."
+  },
+  {
+    "id": "f1fb7796-9894-438a-8735-b864163a804e",
+    "name": "Parrilla BBQ Grill Carbón Misuri",
+    "category": "panaderia",
+    "price": null,
+    "currency": "CLP",
+    "description": "Parrilla BBQ Grill Carbón Misuri",
+    "store": {
+      "name": "sodimac",
+      "url": "https://www.sodimac.cl",
+      "scraped": "2025-08-13T18:10:06.974Z",
+      "strategy": "StandardStrategy"
+    },
+    "stock": 37,
+    "inStock": true,
+    "createdAt": "2025-08-13T18:10:06.974Z",
+    "updatedAt": "2025-08-13T18:10:08.202Z",
+    "brand": "Parrilla",
+    "shortDescription": "Parrilla BBQ Grill Carbón Misuri"
+  },
+  {
+    "id": "c697748c-4f61-4930-9356-8f267d25ca6b",
+    "name": "Parrilla BBQ Grill Gas Denver Pro",
+    "category": "panaderia",
+    "price": null,
+    "currency": "CLP",
+    "description": "Parrilla BBQ Grill Gas Denver Pro",
+    "store": {
+      "name": "sodimac",
+      "url": "https://www.sodimac.cl",
+      "scraped": "2025-08-13T18:10:06.974Z",
+      "strategy": "StandardStrategy"
+    },
+    "stock": 21,
+    "inStock": true,
+    "createdAt": "2025-08-13T18:10:06.974Z",
+    "updatedAt": "2025-08-13T18:10:08.202Z",
+    "brand": "Parrilla",
+    "shortDescription": "Parrilla BBQ Grill Gas Denver Pro"
+  }
+]

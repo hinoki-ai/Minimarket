@@ -1,0 +1,380 @@
+[
+  {
+    "id": "cc1b0210-d934-44df-9481-09a72484af49",
+    "name": "BBQ GRILLParrilla BBQ Grill Gas Denver Pro119.990-25159.9905Ver producto",
+    "category": "general",
+    "price": 119990,
+    "currency": "CLP",
+    "description": "BBQ GRILLParrilla BBQ Grill Gas Denver Pro119.990-25159.9905Ver producto",
+    "store": {
+      "name": "sodimac",
+      "url": "https://www.sodimac.cl/sodimac-cl",
+      "scraped": "2025-08-13T17:27:58.072Z",
+      "strategy": "AggressiveStrategy",
+      "selector": "[data-testid*=\"item\"]"
+    },
+    "stock": 56,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:27:58.072Z",
+    "updatedAt": "2025-08-13T17:28:04.528Z",
+    "brand": "BBQ",
+    "shortDescription": "BBQ GRILLParrilla BBQ Grill Gas Denver Pro$119...."
+  },
+  {
+    "id": "c8f46874-882e-4cfe-ad75-1f85d5ff5322",
+    "name": "WAYUParrilla a Carbón Con Spiedo212.490-15249.9905Ver producto",
+    "category": "general",
+    "price": 212490,
+    "currency": "CLP",
+    "description": "WAYUParrilla a Carbón Con Spiedo212.490-15249.9905Ver producto",
+    "store": {
+      "name": "sodimac",
+      "url": "https://www.sodimac.cl/sodimac-cl",
+      "scraped": "2025-08-13T17:27:58.075Z",
+      "strategy": "AggressiveStrategy",
+      "selector": "[data-testid*=\"item\"]"
+    },
+    "stock": 43,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:27:58.075Z",
+    "updatedAt": "2025-08-13T17:28:04.528Z",
+    "brand": "WAYUParrilla",
+    "shortDescription": "WAYUParrilla a Carbón Con Spiedo$212.490-15%$24..."
+  },
+  {
+    "id": "c1cedaef-f1a8-4711-adc8-cea545f73ac7",
+    "name": "BBQ GRILLParrilla a gas Boston Pro 3 quemadores139.990-46259.9904.7Ver producto",
+    "category": "general",
+    "price": 3,
+    "currency": "CLP",
+    "description": "BBQ GRILLParrilla a gas Boston Pro 3 quemadores139.990-46259.9904.7Ver producto",
+    "store": {
+      "name": "sodimac",
+      "url": "https://www.sodimac.cl/sodimac-cl",
+      "scraped": "2025-08-13T17:27:58.079Z",
+      "strategy": "AggressiveStrategy",
+      "selector": "[data-testid*=\"item\"]"
+    },
+    "stock": 43,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:27:58.079Z",
+    "updatedAt": "2025-08-13T17:28:04.528Z",
+    "brand": "BBQ",
+    "shortDescription": "BBQ GRILLParrilla a gas Boston Pro 3 quemadores..."
+  },
+  {
+    "id": "8f6bb6ff-b3f1-416d-82f3-a599812f2618",
+    "name": "BBQ GRILLParrilla a Gas 4 Quemadores  Quemador Lateral Buffalo BBQ Grill369.990-38599.9904.4Ver",
+    "category": "general",
+    "price": 4,
+    "currency": "CLP",
+    "description": "BBQ GRILLParrilla a Gas 4 Quemadores  Quemador Lateral Buffalo BBQ Grill369.990-38599.9904.4Ver",
+    "store": {
+      "name": "sodimac",
+      "url": "https://www.sodimac.cl/sodimac-cl",
+      "scraped": "2025-08-13T17:27:58.085Z",
+      "strategy": "AggressiveStrategy",
+      "selector": "[data-testid*=\"item\"]"
+    },
+    "stock": 16,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:27:58.085Z",
+    "updatedAt": "2025-08-13T17:28:04.528Z",
+    "brand": "BBQ",
+    "shortDescription": "BBQ GRILLParrilla a Gas 4 Quemadores + Quemador..."
+  },
+  {
+    "id": "16091fa4-78d5-49a4-bf11-c76d0891acdf",
+    "name": "ELEMENT DESIGNParrilla a Carbón con Ruedas y 2 Bandejas laterales 135x47,5x106cm149.990-50299.990",
+    "category": "general",
+    "price": 2,
+    "currency": "CLP",
+    "description": "ELEMENT DESIGNParrilla a Carbón con Ruedas y 2 Bandejas laterales 135x47,5x106cm149.990-50299.990",
+    "store": {
+      "name": "sodimac",
+      "url": "https://www.sodimac.cl/sodimac-cl",
+      "scraped": "2025-08-13T17:27:58.087Z",
+      "strategy": "AggressiveStrategy",
+      "selector": "[data-testid*=\"item\"]"
+    },
+    "stock": 59,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:27:58.087Z",
+    "updatedAt": "2025-08-13T17:28:04.528Z",
+    "brand": "ELEMENT",
+    "shortDescription": "ELEMENT DESIGNParrilla a Carbón con Ruedas y 2 ..."
+  },
+  {
+    "id": "aa230995-ab2d-4eeb-9cba-75a8e469b8d8",
+    "name": "MR BEEFParrilla Carbón Tambor 98x60x103 cm Acero104.9904.7Ver producto",
+    "category": "general",
+    "price": 98,
+    "currency": "CLP",
+    "description": "MR BEEFParrilla Carbón Tambor 98x60x103 cm Acero104.9904.7Ver producto",
+    "store": {
+      "name": "sodimac",
+      "url": "https://www.sodimac.cl/sodimac-cl",
+      "scraped": "2025-08-13T17:27:58.092Z",
+      "strategy": "AggressiveStrategy",
+      "selector": "[data-testid*=\"item\"]"
+    },
+    "stock": 54,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:27:58.092Z",
+    "updatedAt": "2025-08-13T17:28:04.528Z",
+    "brand": "MR",
+    "shortDescription": "MR BEEFParrilla Carbón Tambor 98x60x103 cm Acer..."
+  },
+  {
+    "id": "85053168-c8ef-4aad-a67c-03b86a063cab",
+    "name": "TOYOTOMIEstufa Parafina Negro299.990-17359.9904.4Ver producto",
+    "category": "general",
+    "price": 299990,
+    "currency": "CLP",
+    "description": "TOYOTOMIEstufa Parafina Negro299.990-17359.9904.4Ver producto",
+    "store": {
+      "name": "sodimac",
+      "url": "https://www.sodimac.cl/sodimac-cl",
+      "scraped": "2025-08-13T17:27:58.096Z",
+      "strategy": "AggressiveStrategy",
+      "selector": "[data-testid*=\"item\"]"
+    },
+    "stock": 27,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:27:58.096Z",
+    "updatedAt": "2025-08-13T17:28:04.528Z",
+    "brand": "TOYOTOMIEstufa",
+    "shortDescription": "TOYOTOMIEstufa Parafina  Negro$299.990-17%$359...."
+  },
+  {
+    "id": "9e4302ab-5284-41fa-99d3-e226d626702c",
+    "name": "TOYOTOMIEstufa Parafina Negro139.990-30149.990199.9904.4Ver producto",
+    "category": "general",
+    "price": 139990,
+    "currency": "CLP",
+    "description": "TOYOTOMIEstufa Parafina Negro139.990-30149.990199.9904.4Ver producto",
+    "store": {
+      "name": "sodimac",
+      "url": "https://www.sodimac.cl/sodimac-cl",
+      "scraped": "2025-08-13T17:27:58.099Z",
+      "strategy": "AggressiveStrategy",
+      "selector": "[data-testid*=\"item\"]"
+    },
+    "stock": 27,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:27:58.099Z",
+    "updatedAt": "2025-08-13T17:28:04.528Z",
+    "brand": "TOYOTOMIEstufa",
+    "shortDescription": "TOYOTOMIEstufa Parafina  Negro$139.990-30%$149...."
+  },
+  {
+    "id": "ed8c39b5-527e-43b4-bfc9-f3bb9ffd0810",
+    "name": "BBQ GRILLParrilla a gas buffalo black 4 quemadores  quemador lateral  funda379.990-37599.9904.5",
+    "category": "general",
+    "price": 4,
+    "currency": "CLP",
+    "description": "BBQ GRILLParrilla a gas buffalo black 4 quemadores  quemador lateral  funda379.990-37599.9904.5",
+    "store": {
+      "name": "sodimac",
+      "url": "https://www.sodimac.cl/sodimac-cl",
+      "scraped": "2025-08-13T17:27:58.102Z",
+      "strategy": "AggressiveStrategy",
+      "selector": "[data-testid*=\"item\"]"
+    },
+    "stock": 25,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:27:58.102Z",
+    "updatedAt": "2025-08-13T17:28:04.529Z",
+    "brand": "BBQ",
+    "shortDescription": "BBQ GRILLParrilla a gas buffalo black 4 quemado..."
+  },
+  {
+    "id": "908f3a44-0c20-4ed2-a756-5288158adfa2",
+    "name": "MR BEEFParrilla a Carbón con Tapa y Ruedas Metal159.990-20199.9904.3Ver producto",
+    "category": "general",
+    "price": 159990,
+    "currency": "CLP",
+    "description": "MR BEEFParrilla a Carbón con Tapa y Ruedas Metal159.990-20199.9904.3Ver producto",
+    "store": {
+      "name": "sodimac",
+      "url": "https://www.sodimac.cl/sodimac-cl",
+      "scraped": "2025-08-13T17:27:58.105Z",
+      "strategy": "AggressiveStrategy",
+      "selector": "[data-testid*=\"item\"]"
+    },
+    "stock": 18,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:27:58.105Z",
+    "updatedAt": "2025-08-13T17:28:04.529Z",
+    "brand": "MR",
+    "shortDescription": "MR BEEFParrilla a Carbón con Tapa y Ruedas Meta..."
+  },
+  {
+    "id": "71970a4f-e4f7-4310-9c36-9037daab9f32",
+    "name": "KARSONParrilla a Carbón con Roldana Metal24.990-1127.9904.4Ver producto",
+    "category": "general",
+    "price": 24990,
+    "currency": "CLP",
+    "description": "KARSONParrilla a Carbón con Roldana Metal24.990-1127.9904.4Ver producto",
+    "store": {
+      "name": "sodimac",
+      "url": "https://www.sodimac.cl/sodimac-cl",
+      "scraped": "2025-08-13T17:27:58.107Z",
+      "strategy": "AggressiveStrategy",
+      "selector": "[data-testid*=\"item\"]"
+    },
+    "stock": 21,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:27:58.107Z",
+    "updatedAt": "2025-08-13T17:28:04.529Z",
+    "brand": "KARSONParrilla",
+    "shortDescription": "KARSONParrilla a Carbón con Roldana Metal$24.99..."
+  },
+  {
+    "id": "b545c1c0-d7aa-40ef-8f0a-1370ac32d5e8",
+    "name": "TIMBERMACSaco Pellet Premium 15Kg Timbermac3.9904.4Ver producto",
+    "category": "general",
+    "price": 15,
+    "currency": "CLP",
+    "description": "TIMBERMACSaco Pellet Premium 15Kg Timbermac3.9904.4Ver producto",
+    "store": {
+      "name": "sodimac",
+      "url": "https://www.sodimac.cl/sodimac-cl",
+      "scraped": "2025-08-13T17:27:58.110Z",
+      "strategy": "AggressiveStrategy",
+      "selector": "[data-testid*=\"item\"]"
+    },
+    "stock": 55,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:27:58.110Z",
+    "updatedAt": "2025-08-13T17:28:04.529Z",
+    "brand": "TIMBERMACSaco",
+    "shortDescription": "TIMBERMACSaco Pellet Premium 15Kg Timbermac$3.9..."
+  },
+  {
+    "id": "b6c0f09f-a32c-4741-b26a-39909728f859",
+    "name": "MR BEEFParrilla a Gas 1192-08L-C 2 Quemadores129.9904.4Ver producto",
+    "category": "general",
+    "price": 1192,
+    "currency": "CLP",
+    "description": "MR BEEFParrilla a Gas 1192-08L-C 2 Quemadores129.9904.4Ver producto",
+    "store": {
+      "name": "sodimac",
+      "url": "https://www.sodimac.cl/sodimac-cl",
+      "scraped": "2025-08-13T17:27:58.113Z",
+      "strategy": "AggressiveStrategy",
+      "selector": "[data-testid*=\"item\"]"
+    },
+    "stock": 41,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:27:58.113Z",
+    "updatedAt": "2025-08-13T17:28:04.529Z",
+    "brand": "MR",
+    "shortDescription": "MR BEEFParrilla a Gas 1192-08L-C 2 Quemadores$1..."
+  },
+  {
+    "id": "29c6b054-6d0f-43ed-afa4-ddcf5109d6a7",
+    "name": "BBQ GRILLParrilla a gas Denver Pro 2 quemadores105.990-44189.9904.5Ver producto",
+    "category": "general",
+    "price": 2,
+    "currency": "CLP",
+    "description": "BBQ GRILLParrilla a gas Denver Pro 2 quemadores105.990-44189.9904.5Ver producto",
+    "store": {
+      "name": "sodimac",
+      "url": "https://www.sodimac.cl/sodimac-cl",
+      "scraped": "2025-08-13T17:27:58.116Z",
+      "strategy": "AggressiveStrategy",
+      "selector": "[data-testid*=\"item\"]"
+    },
+    "stock": 26,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:27:58.116Z",
+    "updatedAt": "2025-08-13T17:28:04.529Z",
+    "brand": "BBQ",
+    "shortDescription": "BBQ GRILLParrilla a gas Denver Pro 2 quemadores..."
+  },
+  {
+    "id": "c6e62e3e-ecb7-460a-bd6f-e6c45e43d338",
+    "name": "RECCOEstufa eléctrica Blanco 1200 W Radiación NSB-99Y Blanco12.990-5729.9904.4Ver producto",
+    "category": "general",
+    "price": 1200,
+    "currency": "CLP",
+    "description": "RECCOEstufa eléctrica Blanco 1200 W Radiación NSB-99Y Blanco12.990-5729.9904.4Ver producto",
+    "store": {
+      "name": "sodimac",
+      "url": "https://www.sodimac.cl/sodimac-cl",
+      "scraped": "2025-08-13T17:27:58.120Z",
+      "strategy": "AggressiveStrategy",
+      "selector": "[data-testid*=\"item\"]"
+    },
+    "stock": 46,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:27:58.120Z",
+    "updatedAt": "2025-08-13T17:28:04.529Z",
+    "brand": "RECCOEstufa",
+    "shortDescription": "RECCOEstufa eléctrica Blanco 1200 W Radiación N..."
+  },
+  {
+    "id": "45939d88-2c31-4429-b9c0-7d824b636e86",
+    "name": "MR BEEFParrilla a Carbón con Bandejas Laterales Acero Inoxidable129.990-13149.9904.6Ver producto",
+    "category": "general",
+    "price": 129990,
+    "currency": "CLP",
+    "description": "MR BEEFParrilla a Carbón con Bandejas Laterales Acero Inoxidable129.990-13149.9904.6Ver producto",
+    "store": {
+      "name": "sodimac",
+      "url": "https://www.sodimac.cl/sodimac-cl",
+      "scraped": "2025-08-13T17:27:58.122Z",
+      "strategy": "AggressiveStrategy",
+      "selector": "[data-testid*=\"item\"]"
+    },
+    "stock": 22,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:27:58.122Z",
+    "updatedAt": "2025-08-13T17:28:04.529Z",
+    "brand": "MR",
+    "shortDescription": "MR BEEFParrilla a Carbón con Bandejas Laterales..."
+  },
+  {
+    "id": "6b4ba32b-f507-400d-a4c0-a7d1c675f7e2",
+    "name": "KARSONParrilla a Gas 1192-08LOPP-C 2 Quemadores89.9904.6Ver producto",
+    "category": "general",
+    "price": 1192,
+    "currency": "CLP",
+    "description": "KARSONParrilla a Gas 1192-08LOPP-C 2 Quemadores89.9904.6Ver producto",
+    "store": {
+      "name": "sodimac",
+      "url": "https://www.sodimac.cl/sodimac-cl",
+      "scraped": "2025-08-13T17:27:58.124Z",
+      "strategy": "AggressiveStrategy",
+      "selector": "[data-testid*=\"item\"]"
+    },
+    "stock": 19,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:27:58.124Z",
+    "updatedAt": "2025-08-13T17:28:04.529Z",
+    "brand": "KARSONParrilla",
+    "shortDescription": "KARSONParrilla a Gas 1192-08LOPP-C 2 Quemadores..."
+  },
+  {
+    "id": "3afb1350-a54c-4db4-99b3-212de30701aa",
+    "name": "SINDELENEstufa Parafina EP-520NG Negro92.990-15109.9904.3Ver producto",
+    "category": "general",
+    "price": 520,
+    "currency": "CLP",
+    "description": "SINDELENEstufa Parafina EP-520NG Negro92.990-15109.9904.3Ver producto",
+    "store": {
+      "name": "sodimac",
+      "url": "https://www.sodimac.cl/sodimac-cl",
+      "scraped": "2025-08-13T17:27:58.127Z",
+      "strategy": "AggressiveStrategy",
+      "selector": "[data-testid*=\"item\"]"
+    },
+    "stock": 10,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:27:58.127Z",
+    "updatedAt": "2025-08-13T17:28:04.529Z",
+    "brand": "SINDELENEstufa",
+    "shortDescription": "SINDELENEstufa Parafina EP-520NG Negro$92.990-1..."
+  }
+]

@@ -39,6 +39,14 @@ export default function (phase: string) {
       ],
     },
 
+    async redirects() {
+      return [
+        { source: '/dashboard', destination: '/carrito', permanent: true },
+        { source: '/dashboard/:path*', destination: '/carrito', permanent: true },
+        { source: '/cart', destination: '/carrito', permanent: true },
+      ]
+    },
+
     // Removed unsupported Turbopack top-level config
 
     // Headers for caching and security
@@ -157,13 +165,24 @@ export default function (phase: string) {
       }
 
       // Enable bundle analyzer if ANALYZE=true
-      if (process.env.ANALYZE === 'true' && !isServer) {
-        try {
-          const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
-          webpackConfig.plugins = webpackConfig.plugins || [];
-          webpackConfig.plugins.push(new BundleAnalyzerPlugin({ analyzerMode: 'static', openAnalyzer: false }));
-        } catch (e) {
-          // Analyzer not installed; skip silently
+      if (process.env.ANALYZE === 'true') {
+        const analyzeServer = process.env.BUNDLE_ANALYZE === 'server';
+        if ((analyzeServer && isServer) || (!analyzeServer && !isServer)) {
+          try {
+            const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
+            webpackConfig.plugins = webpackConfig.plugins || [];
+            webpackConfig.plugins.push(
+              new BundleAnalyzerPlugin({
+                analyzerMode: 'static',
+                openAnalyzer: false,
+                reportFilename: isServer
+                  ? '../analyze/server-bundle-report.html'
+                  : '../analyze/client-bundle-report.html',
+              })
+            );
+          } catch (e) {
+            console.warn('Bundle analyzer not available:', e.message);
+          }
         }
       }
 

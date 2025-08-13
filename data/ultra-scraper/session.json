@@ -1,0 +1,181 @@
+{
+  "sessionId": "fc7d0f74-ea2b-4a29-b8c7-98130e8c7991",
+  "startTime": 1755105509714,
+  "options": {
+    "strategy": "intelligent",
+    "stores": [
+      "lider",
+      "jumbo",
+      "santa_isabel",
+      "unimarc",
+      "tottus",
+      "easy",
+      "falabella",
+      "paris",
+      "sodimac"
+    ],
+    "categories": [
+      "bebidas",
+      "panaderia",
+      "carnes",
+      "lacteos",
+      "snacks",
+      "aseo",
+      "hogar",
+      "herramientas",
+      "ferreteria",
+      "construccion",
+      "electricidad",
+      "jardineria",
+      "pinturas",
+      "plomeria"
+    ],
+    "maxProducts": 100,
+    "concurrent": 2,
+    "retryAttempts": 5,
+    "outputDir": "/home/kuromatsu/Documents/ΛRΛMΛC/Websites/Minimarket/data/ultra-scraper",
+    "resumeSession": true,
+    "realTime": true,
+    "verbose": true,
+    "resume": true
+  },
+  "products": 38,
+  "statistics": {
+    "jumbo": {
+      "name": "jumbo",
+      "startTime": 1755105544677,
+      "attempts": 5,
+      "products": 0,
+      "errors": 0,
+      "strategies": [
+        "StandardStrategy",
+        "StandardStrategy",
+        "StandardStrategy",
+        "StandardStrategy",
+        "StandardStrategy"
+      ],
+      "endTime": 1755106513822,
+      "duration": 969145
+    },
+    "lider": {
+      "name": "lider",
+      "startTime": 1755105544676,
+      "attempts": 5,
+      "products": 0,
+      "errors": 0,
+      "strategies": [
+        "StandardStrategy",
+        "StandardStrategy",
+        "StandardStrategy",
+        "StandardStrategy",
+        "StandardStrategy"
+      ],
+      "endTime": 1755106631375,
+      "duration": 1086699
+    },
+    "santa_isabel": {
+      "name": "santa_isabel",
+      "startTime": 1755106633403,
+      "attempts": 1,
+      "products": 60,
+      "errors": 0,
+      "strategies": [
+        "StandardStrategy"
+      ],
+      "endTime": 1755106710994,
+      "duration": 77591
+    },
+    "unimarc": {
+      "name": "unimarc",
+      "startTime": 1755106633406,
+      "attempts": 5,
+      "products": 0,
+      "errors": 1,
+      "strategies": [
+        "StandardStrategy",
+        "StandardStrategy",
+        "StandardStrategy",
+        "StandardStrategy",
+        "StandardStrategy"
+      ],
+      "endTime": 1755107195954,
+      "duration": 562548
+    },
+    "tottus": {
+      "name": "tottus",
+      "startTime": 1755107198063,
+      "attempts": 1,
+      "products": 60,
+      "errors": 0,
+      "strategies": [
+        "StandardStrategy"
+      ],
+      "endTime": 1755107223750,
+      "duration": 25687
+    },
+    "easy": {
+      "name": "easy",
+      "startTime": 1755107198063,
+      "attempts": 5,
+      "products": 0,
+      "errors": 0,
+      "strategies": [
+        "StandardStrategy",
+        "StandardStrategy",
+        "StandardStrategy",
+        "StandardStrategy",
+        "StandardStrategy"
+      ],
+      "endTime": 1755107955058,
+      "duration": 756995
+    },
+    "falabella": {
+      "name": "falabella",
+      "startTime": 1755107957068,
+      "attempts": 1,
+      "products": 39,
+      "errors": 0,
+      "strategies": [
+        "StandardStrategy"
+      ],
+      "endTime": 1755108081008,
+      "duration": 123940
+    },
+    "paris": {
+      "name": "paris",
+      "startTime": 1755107957067,
+      "attempts": 5,
+      "products": 0,
+      "errors": 0,
+      "strategies": [
+        "StandardStrategy",
+        "StandardStrategy",
+        "StandardStrategy",
+        "StandardStrategy",
+        "StandardStrategy"
+      ],
+      "endTime": 1755108572327,
+      "duration": 615260
+    },
+    "sodimac": {
+      "name": "sodimac",
+      "startTime": 1755108574338,
+      "attempts": 1,
+      "products": 53,
+      "errors": 0,
+      "strategies": [
+        "StandardStrategy"
+      ],
+      "endTime": 1755108608201,
+      "duration": 33863
+    }
+  },
+  "errors": [
+    {
+      "store": "unimarc",
+      "error": "page.goto: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.unimarc.cl/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+      "timestamp": "2025-08-13T17:46:35.955Z"
+    }
+  ],
+  "timestamp": "2025-08-13T18:10:08.202Z"
+}

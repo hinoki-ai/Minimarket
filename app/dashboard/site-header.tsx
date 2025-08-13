@@ -6,10 +6,10 @@ import { SidebarTrigger } from "@/components/ui/sidebar"
 
 function getPageTitle(pathname: string): string {
   switch (pathname) {
-    case "/dashboard":
+    case "/carrito":
       return "Panel"
-    case "/dashboard/payment-gated":
-      return "Contenido premium"
+    case "/carrito#orders":
+      return "Pedidos"
     default:
       return "Página"
   }

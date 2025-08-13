@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-08-13T17:05:07.308Z",
+  "totalProducts": 11,
+  "updateCount": 44,
+  "lastUpdate": "2025-08-13T17:05:07.297Z",
+  "byStore": {
+    "lider": 11
+  },
+  "byCategory": {
+    "bebidas": 5,
+    "snacks": 6
+  },
+  "byMethod": {
+    "SCRAPER": 11
+  },
+  "withPrices": 11,
+  "withImages": 11,
+  "averagePrice": 3356,
+  "priceRange": {
+    "min": 810,
+    "max": 5191
+  }
+}

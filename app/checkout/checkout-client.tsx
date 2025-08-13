@@ -122,8 +122,8 @@ export default function CheckoutPageClient() {
         notes: '',
       });
       
-      // Redirect to success page or order confirmation
-      router.push('/dashboard');
+      // Redirect to account/cart page
+      router.push('/carrito');
     } catch (error) {
       console.error('Error creating order:', error);
       setErrors({ submit: 'Error al procesar el pedido. Inténtalo de nuevo.' });

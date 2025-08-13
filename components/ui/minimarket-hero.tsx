@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useRef } from 'react';
+import Image from 'next/image';
 import { ShoppingBag, Search, MapPin, Clock, ChevronLeft, ChevronRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { SearchBar } from '@/components/ui/search-bar';
@@ -80,35 +81,34 @@ export function MinimartHero({ className }: MinimartHeroProps) {
   const heroSlides = [
     {
       id: 1,
-      title: "Productos frescos cada día",
-      subtitle: "Siguiendo la tradición japonesa de frescura y calidad",
-      image: "/hero-fresh-products.jpg",
+      title: "Arándanos frescos y vibrantes",
+      subtitle: "Selección premium, listos para disfrutar",
+      image: "/images/products/Lucid_Origin_Ultra_realistic_closeup_of_a_pile_of_fresh_bluebe_3.jpg",
       badge: "Fresco",
       badgeClass: "status-fresh"
     },
     {
       id: 2,
-      title: "Nuevos productos semanales",
-      subtitle: "Descubre las novedades que llegan cada semana",
-      image: "/hero-new-products.jpg",
+      title: "Sabor que inspira",
+      subtitle: "Fotografía culinaria que abre el apetito",
+      image: "/images/products/Lucid_Origin_Professional_food_photography_of_a_tall_flamegril_3.jpg",
+      badge: "Popular",
+      badgeClass: "status-popular"
+    },
+    {
+      id: 3,
+      title: "Refrescos dorados",
+      subtitle: "Texturas y burbujas en primer plano",
+      image: "/images/products/GPT_Image_1_Ultra_closeup_macro_shot_of_golden_amber_beerlike_0.png",
       badge: "Nuevo",
       badgeClass: "status-new"
     },
     {
-      id: 3,
-      title: "Los más populares",
-      subtitle: "Los productos favoritos de nuestra comunidad",
-      image: "/hero-popular-products.jpg",
-      badge: "Popular",
-      badgeClass: "status-popular"
-    }
-    ,
-    {
       id: 4,
-      title: "Entrega rápida en tu zona",
-      subtitle: "Pedidos con logística local en menos de 30 minutos",
-      image: "/hero-fast-delivery.jpg",
-      badge: "Rápido",
+      title: "Fresco y sostenible",
+      subtitle: "Presentación moderna y amigable con el entorno",
+      image: "/images/products/Lucid_Realism_Ultrarealistic_photo_of_modern_ecofriendly_food__3.jpg",
+      badge: "Nuevo",
       badgeClass: "status-new"
     }
   ];
@@ -174,7 +174,7 @@ export function MinimartHero({ className }: MinimartHeroProps) {
           {/* Right Content - Hero Carousel */}
           <div className="relative">
             <div
-              className="relative aspect-square lg:aspect-[4/5] overflow-hidden rounded-2xl shadow-2xl touch-pan-y select-none"
+              className="relative aspect-square lg:aspect-[4/5] overflow-hidden rounded-2xl shadow-2xl touch-pan-y select-none pointer-events-auto"
               onPointerDown={handlePointerDown}
               onPointerMove={handlePointerMove}
               onPointerUp={handlePointerUp}
@@ -185,10 +185,18 @@ export function MinimartHero({ className }: MinimartHeroProps) {
               aria-label="Hero carousel"
             >
               {/* Background Image */}
-              <div
-                key={heroSlides[currentSlide].id}
-                className="absolute inset-0 bg-gradient-to-br from-blue-500/20 via-green-500/20 to-orange-500/20 transition-opacity duration-300"
-              />
+              <div className="absolute inset-0">
+                <Image
+                  key={heroSlides[currentSlide].id}
+                  src={heroSlides[currentSlide].image}
+                  alt={heroSlides[currentSlide].title}
+                  fill
+                  priority={false}
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                  className="object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-br from-black/20 via-black/10 to-black/20" />
+              </div>
               
               {/* Content Overlay */}
               <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-t from-black/60 via-transparent to-transparent">
@@ -214,6 +222,7 @@ export function MinimartHero({ className }: MinimartHeroProps) {
                 {heroSlides.map((_, index) => (
                   <button
                     key={index}
+                    type="button"
                     className={cn(
                       "w-2 h-2 rounded-full transition-all",
                       index === currentSlide 

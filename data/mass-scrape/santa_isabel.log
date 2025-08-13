@@ -1,0 +1,1229 @@
+[SANTA_ISABEL] Starting Enhanced Universal Product Scraper
+[SANTA_ISABEL] Store: santa_isabel
+[SANTA_ISABEL] Categories: bebidas, snacks, lacteos, carnes, panaderia, aseo, hogar
+[SANTA_ISABEL] Max products: 800
+[SANTA_ISABEL] Max pages per category: 1000
+[SANTA_ISABEL] Dry run: false
+[SANTA_ISABEL] Starting category 1/7: bebidas
+[SANTA_ISABEL] Scraping category: bebidas with 7 URL patterns
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/categoria/bebidas?page=1
+[SANTA_ISABEL] Page returned 404: https://www.santaisabel.cl/supermercado/categoria/bebidas?page=1
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/categoria/bebidas?p=1
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/6c3ca00988d4f98c5a08-99-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/69fa6c14c6ad12795808-1413-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://pagead2.googlesyndication.com/pagead/gen_204?id=plmetrics&cls=0.000&mls=0.000&nls=0&cas=0.000&nas=0&was=0.000&wls=0.000&tls=0.000&lcp=0&lcps=0&cbt=0&mbt=0&nlt=0&nif=0&ifi=0&eid=95340253%2C95340255&top=1&pvsid=3058530719786152&gpt=1 net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://snippet.maze.co/static/4c589540481b79bdf88eee0c25ec9afafc93a0e9/contextualScaffold.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202508070101/pubads_impl.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/d92ef33961bb48a4cf76-react-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/1e9a394d05917c386d31-utils-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/pagead/managed/dict/m202508120101/gpt net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/9e9992539c88daa61ded-1413.css net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/v.gif?cd=0&a=642581&d=santaisabel.cl&u=D221FB1323C31731C69F8F9EAFEE77A3C&h=b04b44ff646771b6f56f071c45e3d340&t=false net::ERR_ABORTED
+[SANTA_ISABEL] Page returned 404: https://www.santaisabel.cl/supermercado/categoria/bebidas?p=1
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/categoria/bebidas/1
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/69fa6c14c6ad12795808-1413-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202508070101/pubads_impl.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/1e9a394d05917c386d31-utils-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fsupermercado%2Fcategoria%2Fbebidas%3Fp%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/pagead/managed/dict/m202508120101/gpt net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/6c3ca00988d4f98c5a08-99-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fsupermercado%2Fcategoria%2Fbebidas%3Fp%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/d92ef33961bb48a4cf76-react-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&e=loading_failure:https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Page returned 404: https://www.santaisabel.cl/supermercado/categoria/bebidas/1
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/categoria/bebidas&page=1
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202508070101/pubads_impl.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/d92ef33961bb48a4cf76-react-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/6c3ca00988d4f98c5a08-99-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/1e9a394d05917c386d31-utils-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/69fa6c14c6ad12795808-1413-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/pagead/managed/dict/m202508120101/gpt net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://snippet.maze.co/static/4c589540481b79bdf88eee0c25ec9afafc93a0e9/contextualScaffold.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/8d60492f3a149587ab8a-99.css net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/9e9992539c88daa61ded-1413.css net::ERR_ABORTED
+[SANTA_ISABEL] Page returned 404: https://www.santaisabel.cl/supermercado/categoria/bebidas&page=1
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/categoria/bebidas
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202508070101/pubads_impl.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/pagead/managed/dict/m202508120101/gpt net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/d92ef33961bb48a4cf76-react-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/1e9a394d05917c386d31-utils-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://snippet.maze.co/static/4c589540481b79bdf88eee0c25ec9afafc93a0e9/contextualScaffold.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/6c3ca00988d4f98c5a08-99-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/69fa6c14c6ad12795808-1413-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/8d60492f3a149587ab8a-99.css net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/v.gif?cd=0&a=642581&d=santaisabel.cl&u=D221FB1323C31731C69F8F9EAFEE77A3C&h=b04b44ff646771b6f56f071c45e3d340&t=false net::ERR_ABORTED
+[SANTA_ISABEL] Page returned 404: https://www.santaisabel.cl/supermercado/categoria/bebidas
+[SANTA_ISABEL] No valid URL pattern worked for page 1 of bebidas
+[SANTA_ISABEL] Completed scraping category bebidas: 0 total products
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/categoria/bebidas?page=1
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://snippet.maze.co/static/4c589540481b79bdf88eee0c25ec9afafc93a0e9/contextualScaffold.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fsupermercado%2Fcategoria%2Fbebidas&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202508070101/pubads_impl.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/1e9a394d05917c386d31-utils-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/6c3ca00988d4f98c5a08-99-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fsupermercado%2Fcategoria%2Fbebidas&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/d92ef33961bb48a4cf76-react-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/pagead/managed/dict/m202508120101/gpt net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/69fa6c14c6ad12795808-1413-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/8d60492f3a149587ab8a-99.css net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/v.gif?cd=0&a=642581&d=santaisabel.cl&u=D221FB1323C31731C69F8F9EAFEE77A3C&h=b04b44ff646771b6f56f071c45e3d340&t=false net::ERR_ABORTED
+[SANTA_ISABEL] Page returned 404: https://www.santaisabel.cl/categoria/bebidas?page=1
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/categoria/bebidas?p=1
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/pagead/managed/dict/m202508120101/gpt net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202508070101/pubads_impl.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fcategoria%2Fbebidas%3Fpage%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/6c3ca00988d4f98c5a08-99-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fcategoria%2Fbebidas%3Fpage%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/69fa6c14c6ad12795808-1413-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/1e9a394d05917c386d31-utils-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/d92ef33961bb48a4cf76-react-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://snippet.maze.co/static/4c589540481b79bdf88eee0c25ec9afafc93a0e9/contextualScaffold.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/v.gif?cd=0&a=642581&d=santaisabel.cl&u=D221FB1323C31731C69F8F9EAFEE77A3C&h=b04b44ff646771b6f56f071c45e3d340&t=false net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/9e9992539c88daa61ded-1413.css net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/8d60492f3a149587ab8a-99.css net::ERR_ABORTED
+[SANTA_ISABEL] Page returned 404: https://www.santaisabel.cl/categoria/bebidas?p=1
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/categoria/bebidas/1
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/6c3ca00988d4f98c5a08-99-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202508070101/pubads_impl.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://snippet.maze.co/static/4c589540481b79bdf88eee0c25ec9afafc93a0e9/contextualScaffold.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fcategoria%2Fbebidas%3Fp%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/69fa6c14c6ad12795808-1413-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/d92ef33961bb48a4cf76-react-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/pagead/managed/dict/m202508120101/gpt net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fcategoria%2Fbebidas%3Fp%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/1e9a394d05917c386d31-utils-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&e=loading_failure:https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/v.gif?cd=0&a=642581&d=santaisabel.cl&u=D221FB1323C31731C69F8F9EAFEE77A3C&h=b04b44ff646771b6f56f071c45e3d340&t=false net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/8d60492f3a149587ab8a-99.css net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Page returned 404: https://www.santaisabel.cl/categoria/bebidas/1
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/categoria/bebidas&page=1
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202508070101/pubads_impl.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/1e9a394d05917c386d31-utils-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/69fa6c14c6ad12795808-1413-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/6c3ca00988d4f98c5a08-99-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/d92ef33961bb48a4cf76-react-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://snippet.maze.co/static/4c589540481b79bdf88eee0c25ec9afafc93a0e9/contextualScaffold.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/pagead/managed/dict/m202508120101/gpt net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/8d60492f3a149587ab8a-99.css net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/9e9992539c88daa61ded-1413.css net::ERR_ABORTED
+[SANTA_ISABEL] Page returned 404: https://www.santaisabel.cl/categoria/bebidas&page=1
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/categoria/bebidas
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://snippet.maze.co/static/4c589540481b79bdf88eee0c25ec9afafc93a0e9/contextualScaffold.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/69fa6c14c6ad12795808-1413-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/1e9a394d05917c386d31-utils-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202508070101/pubads_impl.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/pagead/managed/dict/m202508120101/gpt net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fcategoria%2Fbebidas%26page%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/6c3ca00988d4f98c5a08-99-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fcategoria%2Fbebidas%26page%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/d92ef33961bb48a4cf76-react-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/8d60492f3a149587ab8a-99.css net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&e=loading_failure:https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Page returned 404: https://www.santaisabel.cl/categoria/bebidas
+[SANTA_ISABEL] No valid URL pattern worked for page 1 of bebidas
+[SANTA_ISABEL] Completed scraping category bebidas: 0 total products
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/products/bebidas?page=1
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/d92ef33961bb48a4cf76-react-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202508070101/pubads_impl.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://snippet.maze.co/static/4c589540481b79bdf88eee0c25ec9afafc93a0e9/contextualScaffold.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/69fa6c14c6ad12795808-1413-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/pagead/managed/dict/m202508120101/gpt net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/1e9a394d05917c386d31-utils-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/6c3ca00988d4f98c5a08-99-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/8d60492f3a149587ab8a-99.css net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/9e9992539c88daa61ded-1413.css net::ERR_ABORTED
+[SANTA_ISABEL] Page returned 404: https://www.santaisabel.cl/products/bebidas?page=1
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/products/bebidas?p=1
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fproducts%2Fbebidas%3Fpage%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/d92ef33961bb48a4cf76-react-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/6c3ca00988d4f98c5a08-99-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fproducts%2Fbebidas%3Fpage%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/pagead/managed/dict/m202508120101/gpt net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://snippet.maze.co/static/4c589540481b79bdf88eee0c25ec9afafc93a0e9/contextualScaffold.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202508070101/pubads_impl.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/1e9a394d05917c386d31-utils-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/69fa6c14c6ad12795808-1413-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/8d60492f3a149587ab8a-99.css net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&e=loading_failure:https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Page returned 404: https://www.santaisabel.cl/products/bebidas?p=1
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/products/bebidas/1
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/69fa6c14c6ad12795808-1413-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/pagead/managed/dict/m202508120101/gpt net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/1e9a394d05917c386d31-utils-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202508070101/pubads_impl.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/6c3ca00988d4f98c5a08-99-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://snippet.maze.co/static/4c589540481b79bdf88eee0c25ec9afafc93a0e9/contextualScaffold.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/d92ef33961bb48a4cf76-react-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/9e9992539c88daa61ded-1413.css net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Page returned 404: https://www.santaisabel.cl/products/bebidas/1
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/products/bebidas&page=1
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://snippet.maze.co/static/4c589540481b79bdf88eee0c25ec9afafc93a0e9/contextualScaffold.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/6c3ca00988d4f98c5a08-99-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202508070101/pubads_impl.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/69fa6c14c6ad12795808-1413-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/pagead/managed/dict/m202508120101/gpt net::ERR_ABORTED
+[SANTA_ISABEL] Page returned 404: https://www.santaisabel.cl/products/bebidas&page=1
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/products/bebidas
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/1e9a394d05917c386d31-utils-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/69fa6c14c6ad12795808-1413-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fproducts%2Fbebidas%26page%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/6c3ca00988d4f98c5a08-99-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fproducts%2Fbebidas%26page%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/pagead/managed/dict/m202508120101/gpt net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_ABORTED
+[SANTA_ISABEL] Page returned 404: https://www.santaisabel.cl/products/bebidas
+[SANTA_ISABEL] No valid URL pattern worked for page 1 of bebidas
+[SANTA_ISABEL] Completed scraping category bebidas: 0 total products
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/bebidas?page=1
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://pagead2.googlesyndication.com/pagead/gen_204?id=plmetrics&cls=0.000&mls=0.000&nls=0&cas=0.000&nas=0&was=0.000&wls=0.000&tls=0.000&lcp=0&lcps=0&cbt=198&mbt=198&nlt=1&nif=0&ifi=0&eid=31094014%2C83321073%2C31086810%2C95340253%2C95340255&top=1&pvsid=4166023032209380&gpt=1 net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fproducts%2Fbebidas&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/69fa6c14c6ad12795808-1413-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/6c3ca00988d4f98c5a08-99-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://prompts.maze.co/api/widgets net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fproducts%2Fbebidas&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_ABORTED
+[SANTA_ISABEL] Page returned 404: https://www.santaisabel.cl/bebidas?page=1
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/bebidas?p=1
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/j.php?a=642581&u=https%3A%2F%2Fwww.santaisabel.cl%2Fbebidas%3Fpage%3D1&vn=2.1&x=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://snippet.maze.co/static/4c589540481b79bdf88eee0c25ec9afafc93a0e9/contextualScaffold.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/6c3ca00988d4f98c5a08-99-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202508070101/pubads_impl.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/69fa6c14c6ad12795808-1413-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Page returned 404: https://www.santaisabel.cl/bebidas?p=1
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/bebidas/1
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fbebidas%3Fp%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/69fa6c14c6ad12795808-1413-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/6c3ca00988d4f98c5a08-99-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fbebidas%3Fp%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_ABORTED
+[SANTA_ISABEL] Page returned 404: https://www.santaisabel.cl/bebidas/1
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/bebidas&page=1
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fbebidas%2F1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/7216e8939e32df637e89-6907-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://sm-web-api.ecomm.cencosud.com/orderform/api/v1/orderForm net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/c46d8108c38d0dc199f9-3126-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/a9e30cd3c34d0123be87-3770-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/6e7ea070f179239d48d7-catalog-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/3b56660351f52e9b0fd0-search-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/json/cms/page-14035.json net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/e81370b9d7ebbe5e0005-5620-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fbebidas%2F1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_ABORTED
+[SANTA_ISABEL] Page returned 404: https://www.santaisabel.cl/bebidas&page=1
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/bebidas
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fbebidas%26page%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://sm-web-api.ecomm.cencosud.com/orderform/api/v1/orderForm net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://snippet.maze.co/static/4c589540481b79bdf88eee0c25ec9afafc93a0e9/contextualScaffold.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/a9e30cd3c34d0123be87-3770-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/pagead/managed/dict/m202508120101/gpt net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/json/cms/page-538.json net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://sp.vtex.com/event-api/v1/santaisabel/event net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/e81370b9d7ebbe5e0005-5620-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/6e7ea070f179239d48d7-catalog-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-WGHSBMT&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/3b56660351f52e9b0fd0-search-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/json/cms/page-547.json net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fbebidas%26page%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/c46d8108c38d0dc199f9-3126-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Page returned 404: https://www.santaisabel.cl/bebidas
+[SANTA_ISABEL] No valid URL pattern worked for page 1 of bebidas
+[SANTA_ISABEL] Completed scraping category bebidas: 0 total products
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/bebidas?page=1
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fbebidas&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/7216e8939e32df637e89-6907-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/6e7ea070f179239d48d7-catalog-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/3b56660351f52e9b0fd0-search-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fbebidas&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/a9e30cd3c34d0123be87-3770-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/d5907ee8e4768540cf7b-5851-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/a9e30cd3c34d0123be87-3770-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/json/cms/page-18039.json net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://sm-web-api.ecomm.cencosud.com/orderform/api/v1/orderForm net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/c46d8108c38d0dc199f9-3126-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/6e7ea070f179239d48d7-catalog-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/e81370b9d7ebbe5e0005-5620-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-WGHSBMT&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://fonts.gstatic.com/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlxdu.woff2 net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://fonts.gstatic.com/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwlxdu.woff2 net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://fonts.gstatic.com/s/sourcesanspro/v22/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7l.woff2 net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/7224fbda9c50559ae999162dcbffcd1f.svg net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&e=loading_failure:https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_ABORTED
+[SANTA_ISABEL] Page returned 404: https://www.santaisabel.cl/supermercado/bebidas?page=1
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/bebidas?p=1
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/c46d8108c38d0dc199f9-3126-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://sm-web-api.ecomm.cencosud.com/orderform/api/v1/orderForm net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fsupermercado%2Fbebidas%3Fpage%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/e81370b9d7ebbe5e0005-5620-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fsupermercado%2Fbebidas%3Fpage%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/d5907ee8e4768540cf7b-5851-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/7216e8939e32df637e89-6907-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-WGHSBMT&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/a9e30cd3c34d0123be87-3770-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/pagead/managed/dict/m202508120101/gpt net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/6e7ea070f179239d48d7-catalog-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://sp.vtex.com/event-api/v1/santaisabel/event net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/3b56660351f52e9b0fd0-search-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/b7735d8c1af9882ea361-5532.css net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/419325f3f33f9f0efa7f-6907.css net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/df3c5e24214da3ab7910-5851.css net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&e=loading_failure:https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/ba0c206213bb727dc047-478.css net::ERR_ABORTED
+[SANTA_ISABEL] Page returned 404: https://www.santaisabel.cl/supermercado/bebidas?p=1
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/bebidas/1
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/json/cms/page-538.json net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/e81370b9d7ebbe5e0005-5620-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-WGHSBMT&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://sp.vtex.com/event-api/v1/santaisabel/event net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/json/cms/page-547.json net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://sm-web-api.ecomm.cencosud.com/orderform/api/v1/orderForm net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/c46d8108c38d0dc199f9-3126-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Page returned 404: https://www.santaisabel.cl/supermercado/bebidas/1
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/bebidas&page=1
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/6e7ea070f179239d48d7-catalog-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/c46d8108c38d0dc199f9-3126-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/e81370b9d7ebbe5e0005-5620-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/a9e30cd3c34d0123be87-3770-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/json/cms/page-14035.json net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/7216e8939e32df637e89-6907-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://sm-web-api.ecomm.cencosud.com/orderform/api/v1/orderForm net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/3b56660351f52e9b0fd0-search-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Page returned 404: https://www.santaisabel.cl/supermercado/bebidas&page=1
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/bebidas
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/6e7ea070f179239d48d7-catalog-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-WGHSBMT&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fsupermercado%2Fbebidas%26page%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/e81370b9d7ebbe5e0005-5620-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://sp.vtex.com/event-api/v1/santaisabel/event net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/7216e8939e32df637e89-6907-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/d5907ee8e4768540cf7b-5851-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://sm-web-api.ecomm.cencosud.com/orderform/api/v1/orderform/b2c1ba934b944b99962d02c448a7f8b3/itemsOrdination?sc=1 net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fsupermercado%2Fbebidas%26page%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/a9e30cd3c34d0123be87-3770-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/f5d4b9cdf4dc97d849b969d89ebcf379.svg net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/4f7ec624871d1625689c45ceb844075c.svg net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://fonts.gstatic.com/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlxdu.woff2 net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://fonts.gstatic.com/s/sourcesanspro/v22/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7l.woff2 net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/8cb3d5d8c3210939ba8c5d68169c3189.svg net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://fonts.gstatic.com/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwlxdu.woff2 net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/7224fbda9c50559ae999162dcbffcd1f.svg net::ERR_ABORTED
+[SANTA_ISABEL] Page returned 404: https://www.santaisabel.cl/supermercado/bebidas
+[SANTA_ISABEL] No valid URL pattern worked for page 1 of bebidas
+[SANTA_ISABEL] Completed scraping category bebidas: 0 total products
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/tienda/categoria/bebidas?page=1
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/3b56660351f52e9b0fd0-search-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202508070101/pubads_impl.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/6e7ea070f179239d48d7-catalog-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fsupermercado%2Fbebidas&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/c46d8108c38d0dc199f9-3126-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/e81370b9d7ebbe5e0005-5620-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fsupermercado%2Fbebidas&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://sp.vtex.com/event-api/v1/santaisabel/event net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/7216e8939e32df637e89-6907-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-WGHSBMT&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://sm-web-api.ecomm.cencosud.com/orderform/api/v1/orderForm net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/a9e30cd3c34d0123be87-3770-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/d5907ee8e4768540cf7b-5851-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/df3c5e24214da3ab7910-5851.css net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/419325f3f33f9f0efa7f-6907.css net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/b7735d8c1af9882ea361-5532.css net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/ba0c206213bb727dc047-478.css net::ERR_ABORTED
+[SANTA_ISABEL] Page returned 404: https://www.santaisabel.cl/tienda/categoria/bebidas?page=1
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/tienda/categoria/bebidas?p=1
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://sp.vtex.com/event-api/v1/santaisabel/event net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/pagead/managed/dict/m202508120101/gpt net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/d5907ee8e4768540cf7b-5851-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://snippet.maze.co/static/4c589540481b79bdf88eee0c25ec9afafc93a0e9/contextualScaffold.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://sm-web-api.ecomm.cencosud.com/orderform/api/v1/orderform/805a463577794fed89852e7dce014872/itemsOrdination?sc=1 net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-WGHSBMT&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/6e7ea070f179239d48d7-catalog-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/7216e8939e32df637e89-6907-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/a9e30cd3c34d0123be87-3770-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Ftienda%2Fcategoria%2Fbebidas%3Fpage%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/e81370b9d7ebbe5e0005-5620-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/json/cms/page-18039.json net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/c46d8108c38d0dc199f9-3126-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/4f7ec624871d1625689c45ceb844075c.svg net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://fonts.gstatic.com/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwlxdu.woff2 net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/f5d4b9cdf4dc97d849b969d89ebcf379.svg net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://fonts.gstatic.com/s/sourcesanspro/v22/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7l.woff2 net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/ba0c206213bb727dc047-478.css net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/419325f3f33f9f0efa7f-6907.css net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/b7735d8c1af9882ea361-5532.css net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/8cb3d5d8c3210939ba8c5d68169c3189.svg net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/7224fbda9c50559ae999162dcbffcd1f.svg net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://fonts.gstatic.com/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlxdu.woff2 net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/df3c5e24214da3ab7910-5851.css net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/e49bb9fef66f87beecd4795cab03c98f.svg net::ERR_ABORTED
+[SANTA_ISABEL] Page returned 404: https://www.santaisabel.cl/tienda/categoria/bebidas?p=1
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/tienda/categoria/bebidas/1
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202508070101/pubads_impl.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/6c3ca00988d4f98c5a08-99-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/pagead/managed/dict/m202508120101/gpt net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://snippet.maze.co/static/4c589540481b79bdf88eee0c25ec9afafc93a0e9/contextualScaffold.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/69fa6c14c6ad12795808-1413-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/v.gif?cd=0&a=642581&d=santaisabel.cl&u=D221FB1323C31731C69F8F9EAFEE77A3C&h=b04b44ff646771b6f56f071c45e3d340&t=true net::ERR_ABORTED
+[SANTA_ISABEL] Page returned 404: https://www.santaisabel.cl/tienda/categoria/bebidas/1
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/tienda/categoria/bebidas&page=1
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://fonts.gstatic.com/s/sourcesanspro/v22/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7l.woff2 net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://fonts.gstatic.com/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlxdu.woff2 net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://server-side-tagging-km5o5mep3q-ue.a.run.app/_/service_worker/5840/sw_iframe.html?origin=https%3A%2F%2Fwww.santaisabel.cl&1p=1 net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://analytics.google.com/g/collect?v=2&tid=G-S5DWKYCMJ2&gtm=45je5881h1v870703293z8831726071za200zb831726071zd831726071&_p=1755075024938&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&tag_exp=101509157~103116026~103200004~103233427~104527906~104528500~104684208~104684211~104948813~105033763~105033765~105102052~105103161~105103163~105113532~105231383~105231385&cid=37112200.1755075029&ul=es-cl&sr=1920x1080&ir=1&uaa=x86&uab=64&uafvl=Chromium%3B139.0.7258.5%7CNot%253BA%253DBrand%3B99.0.0.0&uamb=0&uam=&uap=Linux&uapv=&uaw=0&are=1&frm=0&pscdl=noapi&_eu=EA&_s=1&dt=No%20Search%20Results&sid=1755075028&sct=1&seg=0&dl=https%3A%2F%2Fwww.santaisabel.cl%2Ftienda%2Fcategoria%2Fbebidas%2F1&en=page_view&_fv=1&_nsi=1&_ss=2&_c=1&ep.page=%2Ftienda%2Fcategoria%2Fbebidas%2F1&up.membershipType=normal&up.Tipo_de_membres%C3%ADa=normal&tfd=12351 net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://www.google.com/ccm/collect?en=page_view&dl=https%3A%2F%2Fwww.santaisabel.cl%2Ftienda%2Fcategoria%2Fbebidas%2F1&scrsrc=www.googletagmanager.com&frm=0&rnd=1655709037.1755075027&auid=1845989397.1755075027&navt=n&npa=0&gtm=45He5881h1v831726071za200zd831726071&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~103116026~103200004~103233427~104527906~104528501~104684208~104684211~104948813~105033763~105033765~105103161~105103163~105113532~105231383~105231385&tft=1755075026729&tfd=10173&apve=1&apvf=sb net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://server-side-tagging-km5o5mep3q-ue.a.run.app/g/collect?v=2&tid=G-MTYQDQ7SDP&gtm=45je5881h1v9187885998z8831726071za200zb831726071zd831726071&_p=1755075024938&gcd=13l3l3l3l1l1&npa=0&dma=0&tag_exp=101509157~103116026~103200004~103233427~104527906~104528500~104630776~104630778~104684208~104684211~104948813~105033766~105033768~105102050~105103161~105103163~105113532~105231383~105231385&cid=37112200.1755075029&ecid=569154999&ul=es-cl&sr=1920x1080&_fplc=0&ur=CL-BI&uaa=x86&uab=64&uafvl=Chromium%3B139.0.7258.5%7CNot%253BA%253DBrand%3B99.0.0.0&uamb=0&uam=&uap=Linux&uapv=&uaw=0&are=1&frm=0&pscdl=noapi&ec_mode=c&sst.etld=google.cl&sst.tft=1755075024938&sst.lpc=6363056&sst.navt=n&sst.ude=0&sst.sw_exp=1&_s=1&dt=No%20Search%20Results&sid=1755075029&sct=1&seg=0&dl=https%3A%2F%2Fwww.santaisabel.cl%2Ftienda%2Fcategoria%2Fbebidas%2F1&_tu=Lg&en=page_view&_fv=1&_ss=1&ep.page=%2Ftienda%2Fcategoria%2Fbebidas%2F1&ep.unique_id=1755075798468_17550754995315&up.membershipType=normal&up.Tipo_de_membres%C3%ADa=normal&tfd=12548&richsstsse net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://connect.facebook.net/signals/config/1780195405544700?v=2.9.224&r=stable&domain=www.santaisabel.cl&hme=2e9ee56babe122798b967566f46100108daa710154b06378259c746cb66ac325&ex_m=83%2C143%2C124%2C18%2C117%2C58%2C40%2C118%2C64%2C57%2C131%2C72%2C13%2C82%2C26%2C112%2C103%2C62%2C65%2C111%2C128%2C91%2C133%2C7%2C3%2C4%2C6%2C5%2C2%2C73%2C81%2C134%2C208%2C155%2C52%2C213%2C210%2C211%2C45%2C170%2C25%2C61%2C217%2C216%2C158%2C28%2C51%2C8%2C54%2C77%2C78%2C79%2C84%2C107%2C27%2C24%2C110%2C106%2C105%2C125%2C63%2C127%2C126%2C41%2C108%2C50%2C100%2C12%2C130%2C37%2C199%2C201%2C165%2C21%2C22%2C23%2C15%2C16%2C36%2C33%2C34%2C68%2C74%2C76%2C89%2C116%2C119%2C38%2C90%2C19%2C17%2C94%2C59%2C31%2C121%2C120%2C122%2C113%2C20%2C30%2C49%2C88%2C129%2C29%2C180%2C151%2C257%2C197%2C141%2C183%2C176%2C86%2C109%2C67%2C98%2C44%2C39%2C96%2C97%2C102%2C48%2C14%2C104%2C95%2C55%2C43%2C46%2C0%2C80%2C132%2C1%2C101%2C11%2C99%2C9%2C47%2C75%2C53%2C123%2C56%2C93%2C71%2C70%2C42%2C114%2C69%2C66%2C60%2C92%2C85%2C35%2C115%2C32%2C87%2C10%2C135 net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://www.googletagmanager.com/gtag/destination?id=DC-11130189&cx=c&gtm=45je5881h1v9187885998za200zb831726071&tag_exp=101509157~103116026~103200004~103233427~104630776~104630778~104684208~104684211~105033766~105033768~105103161~105103163~105231383~105231385 net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://www.googletagmanager.com/gtag/destination?id=DC-10201132&cx=c&gtm=45je5881h1v9187885998za200zb831726071&tag_exp=101509157~103116026~103200004~103233427~104630776~104630778~104684208~104684211~105033766~105033768~105103161~105103163~105231383~105231385 net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.jumbo.cl/json/santaisabel/promotions-v2.json net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://analytics.google.com/g/collect?v=2&tid=G-S5DWKYCMJ2&gtm=45je5881h1v870703293za200zb831726071zd831726071&_p=1755075024938&gcd=13l3l3l3l1l1&npa=0&dma=0&tag_exp=101509157~103116026~103200004~103233427~104527906~104528500~104684208~104684211~104948813~105033763~105033765~105102052~105103161~105103163~105113532~105231383~105231385&cid=37112200.1755075029&ul=es-cl&sr=1920x1080&ir=1&uaa=x86&uab=64&uafvl=Chromium%3B139.0.7258.5%7CNot%253BA%253DBrand%3B99.0.0.0&uamb=0&uam=&uap=Linux&uapv=&uaw=0&are=1&frm=0&pscdl=noapi&_eu=EEAAAAQ&_s=2&dt=No%20Search%20Results&sid=1755075028&sct=1&seg=0&dl=https%3A%2F%2Fwww.santaisabel.cl%2Ftienda%2Fcategoria%2Fbebidas%2F1&_tu=Lg&en=scroll&ep.page=%2Ftienda%2Fcategoria%2Fbebidas%2F1&epn.percent_scrolled=90&_et=66&tfd=13221 net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://stats.g.doubleclick.net/g/collect?v=2&tid=G-S5DWKYCMJ2&cid=37112200.1755075029&gtm=45je5881h1v870703293z8831726071za200zb831726071zd831726071&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=101509157~103116026~103200004~103233427~104527906~104528500~104684208~104684211~104948813~105033763~105033765~105102052~105103161~105103163~105113532~105231383~105231385 net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://analytics.tiktok.com/i18n/pixel/static/main.MTc3NWUxZTAxMA.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://www.google.cl/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-S5DWKYCMJ2&cid=37112200.1755075029&gtm=45je5881h1v870703293z8831726071za200zb831726071zd831726071&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=101509157~103116026~103200004~103233427~104527906~104528500~104684208~104684211~104948813~105033763~105033765~105102052~105103161~105103163~105113532~105231383~105231385&tag_exp=101509157~103116026~103200004~103233427~104527906~104528500~104684208~104684211~104948813~105033763~105033765~105102052~105103161~105103163~105113532~105231383~105231385&z=1253794598 net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://fonts.gstatic.com/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwlxdu.woff2 net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://fonts.gstatic.com/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwlxdu.woff2 net::ERR_ABORTED
+[SANTA_ISABEL] Page returned 404: https://www.santaisabel.cl/tienda/categoria/bebidas&page=1
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/tienda/categoria/bebidas
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/pagead/managed/dict/m202508120101/gpt net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/v.gif?cd=0&a=642581&d=santaisabel.cl&u=D221FB1323C31731C69F8F9EAFEE77A3C&h=b04b44ff646771b6f56f071c45e3d340&t=false net::ERR_ABORTED
+[SANTA_ISABEL] Page returned 404: https://www.santaisabel.cl/tienda/categoria/bebidas
+[SANTA_ISABEL] No valid URL pattern worked for page 1 of bebidas
+[SANTA_ISABEL] Completed scraping category bebidas: 0 total products
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/shop/bebidas?page=1
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/d5907ee8e4768540cf7b-5851-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/a9e30cd3c34d0123be87-3770-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://sm-web-api.ecomm.cencosud.com/orderform/api/v1/orderform/5b4eede6a7d14a798a187d2fc8ed0261 net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Ftienda%2Fcategoria%2Fbebidas&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/6e7ea070f179239d48d7-catalog-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-WGHSBMT&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://sp.vtex.com/event-api/v1/santaisabel/event net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Ftienda%2Fcategoria%2Fbebidas&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/7216e8939e32df637e89-6907-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/e49bb9fef66f87beecd4795cab03c98f.svg net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://fonts.gstatic.com/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlxdu.woff2 net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/f5d4b9cdf4dc97d849b969d89ebcf379.svg net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/8cb3d5d8c3210939ba8c5d68169c3189.svg net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://fonts.gstatic.com/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwlxdu.woff2 net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/4f7ec624871d1625689c45ceb844075c.svg net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://fonts.gstatic.com/s/sourcesanspro/v22/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7l.woff2 net::ERR_ABORTED
+[SANTA_ISABEL] Page returned 404: https://www.santaisabel.cl/shop/bebidas?page=1
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/shop/bebidas?p=1
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/e81370b9d7ebbe5e0005-5620-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/6e7ea070f179239d48d7-catalog-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/3b56660351f52e9b0fd0-search-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/c46d8108c38d0dc199f9-3126-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://sm-web-api.ecomm.cencosud.com/orderform/api/v1/orderform/5b4eede6a7d14a798a187d2fc8ed0261 net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/a9e30cd3c34d0123be87-3770-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/json/cms/page-14035.json net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/7216e8939e32df637e89-6907-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Page returned 404: https://www.santaisabel.cl/shop/bebidas?p=1
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/shop/bebidas/1
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202508070101/pubads_impl.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/6c3ca00988d4f98c5a08-99-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://snippet.maze.co/static/4c589540481b79bdf88eee0c25ec9afafc93a0e9/contextualScaffold.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/69fa6c14c6ad12795808-1413-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/j.php?a=642581&u=https%3A%2F%2Fwww.santaisabel.cl%2Fshop%2Fbebidas%3Fp%3D1&vn=2.1&x=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/pagead/managed/dict/m202508120101/gpt net::ERR_ABORTED
+[SANTA_ISABEL] Page returned 404: https://www.santaisabel.cl/shop/bebidas/1
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/shop/bebidas&page=1
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/69fa6c14c6ad12795808-1413-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://snippet.maze.co/static/4c589540481b79bdf88eee0c25ec9afafc93a0e9/contextualScaffold.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202508070101/pubads_impl.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/j.php?a=642581&u=https%3A%2F%2Fwww.santaisabel.cl%2Fshop%2Fbebidas%2F1&vn=2.1&x=true net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/6c3ca00988d4f98c5a08-99-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/pagead/managed/dict/m202508120101/gpt net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Page returned 404: https://www.santaisabel.cl/shop/bebidas&page=1
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/shop/bebidas
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/d92ef33961bb48a4cf76-react-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/1e9a394d05917c386d31-utils-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/6c3ca00988d4f98c5a08-99-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202508070101/pubads_impl.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/pagead/managed/dict/m202508120101/gpt net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/69fa6c14c6ad12795808-1413-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Page returned 404: https://www.santaisabel.cl/shop/bebidas
+[SANTA_ISABEL] No valid URL pattern worked for page 1 of bebidas
+[SANTA_ISABEL] Completed scraping category bebidas: 0 total products
+[SANTA_ISABEL] Category bebidas completed. Estimated remaining time: 12 minutes
+[SANTA_ISABEL] Starting category 2/7: snacks
+[SANTA_ISABEL] Scraping category: snacks with 7 URL patterns
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/categoria/snacks?page=1
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/pagead/managed/dict/m202508120101/gpt net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/6c3ca00988d4f98c5a08-99-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://snippet.maze.co/static/4c589540481b79bdf88eee0c25ec9afafc93a0e9/contextualScaffold.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/69fa6c14c6ad12795808-1413-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202508070101/pubads_impl.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/8d60492f3a149587ab8a-99.css net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/9e9992539c88daa61ded-1413.css net::ERR_ABORTED
+[SANTA_ISABEL] Page returned 404: https://www.santaisabel.cl/supermercado/categoria/snacks?page=1
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/categoria/snacks?p=1
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202508070101/pubads_impl.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fsupermercado%2Fcategoria%2Fsnacks%3Fpage%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/6c3ca00988d4f98c5a08-99-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/pagead/managed/dict/m202508120101/gpt net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/1e9a394d05917c386d31-utils-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://pagead2.googlesyndication.com/pagead/gen_204?id=plmetrics&cls=0.000&mls=0.000&nls=0&cas=0.000&nas=0&was=0.000&wls=0.000&tls=0.000&lcp=0&lcps=0&cbt=200&mbt=94&nlt=5&nif=0&ifi=0&eid=31094014%2C95340253%2C95340255&top=1&pvsid=7508433986032907&gpt=1 net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/69fa6c14c6ad12795808-1413-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fsupermercado%2Fcategoria%2Fsnacks%3Fpage%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&e=loading_failure:https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_ABORTED
+[SANTA_ISABEL] Page returned 404: https://www.santaisabel.cl/supermercado/categoria/snacks?p=1
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/categoria/snacks/1
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/69fa6c14c6ad12795808-1413-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202508070101/pubads_impl.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/pagead/managed/dict/m202508120101/gpt net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/6c3ca00988d4f98c5a08-99-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Page returned 404: https://www.santaisabel.cl/supermercado/categoria/snacks/1
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/categoria/snacks&page=1
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/69fa6c14c6ad12795808-1413-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fsupermercado%2Fcategoria%2Fsnacks%2F1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/6c3ca00988d4f98c5a08-99-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fsupermercado%2Fcategoria%2Fsnacks%2F1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_ABORTED
+[SANTA_ISABEL] Page returned 404: https://www.santaisabel.cl/supermercado/categoria/snacks&page=1
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/categoria/snacks
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fsupermercado%2Fcategoria%2Fsnacks%26page%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fsupermercado%2Fcategoria%2Fsnacks%26page%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/6c3ca00988d4f98c5a08-99-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/69fa6c14c6ad12795808-1413-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://securepubads.g.doubleclick.net/pagead/managed/dict/m202508120101/gpt net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://snippet.maze.co/static/4c589540481b79bdf88eee0c25ec9afafc93a0e9/contextualScaffold.js net::ERR_ABORTED
+[SANTA_ISABEL] Page returned 404: https://www.santaisabel.cl/supermercado/categoria/snacks
+[SANTA_ISABEL] No valid URL pattern worked for page 1 of snacks
+[SANTA_ISABEL] Completed scraping category snacks: 0 total products
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/categoria/snacks?page=1
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fsupermercado%2Fcategoria%2Fsnacks&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/6e7ea070f179239d48d7-catalog-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/a9e30cd3c34d0123be87-3770-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/3b56660351f52e9b0fd0-search-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/7216e8939e32df637e89-6907-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/69fa6c14c6ad12795808-1413-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&e=loading_failure:https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_ABORTED
+[SANTA_ISABEL] Page returned 404: https://www.santaisabel.cl/categoria/snacks?page=1
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/categoria/snacks?p=1
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/6e7ea070f179239d48d7-catalog-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/3b56660351f52e9b0fd0-search-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fcategoria%2Fsnacks%3Fpage%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/7216e8939e32df637e89-6907-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/a9e30cd3c34d0123be87-3770-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/69fa6c14c6ad12795808-1413-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&e=loading_failure:https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_ABORTED
+[SANTA_ISABEL] Page returned 404: https://www.santaisabel.cl/categoria/snacks?p=1
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/categoria/snacks/1
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://sp.vtex.com/event-api/v1/santaisabel/event net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/json/cms/page-538.json net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/json/cms/page-547.json net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-WGHSBMT&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/c46d8108c38d0dc199f9-3126-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/e81370b9d7ebbe5e0005-5620-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://sm-web-api.ecomm.cencosud.com/orderform/api/v1/orderform/5b4eede6a7d14a798a187d2fc8ed0261 net::ERR_ABORTED
+[SANTA_ISABEL] Page returned 404: https://www.santaisabel.cl/categoria/snacks/1
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/categoria/snacks&page=1
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/7216e8939e32df637e89-6907-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/c46d8108c38d0dc199f9-3126-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/e81370b9d7ebbe5e0005-5620-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/3b56660351f52e9b0fd0-search-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/json/cms/page-14035.json net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://sm-web-api.ecomm.cencosud.com/orderform/api/v1/orderform/5b4eede6a7d14a798a187d2fc8ed0261 net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/6e7ea070f179239d48d7-catalog-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/a9e30cd3c34d0123be87-3770-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Page returned 404: https://www.santaisabel.cl/categoria/snacks&page=1
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/categoria/snacks
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://fonts.gstatic.com/s/sourcesanspro/v22/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7l.woff2 net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://fonts.gstatic.com/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlxdu.woff2 net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://fonts.gstatic.com/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwlxdu.woff2 net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fcategoria%2Fsnacks%26page%3D1&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://fonts.gstatic.com/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwlxdu.woff2 net::ERR_ABORTED
+[SANTA_ISABEL] Page returned 404: https://www.santaisabel.cl/categoria/snacks
+[SANTA_ISABEL] No valid URL pattern worked for page 1 of snacks
+[SANTA_ISABEL] Completed scraping category snacks: 0 total products
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/products/snacks?page=1
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_FAILED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/7216e8939e32df637e89-6907-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fcategoria%2Fsnacks&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fva_gq-65334092d5b288d5b96e22f936bfd781.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.jumbo.cl/json/santaisabel/promotions-v2.json net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/ee.gif?a=642581&s=j.php&_cu=https%3A%2F%2Fwww.santaisabel.cl%2Fcategoria%2Fsnacks&e=Google_Cdn%20failing%20for%20https%3A%2F%2Fdev.visualwebsiteoptimizer.com%2Fcdn%2Fedrv%2Fworker-493dc5019240a1584f8f70a5a98b8e2f.br.js.%20Trying%20Fallback..%26vn%3D&code=cloudcdnerr net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/6e7ea070f179239d48d7-catalog-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/d5907ee8e4768540cf7b-5851-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/a9e30cd3c34d0123be87-3770-v2.bundle.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/json/cms/page-18039.json net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://fonts.gstatic.com/s/sourcesanspro/v22/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7l.woff2 net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/8cb3d5d8c3210939ba8c5d68169c3189.svg net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://fonts.gstatic.com/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwlxdu.woff2 net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/ba0c206213bb727dc047-478.css net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/e49bb9fef66f87beecd4795cab03c98f.svg net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://fonts.gstatic.com/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlxdu.woff2 net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/4f7ec624871d1625689c45ceb844075c.svg net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/7224fbda9c50559ae999162dcbffcd1f.svg net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/b7735d8c1af9882ea361-5532.css net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/df3c5e24214da3ab7910-5851.css net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/419325f3f33f9f0efa7f-6907.css net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/f5d4b9cdf4dc97d849b969d89ebcf379.svg net::ERR_ABORTED
+[SANTA_ISABEL] Page returned 404: https://www.santaisabel.cl/products/snacks?page=1
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/products/snacks?p=1
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-493dc5019240a1584f8f70a5a98b8e2f.br.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/json/cms/page-547.json net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://assets.santaisabel.cl/json/cms/page-538.json net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-65334092d5b288d5b96e22f936bfd781.br.js net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://sp.vtex.com/event-api/v1/santaisabel/event net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://sm-web-api.ecomm.cencosud.com/orderform/api/v1/orderform/5b4eede6a7d14a798a187d2fc8ed0261 net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://www.googletagmanager.com/gtm.js?id=GTM-WGHSBMT&gtm_auth=&gtm_preview=&gtm_cookies_win=x net::ERR_ABORTED
+[SANTA_ISABEL] Request failed: https://dev.visualwebsiteoptimizer.com/v.gif?cd=0&a=642581&d=santaisabel.cl&u=D221FB1323C31731C69F8F9EAFEE77A3C&h=b04b44ff646771b6f56f071c45e3d340&t=false net::ERR_ABORTED
+[SANTA_ISABEL] Page returned 404: https://www.santaisabel.cl/products/snacks?p=1
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/products/snacks/1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/products/snacks/1: page.goto: net::ERR_ABORTED at https://www.santaisabel.cl/products/snacks/1
+Call log:
+[2m  - navigating to "https://www.santaisabel.cl/products/snacks/1", waiting until "domcontentloaded"[22m
+
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/products/snacks&page=1
+[SANTA_ISABEL] Request failed: https://www.santaisabel.cl/products/snacks/1 net::ERR_ABORTED
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/products/snacks&page=1: page.goto: net::ERR_ABORTED at https://www.santaisabel.cl/products/snacks&page=1
+Call log:
+[2m  - navigating to "https://www.santaisabel.cl/products/snacks&page=1", waiting until "domcontentloaded"[22m
+
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/products/snacks
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/products/snacks: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] No valid URL pattern worked for page 1 of snacks
+[SANTA_ISABEL] Completed scraping category snacks: 0 total products
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/snacks?page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/snacks?page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/snacks?p=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/snacks?p=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/snacks/1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/snacks/1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/snacks&page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/snacks&page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/snacks
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/snacks: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] No valid URL pattern worked for page 1 of snacks
+[SANTA_ISABEL] Completed scraping category snacks: 0 total products
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/snacks?page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/supermercado/snacks?page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/snacks?p=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/supermercado/snacks?p=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/snacks/1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/supermercado/snacks/1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/snacks&page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/supermercado/snacks&page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/snacks
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/supermercado/snacks: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] No valid URL pattern worked for page 1 of snacks
+[SANTA_ISABEL] Completed scraping category snacks: 0 total products
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/tienda/categoria/snacks?page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/tienda/categoria/snacks?page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/tienda/categoria/snacks?p=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/tienda/categoria/snacks?p=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/tienda/categoria/snacks/1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/tienda/categoria/snacks/1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/tienda/categoria/snacks&page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/tienda/categoria/snacks&page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/tienda/categoria/snacks
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/tienda/categoria/snacks: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] No valid URL pattern worked for page 1 of snacks
+[SANTA_ISABEL] Completed scraping category snacks: 0 total products
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/shop/snacks?page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/shop/snacks?page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/shop/snacks?p=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/shop/snacks?p=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/shop/snacks/1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/shop/snacks/1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/shop/snacks&page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/shop/snacks&page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/shop/snacks
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/shop/snacks: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] No valid URL pattern worked for page 1 of snacks
+[SANTA_ISABEL] Completed scraping category snacks: 0 total products
+[SANTA_ISABEL] Category snacks completed. Estimated remaining time: 6 minutes
+[SANTA_ISABEL] Starting category 3/7: lacteos
+[SANTA_ISABEL] Scraping category: lacteos with 7 URL patterns
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/categoria/lacteos?page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/supermercado/categoria/lacteos?page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/categoria/lacteos?p=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/supermercado/categoria/lacteos?p=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/categoria/lacteos/1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/supermercado/categoria/lacteos/1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/categoria/lacteos&page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/supermercado/categoria/lacteos&page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/categoria/lacteos
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/supermercado/categoria/lacteos: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] No valid URL pattern worked for page 1 of lacteos
+[SANTA_ISABEL] Completed scraping category lacteos: 0 total products
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/categoria/lacteos?page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/categoria/lacteos?page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/categoria/lacteos?p=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/categoria/lacteos?p=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/categoria/lacteos/1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/categoria/lacteos/1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/categoria/lacteos&page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/categoria/lacteos&page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/categoria/lacteos
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/categoria/lacteos: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] No valid URL pattern worked for page 1 of lacteos
+[SANTA_ISABEL] Completed scraping category lacteos: 0 total products
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/products/lacteos?page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/products/lacteos?page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/products/lacteos?p=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/products/lacteos?p=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/products/lacteos/1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/products/lacteos/1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/products/lacteos&page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/products/lacteos&page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/products/lacteos
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/products/lacteos: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] No valid URL pattern worked for page 1 of lacteos
+[SANTA_ISABEL] Completed scraping category lacteos: 0 total products
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/lacteos?page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/lacteos?page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/lacteos?p=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/lacteos?p=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/lacteos/1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/lacteos/1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/lacteos&page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/lacteos&page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/lacteos
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/lacteos: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] No valid URL pattern worked for page 1 of lacteos
+[SANTA_ISABEL] Completed scraping category lacteos: 0 total products
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/lacteos?page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/supermercado/lacteos?page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/lacteos?p=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/supermercado/lacteos?p=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/lacteos/1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/supermercado/lacteos/1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/lacteos&page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/supermercado/lacteos&page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/lacteos
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/supermercado/lacteos: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] No valid URL pattern worked for page 1 of lacteos
+[SANTA_ISABEL] Completed scraping category lacteos: 0 total products
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/tienda/categoria/lacteos?page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/tienda/categoria/lacteos?page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/tienda/categoria/lacteos?p=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/tienda/categoria/lacteos?p=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/tienda/categoria/lacteos/1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/tienda/categoria/lacteos/1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/tienda/categoria/lacteos&page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/tienda/categoria/lacteos&page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/tienda/categoria/lacteos
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/tienda/categoria/lacteos: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] No valid URL pattern worked for page 1 of lacteos
+[SANTA_ISABEL] Completed scraping category lacteos: 0 total products
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/shop/lacteos?page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/shop/lacteos?page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/shop/lacteos?p=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/shop/lacteos?p=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/shop/lacteos/1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/shop/lacteos/1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/shop/lacteos&page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/shop/lacteos&page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/shop/lacteos
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/shop/lacteos: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] No valid URL pattern worked for page 1 of lacteos
+[SANTA_ISABEL] Completed scraping category lacteos: 0 total products
+[SANTA_ISABEL] Category lacteos completed. Estimated remaining time: 3 minutes
+[SANTA_ISABEL] Starting category 4/7: carnes
+[SANTA_ISABEL] Scraping category: carnes with 7 URL patterns
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/categoria/carnes?page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/supermercado/categoria/carnes?page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/categoria/carnes?p=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/supermercado/categoria/carnes?p=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/categoria/carnes/1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/supermercado/categoria/carnes/1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/categoria/carnes&page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/supermercado/categoria/carnes&page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/categoria/carnes
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/supermercado/categoria/carnes: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] No valid URL pattern worked for page 1 of carnes
+[SANTA_ISABEL] Completed scraping category carnes: 0 total products
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/categoria/carnes?page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/categoria/carnes?page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/categoria/carnes?p=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/categoria/carnes?p=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/categoria/carnes/1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/categoria/carnes/1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/categoria/carnes&page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/categoria/carnes&page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/categoria/carnes
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/categoria/carnes: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] No valid URL pattern worked for page 1 of carnes
+[SANTA_ISABEL] Completed scraping category carnes: 0 total products
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/products/carnes?page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/products/carnes?page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/products/carnes?p=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/products/carnes?p=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/products/carnes/1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/products/carnes/1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/products/carnes&page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/products/carnes&page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/products/carnes
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/products/carnes: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] No valid URL pattern worked for page 1 of carnes
+[SANTA_ISABEL] Completed scraping category carnes: 0 total products
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/carnes?page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/carnes?page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/carnes?p=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/carnes?p=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/carnes/1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/carnes/1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/carnes&page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/carnes&page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/carnes
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/carnes: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] No valid URL pattern worked for page 1 of carnes
+[SANTA_ISABEL] Completed scraping category carnes: 0 total products
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/carnes?page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/supermercado/carnes?page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/carnes?p=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/supermercado/carnes?p=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/carnes/1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/supermercado/carnes/1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/carnes&page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/supermercado/carnes&page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/carnes
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/supermercado/carnes: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] No valid URL pattern worked for page 1 of carnes
+[SANTA_ISABEL] Completed scraping category carnes: 0 total products
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/tienda/categoria/carnes?page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/tienda/categoria/carnes?page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/tienda/categoria/carnes?p=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/tienda/categoria/carnes?p=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/tienda/categoria/carnes/1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/tienda/categoria/carnes/1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/tienda/categoria/carnes&page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/tienda/categoria/carnes&page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/tienda/categoria/carnes
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/tienda/categoria/carnes: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] No valid URL pattern worked for page 1 of carnes
+[SANTA_ISABEL] Completed scraping category carnes: 0 total products
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/shop/carnes?page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/shop/carnes?page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/shop/carnes?p=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/shop/carnes?p=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/shop/carnes/1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/shop/carnes/1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/shop/carnes&page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/shop/carnes&page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/shop/carnes
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/shop/carnes: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] No valid URL pattern worked for page 1 of carnes
+[SANTA_ISABEL] Completed scraping category carnes: 0 total products
+[SANTA_ISABEL] Category carnes completed. Estimated remaining time: 2 minutes
+[SANTA_ISABEL] Starting category 5/7: panaderia
+[SANTA_ISABEL] Scraping category: panaderia with 7 URL patterns
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/categoria/panaderia?page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/supermercado/categoria/panaderia?page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/categoria/panaderia?p=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/supermercado/categoria/panaderia?p=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/categoria/panaderia/1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/supermercado/categoria/panaderia/1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/categoria/panaderia&page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/supermercado/categoria/panaderia&page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/categoria/panaderia
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/supermercado/categoria/panaderia: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] No valid URL pattern worked for page 1 of panaderia
+[SANTA_ISABEL] Completed scraping category panaderia: 0 total products
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/categoria/panaderia?page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/categoria/panaderia?page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/categoria/panaderia?p=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/categoria/panaderia?p=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/categoria/panaderia/1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/categoria/panaderia/1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/categoria/panaderia&page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/categoria/panaderia&page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/categoria/panaderia
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/categoria/panaderia: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] No valid URL pattern worked for page 1 of panaderia
+[SANTA_ISABEL] Completed scraping category panaderia: 0 total products
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/products/panaderia?page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/products/panaderia?page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/products/panaderia?p=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/products/panaderia?p=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/products/panaderia/1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/products/panaderia/1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/products/panaderia&page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/products/panaderia&page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/products/panaderia
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/products/panaderia: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] No valid URL pattern worked for page 1 of panaderia
+[SANTA_ISABEL] Completed scraping category panaderia: 0 total products
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/panaderia?page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/panaderia?page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/panaderia?p=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/panaderia?p=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/panaderia/1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/panaderia/1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/panaderia&page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/panaderia&page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/panaderia
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/panaderia: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] No valid URL pattern worked for page 1 of panaderia
+[SANTA_ISABEL] Completed scraping category panaderia: 0 total products
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/panaderia?page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/supermercado/panaderia?page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/panaderia?p=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/supermercado/panaderia?p=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/panaderia/1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/supermercado/panaderia/1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/panaderia&page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/supermercado/panaderia&page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/panaderia
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/supermercado/panaderia: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] No valid URL pattern worked for page 1 of panaderia
+[SANTA_ISABEL] Completed scraping category panaderia: 0 total products
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/tienda/categoria/panaderia?page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/tienda/categoria/panaderia?page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/tienda/categoria/panaderia?p=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/tienda/categoria/panaderia?p=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/tienda/categoria/panaderia/1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/tienda/categoria/panaderia/1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/tienda/categoria/panaderia&page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/tienda/categoria/panaderia&page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/tienda/categoria/panaderia
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/tienda/categoria/panaderia: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] No valid URL pattern worked for page 1 of panaderia
+[SANTA_ISABEL] Completed scraping category panaderia: 0 total products
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/shop/panaderia?page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/shop/panaderia?page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/shop/panaderia?p=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/shop/panaderia?p=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/shop/panaderia/1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/shop/panaderia/1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/shop/panaderia&page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/shop/panaderia&page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/shop/panaderia
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/shop/panaderia: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] No valid URL pattern worked for page 1 of panaderia
+[SANTA_ISABEL] Completed scraping category panaderia: 0 total products
+[SANTA_ISABEL] Category panaderia completed. Estimated remaining time: 1 minutes
+[SANTA_ISABEL] Starting category 6/7: aseo
+[SANTA_ISABEL] Scraping category: aseo with 7 URL patterns
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/categoria/aseo?page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/supermercado/categoria/aseo?page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/categoria/aseo?p=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/supermercado/categoria/aseo?p=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/categoria/aseo/1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/supermercado/categoria/aseo/1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/categoria/aseo&page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/supermercado/categoria/aseo&page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/categoria/aseo
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/supermercado/categoria/aseo: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] No valid URL pattern worked for page 1 of aseo
+[SANTA_ISABEL] Completed scraping category aseo: 0 total products
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/categoria/aseo?page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/categoria/aseo?page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/categoria/aseo?p=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/categoria/aseo?p=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/categoria/aseo/1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/categoria/aseo/1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/categoria/aseo&page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/categoria/aseo&page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/categoria/aseo
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/categoria/aseo: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] No valid URL pattern worked for page 1 of aseo
+[SANTA_ISABEL] Completed scraping category aseo: 0 total products
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/products/aseo?page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/products/aseo?page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/products/aseo?p=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/products/aseo?p=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/products/aseo/1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/products/aseo/1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/products/aseo&page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/products/aseo&page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/products/aseo
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/products/aseo: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] No valid URL pattern worked for page 1 of aseo
+[SANTA_ISABEL] Completed scraping category aseo: 0 total products
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/aseo?page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/aseo?page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/aseo?p=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/aseo?p=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/aseo/1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/aseo/1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/aseo&page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/aseo&page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/aseo
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/aseo: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] No valid URL pattern worked for page 1 of aseo
+[SANTA_ISABEL] Completed scraping category aseo: 0 total products
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/aseo?page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/supermercado/aseo?page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/aseo?p=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/supermercado/aseo?p=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/aseo/1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/supermercado/aseo/1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/aseo&page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/supermercado/aseo&page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/aseo
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/supermercado/aseo: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] No valid URL pattern worked for page 1 of aseo
+[SANTA_ISABEL] Completed scraping category aseo: 0 total products
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/tienda/categoria/aseo?page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/tienda/categoria/aseo?page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/tienda/categoria/aseo?p=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/tienda/categoria/aseo?p=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/tienda/categoria/aseo/1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/tienda/categoria/aseo/1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/tienda/categoria/aseo&page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/tienda/categoria/aseo&page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/tienda/categoria/aseo
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/tienda/categoria/aseo: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] No valid URL pattern worked for page 1 of aseo
+[SANTA_ISABEL] Completed scraping category aseo: 0 total products
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/shop/aseo?page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/shop/aseo?page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/shop/aseo?p=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/shop/aseo?p=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/shop/aseo/1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/shop/aseo/1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/shop/aseo&page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/shop/aseo&page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/shop/aseo
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/shop/aseo: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] No valid URL pattern worked for page 1 of aseo
+[SANTA_ISABEL] Completed scraping category aseo: 0 total products
+[SANTA_ISABEL] Category aseo completed. Estimated remaining time: 0 minutes
+[SANTA_ISABEL] Starting category 7/7: hogar
+[SANTA_ISABEL] Scraping category: hogar with 7 URL patterns
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/categoria/hogar?page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/supermercado/categoria/hogar?page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/categoria/hogar?p=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/supermercado/categoria/hogar?p=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/categoria/hogar/1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/supermercado/categoria/hogar/1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/categoria/hogar&page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/supermercado/categoria/hogar&page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/categoria/hogar
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/supermercado/categoria/hogar: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] No valid URL pattern worked for page 1 of hogar
+[SANTA_ISABEL] Completed scraping category hogar: 0 total products
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/categoria/hogar?page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/categoria/hogar?page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/categoria/hogar?p=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/categoria/hogar?p=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/categoria/hogar/1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/categoria/hogar/1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/categoria/hogar&page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/categoria/hogar&page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/categoria/hogar
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/categoria/hogar: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] No valid URL pattern worked for page 1 of hogar
+[SANTA_ISABEL] Completed scraping category hogar: 0 total products
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/products/hogar?page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/products/hogar?page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/products/hogar?p=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/products/hogar?p=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/products/hogar/1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/products/hogar/1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/products/hogar&page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/products/hogar&page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/products/hogar
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/products/hogar: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] No valid URL pattern worked for page 1 of hogar
+[SANTA_ISABEL] Completed scraping category hogar: 0 total products
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/hogar?page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/hogar?page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/hogar?p=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/hogar?p=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/hogar/1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/hogar/1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/hogar&page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/hogar&page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/hogar
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/hogar: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] No valid URL pattern worked for page 1 of hogar
+[SANTA_ISABEL] Completed scraping category hogar: 0 total products
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/hogar?page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/supermercado/hogar?page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/hogar?p=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/supermercado/hogar?p=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/hogar/1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/supermercado/hogar/1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/hogar&page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/supermercado/hogar&page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/supermercado/hogar
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/supermercado/hogar: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] No valid URL pattern worked for page 1 of hogar
+[SANTA_ISABEL] Completed scraping category hogar: 0 total products
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/tienda/categoria/hogar?page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/tienda/categoria/hogar?page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/tienda/categoria/hogar?p=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/tienda/categoria/hogar?p=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/tienda/categoria/hogar/1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/tienda/categoria/hogar/1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/tienda/categoria/hogar&page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/tienda/categoria/hogar&page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/tienda/categoria/hogar
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/tienda/categoria/hogar: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] No valid URL pattern worked for page 1 of hogar
+[SANTA_ISABEL] Completed scraping category hogar: 0 total products
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/shop/hogar?page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/shop/hogar?page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/shop/hogar?p=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/shop/hogar?p=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/shop/hogar/1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/shop/hogar/1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/shop/hogar&page=1
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/shop/hogar&page=1: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] Attempting to load: https://www.santaisabel.cl/shop/hogar
+[SANTA_ISABEL] Failed to load https://www.santaisabel.cl/shop/hogar: page.goto: Target page, context or browser has been closed
+[SANTA_ISABEL] No valid URL pattern worked for page 1 of hogar
+[SANTA_ISABEL] Completed scraping category hogar: 0 total products
+[SANTA_ISABEL] Category hogar completed. Estimated remaining time: 0 minutes
+[SANTA_ISABEL] Updated global products: 0 total products across 0 stores
+[SANTA_ISABEL] Saved 0 products to /home/kuromatsu/Documents/ΛRΛMΛC/Websites/Minimarket/data/products/santa_isabel/products.json
+[SANTA_ISABEL] Scraping duration: 2 minutes
+[SANTA_ISABEL] ============================================================
+[SANTA_ISABEL] MASS SCRAPING COMPLETE
+[SANTA_ISABEL] Store: santa_isabel
+[SANTA_ISABEL] Total Duration: 2 minutes (136 seconds)
+[SANTA_ISABEL] Categories scraped: 7/7
+[SANTA_ISABEL] Pages visited: 0
+[SANTA_ISABEL] Products found: 0
+[SANTA_ISABEL] Images downloaded: 0
+[SANTA_ISABEL] Retries: 0
+[SANTA_ISABEL] Errors: 0
+[SANTA_ISABEL] Success rate: 0%
+[SANTA_ISABEL] Average products per page: 0
+[SANTA_ISABEL] Products per minute: 0
+[SANTA_ISABEL] ============================================================

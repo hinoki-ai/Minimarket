@@ -1,0 +1,23 @@
+MASSIVE CHILEAN SUPERMARKET PRODUCT LIBRARY
+============================================================
+
+📊 OVERVIEW
+Total Products: 11
+Stores Covered: 1 (lider)
+Categories: 2 (bebidas, snacks)
+Brands: 9
+Products with Images: 20
+Average Price: $3,177 CLP
+
+🏪 BY STORE
+LIDER: 11 products
+
+🏷️ BY CATEGORY
+SNACKS: 6 products
+BEBIDAS: 5 products
+
+💰 BY PRICE RANGE
+Under $1,000: 2
+$1,000 - $3,000: 4
+$3,000 - $5,000: 3
+Over $5,000: 2

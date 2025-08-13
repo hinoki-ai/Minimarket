@@ -7,7 +7,7 @@ test.describe('Navigation', () => {
     page.setDefaultNavigationTimeout(30000);
   });
 
-  test('can navigate to products and account (dashboard)', async ({ page, baseURL }) => {
+  test('can navigate to products and account (carrito)', async ({ page, baseURL }) => {
     const baseUrl = baseURL || 'http://localhost:3000';
 
     // Start from home page
@@ -30,17 +30,17 @@ test.describe('Navigation', () => {
     // Check for catalog heading with more specific selector
     await expect(page.locator('h1').filter({ hasText: /catálogo/i }).first()).toBeVisible({ timeout: 15000 });
 
-    // Navigate to dashboard (merged account/cart)
-    await page.goto(`${baseUrl}/dashboard`, { 
+    // Navigate to carrito (merged account/cart)
+    await page.goto(`${baseUrl}/carrito`, { 
       waitUntil: 'domcontentloaded',
       timeout: 30000 
     });
-    await expect(page).toHaveURL(/\/dashboard$/, { timeout: 15000 });
+    await expect(page).toHaveURL(/\/carrito$/, { timeout: 15000 });
     
     // Wait for page to be fully loaded
     await page.waitForLoadState('domcontentloaded');
     
-    // Check for dashboard heading
+    // Check for carrito heading
     await expect(page.locator('h1').filter({ hasText: /panel|mi cuenta/i }).first()).toBeVisible({ timeout: 15000 });
   });
 });
