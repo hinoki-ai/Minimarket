@@ -251,33 +251,33 @@ The project features a revolutionary **Ultra-Advanced Scraper Engine** that repl
 - **Unified Data Pipeline**: Built-in validation, deduplication, and quality scoring
 
 **Core Components:**
-- `scripts/ultra-scraper.js` - 🎯 Main ultra-advanced scraping engine (replaces 15 old scrapers)
-- `scripts/data-validator.js` - Data validation and deduplication utilities
-- `scripts/product-library.js` - Search and indexing system for products
-- `scripts/product-schema.js` - Universal schema supporting minimarket and hardware products
-- `scripts/legacy-scrapers/` - Backup of replaced scrapers for reference
+- `/home/kuromatsu/Documents/ΛRΛMΛC/Scripts/ultra-scraper.js` - 🎯 Main ultra-advanced scraping engine (replaces 15 old scrapers)
+- `/home/kuromatsu/Documents/ΛRΛMΛC/Scripts/data-validator.js` - Data validation and deduplication utilities
+- `/home/kuromatsu/Documents/ΛRΛMΛC/Scripts/product-library.js` - Search and indexing system for products
+- `/home/kuromatsu/Documents/ΛRΛMΛC/Scripts/product-schema.js` - Universal schema supporting minimarket and hardware products
+- `/home/kuromatsu/Documents/ΛRΛMΛC/Scripts/legacy-scrapers/` - Backup of replaced scrapers for reference
 
 **Supported Stores:** Líder, Jumbo, Santa Isabel, Unimarc, Tottus, Easy, Falabella, París, Sodimac
 
 **Usage Examples:**
 ```bash
 # Quick start with intelligent strategy (recommended)
-cd scripts && node ultra-scraper.js --max-products 100 --verbose
+node /home/kuromatsu/Documents/ΛRΛMΛC/Scripts/ultra-scraper.js --max-products 100 --verbose
 
 # Specific stores and categories
-node ultra-scraper.js --stores lider,jumbo --categories bebidas,snacks --max-products 200
+node /home/kuromatsu/Documents/ΛRΛMΛC/Scripts/ultra-scraper.js --stores lider,jumbo --categories bebidas,snacks --max-products 200
 
 # Aggressive strategy for maximum extraction
-node ultra-scraper.js --strategy aggressive --max-products 1000
+node /home/kuromatsu/Documents/ΛRΛMΛC/Scripts/ultra-scraper.js --strategy aggressive --max-products 1000
 
 # Advanced penetration for protected stores
-node ultra-scraper.js --strategy penetration --stores falabella --verbose
+node /home/kuromatsu/Documents/ΛRΛMΛC/Scripts/ultra-scraper.js --strategy penetration --stores falabella --verbose
 
 # Validate and clean data
-node data-validator.js ../data/ultra-scraper/products/
+node /home/kuromatsu/Documents/ΛRΛMΛC/Scripts/data-validator.js /home/kuromatsu/Documents/ΛRΛMΛC/Websites/Minimarket/data/ultra-scraper/products/
 
 # Search products
-node product-library.js search "coca cola"
+node /home/kuromatsu/Documents/ΛRΛMΛC/Scripts/product-library.js search "coca cola"
 ```
 
 **New Data Organization:**

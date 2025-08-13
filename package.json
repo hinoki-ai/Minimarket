@@ -22,10 +22,11 @@
     "e2e:with-server": "playwright test -c playwright.with-server.config.ts",
     "lighthouse": "lhci autorun",
     "playwright:install": "playwright install --with-deps",
+    "scrape": "node /home/kuromatsu/Documents/ΛRΛMΛC/Scripts/ultra-scraper.js",
     "scrape:lider": "node scripts/scrape_lider_products.js",
     "scrape:lider:clean": "node scripts/clean_lider_images.js",
     "scrape:lider:clean:delete": "DELETE_TINY=1 node scripts/clean_lider_images.js",
-    "xx": "node scripts/xx-cli.js"
+    "xx": "node /home/kuromatsu/Documents/ΛRΛMΛC/Scripts/ultra-scraper.js --strategy aggressive --max-products 5000 --concurrent 6 --no-resume --verbose"
   },
   "dependencies": {
     "@clerk/backend": "^2.4.1",
