@@ -398,27 +398,24 @@ export const validateCart = query({
       }
     }
     
-    // If there are price changes, recalculate cart totals
-    if (validItems.some(item => 
-      cart.items.find(cartItem => 
-        cartItem.productId === item.productId && cartItem.price !== item.price
+    // If there are price changes, recompute totals. Since this is a query, we
+    // cannot write to the database here. The client can call a mutation to
+    // apply these changes using the returned `updatedCart` payload.
+    let recomputed: { subtotal: number; tax: number; total: number } | null = null;
+    if (
+      validItems.some((item) =>
+        cart.items.find((cartItem: { productId: Id<"products">; price: number }) =>
+          cartItem.productId === item.productId && cartItem.price !== item.price
+        )
       )
-    )) {
+    ) {
       const subtotal = validItems.reduce(
         (sum, item) => sum + (item.price * item.quantity), 
         0
       );
       const tax = subtotal * CHILEAN_TAX_RATE;
       const total = subtotal + tax;
-      
-      // Update cart with new prices
-      await ctx.db.patch(cart._id, {
-        items: validItems,
-        subtotal,
-        tax,
-        total,
-        updatedAt: Date.now(),
-      });
+      recomputed = { subtotal, tax, total };
     }
     
     return {
@@ -427,6 +424,7 @@ export const validateCart = query({
       updatedCart: errors.length === 0 ? null : {
         ...cart,
         items: validItems,
+        ...(recomputed ?? {}),
       },
     };
   },

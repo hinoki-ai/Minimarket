@@ -20,8 +20,7 @@ export default defineConfig({
     // Better mobile emulation
     viewport: { width: 1280, height: 720 },
     ignoreHTTPSErrors: true,
-    // Wait for network requests to settle
-    waitForURL: true,
+    // Removed unsupported property for Playwright use options
   },
   projects: [
     {

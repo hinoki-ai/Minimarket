@@ -21,7 +21,7 @@ export default defineSchema({
         currency: v.string(), // "CLP", "JPY", etc.
         notifications: v.boolean(),
       })),
-      createdAt: v.number(),
+      createdAt: v.optional(v.number()),
       lastLoginAt: v.optional(v.number()),
     }).index("byExternalId", ["externalId"])
       .index("byEmail", ["email"]),
@@ -272,4 +272,12 @@ export default defineSchema({
       .index("byPaymentId", ["payment_id"])
       .index("byUserId", ["userId"])
       .index("byPayerUserId", ["payer.user_id"]),
+
+    // Wishlist items per user
+    wishlists: defineTable({
+      userId: v.string(),
+      productId: v.id("products"),
+      createdAt: v.number(),
+    }).index("byUser", ["userId", "createdAt"]) 
+      .index("byUserProduct", ["userId", "productId"]),
   });

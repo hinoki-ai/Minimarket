@@ -8,7 +8,7 @@ export function WebVitals() {
   useEffect(() => {
     // Only load web-vitals in the browser
     if (typeof window !== 'undefined') {
-      import('web-vitals').then(({ onCLS, onFID, onFCP, onLCP, onTTFB }) => {
+      import('web-vitals').then(({ onCLS, onFID, onFCP, onLCP, onTTFB, onINP }) => {
         function reportMetric(metric: Metric) {
           // Determine rating based on Google's thresholds
           let rating: 'good' | 'needs-improvement' | 'poor' = 'good';
@@ -21,6 +21,10 @@ export function WebVitals() {
             case 'FID':
               if (metric.value > 300) rating = 'poor';
               else if (metric.value > 100) rating = 'needs-improvement';
+              break;
+            case 'INP':
+              if (metric.value > 500) rating = 'poor';
+              else if (metric.value > 200) rating = 'needs-improvement';
               break;
             case 'FCP':
               if (metric.value > 3000) rating = 'poor';
@@ -50,7 +54,8 @@ export function WebVitals() {
           if (process.env.NODE_ENV === 'production') {
             // Send to Google Analytics if available
             if (typeof window !== 'undefined' && 'gtag' in window) {
-              (window as any).gtag('event', metric.name, {
+              const w = window as unknown as { gtag?: (...args: unknown[]) => void };
+              w.gtag?.('event', metric.name, {
                 event_category: 'Web Vitals',
                 value: Math.round(metric.value),
                 non_interaction: true,
@@ -59,22 +64,40 @@ export function WebVitals() {
             }
 
             // Send to Vercel Analytics if available
-            if (typeof window !== 'undefined' && (window as any).va) {
-              (window as any).va('track', 'Web Vitals', {
+            if (typeof window !== 'undefined') {
+              const w2 = window as unknown as { va?: (...args: unknown[]) => void };
+              w2.va?.('track', 'Web Vitals', {
                 metric: metric.name,
                 value: metric.value,
                 rating,
               });
             }
 
-            // You can also send to other analytics services here
-            // Example: PostHog, Mixpanel, Custom API, etc.
+            // Send to a basic endpoint for error monitoring / vitals if configured
+            try {
+              const analyticsEndpoint = (window as unknown as { __ANALYTICS_ENDPOINT__?: string }).__ANALYTICS_ENDPOINT__;
+              if (analyticsEndpoint) {
+                fetch(analyticsEndpoint, {
+                  method: 'POST',
+                  headers: { 'Content-Type': 'application/json' },
+                  keepalive: true,
+                  body: JSON.stringify({
+                    type: 'web-vital',
+                    name: metric.name,
+                    value: metric.value,
+                    rating,
+                    id: metric.id,
+                  }),
+                }).catch(() => {});
+              }
+            } catch {}
           }
         }
 
         // Observe all Core Web Vitals
         onCLS(reportMetric, { reportAllChanges: false });
         onFID(reportMetric, { reportAllChanges: false });
+        onINP(reportMetric, { reportAllChanges: false });
         onFCP(reportMetric, { reportAllChanges: false });
         onLCP(reportMetric, { reportAllChanges: false });
         onTTFB(reportMetric, { reportAllChanges: false });
@@ -124,10 +147,15 @@ export function PerformanceWarnings() {
       try {
         const observer = new PerformanceObserver((list) => {
           for (const entry of list.getEntries()) {
-            const layoutShift = entry as any;
-            if (!layoutShift.hadRecentInput && layoutShift.value > 0.1) {
-              console.warn(`📏 Layout Shift detected: ${layoutShift.value.toFixed(4)}`, {
-                sources: layoutShift.sources?.map((source: any) => ({
+            const layoutShift = entry as unknown as {
+              hadRecentInput?: boolean;
+              value?: number;
+              sources?: Array<{ node: Node; previousRect: DOMRectReadOnly; currentRect: DOMRectReadOnly }>;
+            };
+            if (!layoutShift.hadRecentInput && (layoutShift.value ?? 0) > 0.1) {
+              const v = layoutShift.value ?? 0;
+              console.warn(`📏 Layout Shift detected: ${v.toFixed(4)}`, {
+                sources: layoutShift.sources?.map((source) => ({
                   node: source.node,
                   previousRect: source.previousRect,
                   currentRect: source.currentRect,
@@ -139,7 +167,7 @@ export function PerformanceWarnings() {
         observer.observe({ entryTypes: ['layout-shift'] });
 
         return () => observer.disconnect();
-      } catch (error) {
+      } catch {
         // Layout shift not supported
       }
     }

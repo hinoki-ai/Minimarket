@@ -21,10 +21,10 @@ function FeaturesCard() {
     <div className="px-4 lg:px-6">
       <div className="flex flex-col gap-4">
         <div className="flex items-center justify-between">
-          <h1 className="text-2xl font-bold">Funciones avanzadas</h1>
+          <h2 className="text-2xl font-bold">Funciones avanzadas</h2>
         </div>
         <div className="rounded-lg border bg-card p-6">
-          <h2 className="text-lg font-semibold mb-4">Página con funciones avanzadas</h2>
+          <h3 className="text-lg font-semibold mb-4">Página con funciones avanzadas</h3>
             <p className="text-muted-foreground">
               Acceso a funciones avanzadas.
             </p>

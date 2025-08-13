@@ -12,16 +12,19 @@ import { HeroHeader } from './(landing)/header'
 import FooterSection from './(landing)/footer'
 import { PerformanceMonitor } from '@/components/performance/web-vitals'
 import CookieConsent from '@/components/CookieConsent'
+import Script from 'next/script'
 
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
+  display: "swap",
 });
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
+  display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -55,14 +58,15 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: "/favicon.ico" },
-      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/gfav.png", type: "image/png" },
     ],
-    apple: [{ url: "/apple-touch-icon.png" }],
+    apple: [{ url: "/gfav.png" }],
   },
 };
 
 export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
   themeColor: [
     { media: "(prefers-color-scheme: light)", color: "#ffffff" },
     { media: "(prefers-color-scheme: dark)", color: "#0a0a0a" },
@@ -79,6 +83,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased overscroll-none`}
       >
+        <a href="#main" className="skip-link">Saltar al contenido</a>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
@@ -89,6 +94,18 @@ export default function RootLayout({
             <ConvexClientProvider>
               {/* Performance monitoring */}
               <PerformanceMonitor />
+              {/* Vercel Analytics (optional) */}
+              <Script src="/va.js" strategy="lazyOnload" />
+              {/* Register Service Worker for basic offline cache */}
+              <Script id="sw-register" strategy="afterInteractive">{`
+                if ('serviceWorker' in navigator) {
+                  window.addEventListener('load', function() {
+                    navigator.serviceWorker.register('/sw.js').catch(function(err) {
+                      console.warn('SW registration failed', err);
+                    });
+                  });
+                }
+              `}</Script>
               
               <OrganizationJsonLd 
                 name="Minimarket ARAMAC" 
@@ -101,7 +118,7 @@ export default function RootLayout({
                 searchUrlTemplate="https://minimarket-aramac.local/search?q={search_term_string}"
               />
               <HeroHeader />
-              <main className="pt-20 pb-20 lg:pb-0">
+              <main id="main" className="pt-20 pb-20 lg:pb-0">
                 {children}
               </main>
               <CookieConsent />

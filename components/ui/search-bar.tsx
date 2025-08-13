@@ -7,9 +7,9 @@ import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
+import Image from 'next/image';
 import { cn } from '@/lib/utils';
 import { 
-  handleKeyboardNavigation, 
   useScreenReader,
   focusManager 
 } from '@/lib/accessibility';
@@ -192,11 +192,13 @@ export function SearchBar({
         return <TrendingUp className="h-4 w-4 text-muted-foreground" />;
       case 'product':
         return suggestion.image ? (
-          <div className="w-8 h-8 rounded bg-muted overflow-hidden flex-shrink-0">
-            <img 
-              src={suggestion.image} 
+          <div className="w-8 h-8 rounded bg-muted overflow-hidden flex-shrink-0 relative">
+            <Image 
+              src={suggestion.image}
               alt={suggestion.text}
-              className="w-full h-full object-cover"
+              fill
+              sizes="32px"
+              className="object-cover"
             />
           </div>
         ) : (
@@ -248,7 +250,7 @@ export function SearchBar({
             }}
             onKeyDown={handleInputKeyDown}
             onFocus={() => setIsOpen(true)}
-            onBlur={(e) => {
+            onBlur={() => {
               // Delay closing to allow click on suggestions
               setTimeout(() => setIsOpen(false), 200);
             }}

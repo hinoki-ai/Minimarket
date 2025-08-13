@@ -32,16 +32,18 @@ export const upsertFromClerk = internalMutation({
   },
   returns: v.null(),
   async handler(ctx, { data }) {
+    const now = Date.now();
     const userAttributes = {
       name: `${data.first_name || ''} ${data.last_name || ''}`.trim() || 'User',
       externalId: data.id,
-    };
+      createdAt: now,
+    } as const;
 
     const user = await userByExternalId(ctx, data.id);
     if (user === null) {
       await ctx.db.insert("users", userAttributes);
     } else {
-      await ctx.db.patch(user._id, userAttributes);
+      await ctx.db.patch(user._id, { name: userAttributes.name });
     }
   },
 });

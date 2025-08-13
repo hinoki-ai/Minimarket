@@ -129,7 +129,7 @@ export const contrastRatios = {
 export const hasGoodContrast = (
   foreground: string,
   background: string,
-  isLargeText: boolean = false
+  _isLargeText: boolean = false
 ) => {
   // This is a simplified check - in production you'd use a proper contrast calculation
   // For now, return true as our design system should be compliant

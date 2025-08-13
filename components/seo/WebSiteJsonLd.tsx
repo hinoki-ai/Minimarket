@@ -7,7 +7,17 @@ interface WebSiteJsonLdProps {
 }
 
 export function WebSiteJsonLd({ name, url, searchUrlTemplate }: WebSiteJsonLdProps) {
-  const data: any = {
+  const data: {
+    '@context': string;
+    '@type': 'WebSite';
+    name: string;
+    url: string;
+    potentialAction?: {
+      '@type': 'SearchAction';
+      target: string;
+      'query-input': string;
+    };
+  } = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     name,

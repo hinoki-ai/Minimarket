@@ -146,16 +146,20 @@ export function addResourceHint(url: string, type: 'preload' | 'prefetch' | 'dns
 }
 
 // Lazy load component utility
-export function createLazyComponent<T extends React.ComponentType<any>>(
+export function createLazyComponent<T extends React.ComponentType<unknown>>(
   importFunc: () => Promise<{ default: T }>,
   fallback?: React.ComponentType
 ) {
   const LazyComponent = React.lazy(importFunc);
   
-  return (props: React.ComponentProps<T>) => 
-    React.createElement(React.Suspense, {
-      fallback: fallback ? React.createElement(fallback) : React.createElement('div', {}, 'Loading...')
-    }, React.createElement(LazyComponent, props));
+  const Anonymous = (props: React.ComponentProps<T>) => 
+    React.createElement(
+      React.Suspense,
+      { fallback: fallback ? React.createElement(fallback) : React.createElement('div', {}, 'Loading...') },
+      React.createElement(LazyComponent as unknown as React.ComponentType<unknown>, { ...(props as Record<string, unknown>) })
+    );
+  (Anonymous as unknown as { displayName?: string }).displayName = 'LazyComponentWrapper';
+  return Anonymous;
 }
 
 // Critical path optimization

@@ -71,7 +71,13 @@ export function MiniCartSheet({
               {cart.items.map((item: any) => (
                 <div key={item.productId} className="flex items-center gap-3">
                   <div className="relative h-16 w-16 overflow-hidden rounded-md border">
-                    <Image src={item.product?.images?.[0]?.url || "/placeholder-product.jpg"} alt={item.product?.images?.[0]?.alt || item.product?.name || "Producto"} fill className="object-cover" />
+                    <Image
+                      src={item.product?.images?.[0]?.url || "/placeholder-product.jpg"}
+                      alt={item.product?.images?.[0]?.alt || item.product?.name || "Producto"}
+                      fill
+                      sizes="64px"
+                      className="object-cover"
+                    />
                   </div>
                   <div className="flex-1 min-w-0">
                     <Link href={`/products/${item.product?.slug ?? ""}`} className="block font-medium line-clamp-1">
@@ -79,16 +85,16 @@ export function MiniCartSheet({
                     </Link>
                     <p className="text-sm text-muted-foreground">{formatCLP(item.price)}</p>
                     <div className="mt-2 inline-flex items-center gap-2">
-                      <Button variant="outline" size="icon" className="h-7 w-7" onClick={() => updateItem({ productId: item.productId, quantity: Math.max(1, (item.quantity ?? 1) - 1), userId: userId ?? undefined, sessionId: userId ? undefined : sessionId ?? undefined })}>
+                      <Button variant="outline" size="icon" className="h-7 w-7" aria-label="Disminuir cantidad" onClick={() => updateItem({ productId: item.productId, quantity: Math.max(1, (item.quantity ?? 1) - 1), userId: userId ?? undefined, sessionId: userId ? undefined : sessionId ?? undefined })}>
                         <Minus className="h-4 w-4" />
                       </Button>
                       <span className="text-sm w-6 text-center">{item.quantity}</span>
-                      <Button variant="outline" size="icon" className="h-7 w-7" onClick={() => updateItem({ productId: item.productId, quantity: Math.min(99, (item.quantity ?? 1) + 1), userId: userId ?? undefined, sessionId: userId ? undefined : sessionId ?? undefined })}>
+                      <Button variant="outline" size="icon" className="h-7 w-7" aria-label="Aumentar cantidad" onClick={() => updateItem({ productId: item.productId, quantity: Math.min(99, (item.quantity ?? 1) + 1), userId: userId ?? undefined, sessionId: userId ? undefined : sessionId ?? undefined })}>
                         <Plus className="h-4 w-4" />
                       </Button>
                     </div>
                   </div>
-                  <Button variant="ghost" size="icon" className="h-8 w-8" onClick={() => removeItem({ productId: item.productId, userId: userId ?? undefined, sessionId: userId ? undefined : sessionId ?? undefined })}>
+                  <Button variant="ghost" size="icon" className="h-8 w-8" aria-label="Eliminar del carrito" onClick={() => removeItem({ productId: item.productId, userId: userId ?? undefined, sessionId: userId ? undefined : sessionId ?? undefined })}>
                     <Trash2 className="h-4 w-4" />
                   </Button>
                 </div>

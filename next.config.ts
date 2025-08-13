@@ -37,22 +37,63 @@ export default function (phase: string) {
 
     // Headers for caching and security
     async headers() {
+      // Build Content Security Policy
+      const cspProd = [
+        "default-src 'self'",
+        "base-uri 'self'",
+        "form-action 'self'",
+        "frame-ancestors 'none'",
+        // Allow Next.js runtime and same-origin scripts. Avoid unsafe-eval in prod.
+        "script-src 'self' 'strict-dynamic' 'nonce-__CSP_NONCE__' 'unsafe-inline'",
+        // Images may include data URLs and blobs for placeholders
+        "img-src 'self' data: blob:",
+        // Styles allow inline for Tailwind and Next/font
+        "style-src 'self' 'unsafe-inline'",
+        // Fonts from self
+        "font-src 'self'",
+        // Connections for APIs and Next.js HMR/analytics (self)
+        "connect-src 'self' https:",
+        // Media/object blocked by default
+        "object-src 'none'",
+        "media-src 'self'",
+        // Upgrade any http subrequests
+        'upgrade-insecure-requests'
+      ].join('; ');
+
+      const cspDev = [
+        "default-src 'self'",
+        // Dev server needs eval for React Refresh
+        "script-src 'self' 'unsafe-eval' 'unsafe-inline'",
+        "img-src 'self' data: blob:",
+        "style-src 'self' 'unsafe-inline'",
+        "font-src 'self'",
+        "connect-src 'self' ws: http: https:",
+        "object-src 'none'",
+      ].join('; ');
+
+      const commonSecurityHeaders = [
+        { key: 'X-Frame-Options', value: 'DENY' },
+        { key: 'X-Content-Type-Options', value: 'nosniff' },
+        { key: 'Referrer-Policy', value: 'origin-when-cross-origin' },
+        // Mitigate reflected XSS in older browsers
+        { key: 'X-XSS-Protection', value: '1; mode=block' },
+      ];
+
+      const strictTransportSecurity = {
+        key: 'Strict-Transport-Security',
+        value: 'max-age=63072000; includeSubDomains; preload',
+      };
+
       return [
         {
           source: "/(.*)",
           headers: [
-            {
-              key: "X-Frame-Options",
-              value: "DENY",
-            },
-            {
-              key: "X-Content-Type-Options",
-              value: "nosniff",
-            },
-            {
-              key: "Referrer-Policy",
-              value: "origin-when-cross-origin",
-            },
+            // Security headers
+            ...(commonSecurityHeaders as any),
+            // HSTS only on HTTPS (typically production)
+            ...(!isDevServer ? [strictTransportSecurity] : []),
+            // Add CSP
+            { key: 'Content-Security-Policy', value: !isDevServer ? cspProd : cspDev },
           ],
         },
         {
@@ -107,6 +148,17 @@ export default function (phase: string) {
           usedExports: true,
           sideEffects: false,
         };
+      }
+
+      // Enable bundle analyzer if ANALYZE=true
+      if (process.env.ANALYZE === 'true' && !isServer) {
+        try {
+          const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
+          webpackConfig.plugins = webpackConfig.plugins || [];
+          webpackConfig.plugins.push(new BundleAnalyzerPlugin({ analyzerMode: 'static', openAnalyzer: false }));
+        } catch (e) {
+          // Analyzer not installed; skip silently
+        }
       }
 
       return webpackConfig;

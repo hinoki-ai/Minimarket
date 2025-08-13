@@ -57,6 +57,7 @@ export default function HeroSection() {
                                             height={1024}
                                             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1000px"
                                             priority
+                                            fetchPriority="high"
                                         />
                                     </div>
                                 </div>

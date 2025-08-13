@@ -1,4 +1,5 @@
 import { cn } from '@/lib/utils'
+import Image from 'next/image'
 
 const MESCHAC_AVATAR = 'https://avatars.githubusercontent.com/u/47919550?v=4'
 const BERNARD_AVATAR = 'https://avatars.githubusercontent.com/u/31113941?v=4'
@@ -80,12 +81,13 @@ export const Table = ({ className }: { className?: string }) => {
                             </td>
                             <td>
                                 <div className="text-title flex items-center gap-2">
-                                    <div className="size-6 overflow-hidden rounded-full">
-                                        <img
+                                    <div className="size-6 overflow-hidden rounded-full relative">
+                                        <Image
                                             src={customer.avatar}
                                             alt={customer.name}
-                                            width="120"
-                                            height="120"
+                                            fill
+                                            sizes="24px"
+                                            className="object-cover"
                                             loading="lazy"
                                         />
                                     </div>

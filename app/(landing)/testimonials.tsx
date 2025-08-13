@@ -1,6 +1,5 @@
-import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
-import { Card, CardContent } from '@/components/ui/card'
 import { ShieldCheck, CreditCard, Lock } from 'lucide-react'
+import AnimatedTestimonials, { type AnimatedTestimonial } from '@/components/ui/animated-testimonials'
 
 type Testimonial = {
     name: string
@@ -48,15 +47,12 @@ const testimonials: Testimonial[] = [
     },
 ]
 
-const chunkArray = (array: Testimonial[], chunkSize: number): Testimonial[][] => {
-    const result: Testimonial[][] = []
-    for (let i = 0; i < array.length; i += chunkSize) {
-        result.push(array.slice(i, i + chunkSize))
-    }
-    return result
-}
-
-const testimonialChunks = chunkArray(testimonials, Math.ceil(testimonials.length / 3))
+const animatedTestimonials: AnimatedTestimonial[] = testimonials.map((t) => ({
+    quote: t.quote,
+    name: t.name,
+    designation: t.role,
+    src: t.image,
+}))
 
 export default function WallOfLoveSection() {
     return (
@@ -79,39 +75,8 @@ export default function WallOfLoveSection() {
                             </span>
                         </div>
                     </div>
-                    <div className="mt-8 grid gap-3 sm:grid-cols-2 md:mt-12 lg:grid-cols-3">
-                        {testimonialChunks.map((chunk, chunkIndex) => (
-                            <div
-                                key={chunkIndex}
-                                className="space-y-3">
-                                {chunk.map(({ name, role, quote, image }, index) => (
-                                    <Card key={index}>
-                                        <CardContent className="grid grid-cols-[auto_1fr] gap-3 pt-6">
-                                            <Avatar className="size-9">
-                                                <AvatarImage
-                                                    alt={name}
-                                                    src={image}
-                                                    loading="lazy"
-                                                    width="120"
-                                                    height="120"
-                                                />
-                                                <AvatarFallback>MA</AvatarFallback>
-                                            </Avatar>
-
-                                            <div>
-                                                <h3 className="font-medium">{name}</h3>
-
-                                                <span className="text-muted-foreground block text-sm tracking-wide">{role}</span>
-
-                                                <blockquote className="mt-3">
-                                                    <p className="text-gray-700 dark:text-gray-300">{quote}</p>
-                                                </blockquote>
-                                            </div>
-                                        </CardContent>
-                                    </Card>
-                                ))}
-                            </div>
-                        ))}
+                    <div className="mt-8 md:mt-12">
+                        <AnimatedTestimonials testimonials={animatedTestimonials} autoplay />
                     </div>
                 </div>
             </div>

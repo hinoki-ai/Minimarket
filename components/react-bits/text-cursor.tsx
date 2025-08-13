@@ -99,7 +99,7 @@ const TextCursor: React.FC<TextCursorProps> = ({
     if (!container) return;
     container.addEventListener("mousemove", handleMouseMove);
     return () => container.removeEventListener("mousemove", handleMouseMove);
-  }, []);
+  }, [handleMouseMove]);
 
   useEffect(() => {
     const interval = setInterval(() => {

@@ -22,6 +22,21 @@ export const getOrder = query({
   },
 });
 
+// List orders for a user (order history)
+export const listOrdersByUser = query({
+  args: { userId: v.string(), limit: v.optional(v.number()) },
+  handler: async (ctx, args) => {
+    const { userId, limit = 20 } = args;
+    const orders = await ctx.db
+      .query("orders")
+      .withIndex("byUser", (q) => q.eq("userId", userId))
+      .collect();
+    return orders
+      .sort((a, b) => b.createdAt - a.createdAt)
+      .slice(0, limit);
+  },
+});
+
 // Create order from current cart
 export const createOrder = mutation({
   args: {

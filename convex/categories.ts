@@ -8,13 +8,12 @@ export const getCategories = query({
   handler: async (ctx, args) => {
     const { includeInactive = false } = args;
     
-    let query = ctx.db.query("categories");
-    
-    if (!includeInactive) {
-      query = query.withIndex("byActive", (q) => q.eq("isActive", true));
-    }
-    
-    const categories = await query.collect();
+    const categories = includeInactive
+      ? await ctx.db.query("categories").collect()
+      : await ctx.db
+          .query("categories")
+          .withIndex("byActive", (q) => q.eq("isActive", true))
+          .collect();
     
     // Sort by sortOrder and build hierarchy
     return categories.sort((a, b) => a.sortOrder - b.sortOrder);
@@ -301,7 +300,7 @@ export const getCategoryBreadcrumb = query({
     
     // Walk up the parent chain
     while (currentId) {
-      const category = await ctx.db.get(currentId);
+      const category: Doc<"categories"> | null = await ctx.db.get(currentId);
       if (!category) break;
       
       breadcrumb.unshift(category);

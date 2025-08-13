@@ -77,7 +77,7 @@ export default function CookieConsent() {
   const [bannerOpen, setBannerOpen] = React.useState(true)
   const [sheetOpen, setSheetOpen] = React.useState(false)
   const [activeTab, setActiveTab] = React.useState<"summary" | "details">("summary")
-  const [minimized, setMinimized] = React.useState(false)
+  // const [minimized, setMinimized] = React.useState(false)
 
   const [categories, setCategories] = React.useState<Record<ConsentCategory, boolean>>({
     necessary: true,
@@ -131,7 +131,6 @@ export default function CookieConsent() {
     if (existing) {
       setCategories(existing.categories)
       setBannerOpen(false)
-      setMinimized(true)
       return
     }
 
@@ -146,9 +145,25 @@ export default function CookieConsent() {
       setCategories(necessaryOnly)
       writeConsent({ v: CONSENT_VERSION, ts: Date.now(), categories: necessaryOnly, gpc: true })
       setBannerOpen(false)
-      setMinimized(true)
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
+
+  // Allow opening the manager from anywhere via a custom browser event
+  React.useEffect(() => {
+    const handler = (event: Event) => {
+      const custom = event as CustomEvent<{ tab?: "summary" | "details" }>
+      const tab = custom.detail?.tab === "details" ? "details" : "summary"
+      openManager(tab)
+    }
+    if (typeof window !== "undefined") {
+      window.addEventListener("open-cookie-settings", handler as EventListener)
+    }
+    return () => {
+      if (typeof window !== "undefined") {
+        window.removeEventListener("open-cookie-settings", handler as EventListener)
+      }
+    }
   }, [])
 
   function openManager(tab?: "summary" | "details") {
@@ -161,7 +176,6 @@ export default function CookieConsent() {
     setCategories(next)
     writeConsent({ v: CONSENT_VERSION, ts: Date.now(), categories: next, gpc })
     setBannerOpen(false)
-    setMinimized(true)
   }
 
   function rejectAll() {
@@ -169,7 +183,6 @@ export default function CookieConsent() {
     setCategories(next)
     writeConsent({ v: CONSENT_VERSION, ts: Date.now(), categories: next, gpc })
     setBannerOpen(false)
-    setMinimized(true)
   }
 
   function saveChoices() {
@@ -177,7 +190,6 @@ export default function CookieConsent() {
     writeConsent({ v: CONSENT_VERSION, ts: Date.now(), categories: next, gpc })
     setBannerOpen(false)
     setSheetOpen(false)
-    setMinimized(true)
   }
 
   function toggleCategory(key: ConsentCategory, value: boolean) {
@@ -224,21 +236,7 @@ export default function CookieConsent() {
         </div>
       )}
 
-      {minimized && !bannerOpen && (
-        <div className="fixed bottom-4 right-4 z-40">
-          <button
-            aria-label="Abrir configuración de privacidad"
-            onClick={() => openManager("summary")}
-            className="bg-background text-foreground shadow-sm hover:shadow-md ring-offset-background focus-visible:ring-ring/50 focus-visible:ring-2 border inline-flex items-center gap-2 rounded-full px-3 py-2 text-xs transition-all"
-          >
-            <span className="relative inline-flex h-2 w-2 overflow-hidden rounded-full bg-input">
-              <span className="absolute inset-0 animate-ping rounded-full bg-primary/40" />
-              <span className="absolute inset-0 rounded-full bg-primary" />
-            </span>
-            {t.minimized.button}
-          </button>
-        </div>
-      )}
+      {/* Minimized floating button removed in favor of triggering from bottom bar Cuenta button */}
 
       <Sheet open={sheetOpen} onOpenChange={setSheetOpen}>
         <SheetContent side="bottom" className="rounded-t-xl border-t relative overflow-hidden">

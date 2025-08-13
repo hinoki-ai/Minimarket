@@ -9,40 +9,54 @@ export const getProducts = query({
     limit: v.optional(v.number()),
     cursor: v.optional(v.string()),
     sortBy: v.optional(v.union(v.literal("price"), v.literal("name"), v.literal("popularity"), v.literal("newest"))),
+    minPrice: v.optional(v.number()),
+    maxPrice: v.optional(v.number()),
+    tags: v.optional(v.array(v.string())),
   },
   handler: async (ctx, args) => {
-    const { categoryId, limit = 20, sortBy = "newest" } = args;
+    const { categoryId, limit = 20, sortBy = "newest", minPrice, maxPrice, tags } = args;
     
-    let query = ctx.db.query("products")
-      .filter((q) => q.eq(q.field("isActive"), true));
-    
+    // Use indexes where available
+    let base = ctx.db.query("products").withIndex("byActive", (q) => q.eq("isActive", true));
     if (categoryId) {
-      query = query.filter((q) => q.eq(q.field("categoryId"), categoryId));
+      base = ctx.db.query("products").withIndex("byCategory", (q) => q.eq("categoryId", categoryId).eq("isActive", true));
+    }
+
+    // Collect and filter client-side only for fields without compound indexes
+    let products = await base.collect();
+
+    if (typeof minPrice === 'number') {
+      products = products.filter((p) => p.price >= minPrice);
+    }
+    if (typeof maxPrice === 'number') {
+      products = products.filter((p) => p.price <= maxPrice);
+    }
+    if (tags && tags.length > 0) {
+      products = products.filter((p) => tags.every((t) => p.tags.includes(t)));
     }
 
     // Apply sorting
     switch (sortBy) {
       case "price":
-        query = query.order("asc");
+        products.sort((a, b) => a.price - b.price);
         break;
       case "name":
-        query = query.order("asc");
+        products.sort((a, b) => a.name.localeCompare(b.name));
         break;
       case "popularity":
-        // Sort by popular items first, then by creation date
-        const products = await query.collect();
-        return products.sort((a, b) => {
+        products.sort((a, b) => {
           if (a.freshness?.isPopular && !b.freshness?.isPopular) return -1;
           if (!a.freshness?.isPopular && b.freshness?.isPopular) return 1;
           return b.createdAt - a.createdAt;
-        }).slice(0, limit);
+        });
+        break;
       case "newest":
       default:
-        query = query.order("desc");
+        products.sort((a, b) => b.createdAt - a.createdAt);
         break;
     }
     
-    return await query.take(limit);
+    return products.slice(0, limit);
   },
 });
 
@@ -105,19 +119,34 @@ export const searchProducts = query({
     searchTerm: v.string(),
     categoryId: v.optional(v.id("categories")),
     limit: v.optional(v.number()),
+    minPrice: v.optional(v.number()),
+    maxPrice: v.optional(v.number()),
+    tags: v.optional(v.array(v.string())),
   },
   handler: async (ctx, args) => {
-    const { searchTerm, categoryId, limit = 20 } = args;
+    const { searchTerm, categoryId, limit = 20, minPrice, maxPrice, tags } = args;
     
-    const results = await ctx.db.query("products")
-      .withSearchIndex("search_products", (q) => 
-        q.search("name", searchTerm)
-          .eq("isActive", true)
-          .eq(categoryId ? "categoryId" : undefined, categoryId)
-      )
-      .take(limit);
+    let results = await ctx.db.query("products")
+      .withSearchIndex("search_products", (q) => {
+        let s = q.search("name", searchTerm).eq("isActive", true);
+        if (categoryId) {
+          s = s.eq("categoryId", categoryId);
+        }
+        return s;
+      })
+      .take(limit * 5); // overfetch, filter client-side, then slice
+
+    if (typeof minPrice === 'number') {
+      results = results.filter((p) => p.price >= minPrice);
+    }
+    if (typeof maxPrice === 'number') {
+      results = results.filter((p) => p.price <= maxPrice);
+    }
+    if (tags && tags.length > 0) {
+      results = results.filter((p) => tags.every((t) => p.tags.includes(t)));
+    }
     
-    return results;
+    return results.slice(0, limit);
   },
 });
 

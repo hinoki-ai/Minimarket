@@ -72,19 +72,20 @@ export const LazySearchModal = lazy(() =>
   }))
 );
 
+// Import only client components, avoid importing server pages from client bundles
 export const LazyCheckoutForm = lazy(() => 
-  import('@/app/checkout/page').then(module => ({ 
+  import('@/app/checkout/checkout-client').then(module => ({ 
     default: module.default 
   }))
 );
 
 // Higher-order component for lazy loading with performance tracking
-export function withLazyLoading<T extends React.ComponentType<any>>(
+export function withLazyLoading<T extends React.ComponentType<unknown>>(
   Component: React.LazyExoticComponent<T>,
   FallbackComponent: React.ComponentType = () => <div>Loading...</div>,
   componentName?: string
 ) {
-  const WrappedComponent = React.forwardRef<any, React.ComponentProps<T>>((props, ref) => {
+  const WrappedComponent = React.forwardRef<unknown, React.ComponentProps<T>>(function LazyWrappedComponent(props) {
     const [loadStart, setLoadStart] = React.useState<number>(0);
 
     React.useEffect(() => {
@@ -98,16 +99,27 @@ export function withLazyLoading<T extends React.ComponentType<any>>(
         const loadTime = performance.now() - loadStart;
         console.log(`🚀 ${componentName} loaded in ${loadTime.toFixed(2)}ms`);
       }
-    }, [loadStart, componentName]);
+    }, [loadStart]);
+
+    React.useEffect(() => {
+      // Trigger once the component has mounted (i.e., resolved from Suspense)
+      handleLoaded();
+      // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, []);
 
     return (
-      <Suspense fallback={<FallbackComponent />}>
-        <Component {...props} ref={ref} onLoad={handleLoaded} />
+      <Suspense fallback={React.createElement(FallbackComponent)}>
+        {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
+        <Component {...(props as any)} />
       </Suspense>
     );
   });
 
-  WrappedComponent.displayName = `LazyLoaded(${Component.displayName || 'Component'})`;
+  // Ensure display name exists for linting clarity
+  const componentDisplayName = (Component as { displayName?: string; name?: string }).displayName
+    || (Component as { name?: string }).name
+    || 'Component';
+  (WrappedComponent as React.NamedExoticComponent).displayName = `LazyLoaded(${componentDisplayName})`;
   return WrappedComponent;
 }
 
@@ -156,57 +168,43 @@ export function LazySection({
 }
 
 // Dynamic import utilities
-export const dynamicImports = {
-  // Admin components (only load when needed)
-  AdminPanel: () => import('@/components/admin/admin-panel'),
-  AdminProductForm: () => import('@/components/admin/product-form'),
-  AdminAnalytics: () => import('@/components/admin/analytics'),
-  
-  // Heavy UI components
-  DataTable: () => import('@/components/ui/data-table'),
-  RichTextEditor: () => import('@/components/ui/rich-text-editor'),
-  FileUploader: () => import('@/components/ui/file-uploader'),
-  
-  // Charts and visualizations
-  Charts: () => import('@/components/charts/charts'),
-  Analytics: () => import('@/components/analytics/analytics'),
-  
-  // Payment components
-  PaymentForm: () => import('@/components/payment/payment-form'),
-  StripeElements: () => import('@/components/payment/stripe-elements'),
-};
+// Removed dynamic imports pointing to non-existent modules to prevent build-time resolution errors.
 
 // Route-based code splitting
-export function createRouteComponent(
-  importFn: () => Promise<{ default: React.ComponentType<any> }>,
+export function createRouteComponent<P = Record<string, unknown>>(
+  importFn: () => Promise<{ default: React.ComponentType<P> }>,
   fallback?: React.ComponentType
 ) {
-  const LazyComponent = lazy(importFn);
-  
-  return function RouteComponent(props: any) {
+  const LazyComponent = lazy(importFn as () => Promise<{ default: React.ComponentType<P> }>);
+  return function RouteComponent(props: P) {
+    const fallbackNode = fallback
+      ? React.createElement(fallback)
+      : React.createElement('div', null, 'Loading page...');
     return (
-      <Suspense fallback={fallback ? <fallback /> : <div>Loading page...</div>}>
-        <LazyComponent {...props} />
+      <Suspense fallback={fallbackNode}>
+        {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
+        <LazyComponent {...(props as any)} />
       </Suspense>
     );
   };
 }
 
 // Performance-optimized component wrapper
-export function PerformanceOptimized<T extends Record<string, any>>({
+export function PerformanceOptimized<T extends Record<string, unknown>>({
   children,
   deps = [],
   fallback,
+  props,
 }: {
   children: React.ComponentType<T>;
-  deps?: any[];
+  deps?: ReadonlyArray<unknown>;
   fallback?: React.ReactNode;
+  props?: T;
 }) {
-  const MemoizedComponent = React.useMemo(() => children, deps);
-  
+  const fallbackNode = fallback ?? React.createElement('div', null, 'Loading...');
   return (
-    <Suspense fallback={fallback || <div>Loading...</div>}>
-      <MemoizedComponent />
+    <Suspense fallback={fallbackNode}>
+      {React.createElement(children as React.ComponentType<T>, props as T)}
     </Suspense>
   );
 }

@@ -5,18 +5,21 @@ import { ChatMaxingIconColoured } from '@/components/logo'
 import { Loader2, Menu, X, ShoppingCart, Home, List, User, Search as SearchIcon } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import React from 'react'
+import dynamic from 'next/dynamic'
 import { cn } from '@/lib/utils'
-
-import { Authenticated, Unauthenticated, AuthLoading } from "convex/react";
-import { SignInButton, SignUpButton, UserButton } from "@clerk/nextjs";
-
-import { dark } from '@clerk/themes'
 import { useTheme } from "next-themes"
-import { useAuth } from '@clerk/nextjs'
-import { useQuery } from 'convex/react'
-import { api } from '@/convex/_generated/api'
 import { useGuestSessionId } from '@/hooks/use-guest-session'
-import { SearchBar, SearchBarCompact, SearchModal } from '@/components/ui/search-bar'
+import { SearchBar, SearchBarCompact } from '@/components/ui/search-bar'
+import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetDescription } from '@/components/ui/sheet'
+
+// Defer heavy auth and data-fetching code paths
+const UserSection = dynamic(() => import('@/components/header/UserSection'), { ssr: false, loading: () => (
+    <div className="flex items-center justify-center">
+        <Loader2 className="size-8 p-2 animate-spin" />
+    </div>
+) })
+const CartItemCount = dynamic(() => import('@/components/header/CartItemCount'), { ssr: false, loading: () => null })
+const SearchModal = dynamic(() => import('@/components/ui/search-bar').then(m => ({ default: m.SearchModal })), { ssr: false })
 
 
 
@@ -34,20 +37,9 @@ export const HeroHeader = () => {
     const [isScrolled, setIsScrolled] = React.useState(false)
     const [isSearchOpen, setIsSearchOpen] = React.useState(false)
     const mobileMenuRef = React.useRef<HTMLDivElement | null>(null)
+    const [isAccountOpen, setIsAccountOpen] = React.useState(false)
     const { theme } = useTheme()
-    const { userId } = useAuth()
     const sessionId = useGuestSessionId()
-
-    // Guard Convex generated API in environments where carts may not be present in types
-    const cartsApi: any = (api as any).carts
-    const itemCount = useQuery(
-        cartsApi?.getCartItemCount,
-        (userId || sessionId) && cartsApi?.getCartItemCount ? { userId: userId ?? undefined, sessionId: userId ? undefined : sessionId } : undefined
-    ) ?? 0
-
-    const appearance = {
-        baseTheme: theme === "dark" ? dark : undefined,
-    }
 
     React.useEffect(() => {
         const handleScroll = () => {
@@ -172,61 +164,11 @@ export const HeroHeader = () => {
                                 </ul>
                             </div>
                             <div className="flex w-full flex-col space-y-3 sm:flex-row sm:gap-3 sm:space-y-0 md:w-fit items-center">
-                                <Link href="/cart" className="relative inline-flex items-center justify-center h-10 w-10 rounded-full border subtle-hover">
+                                <Link href="/cart" aria-label="Abrir carrito" className="relative inline-flex items-center justify-center h-10 w-10 rounded-full border subtle-hover">
                                     <ShoppingCart className="h-5 w-5" />
-                                    {itemCount > 0 && (
-                                        <span className="absolute -top-1 -right-1 inline-flex items-center justify-center rounded-full bg-primary text-primary-foreground text-[10px] px-1.5 py-0.5">
-                                            {itemCount}
-                                        </span>
-                                    )}
+                                    <CartItemCount sessionId={sessionId ?? null} />
                                 </Link>
-                                <AuthLoading>
-                                    <div className="flex items-center justify-center">
-                                        <Loader2 className="size-8 p-2 animate-spin" />
-                                    </div>
-                                </AuthLoading>
-                                <Authenticated>
-                                    <Button asChild size="sm">
-                                        <Link href="/dashboard">
-                                            <span>Panel</span>
-                                        </Link>
-                                    </Button>
-                                    <UserButton appearance={appearance} />
-                                </Authenticated>
-
-                                <Unauthenticated>
-                                    <SignInButton mode="modal">
-                                        <Button
-                                            asChild
-                                            variant="outline"
-                                            size="sm"
-                                            className={cn(isScrolled && 'lg:hidden')}>
-                                            <Link href="#">
-                                                <span>Ingresar</span>
-                                            </Link>
-                                        </Button>
-                                    </SignInButton>
-                                    <SignUpButton mode="modal">
-                                        <Button
-                                            asChild
-                                            size="sm"
-                                            className={cn(isScrolled && 'lg:hidden')}>
-                                            <Link href="#">
-                                                <span>Crear cuenta</span>
-                                            </Link>
-                                        </Button>
-                                    </SignUpButton>
-                                    <SignUpButton mode="modal">
-                                        <Button
-                                            asChild
-                                            size="sm"
-                                            className={cn(isScrolled ? 'lg:inline-flex' : 'hidden')}>
-                                            <Link href="#">
-                                                <span>Comenzar</span>
-                                            </Link>
-                                        </Button>
-                                    </SignUpButton>
-                                </Unauthenticated>
+                                <UserSection isScrolled={isScrolled} theme={theme} />
                             </div>
                         </div>
                     </div>
@@ -236,42 +178,71 @@ export const HeroHeader = () => {
             <div className="fixed bottom-0 left-0 right-0 z-30 border-t bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 lg:hidden">
                 <div className="mx-auto max-w-4xl">
                     <div className="grid grid-cols-5 text-xs">
-                        <Link href="/" className="flex flex-col items-center justify-center py-2">
+                        <Link href="/" aria-label="Ir al inicio" className="flex flex-col items-center justify-center py-2">
                             <Home className="h-5 w-5" />
                             <span>Inicio</span>
                         </Link>
-                        <Link href="/#categorias" className="flex flex-col items-center justify-center py-2">
+                        <Link href="/#categorias" aria-label="Ver categorías" className="flex flex-col items-center justify-center py-2">
                             <List className="h-5 w-5" />
                             <span>Categorías</span>
                         </Link>
-                        <button onClick={() => setIsSearchOpen(true)} className="flex flex-col items-center justify-center py-2">
+                        <button onClick={() => setIsSearchOpen(true)} aria-label="Abrir búsqueda" className="flex flex-col items-center justify-center py-2">
                             <SearchIcon className="h-5 w-5" />
                             <span>Buscar</span>
                         </button>
-                        <Link href="/cart" className="flex flex-col items-center justify-center py-2 relative">
+                        <Link href="/cart" aria-label="Ir al carrito" className="flex flex-col items-center justify-center py-2 relative">
                             <ShoppingCart className="h-5 w-5" />
-                            {itemCount > 0 && (
-                                <span className="absolute top-1 right-6 inline-flex items-center justify-center rounded-full bg-primary text-primary-foreground text-[10px] px-1.5 py-0.5">
-                                    {itemCount}
-                                </span>
-                            )}
+                            <CartItemCount sessionId={sessionId ?? null} />
                             <span>Carrito</span>
                         </Link>
-                        {userId ? (
-                            <Link href="/dashboard" className="flex flex-col items-center justify-center py-2">
-                                <User className="h-5 w-5" />
-                                <span>Cuenta</span>
-                            </Link>
-                        ) : (
-                            <Link href="#" className="flex flex-col items-center justify-center py-2">
-                                <User className="h-5 w-5" />
-                                <span>Cuenta</span>
-                            </Link>
-                        )}
+                        <button
+                            type="button"
+                            aria-label="Abrir cuenta"
+                            className="flex flex-col items-center justify-center py-2"
+                            onClick={() => setIsAccountOpen(true)}
+                        >
+                            <User className="h-5 w-5" />
+                            <span>Cuenta</span>
+                        </button>
                     </div>
                 </div>
             </div>
-            <SearchModal isOpen={isSearchOpen} onClose={() => setIsSearchOpen(false)} />
+            {isSearchOpen ? (
+                <SearchModal isOpen={isSearchOpen} onClose={() => setIsSearchOpen(false)} />
+            ) : null}
+            <Sheet open={isAccountOpen} onOpenChange={setIsAccountOpen}>
+                <SheetContent side="bottom" className="rounded-t-xl border-t">
+                    <SheetHeader>
+                        <SheetTitle>Tu cuenta</SheetTitle>
+                        <SheetDescription>Accesos rápidos y ajustes</SheetDescription>
+                    </SheetHeader>
+                    <div className="p-2">
+                        <div className="grid grid-cols-3 gap-2 text-xs">
+                            <Link href="/dashboard" className="flex flex-col items-center justify-center rounded-md border p-3">
+                                <User className="h-5 w-5" />
+                                <span>Perfil</span>
+                            </Link>
+                            <Link href="/dashboard#orders" className="flex flex-col items-center justify-center rounded-md border p-3">
+                                <ShoppingCart className="h-5 w-5" />
+                                <span>Pedidos</span>
+                            </Link>
+                            <button
+                                type="button"
+                                className="flex flex-col items-center justify-center rounded-md border p-3"
+                                onClick={() => {
+                                    setIsAccountOpen(false)
+                                    if (typeof window !== 'undefined') {
+                                        window.dispatchEvent(new CustomEvent('open-cookie-settings', { detail: { tab: 'summary' } }))
+                                    }
+                                }}
+                            >
+                                <span className="h-5 w-5 rounded-full border flex items-center justify-center text-[10px]">i</span>
+                                <span>Privacidad</span>
+                            </button>
+                        </div>
+                    </div>
+                </SheetContent>
+            </Sheet>
         </header>
     )
 }

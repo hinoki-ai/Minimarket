@@ -19,7 +19,6 @@ import { Button } from "@/components/ui/button";
 interface AttractButtonProps
     extends React.ButtonHTMLAttributes<HTMLButtonElement> {
     particleCount?: number;
-    attractRadius?: number;
 }
 
 interface Particle {
@@ -31,7 +30,6 @@ interface Particle {
 export default function AttractButton({
     className,
     particleCount = 12,
-    attractRadius = 50,
     ...props
 }: AttractButtonProps) {
     const [isAttracting, setIsAttracting] = useState(false);
