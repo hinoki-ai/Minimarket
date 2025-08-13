@@ -1,6 +1,5 @@
 import { Card } from '@/components/ui/card'
 import { Table } from './table'
-import { CpuArchitecture } from './cpu-architecture'
 import { AnimatedListCustom } from './animated-list-custom'
   
 
@@ -23,8 +22,8 @@ export default function FeaturesOne() {
                             <p className="text-muted-foreground my-4 text-lg">Kardex, mínimos y alertas de reposición para no quedarte sin stock.</p>
                             <Card
                                 className="aspect-video overflow-hidden px-6">
-                                <Card className="h-full translate-y-6 rounded-b-none border-b-0 bg-muted/50">
-                                    <CpuArchitecture />
+                                <Card className="h-full translate-y-6 rounded-b-none border-b-0 bg-muted/50 flex items-center justify-center text-muted-foreground">
+                                    [Inventario Dashboard]
                                 </Card>
                             </Card>
                         </div>

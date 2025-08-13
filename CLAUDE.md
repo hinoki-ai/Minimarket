@@ -14,6 +14,9 @@ This repository contains the Minimarket ARAMAC web application built with Next.j
 - `npm run build` - Build production bundle
 - `npm start` - Start production server
 - `npm run lint` - Run Next.js linting
+- `npm run lint:md` - Lint markdown files (README, docs)
+- `npm run lint:md:fix` - Auto-fix markdown linting issues
+- `npm run analyze` - Build with bundle analyzer (set ANALYZE=true)
 
 ### Testing & Quality Assurance
 
@@ -25,9 +28,10 @@ This repository contains the Minimarket ARAMAC web application built with Next.j
 
 ### Performance Monitoring
 
-- `npm run lighthouse` - Run Lighthouse CI performance audits
+- `npm run lighthouse` - Run Lighthouse CI performance audits  
 - Tests: homepage, products page, cart page
 - Thresholds: Performance >80%, Accessibility >90%, Best Practices >90%, SEO >90%
+- Configuration in `.lighthouserc.js` with automated CI integration
 
 ### Convex Development
 
@@ -44,6 +48,8 @@ This repository contains the Minimarket ARAMAC web application built with Next.j
 - **Clerk Billing** for subscription payments
 - **TailwindCSS v4** with custom UI components (shadcn/ui)
 - **TypeScript** throughout
+- **React 19** with latest features and performance improvements
+- **Performance optimizations**: Image optimization, caching, CSP headers, bundle analysis
 
 ### Key Architectural Patterns
 
@@ -173,3 +179,21 @@ export const example = query({
 - Project uses "new-york" style with CSS variables and Lucide icons
 - Check components.json for existing configuration before installing
 - Multiple components can be installed at once: `bunx --bun shadcn@latest add button card drawer`
+
+### Performance & Security Guidelines
+
+- **Image Optimization**: Next.js automatically optimizes images with WebP/AVIF formats
+- **Security Headers**: CSP, HSTS, X-Frame-Options configured in `next.config.ts`
+- **Bundle Analysis**: Use `ANALYZE=true npm run build` to analyze bundle size
+- **Cache Configuration**: Static assets cached for 1 year, API responses optimized
+- **Chilean Market**: Localization configured for es-CL, CLP currency, Chilean tax calculations
+
+### CI/CD Pipeline
+
+- **GitHub Actions**: Automated workflows in `.github/workflows/`
+  - `ci.yml`: Lint and build on PRs and main branch pushes
+  - `e2e.yml`: End-to-end testing with Playwright
+  - `monitor.yml`: Lighthouse performance monitoring and uptime checks
+  - `vercel-deploy.yml`: Automated deployment to Vercel
+- **Quality Gates**: All checks must pass before merge
+- **Performance Monitoring**: Automated Lighthouse audits every 30 minutes

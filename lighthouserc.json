@@ -3,7 +3,8 @@
     "collect": {
       "url": [
         "http://localhost:3000/",
-        "http://localhost:3000/products"
+        "http://localhost:3000/products",
+        "http://localhost:3000/cart"
       ],
       "startServerCommand": "next start -p 3000",
       "numberOfRuns": 1,

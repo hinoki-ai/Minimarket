@@ -133,7 +133,7 @@ export function PerformanceWarnings() {
         observer.observe({ entryTypes: ['longtask'] });
 
         return () => observer.disconnect();
-      } catch (error) {
+      } catch {
         // Long tasks not supported
       }
     }
