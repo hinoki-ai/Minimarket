@@ -1,0 +1,170 @@
+[
+  {
+    "id": "429934cc-a55b-4463-8ebc-be42ec335b8f",
+    "name": "Cloudflare Ray ID 96e9e93efb7529ff",
+    "category": "general",
+    "price": 96,
+    "currency": "CLP",
+    "description": "Cloudflare Ray ID 96e9e93efb7529ff",
+    "store": {
+      "name": "tottus",
+      "url": "https://www.tottus.cl/search?q=agua",
+      "scraped": "2025-08-13T17:25:22.507Z",
+      "strategy": "AggressiveStrategy",
+      "selector": "[class*=\"item\"]"
+    },
+    "stock": 13,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:25:22.507Z",
+    "updatedAt": "2025-08-13T17:25:31.876Z",
+    "brand": "Cloudflare",
+    "shortDescription": "Cloudflare Ray ID: 96e9e93efb7529ff"
+  },
+  {
+    "id": "26e60f6d-bd30-447b-9eef-79a0a3d6cb4b",
+    "name": "Cloudflare Ray ID 96e9e9500f7229ff",
+    "category": "general",
+    "price": 96,
+    "currency": "CLP",
+    "description": "Cloudflare Ray ID 96e9e9500f7229ff",
+    "store": {
+      "name": "tottus",
+      "url": "https://www.tottus.cl/search?q=leche",
+      "scraped": "2025-08-13T17:25:23.859Z",
+      "strategy": "AggressiveStrategy",
+      "selector": "[class*=\"item\"]"
+    },
+    "stock": 43,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:25:23.859Z",
+    "updatedAt": "2025-08-13T17:25:31.876Z",
+    "brand": "Cloudflare",
+    "shortDescription": "Cloudflare Ray ID: 96e9e9500f7229ff"
+  },
+  {
+    "id": "ea3ff98d-546d-49ce-867e-312032a83760",
+    "name": "Cloudflare Ray ID 96e9e958583529ff",
+    "category": "general",
+    "price": 96,
+    "currency": "CLP",
+    "description": "Cloudflare Ray ID 96e9e958583529ff",
+    "store": {
+      "name": "tottus",
+      "url": "https://www.tottus.cl/buscar?q=agua",
+      "scraped": "2025-08-13T17:25:25.422Z",
+      "strategy": "AggressiveStrategy",
+      "selector": "[class*=\"item\"]"
+    },
+    "stock": 13,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:25:25.422Z",
+    "updatedAt": "2025-08-13T17:25:31.876Z",
+    "brand": "Cloudflare",
+    "shortDescription": "Cloudflare Ray ID: 96e9e958583529ff"
+  },
+  {
+    "id": "c9e2224b-2d3b-4d5e-8c16-d74aa22d08d2",
+    "name": "Cloudflare Ray ID 96e9e9622ba729ff",
+    "category": "general",
+    "price": 96,
+    "currency": "CLP",
+    "description": "Cloudflare Ray ID 96e9e9622ba729ff",
+    "store": {
+      "name": "tottus",
+      "url": "https://www.tottus.cl/buscar?q=leche",
+      "scraped": "2025-08-13T17:25:25.978Z",
+      "strategy": "AggressiveStrategy",
+      "selector": "[class*=\"item\"]"
+    },
+    "stock": 43,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:25:25.978Z",
+    "updatedAt": "2025-08-13T17:25:31.876Z",
+    "brand": "Cloudflare",
+    "shortDescription": "Cloudflare Ray ID: 96e9e9622ba729ff"
+  },
+  {
+    "id": "ab6be7b8-d965-4bb7-8cf7-2159e96de277",
+    "name": "Cloudflare Ray ID 96e9e9658f3c29ff",
+    "category": "general",
+    "price": 96,
+    "currency": "CLP",
+    "description": "Cloudflare Ray ID 96e9e9658f3c29ff",
+    "store": {
+      "name": "tottus",
+      "url": "https://www.tottus.cl/productos",
+      "scraped": "2025-08-13T17:25:26.737Z",
+      "strategy": "AggressiveStrategy",
+      "selector": "[class*=\"item\"]"
+    },
+    "stock": 21,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:25:26.737Z",
+    "updatedAt": "2025-08-13T17:25:31.876Z",
+    "brand": "Cloudflare",
+    "shortDescription": "Cloudflare Ray ID: 96e9e9658f3c29ff"
+  },
+  {
+    "id": "c7ecc6fa-18c6-47c5-bc26-c0067f11a4c6",
+    "name": "Cloudflare Ray ID 96e9e96a5bfa29ff",
+    "category": "general",
+    "price": 96,
+    "currency": "CLP",
+    "description": "Cloudflare Ray ID 96e9e96a5bfa29ff",
+    "store": {
+      "name": "tottus",
+      "url": "https://www.tottus.cl/productos",
+      "scraped": "2025-08-13T17:25:28.118Z",
+      "strategy": "AggressiveStrategy",
+      "selector": "[class*=\"item\"]"
+    },
+    "stock": 21,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:25:28.118Z",
+    "updatedAt": "2025-08-13T17:25:31.876Z",
+    "brand": "Cloudflare",
+    "shortDescription": "Cloudflare Ray ID: 96e9e96a5bfa29ff"
+  },
+  {
+    "id": "92c0b61e-946f-4a89-8719-64653ea13075",
+    "name": "Cloudflare Ray ID 96e9e9731cdb29ff",
+    "category": "general",
+    "price": 96,
+    "currency": "CLP",
+    "description": "Cloudflare Ray ID 96e9e9731cdb29ff",
+    "store": {
+      "name": "tottus",
+      "url": "https://www.tottus.cl/catalog",
+      "scraped": "2025-08-13T17:25:30.371Z",
+      "strategy": "AggressiveStrategy",
+      "selector": "[class*=\"item\"]"
+    },
+    "stock": 12,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:25:30.371Z",
+    "updatedAt": "2025-08-13T17:25:31.876Z",
+    "brand": "Cloudflare",
+    "shortDescription": "Cloudflare Ray ID: 96e9e9731cdb29ff"
+  },
+  {
+    "id": "6ca451fc-79e9-4bbe-9aea-a9631876ad7d",
+    "name": "Cloudflare Ray ID 96e9e9814c1e29ff",
+    "category": "general",
+    "price": 96,
+    "currency": "CLP",
+    "description": "Cloudflare Ray ID 96e9e9814c1e29ff",
+    "store": {
+      "name": "tottus",
+      "url": "https://www.tottus.cl/catalog",
+      "scraped": "2025-08-13T17:25:31.481Z",
+      "strategy": "AggressiveStrategy",
+      "selector": "[class*=\"item\"]"
+    },
+    "stock": 45,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:25:31.481Z",
+    "updatedAt": "2025-08-13T17:25:31.876Z",
+    "brand": "Cloudflare",
+    "shortDescription": "Cloudflare Ray ID: 96e9e9814c1e29ff"
+  }
+]

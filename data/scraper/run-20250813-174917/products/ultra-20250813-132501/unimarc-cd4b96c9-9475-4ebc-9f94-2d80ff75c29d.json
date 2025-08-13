@@ -1,0 +1,86 @@
+[
+  {
+    "id": "26a87fbf-12b4-4467-ad9a-90f823d671c6",
+    "name": "Estilos de alimentaciónLibre de SoyaLibre de HuevoLibre de ManíLibre de NuezLibre de TrigoApto para",
+    "category": "general",
+    "price": 690,
+    "currency": "CLP",
+    "description": "Estilos de alimentaciónLibre de SoyaLibre de HuevoLibre de ManíLibre de NuezLibre de TrigoApto para",
+    "store": {
+      "name": "unimarc",
+      "url": "https://www.unimarc.cl/search?q=agua",
+      "scraped": "2025-08-13T17:26:04.554Z",
+      "strategy": "AggressiveStrategy",
+      "selector": "article"
+    },
+    "stock": 45,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:26:04.554Z",
+    "updatedAt": "2025-08-13T17:26:33.930Z",
+    "brand": "Estilos",
+    "shortDescription": "Estilos de alimentaciónLibre de SoyaLibre de Hu..."
+  },
+  {
+    "id": "254b199f-652e-4894-851c-57617dbf695b",
+    "name": "Nuestra empresaNuestro CatálogoAcerca de nosotrosVenta a empresasDefensoría del proveedorProveedores",
+    "category": "general",
+    "price": 2024,
+    "currency": "CLP",
+    "description": "Nuestra empresaNuestro CatálogoAcerca de nosotrosVenta a empresasDefensoría del proveedorProveedores",
+    "store": {
+      "name": "unimarc",
+      "url": "https://www.unimarc.cl/search?q=agua",
+      "scraped": "2025-08-13T17:26:06.091Z",
+      "strategy": "AggressiveStrategy",
+      "selector": "article"
+    },
+    "stock": 20,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:26:06.091Z",
+    "updatedAt": "2025-08-13T17:26:33.930Z",
+    "brand": "Nuestra",
+    "shortDescription": "Nuestra empresaNuestro CatálogoAcerca de nosotr..."
+  },
+  {
+    "id": "5ba9532c-c53d-46bc-8388-e04bcb88955d",
+    "name": "Nuestros programasClub UnimarcGiftcardReceta Junaeb100 Nuestro",
+    "category": "general",
+    "price": 100,
+    "currency": "CLP",
+    "description": "Nuestros programasClub UnimarcGiftcardReceta Junaeb100 Nuestro",
+    "store": {
+      "name": "unimarc",
+      "url": "https://www.unimarc.cl/search?q=agua",
+      "scraped": "2025-08-13T17:26:07.183Z",
+      "strategy": "AggressiveStrategy",
+      "selector": "article"
+    },
+    "stock": 27,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:26:07.183Z",
+    "updatedAt": "2025-08-13T17:26:33.930Z",
+    "brand": "Nuestros",
+    "shortDescription": "Nuestros programasClub UnimarcGiftcardReceta Ju..."
+  },
+  {
+    "id": "ef8e3fdf-a602-4c7c-9cbb-0458140470d7",
+    "name": "ContáctanosUnimarc.cl - Atención vía Whatsapp56 9 6335 0836Escríbenos de 900 a 2000 hrsUnimarc -",
+    "category": "general",
+    "price": null,
+    "currency": "CLP",
+    "description": "ContáctanosUnimarc.cl - Atención vía Whatsapp56 9 6335 0836Escríbenos de 900 a 2000 hrsUnimarc -",
+    "store": {
+      "name": "unimarc",
+      "url": "https://www.unimarc.cl/search?q=agua",
+      "scraped": "2025-08-13T17:26:07.235Z",
+      "strategy": "AggressiveStrategy",
+      "selector": "article"
+    },
+    "stock": 54,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:26:07.235Z",
+    "updatedAt": "2025-08-13T17:26:33.930Z",
+    "brand": "ContáctanosUnimarc.cl",
+    "shortDescription": "ContáctanosUnimarc.cl - Atención vía Whatsapp+5..."
+  }
+]

@@ -26,7 +26,8 @@
     "scrape:lider": "node scripts/scrape_lider_products.js",
     "scrape:lider:clean": "node scripts/clean_lider_images.js",
     "scrape:lider:clean:delete": "DELETE_TINY=1 node scripts/clean_lider_images.js",
-    "xx": "node /home/kuromatsu/Documents/ΛRΛMΛC/Scripts/ultra-scraper.js --strategy aggressive --max-products 5000 --concurrent 6 --no-resume --verbose"
+    "xx": "node /home/kuromatsu/Documents/ΛRΛMΛC/Scripts/ultra-scraper.js --strategy aggressive --max-products 5000 --concurrent 6 --no-resume --verbose",
+    "scrape:standardize": "node scripts/standardize-scraper-outputs.js"
   },
   "dependencies": {
     "@clerk/backend": "^2.4.1",

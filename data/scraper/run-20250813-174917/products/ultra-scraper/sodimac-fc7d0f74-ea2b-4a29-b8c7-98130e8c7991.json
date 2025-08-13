@@ -1,0 +1,202 @@
+[
+  {
+    "id": "02d345f7-b74a-4a25-b219-8bd8b31ea9bf",
+    "name": "Estufa Parafina Negro",
+    "category": "bebidas",
+    "price": null,
+    "currency": "CLP",
+    "description": "Estufa Parafina Negro",
+    "store": {
+      "name": "sodimac",
+      "url": "https://www.sodimac.cl",
+      "scraped": "2025-08-13T18:10:06.922Z",
+      "strategy": "StandardStrategy"
+    },
+    "stock": 36,
+    "inStock": true,
+    "createdAt": "2025-08-13T18:10:06.922Z",
+    "updatedAt": "2025-08-13T18:10:08.201Z",
+    "brand": "Estufa",
+    "shortDescription": "Estufa Parafina  Negro"
+  },
+  {
+    "id": "f8cb4be8-ee54-4008-9254-ca0af10189e4",
+    "name": "Parrilla a gas Boston Pro 3 quemadores",
+    "category": "bebidas",
+    "price": null,
+    "currency": "CLP",
+    "description": "Parrilla a gas Boston Pro 3 quemadores",
+    "store": {
+      "name": "sodimac",
+      "url": "https://www.sodimac.cl",
+      "scraped": "2025-08-13T18:10:06.922Z",
+      "strategy": "StandardStrategy"
+    },
+    "stock": 52,
+    "inStock": true,
+    "createdAt": "2025-08-13T18:10:06.922Z",
+    "updatedAt": "2025-08-13T18:10:08.202Z",
+    "brand": "Parrilla",
+    "shortDescription": "Parrilla a gas Boston Pro 3 quemadores"
+  },
+  {
+    "id": "9fca2e9b-806c-47d1-929d-49621accd350",
+    "name": "Estufa Parafina EP-520NG Negro",
+    "category": "bebidas",
+    "price": null,
+    "currency": "CLP",
+    "description": "Estufa Parafina EP-520NG Negro",
+    "store": {
+      "name": "sodimac",
+      "url": "https://www.sodimac.cl",
+      "scraped": "2025-08-13T18:10:06.922Z",
+      "strategy": "StandardStrategy"
+    },
+    "stock": 15,
+    "inStock": true,
+    "createdAt": "2025-08-13T18:10:06.922Z",
+    "updatedAt": "2025-08-13T18:10:08.202Z",
+    "brand": "Estufa",
+    "shortDescription": "Estufa Parafina EP-520NG Negro"
+  },
+  {
+    "id": "63335734-d2b6-412a-8c8d-1b2debc8b5ed",
+    "name": "Parrilla a gas buffalo black 4 quemadores  quemador lateral  funda",
+    "category": "panaderia",
+    "price": null,
+    "currency": "CLP",
+    "description": "Parrilla a gas buffalo black 4 quemadores  quemador lateral  funda",
+    "store": {
+      "name": "sodimac",
+      "url": "https://www.sodimac.cl",
+      "scraped": "2025-08-13T18:10:06.974Z",
+      "strategy": "StandardStrategy"
+    },
+    "stock": 11,
+    "inStock": true,
+    "createdAt": "2025-08-13T18:10:06.974Z",
+    "updatedAt": "2025-08-13T18:10:08.202Z",
+    "brand": "Parrilla",
+    "shortDescription": "Parrilla a gas buffalo black 4 quemadores + que..."
+  },
+  {
+    "id": "bd655b17-3e0b-48f4-9929-32e70e063a1d",
+    "name": "Saco Pellet Premium 15Kg Timbermac",
+    "category": "panaderia",
+    "price": null,
+    "currency": "CLP",
+    "description": "Saco Pellet Premium 15Kg Timbermac",
+    "store": {
+      "name": "sodimac",
+      "url": "https://www.sodimac.cl",
+      "scraped": "2025-08-13T18:10:06.974Z",
+      "strategy": "StandardStrategy"
+    },
+    "stock": 29,
+    "inStock": true,
+    "createdAt": "2025-08-13T18:10:06.974Z",
+    "updatedAt": "2025-08-13T18:10:08.202Z",
+    "brand": "Saco",
+    "shortDescription": "Saco Pellet Premium 15Kg Timbermac"
+  },
+  {
+    "id": "f5e37d66-e58b-4d91-a7a4-01dfd1ac53a5",
+    "name": "Estufa eléctrica Blanco 1200 W Radiación NSB-99Y Blanco",
+    "category": "panaderia",
+    "price": null,
+    "currency": "CLP",
+    "description": "Estufa eléctrica Blanco 1200 W Radiación NSB-99Y Blanco",
+    "store": {
+      "name": "sodimac",
+      "url": "https://www.sodimac.cl",
+      "scraped": "2025-08-13T18:10:06.974Z",
+      "strategy": "StandardStrategy"
+    },
+    "stock": 40,
+    "inStock": true,
+    "createdAt": "2025-08-13T18:10:06.974Z",
+    "updatedAt": "2025-08-13T18:10:08.202Z",
+    "brand": "Estufa",
+    "shortDescription": "Estufa eléctrica Blanco 1200 W Radiación NSB-99..."
+  },
+  {
+    "id": "f8f9a5a1-d60d-4416-ad36-1ae97aeaa5b3",
+    "name": "Parrilla a Carbón con Ruedas y 2 Bandejas laterales 135x47,5x106cm",
+    "category": "panaderia",
+    "price": null,
+    "currency": "CLP",
+    "description": "Parrilla a Carbón con Ruedas y 2 Bandejas laterales 135x47,5x106cm",
+    "store": {
+      "name": "sodimac",
+      "url": "https://www.sodimac.cl",
+      "scraped": "2025-08-13T18:10:06.974Z",
+      "strategy": "StandardStrategy"
+    },
+    "stock": 33,
+    "inStock": true,
+    "createdAt": "2025-08-13T18:10:06.974Z",
+    "updatedAt": "2025-08-13T18:10:08.202Z",
+    "brand": "Parrilla",
+    "shortDescription": "Parrilla a Carbón con Ruedas y 2 Bandejas later..."
+  },
+  {
+    "id": "c1371f5a-8a77-4d9c-891e-1ead7e492a27",
+    "name": "Parrilla a Gas 4 Quemadores  Quemador Lateral Buffalo BBQ Grill",
+    "category": "panaderia",
+    "price": null,
+    "currency": "CLP",
+    "description": "Parrilla a Gas 4 Quemadores  Quemador Lateral Buffalo BBQ Grill",
+    "store": {
+      "name": "sodimac",
+      "url": "https://www.sodimac.cl",
+      "scraped": "2025-08-13T18:10:06.974Z",
+      "strategy": "StandardStrategy"
+    },
+    "stock": 58,
+    "inStock": true,
+    "createdAt": "2025-08-13T18:10:06.974Z",
+    "updatedAt": "2025-08-13T18:10:08.202Z",
+    "brand": "Parrilla",
+    "shortDescription": "Parrilla a Gas 4 Quemadores + Quemador Lateral ..."
+  },
+  {
+    "id": "f1fb7796-9894-438a-8735-b864163a804e",
+    "name": "Parrilla BBQ Grill Carbón Misuri",
+    "category": "panaderia",
+    "price": null,
+    "currency": "CLP",
+    "description": "Parrilla BBQ Grill Carbón Misuri",
+    "store": {
+      "name": "sodimac",
+      "url": "https://www.sodimac.cl",
+      "scraped": "2025-08-13T18:10:06.974Z",
+      "strategy": "StandardStrategy"
+    },
+    "stock": 37,
+    "inStock": true,
+    "createdAt": "2025-08-13T18:10:06.974Z",
+    "updatedAt": "2025-08-13T18:10:08.202Z",
+    "brand": "Parrilla",
+    "shortDescription": "Parrilla BBQ Grill Carbón Misuri"
+  },
+  {
+    "id": "c697748c-4f61-4930-9356-8f267d25ca6b",
+    "name": "Parrilla BBQ Grill Gas Denver Pro",
+    "category": "panaderia",
+    "price": null,
+    "currency": "CLP",
+    "description": "Parrilla BBQ Grill Gas Denver Pro",
+    "store": {
+      "name": "sodimac",
+      "url": "https://www.sodimac.cl",
+      "scraped": "2025-08-13T18:10:06.974Z",
+      "strategy": "StandardStrategy"
+    },
+    "stock": 21,
+    "inStock": true,
+    "createdAt": "2025-08-13T18:10:06.974Z",
+    "updatedAt": "2025-08-13T18:10:08.202Z",
+    "brand": "Parrilla",
+    "shortDescription": "Parrilla BBQ Grill Gas Denver Pro"
+  }
+]

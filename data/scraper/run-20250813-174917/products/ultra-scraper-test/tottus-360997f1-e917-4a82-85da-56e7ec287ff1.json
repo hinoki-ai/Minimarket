@@ -1,0 +1,102 @@
+[
+  {
+    "id": "0ca8628c-81a1-440b-a34e-93d8e482c721",
+    "name": "Lomo Liso Importado Cat-V Vacío",
+    "category": "bebidas",
+    "price": 11,
+    "currency": "CLP",
+    "description": "Lomo Liso Importado Cat-V Vacío",
+    "store": {
+      "name": "tottus",
+      "url": "https://www.tottus.cl",
+      "scraped": "2025-08-13T17:22:20.521Z",
+      "strategy": "StandardStrategy"
+    },
+    "stock": 20,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:22:20.521Z",
+    "updatedAt": "2025-08-13T17:22:20.755Z",
+    "brand": "Lomo",
+    "shortDescription": "Lomo Liso Importado Cat-V Vacío"
+  },
+  {
+    "id": "c92c762f-8c89-4df4-a093-92d58b01cf41",
+    "name": "Lomo Vetado Importado Cat-V Vacío",
+    "category": "bebidas",
+    "price": 12,
+    "currency": "CLP",
+    "description": "Lomo Vetado Importado Cat-V Vacío",
+    "store": {
+      "name": "tottus",
+      "url": "https://www.tottus.cl",
+      "scraped": "2025-08-13T17:22:20.521Z",
+      "strategy": "StandardStrategy"
+    },
+    "stock": 33,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:22:20.521Z",
+    "updatedAt": "2025-08-13T17:22:20.755Z",
+    "brand": "Lomo",
+    "shortDescription": "Lomo Vetado Importado Cat-V Vacío"
+  },
+  {
+    "id": "bef9652e-4564-4b83-a1f7-035b837ffefe",
+    "name": "Café Moka Súper Molido",
+    "category": "bebidas",
+    "price": 4,
+    "currency": "CLP",
+    "description": "Café Moka Súper Molido",
+    "store": {
+      "name": "tottus",
+      "url": "https://www.tottus.cl",
+      "scraped": "2025-08-13T17:22:20.521Z",
+      "strategy": "StandardStrategy"
+    },
+    "stock": 30,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:22:20.521Z",
+    "updatedAt": "2025-08-13T17:22:20.756Z",
+    "brand": "Café",
+    "shortDescription": "Café Moka Súper Molido"
+  },
+  {
+    "id": "fcd35db1-3b01-41f2-a04a-0ed0207ea07a",
+    "name": "Queso Mantecoso Laminado Quilque 500 g",
+    "category": "bebidas",
+    "price": 500,
+    "currency": "CLP",
+    "description": "Queso Mantecoso Laminado Quilque 500 g",
+    "store": {
+      "name": "tottus",
+      "url": "https://www.tottus.cl",
+      "scraped": "2025-08-13T17:22:20.521Z",
+      "strategy": "StandardStrategy"
+    },
+    "stock": 39,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:22:20.521Z",
+    "updatedAt": "2025-08-13T17:22:20.756Z",
+    "brand": "Queso",
+    "shortDescription": "Queso Mantecoso Laminado Quilque 500 g"
+  },
+  {
+    "id": "b06a9a68-7d56-4aa5-9391-45cbeec8d926",
+    "name": "Mantequilla con Sal Calo 250 g",
+    "category": "bebidas",
+    "price": 250,
+    "currency": "CLP",
+    "description": "Mantequilla con Sal Calo 250 g",
+    "store": {
+      "name": "tottus",
+      "url": "https://www.tottus.cl",
+      "scraped": "2025-08-13T17:22:20.521Z",
+      "strategy": "StandardStrategy"
+    },
+    "stock": 25,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:22:20.521Z",
+    "updatedAt": "2025-08-13T17:22:20.756Z",
+    "brand": "Mantequilla",
+    "shortDescription": "Mantequilla con Sal Calo 250 g"
+  }
+]

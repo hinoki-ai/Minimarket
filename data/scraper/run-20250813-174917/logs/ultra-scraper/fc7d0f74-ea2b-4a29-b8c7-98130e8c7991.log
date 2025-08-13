@@ -1,0 +1,254 @@
+[2025-08-13T17:18:29.719Z] [INFO] 🚀 Ultra-Advanced Scraper Engine initialized
+[2025-08-13T17:18:29.720Z] [INFO] Session ID: fc7d0f74-ea2b-4a29-b8c7-98130e8c7991
+[2025-08-13T17:18:29.721Z] [INFO] Strategy: intelligent
+[2025-08-13T17:18:29.721Z] [INFO] Target stores: 9
+[2025-08-13T17:18:29.722Z] [INFO] Max products: 5000
+[2025-08-13T17:18:29.722Z] [INFO] 🚀 Starting ultra-advanced scraping campaign
+[2025-08-13T17:18:29.723Z] [INFO] Target: 5000 products from 9 stores
+[2025-08-13T17:18:29.725Z] [INFO] 🎯 Starting scrape for Líder
+[2025-08-13T17:18:29.726Z] [INFO] 🎯 Starting scrape for Jumbo
+[2025-08-13T17:18:29.726Z] [INFO] 🎯 Starting scrape for Santa Isabel
+[2025-08-13T17:18:29.726Z] [INFO] 🎯 Starting scrape for Unimarc
+[2025-08-13T17:18:29.726Z] [INFO] 🎯 Starting scrape for Tottus
+[2025-08-13T17:18:29.730Z] [INFO] Selected strategy: StandardStrategy (score: 50.00) for Líder
+[2025-08-13T17:18:29.731Z] [INFO] Selected strategy: StandardStrategy (score: 50.00) for Jumbo
+[2025-08-13T17:18:29.731Z] [INFO] Selected strategy: StandardStrategy (score: 50.00) for Santa Isabel
+[2025-08-13T17:18:29.733Z] [INFO] Selected strategy: StandardStrategy (score: 50.00) for Unimarc
+[2025-08-13T17:18:29.734Z] [INFO] Selected strategy: StandardStrategy (score: 50.00) for Tottus
+[2025-08-13T17:18:29.734Z] [INFO] Attempt 1/5 using StandardStrategy
+[2025-08-13T17:18:29.735Z] [INFO] Attempt 1/5 using StandardStrategy
+[2025-08-13T17:18:29.735Z] [INFO] Attempt 1/5 using StandardStrategy
+[2025-08-13T17:18:29.735Z] [INFO] Attempt 1/5 using StandardStrategy
+[2025-08-13T17:18:29.735Z] [INFO] Attempt 1/5 using StandardStrategy
+[2025-08-13T17:18:29.736Z] [INFO] [StandardStrategy] Executing standard strategy for Líder
+[2025-08-13T17:18:29.736Z] [INFO] [StandardStrategy] Executing standard strategy for Jumbo
+[2025-08-13T17:18:29.736Z] [INFO] [StandardStrategy] Executing standard strategy for Santa Isabel
+[2025-08-13T17:18:29.736Z] [INFO] [StandardStrategy] Executing standard strategy for Unimarc
+[2025-08-13T17:18:29.736Z] [INFO] [StandardStrategy] Executing standard strategy for Tottus
+[2025-08-13T17:18:37.749Z] [INFO] ✅ Success! 60 products from tottus
+[2025-08-13T17:18:37.754Z] [INFO] Progress: 1/9 stores, 5 total products
+[2025-08-13T17:19:04.672Z] [INFO] Resumed session fc7d0f74-ea2b-4a29-b8c7-98130e8c7991
+[2025-08-13T17:19:04.673Z] [INFO] 🚀 Ultra-Advanced Scraper Engine initialized
+[2025-08-13T17:19:04.673Z] [INFO] Session ID: fc7d0f74-ea2b-4a29-b8c7-98130e8c7991
+[2025-08-13T17:19:04.674Z] [INFO] Strategy: intelligent
+[2025-08-13T17:19:04.674Z] [INFO] Target stores: 9
+[2025-08-13T17:19:04.674Z] [INFO] Max products: 100
+[2025-08-13T17:19:04.675Z] [INFO] 🚀 Starting ultra-advanced scraping campaign
+[2025-08-13T17:19:04.675Z] [INFO] Target: 100 products from 9 stores
+[2025-08-13T17:19:04.676Z] [INFO] 🎯 Starting scrape for Líder
+[2025-08-13T17:19:04.676Z] [INFO] 🎯 Starting scrape for Jumbo
+[2025-08-13T17:19:04.676Z] [INFO] Selected strategy: StandardStrategy (score: 50.00) for Líder
+[2025-08-13T17:19:04.677Z] [INFO] Selected strategy: StandardStrategy (score: 50.00) for Jumbo
+[2025-08-13T17:19:04.677Z] [INFO] Attempt 1/5 using StandardStrategy
+[2025-08-13T17:19:04.677Z] [INFO] Attempt 1/5 using StandardStrategy
+[2025-08-13T17:19:04.677Z] [INFO] [StandardStrategy] Executing standard strategy for Líder
+[2025-08-13T17:19:04.678Z] [INFO] [StandardStrategy] Executing standard strategy for Jumbo
+[2025-08-13T17:20:03.003Z] [INFO] ✅ Success! 40 products from santa_isabel
+[2025-08-13T17:20:03.004Z] [INFO] Progress: 2/9 stores, 25 total products
+[2025-08-13T17:21:01.068Z] [INFO] Selected strategy: StandardStrategy (score: 50.00) for Unimarc
+[2025-08-13T17:21:01.070Z] [INFO] Attempt 2/5 using StandardStrategy
+[2025-08-13T17:21:01.070Z] [INFO] [StandardStrategy] Executing standard strategy for Unimarc
+[2025-08-13T17:21:02.421Z] [INFO] Selected strategy: StandardStrategy (score: 50.00) for Jumbo
+[2025-08-13T17:21:02.424Z] [INFO] Selected strategy: StandardStrategy (score: 50.00) for Líder
+[2025-08-13T17:21:02.437Z] [INFO] Attempt 2/5 using StandardStrategy
+[2025-08-13T17:21:02.438Z] [INFO] Attempt 2/5 using StandardStrategy
+[2025-08-13T17:21:02.438Z] [INFO] [StandardStrategy] Executing standard strategy for Líder
+[2025-08-13T17:21:02.438Z] [INFO] [StandardStrategy] Executing standard strategy for Jumbo
+[2025-08-13T17:22:03.648Z] [INFO] Selected strategy: StandardStrategy (score: 50.00) for Jumbo
+[2025-08-13T17:22:03.649Z] [INFO] Attempt 2/5 using StandardStrategy
+[2025-08-13T17:22:03.649Z] [INFO] [StandardStrategy] Executing standard strategy for Jumbo
+[2025-08-13T17:22:31.421Z] [INFO] Selected strategy: StandardStrategy (score: 50.00) for Líder
+[2025-08-13T17:22:31.421Z] [INFO] Attempt 2/5 using StandardStrategy
+[2025-08-13T17:22:31.421Z] [INFO] [StandardStrategy] Executing standard strategy for Líder
+[2025-08-13T17:23:05.411Z] [INFO] Selected strategy: StandardStrategy (score: 50.00) for Unimarc
+[2025-08-13T17:23:05.411Z] [INFO] Attempt 3/5 using StandardStrategy
+[2025-08-13T17:23:05.412Z] [INFO] [StandardStrategy] Executing standard strategy for Unimarc
+[2025-08-13T17:24:36.455Z] [INFO] Selected strategy: StandardStrategy (score: 50.00) for Jumbo
+[2025-08-13T17:24:36.456Z] [INFO] Attempt 3/5 using StandardStrategy
+[2025-08-13T17:24:36.456Z] [INFO] [StandardStrategy] Executing standard strategy for Jumbo
+[2025-08-13T17:24:57.524Z] [INFO] Selected strategy: StandardStrategy (score: 50.00) for Unimarc
+[2025-08-13T17:24:57.525Z] [INFO] Selected strategy: StandardStrategy (score: 50.00) for Jumbo
+[2025-08-13T17:24:57.533Z] [INFO] Attempt 4/5 using StandardStrategy
+[2025-08-13T17:24:57.533Z] [INFO] Attempt 3/5 using StandardStrategy
+[2025-08-13T17:24:57.534Z] [INFO] [StandardStrategy] Executing standard strategy for Unimarc
+[2025-08-13T17:24:57.535Z] [INFO] [StandardStrategy] Executing standard strategy for Jumbo
+[2025-08-13T17:24:57.535Z] [INFO] Selected strategy: StandardStrategy (score: 50.00) for Líder
+[2025-08-13T17:24:57.540Z] [INFO] Attempt 3/5 using StandardStrategy
+[2025-08-13T17:24:57.557Z] [INFO] [StandardStrategy] Executing standard strategy for Líder
+[2025-08-13T17:25:04.971Z] [INFO] Selected strategy: StandardStrategy (score: 50.00) for Líder
+[2025-08-13T17:25:04.972Z] [INFO] Attempt 3/5 using StandardStrategy
+[2025-08-13T17:25:04.972Z] [INFO] [StandardStrategy] Executing standard strategy for Líder
+[2025-08-13T17:27:22.827Z] [INFO] Selected strategy: StandardStrategy (score: 50.00) for Unimarc
+[2025-08-13T17:27:22.831Z] [INFO] Attempt 5/5 using StandardStrategy
+[2025-08-13T17:27:22.831Z] [INFO] [StandardStrategy] Executing standard strategy for Unimarc
+[2025-08-13T17:28:07.946Z] [INFO] Selected strategy: StandardStrategy (score: 50.00) for Jumbo
+[2025-08-13T17:28:07.947Z] [INFO] Attempt 4/5 using StandardStrategy
+[2025-08-13T17:28:07.948Z] [INFO] [StandardStrategy] Executing standard strategy for Jumbo
+[2025-08-13T17:28:29.322Z] [INFO] Selected strategy: StandardStrategy (score: 50.00) for Jumbo
+[2025-08-13T17:28:29.322Z] [INFO] Attempt 4/5 using StandardStrategy
+[2025-08-13T17:28:29.322Z] [INFO] [StandardStrategy] Executing standard strategy for Jumbo
+[2025-08-13T17:28:59.067Z] [INFO] Selected strategy: StandardStrategy (score: 50.00) for Líder
+[2025-08-13T17:28:59.068Z] [INFO] Attempt 4/5 using StandardStrategy
+[2025-08-13T17:28:59.068Z] [INFO] [StandardStrategy] Executing standard strategy for Líder
+[2025-08-13T17:29:08.852Z] [INFO] Selected strategy: StandardStrategy (score: 50.00) for Líder
+[2025-08-13T17:29:08.853Z] [INFO] Attempt 4/5 using StandardStrategy
+[2025-08-13T17:29:08.853Z] [INFO] [StandardStrategy] Executing standard strategy for Líder
+[2025-08-13T17:29:33.986Z] [ERROR] ❌ All attempts failed for unimarc
+[2025-08-13T17:29:33.986Z] [INFO] Progress: 3/9 stores, 25 total products
+[2025-08-13T17:31:42.156Z] [INFO] Selected strategy: StandardStrategy (score: 50.00) for Jumbo
+[2025-08-13T17:31:42.156Z] [INFO] Attempt 5/5 using StandardStrategy
+[2025-08-13T17:31:42.157Z] [INFO] [StandardStrategy] Executing standard strategy for Jumbo
+[2025-08-13T17:32:00.886Z] [INFO] Selected strategy: StandardStrategy (score: 50.00) for Jumbo
+[2025-08-13T17:32:00.887Z] [INFO] Attempt 5/5 using StandardStrategy
+[2025-08-13T17:32:00.887Z] [INFO] [StandardStrategy] Executing standard strategy for Jumbo
+[2025-08-13T17:33:00.082Z] [INFO] Selected strategy: StandardStrategy (score: 50.00) for Líder
+[2025-08-13T17:33:00.082Z] [INFO] Attempt 5/5 using StandardStrategy
+[2025-08-13T17:33:00.083Z] [INFO] [StandardStrategy] Executing standard strategy for Líder
+[2025-08-13T17:33:09.938Z] [INFO] Selected strategy: StandardStrategy (score: 50.00) for Líder
+[2025-08-13T17:33:09.939Z] [INFO] Attempt 5/5 using StandardStrategy
+[2025-08-13T17:33:09.939Z] [INFO] [StandardStrategy] Executing standard strategy for Líder
+[2025-08-13T17:35:13.822Z] [ERROR] ❌ All attempts failed for jumbo
+[2025-08-13T17:35:13.823Z] [INFO] Progress: 1/9 stores, 0 total products
+[2025-08-13T17:35:32.957Z] [ERROR] ❌ All attempts failed for jumbo
+[2025-08-13T17:35:32.958Z] [INFO] Progress: 4/9 stores, 25 total products
+[2025-08-13T17:37:01.106Z] [ERROR] ❌ All attempts failed for lider
+[2025-08-13T17:37:01.106Z] [INFO] Progress: 5/9 stores, 25 total products
+[2025-08-13T17:37:03.115Z] [INFO] 🎯 Starting scrape for Easy
+[2025-08-13T17:37:03.115Z] [INFO] 🎯 Starting scrape for Falabella
+[2025-08-13T17:37:03.116Z] [INFO] 🎯 Starting scrape for París
+[2025-08-13T17:37:03.116Z] [INFO] 🎯 Starting scrape for Sodimac
+[2025-08-13T17:37:03.118Z] [INFO] Selected strategy: StandardStrategy (score: 50.00) for Easy
+[2025-08-13T17:37:03.118Z] [INFO] Selected strategy: StandardStrategy (score: 50.00) for Falabella
+[2025-08-13T17:37:03.118Z] [INFO] Selected strategy: StandardStrategy (score: 50.00) for París
+[2025-08-13T17:37:03.118Z] [INFO] Selected strategy: StandardStrategy (score: 50.00) for Sodimac
+[2025-08-13T17:37:03.118Z] [INFO] Attempt 1/5 using StandardStrategy
+[2025-08-13T17:37:03.119Z] [INFO] Attempt 1/5 using StandardStrategy
+[2025-08-13T17:37:03.119Z] [INFO] Attempt 1/5 using StandardStrategy
+[2025-08-13T17:37:03.119Z] [INFO] Attempt 1/5 using StandardStrategy
+[2025-08-13T17:37:03.119Z] [INFO] [StandardStrategy] Executing standard strategy for París
+[2025-08-13T17:37:03.120Z] [INFO] [StandardStrategy] Executing standard strategy for Falabella
+[2025-08-13T17:37:03.120Z] [INFO] [StandardStrategy] Executing standard strategy for Easy
+[2025-08-13T17:37:03.120Z] [INFO] [StandardStrategy] Executing standard strategy for Sodimac
+[2025-08-13T17:37:11.375Z] [ERROR] ❌ All attempts failed for lider
+[2025-08-13T17:37:11.392Z] [INFO] Progress: 2/9 stores, 0 total products
+[2025-08-13T17:37:13.402Z] [INFO] 🎯 Starting scrape for Santa Isabel
+[2025-08-13T17:37:13.402Z] [INFO] 🎯 Starting scrape for Unimarc
+[2025-08-13T17:37:13.403Z] [INFO] Selected strategy: StandardStrategy (score: 50.00) for Santa Isabel
+[2025-08-13T17:37:13.406Z] [INFO] Selected strategy: StandardStrategy (score: 50.00) for Unimarc
+[2025-08-13T17:37:13.410Z] [INFO] Attempt 1/5 using StandardStrategy
+[2025-08-13T17:37:13.410Z] [INFO] Attempt 1/5 using StandardStrategy
+[2025-08-13T17:37:13.412Z] [INFO] [StandardStrategy] Executing standard strategy for Santa Isabel
+[2025-08-13T17:37:13.413Z] [INFO] [StandardStrategy] Executing standard strategy for Unimarc
+[2025-08-13T17:37:44.530Z] [ERROR] ❌ Attempt 1 failed: page.goto: Timeout 30000ms exceeded.
+Call log:
+[2m  - navigating to "https://www.unimarc.cl/", waiting until "domcontentloaded"[22m
+
+[2025-08-13T17:37:44.531Z] [INFO] ⏳ Waiting 2000ms before retry...
+[2025-08-13T17:37:46.352Z] [INFO] ✅ Success! 53 products from sodimac
+[2025-08-13T17:37:46.414Z] [INFO] Progress: 6/9 stores, 35 total products
+[2025-08-13T17:37:46.533Z] [INFO] Selected strategy: StandardStrategy (score: 50.00) for Unimarc
+[2025-08-13T17:37:46.534Z] [INFO] Attempt 2/5 using StandardStrategy
+[2025-08-13T17:37:46.536Z] [INFO] [StandardStrategy] Executing standard strategy for Unimarc
+[2025-08-13T17:38:30.993Z] [INFO] ✅ Success! 60 products from santa_isabel
+[2025-08-13T17:38:30.996Z] [INFO] Progress: 3/9 stores, 20 total products
+[2025-08-13T17:39:08.981Z] [INFO] Selected strategy: StandardStrategy (score: 50.00) for París
+[2025-08-13T17:39:08.981Z] [INFO] Attempt 2/5 using StandardStrategy
+[2025-08-13T17:39:08.985Z] [INFO] [StandardStrategy] Executing standard strategy for París
+[2025-08-13T17:39:09.989Z] [INFO] ✅ Success! 39 products from falabella
+[2025-08-13T17:39:09.991Z] [INFO] Progress: 7/9 stores, 38 total products
+[2025-08-13T17:39:35.573Z] [INFO] Selected strategy: StandardStrategy (score: 50.00) for Easy
+[2025-08-13T17:39:35.573Z] [INFO] Attempt 2/5 using StandardStrategy
+[2025-08-13T17:39:35.574Z] [INFO] [StandardStrategy] Executing standard strategy for Easy
+[2025-08-13T17:40:03.527Z] [INFO] Selected strategy: StandardStrategy (score: 50.00) for Unimarc
+[2025-08-13T17:40:03.528Z] [INFO] Attempt 3/5 using StandardStrategy
+[2025-08-13T17:40:03.528Z] [INFO] [StandardStrategy] Executing standard strategy for Unimarc
+[2025-08-13T17:41:12.339Z] [INFO] Selected strategy: StandardStrategy (score: 50.00) for París
+[2025-08-13T17:41:12.339Z] [INFO] Attempt 3/5 using StandardStrategy
+[2025-08-13T17:41:12.340Z] [INFO] [StandardStrategy] Executing standard strategy for París
+[2025-08-13T17:42:08.128Z] [INFO] Selected strategy: StandardStrategy (score: 50.00) for Easy
+[2025-08-13T17:42:08.129Z] [INFO] Attempt 3/5 using StandardStrategy
+[2025-08-13T17:42:08.129Z] [INFO] [StandardStrategy] Executing standard strategy for Easy
+[2025-08-13T17:42:22.475Z] [INFO] Selected strategy: StandardStrategy (score: 50.00) for Unimarc
+[2025-08-13T17:42:22.477Z] [INFO] Attempt 4/5 using StandardStrategy
+[2025-08-13T17:42:22.477Z] [INFO] [StandardStrategy] Executing standard strategy for Unimarc
+[2025-08-13T17:43:15.051Z] [INFO] Selected strategy: StandardStrategy (score: 50.00) for París
+[2025-08-13T17:43:15.052Z] [INFO] Attempt 4/5 using StandardStrategy
+[2025-08-13T17:43:15.052Z] [INFO] [StandardStrategy] Executing standard strategy for París
+[2025-08-13T17:44:28.564Z] [INFO] Selected strategy: StandardStrategy (score: 50.00) for Unimarc
+[2025-08-13T17:44:28.565Z] [INFO] Attempt 5/5 using StandardStrategy
+[2025-08-13T17:44:28.565Z] [INFO] [StandardStrategy] Executing standard strategy for Unimarc
+[2025-08-13T17:44:39.050Z] [INFO] Selected strategy: StandardStrategy (score: 50.00) for Easy
+[2025-08-13T17:44:39.053Z] [INFO] Attempt 4/5 using StandardStrategy
+[2025-08-13T17:44:39.055Z] [INFO] [StandardStrategy] Executing standard strategy for Easy
+[2025-08-13T17:45:19.925Z] [INFO] Selected strategy: StandardStrategy (score: 50.00) for París
+[2025-08-13T17:45:19.926Z] [INFO] Attempt 5/5 using StandardStrategy
+[2025-08-13T17:45:19.926Z] [INFO] [StandardStrategy] Executing standard strategy for París
+[2025-08-13T17:46:35.954Z] [ERROR] ❌ All attempts failed for unimarc
+[2025-08-13T17:46:36.053Z] [INFO] Progress: 4/9 stores, 20 total products
+[2025-08-13T17:46:38.063Z] [INFO] 🎯 Starting scrape for Tottus
+[2025-08-13T17:46:38.063Z] [INFO] 🎯 Starting scrape for Easy
+[2025-08-13T17:46:38.063Z] [INFO] Selected strategy: StandardStrategy (score: 50.00) for Tottus
+[2025-08-13T17:46:38.063Z] [INFO] Selected strategy: StandardStrategy (score: 50.00) for Easy
+[2025-08-13T17:46:38.064Z] [INFO] Attempt 1/5 using StandardStrategy
+[2025-08-13T17:46:38.065Z] [INFO] Attempt 1/5 using StandardStrategy
+[2025-08-13T17:46:38.066Z] [INFO] [StandardStrategy] Executing standard strategy for Tottus
+[2025-08-13T17:46:38.067Z] [INFO] [StandardStrategy] Executing standard strategy for Easy
+[2025-08-13T17:47:03.748Z] [INFO] ✅ Success! 60 products from tottus
+[2025-08-13T17:47:03.753Z] [INFO] Progress: 5/9 stores, 25 total products
+[2025-08-13T17:47:12.988Z] [INFO] Selected strategy: StandardStrategy (score: 50.00) for Easy
+[2025-08-13T17:47:12.989Z] [INFO] Attempt 5/5 using StandardStrategy
+[2025-08-13T17:47:12.990Z] [INFO] [StandardStrategy] Executing standard strategy for Easy
+[2025-08-13T17:47:24.628Z] [ERROR] ❌ All attempts failed for paris
+[2025-08-13T17:47:24.631Z] [INFO] Progress: 8/9 stores, 38 total products
+[2025-08-13T17:49:10.472Z] [INFO] Selected strategy: StandardStrategy (score: 50.00) for Easy
+[2025-08-13T17:49:10.472Z] [INFO] Attempt 2/5 using StandardStrategy
+[2025-08-13T17:49:10.473Z] [INFO] [StandardStrategy] Executing standard strategy for Easy
+[2025-08-13T17:49:44.056Z] [ERROR] ❌ All attempts failed for easy
+[2025-08-13T17:49:44.372Z] [INFO] Progress: 9/9 stores, 38 total products
+[2025-08-13T17:49:44.381Z] [INFO] 💾 Results saved to /home/kuromatsu/Documents/ΛRΛMΛC/Websites/Minimarket/data/ultra-scraper
+[2025-08-13T17:49:44.382Z] [INFO] 🎉 Ultra-advanced scraping campaign complete!
+[2025-08-13T17:49:44.383Z] [INFO] 📊 Final results: 38 products in 31 minutes
+[2025-08-13T17:51:42.410Z] [INFO] Selected strategy: StandardStrategy (score: 50.00) for Easy
+[2025-08-13T17:51:42.410Z] [INFO] Attempt 3/5 using StandardStrategy
+[2025-08-13T17:51:42.410Z] [INFO] [StandardStrategy] Executing standard strategy for Easy
+[2025-08-13T17:54:13.489Z] [INFO] Selected strategy: StandardStrategy (score: 50.00) for Easy
+[2025-08-13T17:54:13.489Z] [INFO] Attempt 4/5 using StandardStrategy
+[2025-08-13T17:54:13.490Z] [INFO] [StandardStrategy] Executing standard strategy for Easy
+[2025-08-13T17:56:44.298Z] [INFO] Selected strategy: StandardStrategy (score: 50.00) for Easy
+[2025-08-13T17:56:44.298Z] [INFO] Attempt 5/5 using StandardStrategy
+[2025-08-13T17:56:44.298Z] [INFO] [StandardStrategy] Executing standard strategy for Easy
+[2025-08-13T17:59:15.058Z] [ERROR] ❌ All attempts failed for easy
+[2025-08-13T17:59:15.058Z] [INFO] Progress: 6/9 stores, 25 total products
+[2025-08-13T17:59:17.067Z] [INFO] 🎯 Starting scrape for Falabella
+[2025-08-13T17:59:17.067Z] [INFO] 🎯 Starting scrape for París
+[2025-08-13T17:59:17.067Z] [INFO] Selected strategy: StandardStrategy (score: 50.00) for París
+[2025-08-13T17:59:17.068Z] [INFO] Selected strategy: StandardStrategy (score: 50.00) for Falabella
+[2025-08-13T17:59:17.068Z] [INFO] Attempt 1/5 using StandardStrategy
+[2025-08-13T17:59:17.068Z] [INFO] Attempt 1/5 using StandardStrategy
+[2025-08-13T17:59:17.068Z] [INFO] [StandardStrategy] Executing standard strategy for París
+[2025-08-13T17:59:17.068Z] [INFO] [StandardStrategy] Executing standard strategy for Falabella
+[2025-08-13T18:01:21.008Z] [INFO] ✅ Success! 39 products from falabella
+[2025-08-13T18:01:21.009Z] [INFO] Progress: 7/9 stores, 28 total products
+[2025-08-13T18:01:22.389Z] [INFO] Selected strategy: StandardStrategy (score: 50.00) for París
+[2025-08-13T18:01:22.389Z] [INFO] Attempt 2/5 using StandardStrategy
+[2025-08-13T18:01:22.390Z] [INFO] [StandardStrategy] Executing standard strategy for París
+[2025-08-13T18:03:24.820Z] [INFO] Selected strategy: StandardStrategy (score: 50.00) for París
+[2025-08-13T18:03:24.820Z] [INFO] Attempt 3/5 using StandardStrategy
+[2025-08-13T18:03:24.820Z] [INFO] [StandardStrategy] Executing standard strategy for París
+[2025-08-13T18:05:27.435Z] [INFO] Selected strategy: StandardStrategy (score: 50.00) for París
+[2025-08-13T18:05:27.436Z] [INFO] Attempt 4/5 using StandardStrategy
+[2025-08-13T18:05:27.436Z] [INFO] [StandardStrategy] Executing standard strategy for París
+[2025-08-13T18:07:29.664Z] [INFO] Selected strategy: StandardStrategy (score: 50.00) for París
+[2025-08-13T18:07:29.665Z] [INFO] Attempt 5/5 using StandardStrategy
+[2025-08-13T18:07:29.665Z] [INFO] [StandardStrategy] Executing standard strategy for París
+[2025-08-13T18:09:32.327Z] [ERROR] ❌ All attempts failed for paris
+[2025-08-13T18:09:32.328Z] [INFO] Progress: 8/9 stores, 28 total products
+[2025-08-13T18:09:34.338Z] [INFO] 🎯 Starting scrape for Sodimac
+[2025-08-13T18:09:34.338Z] [INFO] Selected strategy: StandardStrategy (score: 50.00) for Sodimac
+[2025-08-13T18:09:34.338Z] [INFO] Attempt 1/5 using StandardStrategy
+[2025-08-13T18:09:34.339Z] [INFO] [StandardStrategy] Executing standard strategy for Sodimac
+[2025-08-13T18:10:08.201Z] [INFO] ✅ Success! 53 products from sodimac
+[2025-08-13T18:10:08.460Z] [INFO] Progress: 9/9 stores, 38 total products
+[2025-08-13T18:10:09.503Z] [INFO] 💾 Results saved to /home/kuromatsu/Documents/ΛRΛMΛC/Websites/Minimarket/data/ultra-scraper
+[2025-08-13T18:10:09.503Z] [INFO] 🎉 Ultra-advanced scraping campaign complete!
+[2025-08-13T18:10:09.503Z] [INFO] 📊 Final results: 38 products in 52 minutes

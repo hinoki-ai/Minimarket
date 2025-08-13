@@ -1,0 +1,28 @@
+{
+  "runId": "run-20250813-174917",
+  "createdAt": "2025-08-13T21:49:17.543Z",
+  "paths": {
+    "root": "/home/kuromatsu/Documents/ΛRΛMΛC/Websites/Minimarket/data/scraper/run-20250813-174917",
+    "images": "/home/kuromatsu/Documents/ΛRΛMΛC/Websites/Minimarket/data/scraper/run-20250813-174917/images",
+    "products": "/home/kuromatsu/Documents/ΛRΛMΛC/Websites/Minimarket/data/scraper/run-20250813-174917/products",
+    "reports": "/home/kuromatsu/Documents/ΛRΛMΛC/Websites/Minimarket/data/scraper/run-20250813-174917/reports",
+    "logs": "/home/kuromatsu/Documents/ΛRΛMΛC/Websites/Minimarket/data/scraper/run-20250813-174917/logs",
+    "sessions": "/home/kuromatsu/Documents/ΛRΛMΛC/Websites/Minimarket/data/scraper/run-20250813-174917/sessions"
+  },
+  "sources": {
+    "scrapedRootExists": true,
+    "dataCollections": [
+      "advanced-scrape",
+      "enhanced-navigation",
+      "live-aggregation",
+      "mass-scrape",
+      "massive-library",
+      "products",
+      "scraper",
+      "ultra-20250813-132501",
+      "ultra-aggressive",
+      "ultra-scraper",
+      "ultra-scraper-test"
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "sessionId": "cd4b96c9-9475-4ebc-9f94-2d80ff75c29d",
+  "timestamp": "2025-08-13T17:28:29.120Z",
+  "duration": {
+    "total": 206945,
+    "minutes": 3,
+    "productRate": 15
+  },
+  "summary": {
+    "totalProducts": 52,
+    "targetReached": false,
+    "storesProcessed": 9,
+    "storesSuccessful": 7,
+    "errorsTotal": 0
+  },
+  "breakdown": {
+    "byStore": {
+      "tottus": 8,
+      "líder": 3,
+      "jumbo": 12,
+      "unimarc": 4,
+      "santa isabel": 5,
+      "sodimac": 18,
+      "parís": 2
+    },
+    "byCategory": {
+      "general": 49,
+      "lacteos": 2,
+      "bebidas": 1
+    },
+    "byStrategy": {
+      "AggressiveStrategy": 21
+    },
+    "qualityMetrics": {
+      "withImages": 0,
+      "withPrices": 48,
+      "withDescriptions": 48,
+      "withBrands": 52
+    }
+  },
+  "performance": {
+    "averageResponseTime": 78821,
+    "successRate": "77.78%",
+    "errorRate": "0.00%"
+  }
+}

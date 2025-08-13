@@ -1,0 +1,254 @@
+[
+  {
+    "id": "ed086d34-a233-4c64-ad92-1d3abbb78c5a",
+    "name": "Hasta 30 dcto. en productos para tu gatitoVer más",
+    "category": "general",
+    "price": 30,
+    "currency": "CLP",
+    "description": "Hasta 30 dcto. en productos para tu gatitoVer más",
+    "store": {
+      "name": "jumbo",
+      "url": "https://www.jumbo.cl/",
+      "scraped": "2025-08-13T17:25:25.440Z",
+      "strategy": "AggressiveStrategy",
+      "selector": "[class*=\"product\"]"
+    },
+    "stock": 28,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:25:25.440Z",
+    "updatedAt": "2025-08-13T17:26:12.459Z",
+    "brand": "Hasta",
+    "shortDescription": "Hasta 30% dcto. en productos para tu gatitoVer más"
+  },
+  {
+    "id": "9954b894-81cd-4707-9845-6b0240c253fe",
+    "name": "Hasta 30 dcto. en productos para tu gatito",
+    "category": "general",
+    "price": 30,
+    "currency": "CLP",
+    "description": "Hasta 30 dcto. en productos para tu gatito",
+    "store": {
+      "name": "jumbo",
+      "url": "https://www.jumbo.cl/",
+      "scraped": "2025-08-13T17:25:25.443Z",
+      "strategy": "AggressiveStrategy",
+      "selector": "[class*=\"product\"]"
+    },
+    "stock": 31,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:25:25.443Z",
+    "updatedAt": "2025-08-13T17:26:12.459Z",
+    "brand": "Hasta",
+    "shortDescription": "Hasta 30% dcto. en productos para tu gatito"
+  },
+  {
+    "id": "449efe3d-39b6-4811-b76c-e5c8f72f6023",
+    "name": "Oreo 3x2 - Milka Chocopause 2.000Ver más",
+    "category": "general",
+    "price": 3,
+    "currency": "CLP",
+    "description": "Oreo 3x2 - Milka Chocopause 2.000Ver más",
+    "store": {
+      "name": "jumbo",
+      "url": "https://www.jumbo.cl/",
+      "scraped": "2025-08-13T17:25:25.897Z",
+      "strategy": "AggressiveStrategy",
+      "selector": "[class*=\"product\"]"
+    },
+    "stock": 27,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:25:25.897Z",
+    "updatedAt": "2025-08-13T17:26:12.459Z",
+    "brand": "Oreo",
+    "shortDescription": "Oreo 3x2 - Milka Chocopause $2.000Ver más"
+  },
+  {
+    "id": "ebe9d7b1-11e6-40b1-a846-5e411878e15e",
+    "name": "Oreo 3x2 - Milka Chocopause 2.000",
+    "category": "general",
+    "price": 3,
+    "currency": "CLP",
+    "description": "Oreo 3x2 - Milka Chocopause 2.000",
+    "store": {
+      "name": "jumbo",
+      "url": "https://www.jumbo.cl/",
+      "scraped": "2025-08-13T17:25:25.952Z",
+      "strategy": "AggressiveStrategy",
+      "selector": "[class*=\"product\"]"
+    },
+    "stock": 53,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:25:25.952Z",
+    "updatedAt": "2025-08-13T17:26:12.459Z",
+    "brand": "Oreo",
+    "shortDescription": "Oreo 3x2 - Milka Chocopause $2.000"
+  },
+  {
+    "id": "a6c0f1ef-19ba-4c39-813a-59c060406a10",
+    "name": "Omo Diluible (Rinde 3L) 5.990Ver más",
+    "category": "general",
+    "price": 3,
+    "currency": "CLP",
+    "description": "Omo Diluible (Rinde 3L) 5.990Ver más",
+    "store": {
+      "name": "jumbo",
+      "url": "https://www.jumbo.cl/",
+      "scraped": "2025-08-13T17:25:28.260Z",
+      "strategy": "AggressiveStrategy",
+      "selector": "[class*=\"product\"]"
+    },
+    "stock": 27,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:25:28.260Z",
+    "updatedAt": "2025-08-13T17:26:12.459Z",
+    "brand": "Omo",
+    "shortDescription": "Omo Diluible (Rinde 3L) $5.990Ver más"
+  },
+  {
+    "id": "c98f2b6f-3955-4f0e-a2f9-57eb6029313b",
+    "name": "Omo Diluible (Rinde 3L) 5.990",
+    "category": "general",
+    "price": 3,
+    "currency": "CLP",
+    "description": "Omo Diluible (Rinde 3L) 5.990",
+    "store": {
+      "name": "jumbo",
+      "url": "https://www.jumbo.cl/",
+      "scraped": "2025-08-13T17:25:28.341Z",
+      "strategy": "AggressiveStrategy",
+      "selector": "[class*=\"product\"]"
+    },
+    "stock": 47,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:25:28.341Z",
+    "updatedAt": "2025-08-13T17:26:12.459Z",
+    "brand": "Omo",
+    "shortDescription": "Omo Diluible (Rinde 3L) $5.990"
+  },
+  {
+    "id": "3a4e1785-7353-413a-8e0f-900373f42d4f",
+    "name": "Néctar Guallarauco 1L variedades 2.690Ver más",
+    "category": "general",
+    "price": 1,
+    "currency": "CLP",
+    "description": "Néctar Guallarauco 1L variedades 2.690Ver más",
+    "store": {
+      "name": "jumbo",
+      "url": "https://www.jumbo.cl/",
+      "scraped": "2025-08-13T17:25:28.359Z",
+      "strategy": "AggressiveStrategy",
+      "selector": "[class*=\"product\"]"
+    },
+    "stock": 31,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:25:28.359Z",
+    "updatedAt": "2025-08-13T17:26:12.459Z",
+    "brand": "Néctar",
+    "shortDescription": "Néctar Guallarauco 1L variedades $2.690Ver más"
+  },
+  {
+    "id": "38205161-46fc-44dc-a246-0afaa5b35998",
+    "name": "Néctar Guallarauco 1L variedades 2.690",
+    "category": "general",
+    "price": 1,
+    "currency": "CLP",
+    "description": "Néctar Guallarauco 1L variedades 2.690",
+    "store": {
+      "name": "jumbo",
+      "url": "https://www.jumbo.cl/",
+      "scraped": "2025-08-13T17:25:28.364Z",
+      "strategy": "AggressiveStrategy",
+      "selector": "[class*=\"product\"]"
+    },
+    "stock": 11,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:25:28.364Z",
+    "updatedAt": "2025-08-13T17:26:12.459Z",
+    "brand": "Néctar",
+    "shortDescription": "Néctar Guallarauco 1L variedades $2.690"
+  },
+  {
+    "id": "2caa9ff0-b988-442b-9903-1e42115bf380",
+    "name": "Herbal Essences 25 dcto.Ver más",
+    "category": "general",
+    "price": 25,
+    "currency": "CLP",
+    "description": "Herbal Essences 25 dcto.Ver más",
+    "store": {
+      "name": "jumbo",
+      "url": "https://www.jumbo.cl/",
+      "scraped": "2025-08-13T17:25:28.384Z",
+      "strategy": "AggressiveStrategy",
+      "selector": "[class*=\"product\"]"
+    },
+    "stock": 42,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:25:28.384Z",
+    "updatedAt": "2025-08-13T17:26:12.459Z",
+    "brand": "Herbal",
+    "shortDescription": "Herbal Essences 25% dcto.Ver más"
+  },
+  {
+    "id": "fa711f59-1132-4af8-8a5f-5f828865b6ce",
+    "name": "Herbal Essences 25 dcto.",
+    "category": "general",
+    "price": 25,
+    "currency": "CLP",
+    "description": "Herbal Essences 25 dcto.",
+    "store": {
+      "name": "jumbo",
+      "url": "https://www.jumbo.cl/",
+      "scraped": "2025-08-13T17:25:28.389Z",
+      "strategy": "AggressiveStrategy",
+      "selector": "[class*=\"product\"]"
+    },
+    "stock": 39,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:25:28.389Z",
+    "updatedAt": "2025-08-13T17:26:12.459Z",
+    "brand": "Herbal",
+    "shortDescription": "Herbal Essences 25% dcto."
+  },
+  {
+    "id": "1420fe7b-0561-4254-8e8c-21685e28e2d9",
+    "name": "Marcas-Cuisine  Co (21)Sopraval (3)Las Parcelas de Valdivia (1)Receta del Abuelo (13)Castaño (7)Col",
+    "category": "general",
+    "price": 21,
+    "currency": "CLP",
+    "description": "Marcas-Cuisine  Co (21)Sopraval (3)Las Parcelas de Valdivia (1)Receta del Abuelo (13)Castaño (7)Col",
+    "store": {
+      "name": "jumbo",
+      "url": "https://www.jumbo.cl/productos",
+      "scraped": "2025-08-13T17:25:57.419Z",
+      "strategy": "AggressiveStrategy",
+      "selector": "[class*=\"grid\"]"
+    },
+    "stock": 34,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:25:57.419Z",
+    "updatedAt": "2025-08-13T17:26:12.459Z",
+    "brand": "Marcas-Cuisine",
+    "shortDescription": "Marcas-Cuisine & Co (21)Sopraval (3)Las Parcela..."
+  },
+  {
+    "id": "04bb6b51-4da3-4fba-a0d3-ef1aff820efb",
+    "name": "Copyright  2025 Cencosud - Jumbo Términos y Condiciones  Seguridad y Privacidad",
+    "category": "general",
+    "price": 2025,
+    "currency": "CLP",
+    "description": "Copyright  2025 Cencosud - Jumbo Términos y Condiciones  Seguridad y Privacidad",
+    "store": {
+      "name": "jumbo",
+      "url": "https://www.jumbo.cl/catalog",
+      "scraped": "2025-08-13T17:26:11.899Z",
+      "strategy": "AggressiveStrategy",
+      "selector": "[class*=\"item\"]"
+    },
+    "stock": 45,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:26:11.899Z",
+    "updatedAt": "2025-08-13T17:26:12.460Z",
+    "brand": "Copyright",
+    "shortDescription": "Copyright © 2025 Cencosud - Jumbo Términos y Co..."
+  }
+]

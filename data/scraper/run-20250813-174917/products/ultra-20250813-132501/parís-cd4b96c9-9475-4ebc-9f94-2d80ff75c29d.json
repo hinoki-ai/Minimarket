@@ -1,0 +1,44 @@
+[
+  {
+    "id": "2450eae9-fde7-496f-87d0-08941f4a717b",
+    "name": "Vista PreviaAvéneAgua Termal 150 ml4.8(73)151511.460101012.14013.490Agregar al carroVista Pre",
+    "category": "bebidas",
+    "price": 150,
+    "currency": "CLP",
+    "description": "Vista PreviaAvéneAgua Termal 150 ml4.8(73)151511.460101012.14013.490Agregar al carroVista Pre",
+    "store": {
+      "name": "parís",
+      "url": "https://www.paris.cl/search/?q=agua",
+      "scraped": "2025-08-13T17:27:16.914Z",
+      "strategy": "AggressiveStrategy",
+      "selector": "[data-testid*=\"product\"]"
+    },
+    "stock": 14,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:27:16.914Z",
+    "updatedAt": "2025-08-13T17:28:09.457Z",
+    "brand": "Vista",
+    "shortDescription": "Vista PreviaAvéneAgua Termal 150 ml4.8(73)15%15..."
+  },
+  {
+    "id": "90d8fd55-49db-4641-9337-c6ac6b5ed6d5",
+    "name": "Vista PreviaEasyWaysEspumador de Leche Milano Milk EasyWays3.7(3)262636.99049.990Agregar al carr",
+    "category": "lacteos",
+    "price": 37,
+    "currency": "CLP",
+    "description": "Vista PreviaEasyWaysEspumador de Leche Milano Milk EasyWays3.7(3)262636.99049.990Agregar al carr",
+    "store": {
+      "name": "parís",
+      "url": "https://www.paris.cl/search/?q=leche",
+      "scraped": "2025-08-13T17:27:58.354Z",
+      "strategy": "AggressiveStrategy",
+      "selector": "[data-testid*=\"product\"]"
+    },
+    "stock": 48,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:27:58.354Z",
+    "updatedAt": "2025-08-13T17:28:09.457Z",
+    "brand": "Vista",
+    "shortDescription": "Vista PreviaEasyWaysEspumador de Leche Milano M..."
+  }
+]

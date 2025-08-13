@@ -1,0 +1,107 @@
+[
+  {
+    "id": "9be830fa-c889-46c8-8c73-90d8c8a1cda3",
+    "name": "3.990aprox.",
+    "category": "general",
+    "price": 3990,
+    "currency": "CLP",
+    "description": "3.990aprox.",
+    "store": {
+      "name": "santa isabel",
+      "url": "https://www.santaisabel.cl/",
+      "scraped": "2025-08-13T17:26:14.695Z",
+      "strategy": "AggressiveStrategy",
+      "selector": "[class*=\"card\"]"
+    },
+    "stock": 15,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:26:14.695Z",
+    "updatedAt": "2025-08-13T17:26:38.119Z",
+    "brand": "3.990aprox.",
+    "shortDescription": "$3.990aprox."
+  },
+  {
+    "id": "bdfbc93f-6820-494c-8f81-6b605a666c82",
+    "name": "1.050",
+    "category": "general",
+    "price": 1050,
+    "currency": "CLP",
+    "description": "1.050",
+    "store": {
+      "name": "santa isabel",
+      "url": "https://www.santaisabel.cl/",
+      "scraped": "2025-08-13T17:26:14.806Z",
+      "strategy": "AggressiveStrategy",
+      "selector": "[class*=\"card\"]"
+    },
+    "stock": 52,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:26:14.806Z",
+    "updatedAt": "2025-08-13T17:26:38.119Z",
+    "brand": "1.050",
+    "shortDescription": "$1.050"
+  },
+  {
+    "id": "2f6150bb-dada-4975-8ffe-ec2e4a2f90ae",
+    "name": "Leche Surlat Semidescremada 1 L",
+    "category": "lacteos",
+    "price": 1,
+    "currency": "CLP",
+    "description": "Leche Surlat Semidescremada 1 L",
+    "store": {
+      "name": "santa isabel",
+      "url": "https://www.santaisabel.cl/",
+      "scraped": "2025-08-13T17:26:14.856Z",
+      "strategy": "AggressiveStrategy",
+      "selector": "[class*=\"card\"]"
+    },
+    "stock": 16,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:26:14.856Z",
+    "updatedAt": "2025-08-13T17:26:38.119Z",
+    "brand": "Leche",
+    "shortDescription": "Leche Surlat Semidescremada 1 L"
+  },
+  {
+    "id": "8a8dfe78-641c-4c7c-a3b3-aeb2b2cd2da9",
+    "name": "2.990",
+    "category": "general",
+    "price": 2990,
+    "currency": "CLP",
+    "description": "2.990",
+    "store": {
+      "name": "santa isabel",
+      "url": "https://www.santaisabel.cl/",
+      "scraped": "2025-08-13T17:26:14.859Z",
+      "strategy": "AggressiveStrategy",
+      "selector": "[class*=\"card\"]"
+    },
+    "stock": 25,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:26:14.859Z",
+    "updatedAt": "2025-08-13T17:26:38.119Z",
+    "brand": "2.990",
+    "shortDescription": "$2.990"
+  },
+  {
+    "id": "872ff866-49cd-4238-8b0a-f189e0eb5c42",
+    "name": "4.581aprox.",
+    "category": "general",
+    "price": 4581,
+    "currency": "CLP",
+    "description": "4.581aprox.",
+    "store": {
+      "name": "santa isabel",
+      "url": "https://www.santaisabel.cl/buscar?q=agua",
+      "scraped": "2025-08-13T17:26:24.484Z",
+      "strategy": "AggressiveStrategy",
+      "selector": "[class*=\"card\"]"
+    },
+    "stock": 19,
+    "inStock": true,
+    "createdAt": "2025-08-13T17:26:24.484Z",
+    "updatedAt": "2025-08-13T17:26:38.119Z",
+    "brand": "4.581aprox.",
+    "shortDescription": "$4.581aprox."
+  }
+]

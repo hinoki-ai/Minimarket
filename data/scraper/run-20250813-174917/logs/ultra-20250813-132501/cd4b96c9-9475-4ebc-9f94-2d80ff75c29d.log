@@ -1,0 +1,79 @@
+[2025-08-13T17:25:02.191Z] [INFO] 🚀 Ultra-Advanced Scraper Engine initialized
+[2025-08-13T17:25:02.192Z] [INFO] Session ID: cd4b96c9-9475-4ebc-9f94-2d80ff75c29d
+[2025-08-13T17:25:02.193Z] [INFO] Strategy: aggressive
+[2025-08-13T17:25:02.193Z] [INFO] Target stores: 9
+[2025-08-13T17:25:02.194Z] [INFO] Max products: 2000
+[2025-08-13T17:25:02.195Z] [INFO] 🚀 Starting ultra-advanced scraping campaign
+[2025-08-13T17:25:02.195Z] [INFO] Target: 2000 products from 9 stores
+[2025-08-13T17:25:02.196Z] [INFO] 🎯 Starting scrape for Líder
+[2025-08-13T17:25:02.196Z] [INFO] 🎯 Starting scrape for Jumbo
+[2025-08-13T17:25:02.196Z] [INFO] 🎯 Starting scrape for Santa Isabel
+[2025-08-13T17:25:02.196Z] [INFO] 🎯 Starting scrape for Unimarc
+[2025-08-13T17:25:02.197Z] [INFO] 🎯 Starting scrape for Tottus
+[2025-08-13T17:25:02.197Z] [INFO] 🎯 Starting scrape for Easy
+[2025-08-13T17:25:02.198Z] [INFO] Attempt 1/5 using AggressiveStrategy
+[2025-08-13T17:25:02.198Z] [INFO] Attempt 1/5 using AggressiveStrategy
+[2025-08-13T17:25:02.198Z] [INFO] Attempt 1/5 using AggressiveStrategy
+[2025-08-13T17:25:02.198Z] [INFO] Attempt 1/5 using AggressiveStrategy
+[2025-08-13T17:25:02.198Z] [INFO] Attempt 1/5 using AggressiveStrategy
+[2025-08-13T17:25:02.198Z] [INFO] Attempt 1/5 using AggressiveStrategy
+[2025-08-13T17:25:02.199Z] [INFO] [AggressiveStrategy] Executing aggressive strategy for Líder
+[2025-08-13T17:25:02.199Z] [INFO] [AggressiveStrategy] Executing aggressive strategy for Jumbo
+[2025-08-13T17:25:02.200Z] [INFO] [AggressiveStrategy] Executing aggressive strategy for Santa Isabel
+[2025-08-13T17:25:02.200Z] [INFO] [AggressiveStrategy] Executing aggressive strategy for Unimarc
+[2025-08-13T17:25:02.200Z] [INFO] [AggressiveStrategy] Executing aggressive strategy for Tottus
+[2025-08-13T17:25:02.200Z] [INFO] [AggressiveStrategy] Executing aggressive strategy for Easy
+[2025-08-13T17:25:31.866Z] [INFO] ✅ Success! 8 products from tottus
+[2025-08-13T17:25:31.886Z] [INFO] Progress: 1/9 stores, 8 total products
+[2025-08-13T17:25:32.516Z] [INFO] Attempt 2/5 using AggressiveStrategy
+[2025-08-13T17:25:32.532Z] [INFO] [AggressiveStrategy] Executing aggressive strategy for Santa Isabel
+[2025-08-13T17:25:37.822Z] [INFO] Attempt 2/5 using AggressiveStrategy
+[2025-08-13T17:25:37.823Z] [INFO] [AggressiveStrategy] Executing aggressive strategy for Easy
+[2025-08-13T17:25:53.739Z] [INFO] Attempt 3/5 using AggressiveStrategy
+[2025-08-13T17:25:53.740Z] [INFO] [AggressiveStrategy] Executing aggressive strategy for Santa Isabel
+[2025-08-13T17:25:55.044Z] [INFO] ✅ Success! 9 products from lider
+[2025-08-13T17:25:55.094Z] [INFO] Progress: 2/9 stores, 11 total products
+[2025-08-13T17:25:59.575Z] [INFO] Attempt 3/5 using AggressiveStrategy
+[2025-08-13T17:25:59.578Z] [INFO] [AggressiveStrategy] Executing aggressive strategy for Easy
+[2025-08-13T17:26:12.458Z] [INFO] ✅ Success! 12 products from jumbo
+[2025-08-13T17:26:12.473Z] [INFO] Progress: 3/9 stores, 23 total products
+[2025-08-13T17:26:23.804Z] [INFO] Attempt 4/5 using AggressiveStrategy
+[2025-08-13T17:26:23.944Z] [INFO] [AggressiveStrategy] Executing aggressive strategy for Easy
+[2025-08-13T17:26:33.929Z] [INFO] ✅ Success! 50 products from unimarc
+[2025-08-13T17:26:34.062Z] [INFO] Progress: 4/9 stores, 27 total products
+[2025-08-13T17:26:38.071Z] [INFO] Attempt 5/5 using AggressiveStrategy
+[2025-08-13T17:26:38.072Z] [INFO] [AggressiveStrategy] Executing aggressive strategy for Easy
+[2025-08-13T17:26:38.118Z] [INFO] ✅ Success! 19 products from santa_isabel
+[2025-08-13T17:26:38.218Z] [INFO] Progress: 5/9 stores, 32 total products
+[2025-08-13T17:26:42.961Z] [ERROR] ❌ All attempts failed for easy
+[2025-08-13T17:26:42.961Z] [INFO] Progress: 6/9 stores, 32 total products
+[2025-08-13T17:26:44.972Z] [INFO] 🎯 Starting scrape for Falabella
+[2025-08-13T17:26:44.972Z] [INFO] 🎯 Starting scrape for París
+[2025-08-13T17:26:44.972Z] [INFO] 🎯 Starting scrape for Sodimac
+[2025-08-13T17:26:44.972Z] [INFO] Attempt 1/5 using AggressiveStrategy
+[2025-08-13T17:26:44.972Z] [INFO] Attempt 1/5 using AggressiveStrategy
+[2025-08-13T17:26:44.972Z] [INFO] Attempt 1/5 using AggressiveStrategy
+[2025-08-13T17:26:44.973Z] [INFO] [AggressiveStrategy] Executing aggressive strategy for Falabella
+[2025-08-13T17:26:44.973Z] [INFO] [AggressiveStrategy] Executing aggressive strategy for París
+[2025-08-13T17:26:44.973Z] [INFO] [AggressiveStrategy] Executing aggressive strategy for Sodimac
+[2025-08-13T17:26:58.406Z] [INFO] Attempt 2/5 using AggressiveStrategy
+[2025-08-13T17:26:58.407Z] [INFO] [AggressiveStrategy] Executing aggressive strategy for Falabella
+[2025-08-13T17:27:00.842Z] [INFO] Attempt 2/5 using AggressiveStrategy
+[2025-08-13T17:27:00.843Z] [INFO] [AggressiveStrategy] Executing aggressive strategy for Sodimac
+[2025-08-13T17:27:08.166Z] [INFO] Attempt 3/5 using AggressiveStrategy
+[2025-08-13T17:27:08.167Z] [INFO] [AggressiveStrategy] Executing aggressive strategy for Falabella
+[2025-08-13T17:27:17.434Z] [INFO] Attempt 3/5 using AggressiveStrategy
+[2025-08-13T17:27:17.435Z] [INFO] [AggressiveStrategy] Executing aggressive strategy for Sodimac
+[2025-08-13T17:27:25.888Z] [INFO] Attempt 4/5 using AggressiveStrategy
+[2025-08-13T17:27:25.889Z] [INFO] [AggressiveStrategy] Executing aggressive strategy for Falabella
+[2025-08-13T17:28:04.526Z] [INFO] ✅ Success! 18 products from sodimac
+[2025-08-13T17:28:05.079Z] [INFO] Progress: 7/9 stores, 50 total products
+[2025-08-13T17:28:09.455Z] [INFO] ✅ Success! 2 products from paris
+[2025-08-13T17:28:09.672Z] [INFO] Progress: 8/9 stores, 52 total products
+[2025-08-13T17:28:09.724Z] [INFO] Attempt 5/5 using AggressiveStrategy
+[2025-08-13T17:28:09.725Z] [INFO] [AggressiveStrategy] Executing aggressive strategy for Falabella
+[2025-08-13T17:28:29.118Z] [ERROR] ❌ All attempts failed for falabella
+[2025-08-13T17:28:29.119Z] [INFO] Progress: 9/9 stores, 52 total products
+[2025-08-13T17:28:29.123Z] [INFO] 💾 Results saved to /home/kuromatsu/Documents/ΛRΛMΛC/Websites/Minimarket/data/ultra-20250813-132501
+[2025-08-13T17:28:29.123Z] [INFO] 🎉 Ultra-advanced scraping campaign complete!
+[2025-08-13T17:28:29.124Z] [INFO] 📊 Final results: 52 products in 3 minutes

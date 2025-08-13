@@ -115,57 +115,57 @@ export class ErrorBoundary extends Component<ErrorBoundaryProps, ErrorBoundarySt
 
       // Default error UI
       return (
-        <div className=\"min-h-screen flex items-center justify-center p-4 bg-background\">
-          <Card className=\"w-full max-w-lg\">
-            <CardHeader className=\"text-center\">
-              <div className=\"mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-destructive/10\">
-                <AlertTriangle className=\"h-6 w-6 text-destructive\" />
+        <div className="min-h-screen flex items-center justify-center p-4 bg-background">
+          <Card className="w-full max-w-lg">
+            <CardHeader className="text-center">
+              <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-destructive/10">
+                <AlertTriangle className="h-6 w-6 text-destructive" />
               </div>
-              <CardTitle className=\"text-xl\">¡Ups! Algo salió mal</CardTitle>
+              <CardTitle className="text-xl">¡Ups! Algo salió mal</CardTitle>
               <CardDescription>
                 Hemos encontrado un error inesperado. Nuestro equipo ha sido notificado y está trabajando en una solución.
               </CardDescription>
             </CardHeader>
-            <CardContent className=\"space-y-4\">
+            <CardContent className="space-y-4">
               {process.env.NODE_ENV === 'development' && this.state.error && (
-                <details className=\"rounded-md bg-muted p-3 text-sm\">
-                  <summary className=\"cursor-pointer font-medium text-muted-foreground hover:text-foreground\">
+                <details className="rounded-md bg-muted p-3 text-sm">
+                  <summary className="cursor-pointer font-medium text-muted-foreground hover:text-foreground">
                     Detalles del error (solo en desarrollo)
                   </summary>
-                  <div className=\"mt-2 space-y-2\">
+                  <div className="mt-2 space-y-2">
                     <div>
                       <strong>Error:</strong> {this.state.error.message}
                     </div>
                     <div>
                       <strong>Stack:</strong>
-                      <pre className=\"mt-1 overflow-auto text-xs\">{this.state.error.stack}</pre>
+                       <pre className="mt-1 overflow-auto text-xs">{this.state.error.stack}</pre>
                     </div>
                     {this.state.errorInfo && (
                       <div>
                         <strong>Component Stack:</strong>
-                        <pre className=\"mt-1 overflow-auto text-xs\">{this.state.errorInfo.componentStack}</pre>
+                         <pre className="mt-1 overflow-auto text-xs">{this.state.errorInfo.componentStack}</pre>
                       </div>
                     )}
                   </div>
                 </details>
               )}
               
-              <div className=\"flex flex-col gap-2 sm:flex-row\">
-                <Button onClick={this.handleReset} variant=\"outline\" className=\"flex-1\">
-                  <RefreshCcw className=\"mr-2 h-4 w-4\" />
+              <div className="flex flex-col gap-2 sm:flex-row">
+                <Button onClick={this.handleReset} variant="outline" className="flex-1">
+                  <RefreshCcw className="mr-2 h-4 w-4" />
                   Intentar de nuevo
                 </Button>
-                <Button onClick={this.handleGoHome} className=\"flex-1\">
-                  <Home className=\"mr-2 h-4 w-4\" />
+                <Button onClick={this.handleGoHome} className="flex-1">
+                  <Home className="mr-2 h-4 w-4" />
                   Ir al inicio
                 </Button>
               </div>
               
-              <Button 
-                onClick={this.handleReload} 
-                variant=\"ghost\" 
-                size=\"sm\" 
-                className=\"w-full text-muted-foreground\"
+              <Button
+                onClick={this.handleReload}
+                variant="ghost"
+                size="sm"
+                className="w-full text-muted-foreground"
               >
                 Recargar página
               </Button>

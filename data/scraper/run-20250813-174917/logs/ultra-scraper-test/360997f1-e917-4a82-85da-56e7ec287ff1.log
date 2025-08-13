@@ -1,0 +1,16 @@
+[2025-08-13T17:22:15.688Z] [INFO] 🚀 Ultra-Advanced Scraper Engine initialized
+[2025-08-13T17:22:15.695Z] [INFO] Session ID: 360997f1-e917-4a82-85da-56e7ec287ff1
+[2025-08-13T17:22:15.695Z] [INFO] Strategy: intelligent
+[2025-08-13T17:22:15.697Z] [INFO] Target stores: 1
+[2025-08-13T17:22:15.699Z] [INFO] Max products: 30
+[2025-08-13T17:22:15.700Z] [INFO] 🚀 Starting ultra-advanced scraping campaign
+[2025-08-13T17:22:15.700Z] [INFO] Target: 30 products from 1 stores
+[2025-08-13T17:22:15.701Z] [INFO] 🎯 Starting scrape for Tottus
+[2025-08-13T17:22:15.702Z] [INFO] Selected strategy: StandardStrategy (score: 50.00) for Tottus
+[2025-08-13T17:22:15.703Z] [INFO] Attempt 1/5 using StandardStrategy
+[2025-08-13T17:22:15.703Z] [INFO] [StandardStrategy] Executing standard strategy for Tottus
+[2025-08-13T17:22:20.754Z] [INFO] ✅ Success! 60 products from tottus
+[2025-08-13T17:22:20.757Z] [INFO] Progress: 1/1 stores, 5 total products
+[2025-08-13T17:22:20.759Z] [INFO] 💾 Results saved to /home/kuromatsu/Documents/ΛRΛMΛC/Websites/Minimarket/data/ultra-scraper-test
+[2025-08-13T17:22:20.759Z] [INFO] 🎉 Ultra-advanced scraping campaign complete!
+[2025-08-13T17:22:20.759Z] [INFO] 📊 Final results: 5 products in 0 minutes
