@@ -2,16 +2,15 @@ import type { Metadata } from 'next';
 import SearchPageClient from './search-client';
 
 type PageProps = {
-  searchParams?: Promise<any>;
+  searchParams?: Record<string, string | string[] | undefined>;
 };
 
 export async function generateMetadata({ searchParams }: PageProps): Promise<Metadata> {
-  const resolved = searchParams ? await searchParams : undefined;
-  const q = typeof resolved?.q === 'string' ? resolved.q : undefined;
+  const q = typeof searchParams?.q === 'string' ? searchParams.q : undefined;
   const baseTitle = q ? `Buscar "${q}"` : 'Buscar productos';
   const title = `${baseTitle} | Minimarket ARAMAC`;
   const description = q
-    ? `Resultados de búsqueda para "${q}" en Minimarket ARAMAC.`
+    ? `Resultados de búsqueda para \"${q}\" en Minimarket ARAMAC.`
     : 'Busca y encuentra productos en Minimarket ARAMAC.';
   return {
     title,

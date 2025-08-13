@@ -1,0 +1,8 @@
+.cursor/
+playwright-report/
+node_modules/
+**/*.mdx
+convex/README.md
+CLAUDE.md
+task.md
+prd.md

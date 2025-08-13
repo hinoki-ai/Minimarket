@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 interface TextCursorProps {
@@ -37,7 +37,7 @@ const TextCursor: React.FC<TextCursorProps> = ({
   const lastMoveTimeRef = useRef<number>(Date.now());
   const idCounter = useRef<number>(0);
 
-  const handleMouseMove = (e: MouseEvent) => {
+  const handleMouseMove = useCallback((e: MouseEvent) => {
     if (!containerRef.current) return;
     const rect = containerRef.current.getBoundingClientRect();
     const mouseX = e.clientX - rect.left;
@@ -92,7 +92,7 @@ const TextCursor: React.FC<TextCursorProps> = ({
       return newTrail;
     });
     lastMoveTimeRef.current = Date.now();
-  };
+  }, [followMouseDirection, maxPoints, randomFloat, spacing]);
 
   useEffect(() => {
     const container = containerRef.current;

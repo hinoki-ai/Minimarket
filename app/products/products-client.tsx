@@ -25,7 +25,7 @@ const productsApi: any = (api as any).products;
 const products = useQuery(productsApi?.getProducts, { limit: 24, sortBy, minPrice, maxPrice, tags: selectedTags });
 
   return (
-    <div className="mx-auto max-w-7xl px-6 py-8">
+    <div>
       <BreadcrumbJsonLd
         items={[
           { name: 'Inicio', url: 'https://minimarket-aramac.local/' },
@@ -43,10 +43,10 @@ const products = useQuery(productsApi?.getProducts, { limit: 24, sortBy, minPric
         />
       )}
       
-      <div className="flex items-center justify-between mb-6">
-        <h1 className="text-2xl md:text-3xl font-semibold">Catálogo</h1>
+      <div className="flex flex-col lg:flex-row lg:items-center justify-between mb-6 lg:mb-8 gap-4">
+        <h2 className="text-xl md:text-2xl lg:text-3xl font-semibold">Catálogo</h2>
         <Select value={sortBy} onValueChange={(value) => setSortBy(value as 'newest' | 'price' | 'name' | 'popularity')}>
-          <SelectTrigger className="w-48">
+          <SelectTrigger className="w-full lg:w-48">
             <SelectValue placeholder="Ordenar por" />
           </SelectTrigger>
           <SelectContent>
@@ -58,37 +58,37 @@ const products = useQuery(productsApi?.getProducts, { limit: 24, sortBy, minPric
         </Select>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-3 mb-6">
-        <div className="flex items-center gap-2">
-          <label className="text-sm text-muted-foreground" htmlFor="min-price">Mínimo</label>
+      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4 lg:gap-6 mb-8 lg:mb-12">
+        <div className="flex items-center gap-2 lg:gap-3">
+          <label className="text-sm lg:text-base text-muted-foreground min-w-fit" htmlFor="min-price">Mínimo</label>
           <input
             id="min-price"
             type="number"
-            className="h-9 w-full rounded-md border px-3 py-1 text-sm"
+            className="h-9 lg:h-11 w-full rounded-md border px-3 py-1 text-sm lg:text-base"
             placeholder="$0"
             value={minPrice ?? ''}
             onChange={(e) => setMinPrice(e.target.value ? Number(e.target.value) : undefined)}
             min={0}
           />
         </div>
-        <div className="flex items-center gap-2">
-          <label className="text-sm text-muted-foreground" htmlFor="max-price">Máximo</label>
+        <div className="flex items-center gap-2 lg:gap-3">
+          <label className="text-sm lg:text-base text-muted-foreground min-w-fit" htmlFor="max-price">Máximo</label>
           <input
             id="max-price"
             type="number"
-            className="h-9 w-full rounded-md border px-3 py-1 text-sm"
+            className="h-9 lg:h-11 w-full rounded-md border px-3 py-1 text-sm lg:text-base"
             placeholder="$50.000"
             value={maxPrice ?? ''}
             onChange={(e) => setMaxPrice(e.target.value ? Number(e.target.value) : undefined)}
             min={0}
           />
         </div>
-        <div className="flex items-center gap-2">
-          <label className="text-sm text-muted-foreground" htmlFor="tags">Etiquetas</label>
+        <div className="flex items-center gap-2 lg:gap-3">
+          <label className="text-sm lg:text-base text-muted-foreground min-w-fit" htmlFor="tags">Etiquetas</label>
           <input
             id="tags"
             type="text"
-            className="h-9 w-full rounded-md border px-3 py-1 text-sm"
+            className="h-9 lg:h-11 w-full rounded-md border px-3 py-1 text-sm lg:text-base"
             placeholder="comida,bebida"
             value={selectedTags.join(',')}
             onChange={(e) => setSelectedTags(e.target.value.split(',').map(s => s.trim()).filter(Boolean))}
@@ -97,7 +97,7 @@ const products = useQuery(productsApi?.getProducts, { limit: 24, sortBy, minPric
       </div>
 
       {Array.isArray(products) && products.length > 0 ? (
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 gap-4 lg:gap-6">
           {products.map((product: any, index: number) => (
             <ProductCard 
               key={product._id} 
@@ -118,8 +118,8 @@ const products = useQuery(productsApi?.getProducts, { limit: 24, sortBy, minPric
       ) : products === undefined ? (
         <CategoryGridSkeleton />
       ) : (
-        <div className="text-center py-12">
-          <p className="text-muted-foreground">No hay productos disponibles en este momento.</p>
+        <div className="text-center py-12 lg:py-16">
+          <p className="text-muted-foreground text-base lg:text-lg">No hay productos disponibles en este momento.</p>
         </div>
       )}
     </div>

@@ -70,7 +70,7 @@ export const Table = ({ className }: { className?: string }) => {
                     </tr>
                 </thead>
                 <tbody className="text-sm">
-                    {customers.map((customer, index) => (
+                    {customers.map((customer) => (
                         <tr
                             key={customer.id}
                             className="*:border *:p-2">

@@ -192,12 +192,10 @@ export function createRouteComponent<P = Record<string, unknown>>(
 // Performance-optimized component wrapper
 export function PerformanceOptimized<T extends Record<string, unknown>>({
   children,
-  deps = [],
   fallback,
   props,
 }: {
   children: React.ComponentType<T>;
-  deps?: ReadonlyArray<unknown>;
   fallback?: React.ReactNode;
   props?: T;
 }) {

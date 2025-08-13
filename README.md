@@ -24,13 +24,15 @@ Sitio y panel web para Minimarket ARAMAC. Enfocado en simplicidad, rapidez y cla
 
 ## Configuración rápida
 
-1) Instalar dependencias
-```
+1. Instalar dependencias
+
+```bash
 npm install
 ```
 
-2) Variables de entorno (crear `.env.local`)
-```
+1. Variables de entorno (crear `.env.local`)
+
+```env
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
 CLERK_SECRET_KEY=
 NEXT_PUBLIC_CLERK_FRONTEND_API_URL=
@@ -41,25 +43,29 @@ NEXT_PUBLIC_CLERK_SIGN_IN_FALLBACK_REDIRECT_URL=/dashboard
 NEXT_PUBLIC_CLERK_SIGN_UP_FALLBACK_REDIRECT_URL=/dashboard
 ```
 
-3) Iniciar Convex (configura variables internas)
-```
+1. Iniciar Convex (configura variables internas)
+
+```bash
 npx convex dev
 ```
 
-4) Webhook de Clerk (en Clerk Dashboard)
+1. Webhook de Clerk (en Clerk Dashboard)
+
 - Endpoint: `/api/clerk-users-webhook`
 - Agrega el secreto a Convex como `CLERK_WEBHOOK_SECRET`
 
 ## Desarrollo
 
-```
+```bash
 npm run dev
 ```
+
 Abre `http://localhost:3000`.
 
 ## Despliegue
 
 Despliegue en Vercel y CI/CD en GitHub Actions:
+
 - Configura en GitHub Secrets: `VERCEL_TOKEN`, `VERCEL_ORG_ID`, `VERCEL_PROJECT_ID`, `SITE_URL`.
 - Flujos:
   - `.github/workflows/ci.yml`: lint + build en PRs y pushes a `main`.
@@ -67,7 +73,8 @@ Despliegue en Vercel y CI/CD en GitHub Actions:
   - `.github/workflows/monitor.yml`: Lighthouse (LHCI) y verificación de uptime cada 30 minutos.
 
 ## Estructura
-```
+
+```text
 app/                # Páginas y UI
 components/         # Componentes reutilizables
 convex/             # Funciones/Schema/HTTP de Convex

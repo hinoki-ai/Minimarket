@@ -30,7 +30,8 @@ export function rateMetric(name: WebVitalsMetric['name'], value: number): WebVit
 export function reportWebVitals(metric: WebVitalsMetric) {
   // Send to analytics service (Google Analytics, Vercel Analytics, etc.)
   if (typeof window !== 'undefined' && 'gtag' in window) {
-    (window as any).gtag('event', metric.name, {
+    const w = window as unknown as { gtag?: (...args: unknown[]) => void };
+    w.gtag?.('event', metric.name, {
       value: Math.round(metric.value),
       metric_rating: metric.rating,
       custom_parameter: metric.id,
@@ -75,7 +76,7 @@ export class PerformanceMonitor {
         });
         longTaskObserver.observe({ entryTypes: ['longtask'] });
         this.observers.push(longTaskObserver);
-      } catch (error) {
+      } catch {
         if (process.env.NODE_ENV === 'development') {
           console.warn('Long Task observer not supported');
         }
@@ -85,17 +86,17 @@ export class PerformanceMonitor {
       try {
         const clsObserver = new PerformanceObserver((list) => {
           for (const entry of list.getEntries()) {
-            if (!(entry as any).hadRecentInput) {
+            if (!(entry as unknown as { hadRecentInput?: boolean }).hadRecentInput) {
               console.warn('Layout Shift detected:', {
                 value: (entry as any).value,
-                sources: (entry as any).sources,
+                sources: (entry as unknown as { sources?: unknown }).sources,
               });
             }
           }
         });
         clsObserver.observe({ entryTypes: ['layout-shift'] });
         this.observers.push(clsObserver);
-      } catch (error) {
+      } catch {
         if (process.env.NODE_ENV === 'development') {
           console.warn('Layout Shift observer not supported');
         }

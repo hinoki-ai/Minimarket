@@ -8,6 +8,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "lint:md": "markdownlint-cli2 \"{README.md,*.md,**/*.md,**/*.mdc}!{node_modules,.cursor,playwright-report}/**\"",
+    "lint:md:fix": "markdownlint-cli2 \"{README.md,*.md,**/*.md,**/*.mdc}!{node_modules,.cursor,playwright-report}/**\" --fix",
     "analyze": "ANALYZE=true next build",
     "e2e": "playwright test",
     "e2e:ui": "playwright test --ui",
@@ -59,15 +61,17 @@
     "zod": "^3.25.76"
   },
   "devDependencies": {
+    "@lhci/cli": "^0.13.0",
+    "@playwright/test": "^1.48.2",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@lhci/cli": "^0.13.0",
-    "@playwright/test": "^1.48.2",
     "eslint": "^9.33.0",
     "eslint-config-next": "15.4.6",
     "lighthouse": "^12.4.0",
+    "markdownlint": "^0.38.0",
+    "markdownlint-cli2": "^0.18.1",
     "tailwindcss": "^4",
     "tw-animate-css": "^1.3.5",
     "typescript": "^5"

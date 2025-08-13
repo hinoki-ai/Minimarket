@@ -22,6 +22,12 @@ export default function (phase: string) {
       minimumCacheTTL: 60 * 60 * 24 * 365, // 1 year
       dangerouslyAllowSVG: true,
       contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
+      remotePatterns: [
+        {
+          protocol: 'https',
+          hostname: 'randomuser.me',
+        },
+      ],
     },
 
     experimental: {
@@ -46,7 +52,7 @@ export default function (phase: string) {
         // Allow Next.js runtime and same-origin scripts. Avoid unsafe-eval in prod.
         "script-src 'self' 'strict-dynamic' 'nonce-__CSP_NONCE__' 'unsafe-inline'",
         // Images may include data URLs and blobs for placeholders
-        "img-src 'self' data: blob:",
+        "img-src 'self' data: blob: https://randomuser.me",
         // Styles allow inline for Tailwind and Next/font
         "style-src 'self' 'unsafe-inline'",
         // Fonts from self
@@ -64,7 +70,7 @@ export default function (phase: string) {
         "default-src 'self'",
         // Dev server needs eval for React Refresh
         "script-src 'self' 'unsafe-eval' 'unsafe-inline'",
-        "img-src 'self' data: blob:",
+        "img-src 'self' data: blob: https://randomuser.me",
         "style-src 'self' 'unsafe-inline'",
         "font-src 'self'",
         "connect-src 'self' ws: http: https:",

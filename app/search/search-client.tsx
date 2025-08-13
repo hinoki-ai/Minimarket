@@ -20,16 +20,14 @@ function SearchContent() {
   const [maxPrice, setMaxPrice] = useState<number | undefined>(undefined);
   const [tags, setTags] = useState<string[]>([]);
   
-  const productsApi: any = (api as any).products;
   const results = useQuery(
-    productsApi?.searchProducts, 
-    q ? { searchTerm: q, limit: 24, minPrice, maxPrice, tags } : undefined
-  ) as any[] | undefined;
+    api.products.searchProducts,
+    q ? { searchTerm: q, limit: 24, minPrice, maxPrice, tags } : 'skip'
+  ) as Array<{ _id: string; name: string; slug: string; images?: Array<{ url?: string }>; }> | undefined;
 
   const { userId } = useAuth();
   const sessionId = useGuestSessionId();
-  const cartsApi: any = (api as any).carts;
-  const addToCart = useMutation(cartsApi?.addToCart);
+  const addToCart = useMutation(api.carts.addToCart);
   
   // Announce search results to screen readers
   useEffect(() => {
@@ -92,7 +90,7 @@ function SearchContent() {
       {Array.isArray(results) && results.length > 0 && (
         <ItemListJsonLd
           itemListName={`Resultados para ${q}`}
-          items={(results as any[]).map((p: any) => ({
+          items={results.map((p) => ({
             url: `https://minimarket-aramac.local/products/${p.slug}`,
             name: p.name,
             image: p.images?.[0]?.url,
@@ -125,7 +123,7 @@ function SearchContent() {
             role="list"
             aria-label="Lista de productos encontrados"
           >
-            {results.map((p: any, index: number) => (
+            {results.map((p, index: number) => (
               <div key={p._id} role="listitem">
                 <ProductCard 
                   product={p}

@@ -252,20 +252,20 @@ export function ProductCard({
         </div>
 
         {/* Product Info */}
-        <div className="p-4 space-y-2">
+        <div className="p-4 lg:p-6 xl:p-8 space-y-2 lg:space-y-3 xl:space-y-4">
           <Link href={`/products/${product.slug}`}>
-            <h3 className="font-medium line-clamp-2 hover:text-primary typography-hierarchy ma-y-xs">
+            <h3 className="font-medium text-sm lg:text-base xl:text-lg line-clamp-2 hover:text-primary typography-hierarchy ma-y-xs">
               {product.name}
             </h3>
           </Link>
 
           {/* Price */}
           <div className="flex items-center gap-2">
-            <span className="font-semibold text-lg">
+            <span className="font-semibold text-lg lg:text-xl xl:text-2xl">
               {formatCLP(product.price)}
             </span>
             {hasDiscount && (
-              <span className="text-sm text-muted-foreground line-through">
+              <span className="text-sm lg:text-base xl:text-lg text-muted-foreground line-through">
                 {formatCLP(product.compareAtPrice!)}
               </span>
             )}
@@ -276,8 +276,8 @@ export function ProductCard({
             {renderStockIndicator()}
             
             {product.freshness?.expiryDate && (
-              <div className="flex items-center gap-1 text-xs text-muted-foreground">
-                <Clock className="h-3 w-3" />
+              <div className="flex items-center gap-1 text-xs lg:text-sm text-muted-foreground">
+                <Clock className="h-3 w-3 lg:h-4 lg:w-4" />
                 <span>
                   Vence: {new Date(product.freshness.expiryDate).toLocaleDateString('es-CL')}
                 </span>
@@ -286,8 +286,8 @@ export function ProductCard({
           </div>
 
           {/* Quantity + Add to Cart */}
-          <div className="grid grid-cols-3 gap-2 ma-y-sm">
-            <div className="col-span-1 flex items-center justify-between border rounded-md px-2 py-1">
+          <div className="grid grid-cols-3 gap-2 lg:gap-3 ma-y-sm">
+            <div className="col-span-1 flex items-center justify-between border rounded-md px-2 lg:px-3 py-1 lg:py-2">
               <button
                 className="px-2 text-lg disabled:opacity-50"
                 onClick={decrement}
@@ -296,7 +296,7 @@ export function ProductCard({
               >
                 −
               </button>
-              <span className="text-sm font-medium w-6 text-center">{quantity}</span>
+              <span className="text-sm lg:text-base font-medium w-6 text-center">{quantity}</span>
               <button
                 className="px-2 text-lg disabled:opacity-50"
                 onClick={increment}
@@ -307,12 +307,12 @@ export function ProductCard({
               </button>
             </div>
             <Button
-              className="col-span-2 w-full thumb-friendly"
+              className="col-span-2 w-full thumb-friendly lg:h-11 xl:h-12"
               onClick={handleAddToCart}
               disabled={stockStatus === 'out-of-stock' || isLoading}
             >
-              <ShoppingCart className="h-4 w-4 mr-2" />
-              {stockStatus === 'out-of-stock' ? 'Agotado' : 'Agregar'}
+              <ShoppingCart className="h-4 w-4 lg:h-5 lg:w-5 xl:h-6 xl:w-6 mr-2" />
+              <span className="text-sm lg:text-base xl:text-lg">{stockStatus === 'out-of-stock' ? 'Agotado' : 'Agregar'}</span>
             </Button>
           </div>
         </div>

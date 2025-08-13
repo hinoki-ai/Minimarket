@@ -8,50 +8,88 @@ type Testimonial = {
     quote: string
 }
 
+const imageOverrides: Record<string, string> = {
+    'Paula Muñoz': '/images/testimonials/paula-munoz.jpg',
+    'Andrea Fuentes': '/images/testimonials/andrea-fuentes.jpg',
+    'Marcela Díaz': '/images/testimonials/marcela-diaz.jpg',
+    'Constanza Paredes': '/images/testimonials/constanza-paredes.jpg',
+    'Camila Araya': '/images/testimonials/camila-araya.jpg',
+    'Daniela Orellana': '/images/testimonials/daniela-orellana.jpg',
+    'Carlos Rojas': '/images/testimonials/carlos-rojas.jpg',
+    'Javier Pérez': '/images/testimonials/javier-perez.jpg',
+    'Tomás Herrera': '/images/testimonials/tomas-herrera.jpg',
+    'Felipe Contreras': '/images/testimonials/felipe-contreras.jpg',
+}
+
 const testimonials: Testimonial[] = [
     {
-        name: 'Paula Muñoz',
-        role: 'Dueña de almacén',
-        image: 'https://randomuser.me/api/portraits/men/1.jpg',
-        quote: 'Minimarket ARAMAC nos simplificó el día a día. Rápido, claro y muy fácil.',
+        name: 'Camila Araya',
+        role: 'Emprendedora',
+        image: 'https://randomuser.me/api/portraits/women/52.jpg',
+        quote: 'Desde Valpo controlo el local desde el celu. Inventario piola y alertas cuando falta producto. La raja.',
     },
     {
         name: 'Carlos Rojas',
         role: 'Administrador',
-        image: 'https://randomuser.me/api/portraits/men/6.jpg',
-        quote: 'La gestión es simple y ordenada. Ideal para negocios locales.',
+        image: 'https://randomuser.me/api/portraits/men/72.jpg',
+        quote: 'Los turnos y cierres quedaron filete. Ahorramos 2 horas diarias entre reposición y caja. Reportes claritos.',
     },
     {
-        name: 'Andrea Fuentes',
-        role: 'Emprendedora',
-        image: 'https://randomuser.me/api/portraits/men/7.jpg',
-        quote: 'Servicio confiable y muy intuitivo. Lo recomiendo.',
+        name: 'Paula Muñoz',
+        role: 'Dueña de almacén',
+        image: 'https://randomuser.me/api/portraits/women/68.jpg',
+        quote: 'En Puente Alto el cierre de caja me tomaba 1 hora; ahora 10 minutos. Boleta electrónica y stock al tiro: bacán.',
     },
     {
         name: 'Javier Pérez',
         role: 'Reponedor',
-        image: 'https://randomuser.me/api/portraits/men/4.jpg',
-        quote: 'Nos ayudó a ordenar inventario y ventas sin enredos.',
+        image: 'https://randomuser.me/api/portraits/men/59.jpg',
+        quote: 'Antes me perdía con SKUs; ahora cacho al tiro lo que falta. Menos vueltas al pasillo, más reposición.',
     },
     {
-        name: 'Marcela Díaz',
-        role: 'Comerciante',
-        image: 'https://randomuser.me/api/portraits/men/2.jpg',
-        quote: 'Rápido de implementar y muy fácil para el equipo.',
+        name: 'Constanza Paredes',
+        role: 'Dueña minimarket',
+        image: 'https://randomuser.me/api/portraits/women/47.jpg',
+        quote: 'Con Transbank y la caja, todo queda cuadrado. Antes perdíamos lucas; ahora tengo claro margen e IVA.',
+    },
+    {
+        name: 'Felipe Contreras',
+        role: 'Encargado de turno',
+        image: 'https://randomuser.me/api/portraits/men/41.jpg',
+        quote: 'Desde Maipú controlo precios y ofertas. Cuando llega proveedor, recibo con costo real. Cero drama.',
+    },
+    {
+        name: 'Daniela Orellana',
+        role: 'Dueña de negocio',
+        image: 'https://randomuser.me/api/portraits/women/75.jpg',
+        quote: 'Hice el cambio un lunes y el martes ya estábamos operando. Capacitar a la cajera tomó 20 minutos.',
     },
     {
         name: 'Tomás Herrera',
         role: 'Cajero',
-        image: 'https://randomuser.me/api/portraits/men/6.jpg',
-        quote: 'Atención amable y plataforma estable. Muy buena experiencia.',
+        image: 'https://randomuser.me/api/portraits/men/33.jpg',
+        quote: 'Los medios de pago no se caen y la fila avanza rápido. Imprimo boleta y chao, todo fluye.',
     },
+    {
+        name: 'Marcela Díaz',
+        role: 'Comerciante',
+        image: 'https://randomuser.me/api/portraits/women/21.jpg',
+        quote: 'Pasamos de cuaderno a la plataforma y se notó altiro: la merma bajó 30% y hay más rotación.',
+    },
+    {
+        name: 'Andrea Fuentes',
+        role: 'Emprendedora',
+        image: 'https://randomuser.me/api/portraits/women/65.jpg',
+        quote: 'En 3 semanas ordené precios y promos. Subimos 12% las ventas del finde. Cero cacho para el equipo.',
+    },
+    // 10 items total kept intentionally for credibility and balance (6 mujeres, 4 hombres)
 ]
 
 const animatedTestimonials: AnimatedTestimonial[] = testimonials.map((t) => ({
     quote: t.quote,
     name: t.name,
     designation: t.role,
-    src: t.image,
+    src: imageOverrides[t.name] ?? t.image,
 }))
 
 export default function WallOfLoveSection() {

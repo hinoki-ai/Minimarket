@@ -1,13 +1,12 @@
 import React from 'react'
 import Link from 'next/link'
-import { cn } from '@/lib/utils'
 import { Button } from '@/components/ui/button'
 import { Authenticated, Unauthenticated, AuthLoading } from 'convex/react'
 import { SignInButton, SignUpButton, UserButton } from '@clerk/nextjs'
 import { dark } from '@clerk/themes'
 // import { useTheme } from 'next-themes'
 
-export default function UserSection({ isScrolled, theme }: { isScrolled: boolean; theme: string | undefined }) {
+export default function UserSection({ theme }: { isScrolled: boolean; theme: string | undefined }) {
     const appearance = {
         baseTheme: theme === 'dark' ? dark : undefined,
     }
@@ -29,27 +28,25 @@ export default function UserSection({ isScrolled, theme }: { isScrolled: boolean
             </Authenticated>
 
             <Unauthenticated>
-                <SignInButton mode="modal">
-                    <Button asChild variant="outline" size="sm" className={cn(isScrolled && 'lg:hidden')}>
-                        <Link href="#">
-                            <span>Ingresar</span>
-                        </Link>
-                    </Button>
-                </SignInButton>
-                <SignUpButton mode="modal">
-                    <Button asChild size="sm" className={cn(isScrolled && 'lg:hidden')}>
-                        <Link href="#">
-                            <span>Crear cuenta</span>
-                        </Link>
-                    </Button>
-                </SignUpButton>
-                <SignUpButton mode="modal">
-                    <Button asChild size="sm" className={cn(isScrolled ? 'lg:inline-flex' : 'hidden')}>
-                        <Link href="#">
-                            <span>Comenzar</span>
-                        </Link>
-                    </Button>
-                </SignUpButton>
+                <div className="flex items-center gap-2 lg:gap-3">
+                    <SignInButton mode="modal">
+                        <Button 
+                            variant="outline" 
+                            size="sm" 
+                            className="font-medium hover:bg-accent/50 transition-colors"
+                        >
+                            Iniciar Sesión
+                        </Button>
+                    </SignInButton>
+                    <SignUpButton mode="modal">
+                        <Button 
+                            size="sm" 
+                            className="font-medium bg-primary text-primary-foreground hover:bg-primary/90 transition-colors"
+                        >
+                            Registrarse
+                        </Button>
+                    </SignUpButton>
+                </div>
             </Unauthenticated>
         </>
     )

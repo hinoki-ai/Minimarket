@@ -13,8 +13,10 @@ export const metadata: Metadata = {
 
 export default function ProductsPage() {
   return (
-    <main className="mx-auto max-w-7xl px-6 py-8 space-y-4">
-      <h1 className="text-2xl md:text-3xl font-semibold">Productos</h1>
+    <main className="mx-auto max-w-7xl px-6 py-8 lg:py-12 space-y-6 lg:space-y-8">
+      <div className="text-center lg:text-left">
+        <h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-semibold">Productos</h1>
+      </div>
       <ProductsPageClient />
     </main>
   );

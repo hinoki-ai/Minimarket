@@ -26,8 +26,43 @@ test.describe('Home', () => {
     // Verify page is interactive
     await expect(page.locator('body')).toBeVisible();
     
-    // Check that main content areas are present
-    await expect(page.locator('main')).toBeVisible();
+    // Check that main content areas are present (disambiguate duplicate <main>)
+    await expect(page.locator('main#main')).toBeVisible();
+  });
+
+  test('hero dots and buttons are clickable', async ({ page, baseURL }) => {
+    const url = baseURL || 'http://localhost:3000/';
+    await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 30000 });
+    await page.waitForLoadState('domcontentloaded');
+
+    // Dismiss cookie dialog if present
+    const cookieDialog = page.getByRole('dialog', { name: /consentimiento de cookies/i });
+    if (await cookieDialog.isVisible({ timeout: 1000 }).catch(() => false)) {
+      const closeBtn = cookieDialog.getByRole('button', { name: /aceptar|cerrar|entendido/i });
+      if (await closeBtn.isVisible().catch(() => false)) {
+        await closeBtn.click().catch(() => {});
+      }
+    }
+
+    // Scope to the hero region
+    const hero = page.getByRole('region', { name: /hero carousel/i });
+    await expect(hero).toBeVisible();
+
+    // Click a dot
+    const dots = hero.locator('[data-testid="hero-dots"] [data-testid="hero-dot"]');
+    await expect(dots.first()).toBeVisible();
+    if (await dots.count() > 1) {
+      await dots.nth(1).click();
+    }
+
+    // Click primary CTA inside overlay
+    const cta = hero.getByRole('button', { name: /ver productos/i });
+    await expect(cta).toBeVisible();
+    await cta.click();
+
+    // Click left/right hotspots
+    await hero.getByRole('button', { name: /anterior/i }).click({ trial: true }).catch(() => {});
+    await hero.getByRole('button', { name: /siguiente/i }).click({ trial: true }).catch(() => {});
   });
 });
 

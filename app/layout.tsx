@@ -9,6 +9,7 @@ import ConvexClientProvider from '@/components/ConvexClientProvider'
 import { OrganizationJsonLd } from '@/components/seo/OrganizationJsonLd'
 import { WebSiteJsonLd } from '@/components/seo/WebSiteJsonLd'
 import { HeroHeader } from './(landing)/header'
+import { BottomNav } from '@/components/navigation/BottomNav'
 import FooterSection from './(landing)/footer'
 import { PerformanceMonitor } from '@/components/performance/web-vitals'
 import CookieConsent from '@/components/CookieConsent'
@@ -118,9 +119,10 @@ export default function RootLayout({
                 searchUrlTemplate="https://minimarket-aramac.local/search?q={search_term_string}"
               />
               <HeroHeader />
-              <main id="main" className="pt-20 pb-20 lg:pb-0">
+              <main id="main" className="pt-20 lg:pt-24 xl:pt-28 pb-20 lg:pb-0">
                 {children}
               </main>
+              <BottomNav />
               <CookieConsent />
               <FooterSection />
             </ConvexClientProvider>

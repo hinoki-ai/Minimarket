@@ -244,7 +244,21 @@
   .bento-grid {
     display: grid;
     gap: var(--ma-sm);
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  }
+  
+  @media (min-width: 1024px) {
+    .bento-grid {
+      gap: var(--ma-md);
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+  }
+  
+  @media (min-width: 1280px) {
+    .bento-grid {
+      gap: var(--ma-lg);
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
   }
   
   .bento-card {
@@ -476,10 +490,10 @@
     outline-offset: 2px;
   }
   
-  /* Improve readability */
-  p, li, span, div {
-    max-width: 65ch; /* Optimal reading line length */
-  }
+  /* Improve readability - removed to fix desktop layout issues */
+  /* p, li, span, div {
+    max-width: 65ch;
+  } */
   
   /* Better error state visibility */
   [aria-invalid="true"] {

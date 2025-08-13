@@ -1,7 +1,7 @@
 'use client';
 
-import { useState } from 'react';
-import { ShoppingBag, Search, MapPin, Clock } from 'lucide-react';
+import { useState, useRef } from 'react';
+import { ShoppingBag, Search, MapPin, Clock, ChevronLeft, ChevronRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { SearchBar } from '@/components/ui/search-bar';
 import { Badge } from '@/components/ui/badge';
@@ -13,6 +13,69 @@ interface MinimartHeroProps {
 
 export function MinimartHero({ className }: MinimartHeroProps) {
   const [currentSlide, setCurrentSlide] = useState(0);
+  const pointerIdRef = useRef<number | null>(null);
+  const pointerStartX = useRef<number | null>(null);
+  const pointerCurrentX = useRef<number | null>(null);
+  const pointerStartTime = useRef<number | null>(null);
+  const isDraggingRef = useRef(false);
+
+  const nextSlide = () => setCurrentSlide((prev) => (prev + 1) % heroSlides.length);
+  const prevSlide = () => setCurrentSlide((prev) => (prev - 1 + heroSlides.length) % heroSlides.length);
+
+  const handlePointerDown = (e: React.PointerEvent<HTMLDivElement>) => {
+    const target = e.target as Element | null;
+    if (target && target.closest('button, a, input, textarea, select, [role="button"]')) {
+      // Let interactive elements handle their own clicks
+      isDraggingRef.current = false;
+      pointerIdRef.current = null;
+      return;
+    }
+    pointerIdRef.current = e.pointerId;
+    pointerStartX.current = e.clientX;
+    pointerCurrentX.current = null;
+    pointerStartTime.current = performance.now();
+    isDraggingRef.current = true;
+  };
+
+  const handlePointerMove = (e: React.PointerEvent<HTMLDivElement>) => {
+    if (pointerIdRef.current !== e.pointerId || !isDraggingRef.current) return;
+    pointerCurrentX.current = e.clientX;
+  };
+
+  const endPointer = (e: React.PointerEvent<HTMLDivElement>) => {
+    if (pointerIdRef.current !== e.pointerId) return;
+    const startX = pointerStartX.current;
+    const currentX = pointerCurrentX.current ?? startX;
+    const startTime = pointerStartTime.current ?? performance.now();
+    if (startX != null && currentX != null) {
+      const deltaX = currentX - startX;
+      const dt = Math.max(1, performance.now() - startTime);
+      const velocity = Math.abs(deltaX) / dt; // px/ms
+      const distanceThreshold = 60; // px
+      const velocityThreshold = 0.5; // ~500 px/s
+      if (deltaX > distanceThreshold || (deltaX > 10 && velocity > velocityThreshold)) {
+        prevSlide();
+      } else if (deltaX < -distanceThreshold || (deltaX < -10 && velocity > velocityThreshold)) {
+        nextSlide();
+      }
+    }
+    pointerIdRef.current = null;
+    pointerStartX.current = null;
+    pointerCurrentX.current = null;
+    pointerStartTime.current = null;
+    isDraggingRef.current = false;
+  };
+
+  const handlePointerUp = (e: React.PointerEvent<HTMLDivElement>) => {
+    if (!isDraggingRef.current) return; // If not dragging, allow click to bubble
+    endPointer(e);
+  };
+  const handlePointerCancel = (e: React.PointerEvent<HTMLDivElement>) => endPointer(e);
+
+  const handleKeyDown = (e: React.KeyboardEvent<HTMLDivElement>) => {
+    if (e.key === 'ArrowLeft') prevSlide();
+    if (e.key === 'ArrowRight') nextSlide();
+  };
 
   const heroSlides = [
     {
@@ -39,26 +102,25 @@ export function MinimartHero({ className }: MinimartHeroProps) {
       badge: "Popular",
       badgeClass: "status-popular"
     }
+    ,
+    {
+      id: 4,
+      title: "Entrega rápida en tu zona",
+      subtitle: "Pedidos con logística local en menos de 30 minutos",
+      image: "/hero-fast-delivery.jpg",
+      badge: "Rápido",
+      badgeClass: "status-new"
+    }
   ];
 
-  const quickStats = [
-    { icon: "🛒", label: "500+", description: "Productos disponibles" },
-    { icon: "⚡", label: "< 30min", description: "Tiempo de entrega" },
-    { icon: "🚚", label: "Gratis", description: "Envío sobre $15.000" },
-    { icon: "📱", label: "24/7", description: "Disponible siempre" },
-  ];
+  // Stats moved to a dedicated bottom section on the home page
 
   return (
-    <section className={cn("relative overflow-hidden bg-gradient-to-br from-background via-background to-muted/20", className)}>
-      {/* Background Pattern */}
-      <div className="absolute inset-0 opacity-5">
-        <div className="absolute inset-0" style={{
-          backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23000000' fill-opacity='0.1'%3E%3Ccircle cx='30' cy='30' r='2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
-        }} />
-      </div>
+    <section className={cn("relative overflow-hidden bg-transparent", className)}>
+      {/* Background intentionally transparent to let aurora show through */}
 
-      <div className="relative mx-auto max-w-7xl px-6 py-12 lg:py-20">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <div className="relative mx-auto max-w-7xl px-6 py-12 lg:py-20 xl:py-24">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 xl:gap-16 items-center">
           
           {/* Left Content */}
           <div className="space-y-8">
@@ -75,35 +137,23 @@ export function MinimartHero({ className }: MinimartHeroProps) {
                 </Badge>
               </div>
               
-              <h1 className="text-4xl lg:text-6xl font-bold tracking-tight typography-hierarchy">
+              <h1 className="text-4xl lg:text-6xl xl:text-7xl font-bold tracking-tight typography-hierarchy">
                 Tu minimarket
                 <span className="text-primary block ma-y-xs">de confianza</span>
               </h1>
               
-              <p className="text-lg lg:text-xl text-muted-foreground max-w-lg typography-hierarchy ma-y-md">
+              <p className="text-lg lg:text-xl xl:text-2xl text-muted-foreground max-w-lg xl:max-w-xl typography-hierarchy ma-y-md">
                 Productos frescos y de calidad inspirados en la tradición japonesa de servicio al cliente. 
                 Compra fácil, entrega rápida.
               </p>
             </div>
 
             {/* Search Bar */}
-            <div className="space-y-4">
+            <div>
               <SearchBar 
                 placeholder="Buscar productos, marcas..."
                 className="w-full"
               />
-              <div className="flex flex-wrap gap-2">
-                {['Pan fresco', 'Bebidas', 'Snacks', 'Lácteos'].map((term) => (
-                  <Button
-                    key={term}
-                    variant="outline"
-                    size="sm"
-                    className="text-xs rounded-full thumb-friendly"
-                  >
-                    {term}
-                  </Button>
-                ))}
-              </div>
             </div>
 
             {/* Quick Actions */}
@@ -118,25 +168,27 @@ export function MinimartHero({ className }: MinimartHeroProps) {
               </Button>
             </div>
 
-            {/* Quick Stats */}
-            <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 pt-4 border-t">
-              {quickStats.map((stat, index) => (
-                <div key={index} className="text-center space-y-1">
-                  <div className="text-2xl">{stat.icon}</div>
-                  <div className="font-semibold text-lg">{stat.label}</div>
-                  <div className="text-xs text-muted-foreground typography-hierarchy">
-                    {stat.description}
-                  </div>
-                </div>
-              ))}
-            </div>
+            {/* Stats moved out of hero */}
           </div>
 
           {/* Right Content - Hero Carousel */}
           <div className="relative">
-            <div className="relative aspect-square lg:aspect-[4/5] overflow-hidden rounded-2xl shadow-2xl">
+            <div
+              className="relative aspect-square lg:aspect-[4/5] overflow-hidden rounded-2xl shadow-2xl touch-pan-y select-none"
+              onPointerDown={handlePointerDown}
+              onPointerMove={handlePointerMove}
+              onPointerUp={handlePointerUp}
+              onPointerCancel={handlePointerCancel}
+              onKeyDown={handleKeyDown}
+              tabIndex={0}
+              role="region"
+              aria-label="Hero carousel"
+            >
               {/* Background Image */}
-              <div className="absolute inset-0 bg-gradient-to-br from-blue-500/20 via-green-500/20 to-orange-500/20" />
+              <div
+                key={heroSlides[currentSlide].id}
+                className="absolute inset-0 bg-gradient-to-br from-blue-500/20 via-green-500/20 to-orange-500/20 transition-opacity duration-300"
+              />
               
               {/* Content Overlay */}
               <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-t from-black/60 via-transparent to-transparent">
@@ -144,21 +196,21 @@ export function MinimartHero({ className }: MinimartHeroProps) {
                   {heroSlides[currentSlide].badge}
                 </Badge>
                 
-                <h3 className="text-2xl font-bold text-white mb-2 typography-hierarchy">
-                  {heroSlides[currentSlide].title}
-                </h3>
+                 <h3 className="text-2xl font-bold text-white mb-2 typography-hierarchy">
+                   {heroSlides[currentSlide].title}
+                 </h3>
                 
                 <p className="text-white/90 mb-6 typography-hierarchy">
                   {heroSlides[currentSlide].subtitle}
                 </p>
                 
-                <Button className="w-fit">
+                 <Button className="w-fit">
                   Ver Productos
                 </Button>
               </div>
 
               {/* Navigation Dots */}
-              <div className="absolute bottom-4 right-4 flex gap-2">
+              <div className="absolute top-4 right-4 flex gap-2 z-20" data-testid="hero-dots">
                 {heroSlides.map((_, index) => (
                   <button
                     key={index}
@@ -169,14 +221,37 @@ export function MinimartHero({ className }: MinimartHeroProps) {
                         : "bg-white/50 hover:bg-white/75"
                     )}
                     onClick={() => setCurrentSlide(index)}
+                    data-testid="hero-dot"
                   />
                 ))}
               </div>
+
+              {/* Clickable side hotspots */}
+              <button
+                type="button"
+                aria-label="Anterior"
+                className="absolute inset-y-0 left-0 w-1/5 cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-white/70 group z-10"
+                onClick={prevSlide}
+              >
+                <span className="sr-only">Anterior</span>
+                <div className="hidden sm:flex items-center justify-start h-full pl-2 text-white/70 opacity-0 group-hover:opacity-100 transition-opacity">
+                  <ChevronLeft className="h-6 w-6 drop-shadow" />
+                </div>
+              </button>
+              <button
+                type="button"
+                aria-label="Siguiente"
+                className="absolute inset-y-0 right-0 w-1/5 cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-white/70 group z-10"
+                onClick={nextSlide}
+              >
+                <span className="sr-only">Siguiente</span>
+                <div className="hidden sm:flex items-center justify-end h-full pr-2 text-white/70 opacity-0 group-hover:opacity-100 transition-opacity">
+                  <ChevronRight className="h-6 w-6 drop-shadow" />
+                </div>
+              </button>
             </div>
 
-            {/* Floating Elements */}
-            <div className="absolute -top-4 -right-4 w-24 h-24 bg-primary/10 rounded-full blur-xl" />
-            <div className="absolute -bottom-6 -left-6 w-32 h-32 bg-secondary/10 rounded-full blur-xl" />
+            {/* Removed blurred floating elements to avoid overlapping aurora */}
           </div>
         </div>
       </div>

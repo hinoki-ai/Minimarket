@@ -814,7 +814,7 @@
     "first_name": "Example",
     "gender": "",
     "id": "user_29w83sxmDNGwOuEthce5gg56FcC",
-    "image_url": "https://img.clerk.com/xxxxxx",
+    "image_url": "<https://img.clerk.com/xxxxxx>",
     "last_name": "Example",
     "last_sign_in_at": 1654012591514,
     "object": "user",
@@ -824,7 +824,7 @@
     "primary_phone_number_id": null,
     "primary_web3_wallet_id": null,
     "private_metadata": {},
-    "profile_image_url": "https://www.gravatar.com/avatar?d=mp",
+    "profile_image_url": "<https://www.gravatar.com/avatar?d=mp>",
     "public_metadata": {},
     "two_factor_enabled": false,
     "unsafe_metadata": {},
@@ -888,7 +888,7 @@
     "first_name": "Example",
     "gender": "",
     "id": "user_29w83sxmDNGwOuEthce5gg56FcC",
-    "image_url": "https://img.clerk.com/xxxxxx",
+    "image_url": "<https://img.clerk.com/xxxxxx>",
     "last_name": null,
     "last_sign_in_at": null,
     "object": "user",
@@ -898,7 +898,7 @@
     "primary_phone_number_id": null,
     "primary_web3_wallet_id": null,
     "private_metadata": {},
-    "profile_image_url": "https://www.gravatar.com/avatar?d=mp",
+    "profile_image_url": "<https://www.gravatar.com/avatar?d=mp>",
     "public_metadata": {},
     "two_factor_enabled": false,
     "unsafe_metadata": {},
@@ -916,7 +916,3 @@
   "timestamp": 1654012824306,
   "type": "user.updated"
 }
-
-
-
-

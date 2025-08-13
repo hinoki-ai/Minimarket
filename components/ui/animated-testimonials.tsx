@@ -2,7 +2,8 @@
 
 import { IconArrowLeft, IconArrowRight } from "@tabler/icons-react"
 import { motion, AnimatePresence } from "motion/react"
-import { useEffect, useState } from "react"
+import { useEffect, useState, useCallback } from "react"
+import Image from 'next/image'
 
 export type AnimatedTestimonial = {
     quote: string
@@ -20,13 +21,13 @@ export function AnimatedTestimonials({
 }) {
     const [active, setActive] = useState(0)
 
-    const handleNext = () => {
+    const handleNext = useCallback(() => {
         setActive((prev) => (prev + 1) % testimonials.length)
-    }
+    }, [testimonials.length])
 
-    const handlePrev = () => {
+    const handlePrev = useCallback(() => {
         setActive((prev) => (prev - 1 + testimonials.length) % testimonials.length)
-    }
+    }, [testimonials.length])
 
     const isActive = (index: number) => index === active
 
@@ -71,7 +72,7 @@ export function AnimatedTestimonials({
                                     transition={{ duration: 0.4, ease: "easeInOut" }}
                                     className="absolute inset-0 origin-bottom"
                                 >
-                                    <img
+                                    <Image
                                         src={testimonial.src}
                                         alt={testimonial.name}
                                         width={500}

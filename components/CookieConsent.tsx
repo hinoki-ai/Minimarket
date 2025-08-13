@@ -204,9 +204,9 @@ export default function CookieConsent() {
           role="dialog"
           aria-modal="true"
           aria-label="Consentimiento de cookies"
-          className="fixed inset-x-0 bottom-0 z-50 border-t bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80 data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=open]:slide-in-from-bottom data-[state=closed]:slide-out-to-bottom"
+          className="fixed inset-x-0 bottom-0 z-[1000] pointer-events-auto border-t bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80 data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=open]:slide-in-from-bottom data-[state=closed]:slide-out-to-bottom"
         >
-          <div className="mx-auto max-w-screen-xl container-padding py-4">
+          <div className="mx-auto max-w-screen-xl container-padding py-4 pointer-events-auto">
             <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
               <div className="flex items-start gap-3">
                 <div className="mt-1 hidden sm:block">
@@ -222,7 +222,7 @@ export default function CookieConsent() {
                 <Button variant="outline" onClick={() => openManager("summary")} className="sm:min-w-40">
                   {t.banner.managePreferences}
                 </Button>
-                <div className="flex gap-2">
+                <div className="flex gap-2 pointer-events-auto">
                   <Button variant="ghost" onClick={rejectAll} className="sm:min-w-28">
                     {t.banner.rejectAll}
                   </Button>
@@ -251,11 +251,11 @@ export default function CookieConsent() {
               priority={false}
             />
           </div>
-          <SheetHeader className="pb-0 relative z-10">
+          <SheetHeader className="pb-0 relative z-10 pointer-events-auto">
             <SheetTitle>{t.settings.title}</SheetTitle>
             <SheetDescription>{t.settings.description}</SheetDescription>
           </SheetHeader>
-          <div className="p-4 pt-2 relative z-10">
+          <div className="p-4 pt-2 relative z-10 pointer-events-auto">
             <Tabs value={activeTab} onValueChange={(v: string) => setActiveTab(v === "details" ? "details" : "summary")}>
               <TabsList className="mb-3">
                 <TabsTrigger value="summary">{t.settings.tabs.summary}</TabsTrigger>
@@ -307,7 +307,7 @@ export default function CookieConsent() {
             </Tabs>
           </div>
           <Separator className="my-2 relative z-10" />
-          <SheetFooter className="gap-2 sm:flex-row relative z-10">
+          <SheetFooter className="gap-2 sm:flex-row relative z-10 pointer-events-auto">
             <SheetClose asChild>
               <Button variant="ghost" className="sm:ml-auto" onClick={rejectAll}>
                 {t.settings.actions.rejectAll}
