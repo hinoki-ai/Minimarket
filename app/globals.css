@@ -198,6 +198,11 @@
 }
 
 @layer utilities {
+  /* Aurora animation utility class */
+  .animate-aurora {
+    animation: aurora 60s linear infinite;
+  }
+
   /* Critical keyframes for animations */
   @keyframes pulse {
     0%, 100% {
@@ -211,14 +216,12 @@
   @keyframes aurora {
     0% {
       background-position: 50% 50%, 50% 50%;
-      transform: translateZ(0);
     }
     50% {
-      background-position: 200% 50%, 200% 50%;
+      background-position: 150% 50%, 150% 50%;
     }
     100% {
-      background-position: 350% 50%, 350% 50%;
-      transform: translateZ(0);
+      background-position: 250% 50%, 250% 50%;
     }
   }
 
@@ -645,4 +648,52 @@
   
   [role="dialog"][aria-label="Consentimiento de cookies"] > * {
     pointer-events: auto;
+  }
+
+  /* ===============================================
+   * ULTRATHINK COMPREHENSIVE INTERACTION FIXES  
+   * =============================================== */
+
+  /* Fix all clickability issues - MAIN CONTENT */
+  main {
+    position: relative;
+    z-index: 10;
+    pointer-events: auto;
+    isolation: isolate;
+  }
+
+  /* Ensure ALL interactive elements are always clickable */
+  button, a, [role="button"], [tabindex]:not([tabindex="-1"]), input, select, textarea {
+    pointer-events: auto !important;
+    isolation: isolate;
+    position: relative;
+    z-index: 1;
+  }
+
+  /* Aurora background safety - PREVENT INTERFERENCE */
+  [class*="aurora"] * {
+    pointer-events: none !important;
+  }
+
+  [class*="aurora"] > div:last-child {
+    pointer-events: auto !important;
+  }
+
+  [class*="aurora"] > div:last-child * {
+    pointer-events: auto !important;
+  }
+
+  /* Emergency interaction recovery class */
+  .force-interactive {
+    pointer-events: auto !important;
+    z-index: 9999 !important;
+    position: relative !important;
+    isolation: isolate !important;
+  }
+
+  /* Prevent animation interference with interactions */
+  @media (prefers-reduced-motion: reduce) {
+    .animate-aurora {
+      animation: none;
+    }
   }

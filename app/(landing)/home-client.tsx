@@ -263,7 +263,7 @@ export default function HomeClient() {
         </section>
       )}
       {/* Quick category nav under header */}
-      <div className="sticky top-16 z-30 bg-transparent border-b" style={{ isolation: 'isolate' }}>
+      <div className="sticky top-16 z-35 bg-transparent border-b" style={{ isolation: 'isolate' }}>
         <div className="mx-auto max-w-7xl px-6 xl:px-8 py-2 xl:py-3">
           {hasData.categories && categories && (
             <CategoryNav categories={categories} />
@@ -275,7 +275,7 @@ export default function HomeClient() {
                 <Button
                   variant={fulfillment === 'delivery' ? 'default' : 'ghost'}
                   size="sm"
-                  className="h-8 lg:h-10 lg:px-4"
+                  className="h-8 lg:h-10 lg:px-4 force-interactive"
                   onClick={() => setFulfillment('delivery')}
                 >
                   Entrega
@@ -283,7 +283,7 @@ export default function HomeClient() {
                 <Button
                   variant={fulfillment === 'pickup' ? 'default' : 'ghost'}
                   size="sm"
-                  className="h-8 lg:h-10 lg:px-4"
+                  className="h-8 lg:h-10 lg:px-4 force-interactive"
                   onClick={() => setFulfillment('pickup')}
                 >
                   Retiro en tienda

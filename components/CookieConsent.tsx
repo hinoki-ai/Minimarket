@@ -219,14 +219,14 @@ export default function CookieConsent() {
                 </div>
               </div>
               <div className="flex flex-col gap-2 sm:flex-row sm:items-center">
-                <Button variant="outline" onClick={() => openManager("summary")} className="sm:min-w-40">
+                <Button variant="outline" onClick={() => openManager("summary")} className="sm:min-w-40 force-interactive">
                   {t.banner.managePreferences}
                 </Button>
-                <div className="flex gap-2 pointer-events-auto">
-                  <Button variant="ghost" onClick={rejectAll} className="sm:min-w-28">
+                <div className="flex gap-2">
+                  <Button variant="ghost" onClick={rejectAll} className="sm:min-w-28 force-interactive">
                     {t.banner.rejectAll}
                   </Button>
-                  <Button onClick={acceptAll} className="sm:min-w-28">
+                  <Button onClick={acceptAll} className="sm:min-w-28 force-interactive">
                     {t.banner.acceptAll}
                   </Button>
                 </div>

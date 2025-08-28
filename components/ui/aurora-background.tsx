@@ -44,6 +44,9 @@ export function AuroraBackground({
         className="pointer-events-none absolute inset-0 overflow-hidden z-0"
         aria-hidden="true"
         style={{
+          pointerEvents: 'none',
+          touchAction: 'none',
+          userSelect: 'none',
           ["--aurora" as any]:
             "repeating-linear-gradient(100deg,#3b82f6_10%,#a5b4fc_15%,#93c5fd_20%,#ddd6fe_25%,#60a5fa_30%)",
           ["--dark-gradient" as any]:
@@ -66,11 +69,24 @@ export function AuroraBackground({
             showRadialGradient &&
               "[mask-image:radial-gradient(ellipse_at_100%_0%,black_10%,var(--transparent)_70%)] [-webkit-mask-image:radial-gradient(ellipse_at_100%_0%,black_10%,var(--transparent)_70%)]",
           )}
+          style={{ 
+            pointerEvents: 'none',
+            touchAction: 'none',
+            userSelect: 'none'
+          }}
           aria-hidden="true"
         />
       </div>
       {/* Content container with proper z-index and positioning */}
-      <div className="relative z-30 pointer-events-auto" style={{ isolation: 'isolate' }}>
+      <div 
+        className="relative z-30 pointer-events-auto" 
+        style={{ 
+          isolation: 'isolate',
+          pointerEvents: 'auto',
+          touchAction: 'auto',
+          position: 'relative'
+        }}
+      >
         {children}
       </div>
     </div>
