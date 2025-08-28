@@ -33,15 +33,22 @@ export default function HomeClient() {
     } : "skip"
   ) as Cart | undefined;
 
-  // Delivery / Pickup toggle (persist to localStorage)
+  // Delivery / Pickup toggle (persist to localStorage) - hydration-safe
   const [fulfillment, setFulfillment] = useState<"delivery" | "pickup">("delivery");
+  const [isHydrated, setIsHydrated] = useState(false);
+  
   useEffect(() => {
-    const saved = typeof window !== 'undefined' ? localStorage.getItem('minimarket-fulfillment') : null;
+    // Mark as hydrated and load from localStorage
+    setIsHydrated(true);
+    const saved = localStorage.getItem('minimarket-fulfillment');
     if (saved === 'delivery' || saved === 'pickup') setFulfillment(saved);
   }, []);
+  
   useEffect(() => {
-    if (typeof window !== 'undefined') localStorage.setItem('minimarket-fulfillment', fulfillment);
-  }, [fulfillment]);
+    if (isHydrated) {
+      localStorage.setItem('minimarket-fulfillment', fulfillment);
+    }
+  }, [fulfillment, isHydrated]);
 
   const hasData = useMemo(() => ({
     categories: Array.isArray(categories) && categories.length > 0,
@@ -149,14 +156,54 @@ export default function HomeClient() {
   return (
     <div>
       <MinimartHero />
-      {/* Productos Destacados (moved just below hero) */}
+
+      {/* Recién llegados y frescos - First product display below hero */}
+      <section className="py-12 md:py-16 lg:py-20 xl:py-24">
+        <div className="mx-auto max-w-7xl px-6 xl:px-8">
+          {hasData.fresh && (
+            <ItemListJsonLd
+              itemListName="Recién llegados y frescos"
+              items={withFallbackImages.fresh.map((p) => ({
+                url: `${process.env.NEXT_PUBLIC_APP_URL || 'https://minimarket.aramac.dev'}/products/${p.slug}`,
+                name: p.name,
+                image: p.images?.[0]?.url,
+              }))}
+            />
+          )}
+          <div className="mb-8 lg:mb-12 xl:mb-16 flex items-center justify-between">
+            <h2 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-semibold">Recién llegados y frescos</h2>
+          </div>
+          {hasData.fresh ? (
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-5 gap-4 lg:gap-6 xl:gap-8">
+              {withFallbackImages.fresh.map((p) => (
+                <ProductCard
+                  key={p._id}
+                  product={p}
+                  onAddToCart={async (productId, quantity) => {
+                    await addToCart({ productId, quantity, userId: userId ?? undefined, sessionId: userId ? undefined : sessionId });
+                    setIsMiniCartOpen(true);
+                  }}
+                />
+              ))}
+            </div>
+          ) : (
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-5 gap-4 lg:gap-6 xl:gap-8">
+              {Array.from({ length: 6 }).map((_, i) => (
+                <div key={i} className="h-64 lg:h-72 rounded-lg border bg-card animate-pulse" />
+              ))}
+            </div>
+          )}
+        </div>
+      </section>
+
+      {/* Productos Destacados */}
       <section className="py-12 md:py-16 lg:py-20 xl:py-24">
         <div className="mx-auto max-w-7xl px-6 xl:px-8">
           {hasData.featured && (
             <ItemListJsonLd
               itemListName="Productos destacados"
               items={withFallbackImages.featured.map((p) => ({
-                url: `https://minimarket-aramac.local/products/${p.slug}`,
+                url: `${process.env.NEXT_PUBLIC_APP_URL || 'https://minimarket.aramac.dev'}/products/${p.slug}`,
                 name: p.name,
                 image: p.images?.[0]?.url,
               }))}
@@ -216,7 +263,7 @@ export default function HomeClient() {
         </section>
       )}
       {/* Quick category nav under header */}
-      <div className="sticky top-16 z-10 bg-transparent border-b">
+      <div className="sticky top-16 z-30 bg-transparent border-b" style={{ isolation: 'isolate' }}>
         <div className="mx-auto max-w-7xl px-6 xl:px-8 py-2 xl:py-3">
           {hasData.categories && categories && (
             <CategoryNav categories={categories} />
@@ -300,46 +347,7 @@ export default function HomeClient() {
         </div>
       </section>
 
-      
 
-      {/* Frescos y nuevos */}
-      <section className="py-12 md:py-16 lg:py-20 xl:py-24">
-        <div className="mx-auto max-w-7xl px-6 xl:px-8">
-          {hasData.fresh && (
-            <ItemListJsonLd
-              itemListName="Recién llegados y frescos"
-              items={withFallbackImages.fresh.map((p) => ({
-                url: `https://minimarket-aramac.local/products/${p.slug}`,
-                name: p.name,
-                image: p.images?.[0]?.url,
-              }))}
-            />
-          )}
-          <div className="mb-8 lg:mb-12 xl:mb-16 flex items-center justify-between">
-            <h2 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-semibold">Recién llegados y frescos</h2>
-          </div>
-          {hasData.fresh ? (
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-5 gap-4 lg:gap-6 xl:gap-8">
-              {withFallbackImages.fresh.map((p) => (
-                <ProductCard 
-                  key={p._id} 
-                  product={p}
-                  onAddToCart={async (productId, quantity) => {
-                    await addToCart({ productId, quantity, userId: userId ?? undefined, sessionId: userId ? undefined : sessionId });
-                    setIsMiniCartOpen(true);
-                  }}
-                />
-              ))}
-            </div>
-          ) : (
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-5 gap-4 lg:gap-6 xl:gap-8">
-              {Array.from({ length: 6 }).map((_, i) => (
-                <div key={i} className="h-64 lg:h-72 rounded-lg border bg-card animate-pulse" />
-              ))}
-            </div>
-          )}
-        </div>
-      </section>
 
       {/* Service highlights just above footer */}
       <ServiceHighlights />

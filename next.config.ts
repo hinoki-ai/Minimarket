@@ -47,6 +47,16 @@ export default function (phase: string) {
       ]
     },
 
+    // Domain configuration for minimarket.aramac.dev
+    async rewrites() {
+      return [
+        {
+          source: '/:path*',
+          destination: '/:path*',
+        },
+      ]
+    },
+
     // Removed unsupported Turbopack top-level config
 
     // Headers for caching and security
@@ -57,16 +67,16 @@ export default function (phase: string) {
         "base-uri 'self'",
         "form-action 'self'",
         "frame-ancestors 'none'",
-        // Allow Next.js runtime and same-origin scripts. Avoid unsafe-eval in prod.
-        "script-src 'self' 'strict-dynamic' 'nonce-__CSP_NONCE__' 'unsafe-inline'",
+        // Allow Next.js runtime and animations - include unsafe-eval for complex CSS animations
+        "script-src 'self' 'strict-dynamic' 'nonce-__CSP_NONCE__' 'unsafe-inline' 'unsafe-eval'",
         // Images may include data URLs and blobs for placeholders
-        "img-src 'self' data: blob: https://randomuser.me",
-        // Styles allow inline for Tailwind and Next/font
-        "style-src 'self' 'unsafe-inline'",
-        // Fonts from self
-        "font-src 'self'",
-        // Connections for APIs and Next.js HMR/analytics (self)
-        "connect-src 'self' https:",
+        "img-src 'self' data: blob: https://randomuser.me https://*.convex.cloud https://*.clerk.accounts.dev",
+        // Styles allow inline for Tailwind, animations, and complex gradients
+        "style-src 'self' 'unsafe-inline' 'unsafe-eval'",
+        // Fonts from self and Google Fonts
+        "font-src 'self' https://fonts.gstatic.com",
+        // Connections for APIs, Convex, Clerk, and analytics
+        "connect-src 'self' https: wss: https://*.convex.cloud https://*.clerk.accounts.dev https://rich-longhorn-71.clerk.accounts.dev",
         // Media/object blocked by default
         "object-src 'none'",
         "media-src 'self'",

@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "env": {
+    "NEXT_PUBLIC_APP_URL": "https://minimarket.aramac.dev"
+  }
+} 

@@ -31,7 +31,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://minimarket-aramac.local"),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL || "https://minimarket.aramac.dev"),
   title: {
     default: "Minimarket ARAMAC",
     template: "%s | Minimarket ARAMAC",
@@ -113,16 +113,16 @@ export default function RootLayout({
                 
                 <OrganizationJsonLd 
                   name="Minimarket ARAMAC" 
-                  url="https://minimarket-aramac.local" 
+                  url={process.env.NEXT_PUBLIC_APP_URL || "https://minimarket.aramac.dev"} 
                   logoUrl="/favicon.svg"
                 />
                 <WebSiteJsonLd
                   name="Minimarket ARAMAC"
-                  url="https://minimarket-aramac.local"
-                  searchUrlTemplate="https://minimarket-aramac.local/search?q={search_term_string}"
+                  url={process.env.NEXT_PUBLIC_APP_URL || "https://minimarket.aramac.dev"}
+                  searchUrlTemplate={`${process.env.NEXT_PUBLIC_APP_URL || "https://minimarket.aramac.dev"}/search?q={search_term_string}`}
                 />
                 <HeroHeader />
-                <main id="main" className="pt-20 lg:pt-24 xl:pt-28 pb-20 lg:pb-0">
+                <main id="main" className="relative z-10 pt-20 lg:pt-24 xl:pt-28 pb-20 lg:pb-0" style={{ isolation: 'isolate' }}>
                   {children}
                 </main>
                 {/* Render cookie consent before bottom nav to ensure it stays on top on mobile */}

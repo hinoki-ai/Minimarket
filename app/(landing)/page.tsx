@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 export default function HomePage() {
   return (
     <AuroraBackground>
-      <main className="relative z-10 mx-auto max-w-7xl px-6 py-8 lg:py-12 space-y-6 lg:space-y-8">
+      <main className="relative z-40 mx-auto max-w-7xl px-6 py-8 lg:py-12 space-y-6 lg:space-y-8" style={{ isolation: 'isolate' }}>
         <HomeClient />
       </main>
     </AuroraBackground>

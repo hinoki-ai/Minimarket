@@ -100,7 +100,7 @@ export const HeroHeader = () => {
         <header>
             <nav
                 data-state={menuState && 'active'}
-                className="fixed z-20 w-full px-2">
+                className="fixed z-40 w-full px-2">
                 <div className={cn(
                     'mx-auto mt-2 max-w-6xl px-6 transition-all duration-300 lg:px-12 xl:max-w-7xl',
                     isScrolled && 'bg-background/95 backdrop-blur-md supports-[backdrop-filter]:bg-background/85 max-w-5xl xl:max-w-6xl rounded-2xl border shadow-lg lg:px-8 xl:px-10'
@@ -130,7 +130,7 @@ export const HeroHeader = () => {
                                 aria-label={menuState == true ? 'Cerrar menú' : 'Abrir menú'}
                                 aria-expanded={menuState}
                                 aria-controls="mobile-menu"
-                                className="relative z-20 -m-2.5 -mr-4 block cursor-pointer p-2.5 lg:hidden">
+                                className="relative z-50 -m-2.5 -mr-4 block cursor-pointer p-2.5 lg:hidden">
                                 <Menu className="in-data-[state=active]:rotate-180 in-data-[state=active]:scale-0 in-data-[state=active]:opacity-0 m-auto size-6 duration-200" />
                                 <X className="in-data-[state=active]:rotate-0 in-data-[state=active]:scale-100 in-data-[state=active]:opacity-100 absolute inset-0 m-auto size-6 -rotate-180 scale-0 opacity-0 duration-200" />
                             </button>

@@ -9,7 +9,6 @@ import { Id } from "./_generated/dataModel";
 const chileanCategories = [
   {
     name: "Bebidas",
-    nameJA: "飲み物",
     slug: "bebidas",
     description: "Refrescos, jugos, agua y bebidas alcoholicas",
     icon: "🥤",
@@ -18,7 +17,6 @@ const chileanCategories = [
   },
   {
     name: "Panadería & Cereales",
-    nameJA: "パン・シリアル",
     slug: "panaderia",
     description: "Pan fresco, cereales y productos de panadería",
     icon: "🍞",
@@ -27,7 +25,6 @@ const chileanCategories = [
   },
   {
     name: "Lácteos",
-    nameJA: "乳製品",
     slug: "lacteos",
     description: "Leche, quesos, yogurt y productos lácteos",
     icon: "🧀",
@@ -36,7 +33,6 @@ const chileanCategories = [
   },
   {
     name: "Carnes & Embutidos",
-    nameJA: "肉・ハム",
     slug: "carnes",
     description: "Carnes frescas, jamones y embutidos",
     icon: "🥩",
@@ -45,7 +41,6 @@ const chileanCategories = [
   },
   {
     name: "Snacks & Dulces",
-    nameJA: "スナック・お菓子",
     slug: "snacks",
     description: "Papas fritas, chocolates y dulces",
     icon: "🍿",
@@ -54,7 +49,6 @@ const chileanCategories = [
   },
   {
     name: "Aseo & Limpieza",
-    nameJA: "清掃用品",
     slug: "aseo",
     description: "Productos de higiene personal y limpieza",
     icon: "🧽",
@@ -63,7 +57,6 @@ const chileanCategories = [
   },
   {
     name: "Hogar & Varios",
-    nameJA: "家庭用品",
     slug: "hogar",
     description: "Artículos para el hogar y varios",
     icon: "🏠",
@@ -76,7 +69,6 @@ const chileanProducts = [
   // Bebidas (12 products)
   {
     name: "Coca-Cola 1.5L",
-    nameJA: "コカコーラ 1.5L",
     slug: "coca-cola-15l",
     description: "Bebida gaseosa sabor original, botella 1.5 litros. La marca más popular de Chile.",
     shortDescription: "Bebida gaseosa original 1.5L",
@@ -121,7 +113,6 @@ const chileanProducts = [
   },
   {
     name: "Fanta Naranja 500ml",
-    nameJA: "ファンタ オレンジ 500ml",
     slug: "fanta-naranja-500ml",
     description: "Bebida gaseosa sabor naranja, botella 500ml perfecta para una persona.",
     shortDescription: "Bebida gaseosa naranja 500ml",
@@ -163,7 +154,6 @@ const chileanProducts = [
   },
   {
     name: "Cachantún Agua 1.5L",
-    nameJA: "カチャントゥン 水 1.5L",
     slug: "cachantun-agua-15l",
     description: "Agua mineral natural sin gas de Cachantún, la marca líder en Chile con 49% del mercado.",
     shortDescription: "Agua mineral natural 1.5L",
@@ -206,7 +196,6 @@ const chileanProducts = [
   // Panadería (10 products)
   {
     name: "Pan Hallulla (4 unidades)",
-    nameJA: "パン ハジュジャ (4個)",
     slug: "pan-hallulla-4u",
     description: "Pan tradicional chileno, redondo y esponjoso. Chile es el 2do mayor consumidor de pan del mundo.",
     shortDescription: "Pan tradicional chileno - 4 unidades",
@@ -249,7 +238,6 @@ const chileanProducts = [
   // Lácteos (8 products)
   {
     name: "Leche Soprole Entera 1L",
-    nameJA: "ソプロレ 全乳 1L",
     slug: "leche-soprole-entera-1l",
     description: "Leche entera pasteurizada de Soprole, la marca láctea más valorada de Chile.",
     shortDescription: "Leche entera pasteurizada 1L",
@@ -292,7 +280,6 @@ const chileanProducts = [
   // Snacks (10 products)
   {
     name: "Papas Lays Original",
-    nameJA: "レイズ ポテトチップス オリジナル",
     slug: "papas-lays-original",
     description: "Papas fritas clásicas sabor original, la marca de snacks más popular en Chile.",
     shortDescription: "Papas fritas original 140g",
@@ -335,7 +322,6 @@ const chileanProducts = [
   // Carnes (8 products)
   {
     name: "Jamón Cocido San Jorge",
-    nameJA: "サンホルヘ ハム",
     slug: "jamon-cocido-san-jorge",
     description: "Jamón cocido premium en fetas de la marca San Jorge, perfecto para sandwiches.",
     shortDescription: "Jamón cocido premium 200g",
@@ -379,7 +365,6 @@ const chileanProducts = [
   // Aseo (6 products)
   {
     name: "Detergente Ariel Polvo 1kg",
-    nameJA: "アリエル 洗剤 1kg",
     slug: "detergente-ariel-polvo-1kg",
     description: "Detergente en polvo para ropa Ariel, limpieza profunda y cuidado de las telas.",
     shortDescription: "Detergente en polvo 1kg",
@@ -418,7 +403,6 @@ const chileanProducts = [
   // Hogar (4 products)
   {
     name: "Pilas Energizer AA",
-    nameJA: "エナジャイザー 電池 AA",
     slug: "pilas-energizer-aa",
     description: "Pilas alcalinas AA Energizer, paquete de 4 unidades para dispositivos electrónicos.",
     shortDescription: "Pilas alcalinas AA - 4 unidades",

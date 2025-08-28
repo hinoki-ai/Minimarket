@@ -32,13 +32,8 @@ export const getProducts = query({
         .withIndex("byCategory", (q) => q.eq("categoryId", categoryId).eq("isActive", true));
     } else if (sortBy === "price" && minPrice !== undefined) {
       query = ctx.db.query("products")
-        .withIndex("byPrice", (q) => {
-          let base = q.gte("price", minPrice).eq("isActive", true);
-          if (maxPrice !== undefined) {
-            base = base.lte("price", maxPrice);
-          }
-          return base;
-        });
+        .withIndex("byPrice", (q) => q.gte("price", minPrice))
+        .filter((q) => q.eq(q.field("isActive"), true));
     } else if (sortBy === "popularity") {
       query = ctx.db.query("products")
         .withIndex("byPopular", (q) => q.eq("freshness.isPopular", true).eq("isActive", true));
@@ -55,13 +50,9 @@ export const getProducts = query({
       query = query.filter((q) => q.gte(q.field("price"), minPrice));
     }
     if (tags && tags.length > 0) {
-      query = query.filter((q) => {
-        let filter = q.eq(q.field("tags"), tags[0]);
-        for (let i = 1; i < tags.length; i++) {
-          filter = q.and(filter, q.eq(q.field("tags"), tags[i]));
-        }
-        return filter;
-      });
+      for (const tag of tags) {
+        query = query.filter((q) => q.any(q.field("tags"), (t) => q.eq(t, tag)));
+      }
     }
 
     // Apply sorting order
@@ -193,13 +184,9 @@ export const searchProducts = query({
     
     // Apply tag filters at database level
     if (tags && tags.length > 0) {
-      query = query.filter((q) => {
-        let filter = q.eq(q.field("tags"), tags[0]);
-        for (let i = 1; i < tags.length; i++) {
-          filter = q.and(filter, q.eq(q.field("tags"), tags[i]));
-        }
-        return filter;
-      });
+      for (const tag of tags) {
+        query = query.filter((q) => q.any(q.field("tags"), (t) => q.eq(t, tag)));
+      }
     }
     
     return await query.paginate(paginationOpts);

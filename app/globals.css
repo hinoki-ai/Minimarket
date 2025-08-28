@@ -173,26 +173,6 @@
   --shadow-2xl: var(--shadow-2xl);
   --animate-aurora: aurora 60s linear infinite;
   --animate-pulse: pulse var(--duration) ease-out infinite;
-  @keyframes pulse {
-  0%, 100% {
-    boxShadow: 0 0 0 0 var(--pulse-color);
-    }
-  50% {
-    boxShadow: 0 0 0 8px var(--pulse-color);
-    }
-  }
-  @keyframes aurora {
-    from {
-      background-position:
-        50% 50%,
-        50% 50%;
-    }
-    to {
-      background-position:
-        350% 50%,
-        350% 50%;
-    }
-  }
 }
 
 @layer base {
@@ -218,6 +198,30 @@
 }
 
 @layer utilities {
+  /* Critical keyframes for animations */
+  @keyframes pulse {
+    0%, 100% {
+      box-shadow: 0 0 0 0 var(--pulse-color);
+    }
+    50% {
+      box-shadow: 0 0 0 8px var(--pulse-color);
+    }
+  }
+  
+  @keyframes aurora {
+    0% {
+      background-position: 50% 50%, 50% 50%;
+      transform: translateZ(0);
+    }
+    50% {
+      background-position: 200% 50%, 200% 50%;
+    }
+    100% {
+      background-position: 350% 50%, 350% 50%;
+      transform: translateZ(0);
+    }
+  }
+
   /* MA (間) principle utilities */
   .ma-xs { margin: var(--ma-xs); }
   .ma-sm { margin: var(--ma-sm); }
@@ -269,6 +273,10 @@
     box-shadow: 0 1px 2px rgb(from var(--shadow-color) r g b / 0.06);
     transition-property: box-shadow, transform, background-color, border-color;
     transition-duration: 200ms;
+    position: relative;
+    z-index: 1;
+    pointer-events: auto;
+    isolation: isolate;
   }
 
   .bento-card:hover {
@@ -287,6 +295,10 @@
     background: linear-gradient(135deg, 
       rgb(from var(--bento-primary) r g b / 0.05) 0%, 
       rgb(from var(--bento-secondary) r g b / 0.05) 100%);
+    position: relative;
+    z-index: 1;
+    pointer-events: auto;
+    isolation: isolate;
   }
   
   /* Status indicators */
@@ -581,3 +593,56 @@
     offset-distance: 100%;
   }
 }
+
+  /* Ensure body and html are properly configured */
+  html, body {
+    position: relative;
+    z-index: 0;
+    pointer-events: auto;
+  }
+  
+  /* Ensure main content is clickable and properly positioned */
+  main {
+    position: relative;
+    z-index: 10;
+    pointer-events: auto;
+    isolation: isolate;
+  }
+  
+  /* Ensure all interactive elements are clickable */
+  button, a, input, select, textarea, [role="button"], [tabindex] {
+    pointer-events: auto;
+    isolation: isolate;
+  }
+  
+  /* Ensure cards and panels are clickable */
+  .card, .panel, [class*="card"], [class*="panel"] {
+    pointer-events: auto;
+    position: relative;
+    z-index: 1;
+    isolation: isolate;
+  }
+  
+  /* Fix for modal and dialog interactions */
+  [role="dialog"] {
+    isolation: isolate;
+  }
+  
+  /* Ensure header elements are always clickable */
+  header nav {
+    isolation: isolate;
+  }
+  
+  header button, header a {
+    position: relative;
+    isolation: isolate;
+  }
+  
+  /* Cookie banner specific fixes */
+  [role="dialog"][aria-label="Consentimiento de cookies"] {
+    pointer-events: none;
+  }
+  
+  [role="dialog"][aria-label="Consentimiento de cookies"] > * {
+    pointer-events: auto;
+  }

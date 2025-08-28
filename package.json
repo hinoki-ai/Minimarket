@@ -2,7 +2,7 @@
   "name": "minimarket-aramac",
   "version": "0.1.0",
   "private": true,
-  "description": "Minimarket ARAMAC web app",
+  "description": "Minimarket ΛRΛMΛC web app",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
@@ -27,7 +27,9 @@
     "scrape:lider:clean": "node scripts/clean_lider_images.js",
     "scrape:lider:clean:delete": "DELETE_TINY=1 node scripts/clean_lider_images.js",
     "xx": "node /home/kuromatsu/Documents/ΛRΛMΛC/Scripts/ultra-scraper.js --strategy aggressive --max-products 5000 --concurrent 6 --no-resume --verbose",
-    "scrape:standardize": "node scripts/standardize-scraper-outputs.js"
+    "scrape:standardize": "node scripts/standardize-scraper-outputs.js",
+    "deploy": "./scripts/deploy.sh",
+    "deploy:vercel": "vercel --prod"
   },
   "dependencies": {
     "@clerk/backend": "^2.4.1",

@@ -2,7 +2,7 @@
 
 import { IconArrowLeft, IconArrowRight } from "@tabler/icons-react"
 import { motion, AnimatePresence } from "motion/react"
-import { useEffect, useState, useCallback } from "react"
+import { useEffect, useState, useCallback, useRef } from "react"
 import Image from 'next/image'
 
 export type AnimatedTestimonial = {
@@ -20,25 +20,52 @@ export function AnimatedTestimonials({
     autoplay?: boolean
 }) {
     const [active, setActive] = useState(0)
+    const intervalRef = useRef<NodeJS.Timeout | null>(null)
+
+    const clearTimer = useCallback(() => {
+        if (intervalRef.current) {
+            clearInterval(intervalRef.current)
+            intervalRef.current = null
+        }
+    }, [])
+
+    const startTimer = useCallback(() => {
+        if (autoplay) {
+            clearTimer()
+            intervalRef.current = setInterval(() => {
+                setActive((prev) => (prev + 1) % testimonials.length)
+            }, 5000)
+        }
+    }, [autoplay, testimonials.length, clearTimer])
+
+    const resetTimer = useCallback(() => {
+        clearTimer()
+        if (autoplay) {
+            // Start timer after a brief delay to allow for smooth transitions
+            setTimeout(startTimer, 100)
+        }
+    }, [autoplay, clearTimer, startTimer])
 
     const handleNext = useCallback(() => {
         setActive((prev) => (prev + 1) % testimonials.length)
-    }, [testimonials.length])
+        resetTimer()
+    }, [testimonials.length, resetTimer])
 
     const handlePrev = useCallback(() => {
         setActive((prev) => (prev - 1 + testimonials.length) % testimonials.length)
-    }, [testimonials.length])
+        resetTimer()
+    }, [testimonials.length, resetTimer])
 
     const isActive = (index: number) => index === active
 
     useEffect(() => {
-        if (autoplay) {
-            const interval = setInterval(handleNext, 5000)
-            return () => clearInterval(interval)
-        }
-    }, [autoplay, handleNext])
+        startTimer()
+        return () => clearTimer()
+    }, [autoplay, startTimer, clearTimer])
 
-    const randomRotateY = () => Math.floor(Math.random() * 21) - 10
+    // Predefined rotation values to avoid hydration mismatches
+    const rotationValues = [4, -5, -8, 7, 3, -8, -7, 0, 2, -3]
+    const getRotationForIndex = (index: number) => rotationValues[index % rotationValues.length]
 
     return (
         <div className="mx-auto max-w-sm px-4 py-12 font-sans antialiased md:max-w-4xl md:px-8 lg:px-12">
@@ -53,13 +80,13 @@ export function AnimatedTestimonials({
                                         opacity: 0,
                                         scale: 0.9,
                                         z: -100,
-                                        rotate: randomRotateY(),
+                                        rotate: getRotationForIndex(index),
                                     }}
                                     animate={{
                                         opacity: isActive(index) ? 1 : 0.7,
                                         scale: isActive(index) ? 1 : 0.95,
                                         z: isActive(index) ? 0 : -100,
-                                        rotate: isActive(index) ? 0 : randomRotateY(),
+                                        rotate: isActive(index) ? 0 : getRotationForIndex(index),
                                         zIndex: isActive(index) ? 40 : testimonials.length + 2 - index,
                                         y: isActive(index) ? [0, -80, 0] : 0,
                                     }}
@@ -67,7 +94,7 @@ export function AnimatedTestimonials({
                                         opacity: 0,
                                         scale: 0.9,
                                         z: 100,
-                                        rotate: randomRotateY(),
+                                        rotate: getRotationForIndex(index),
                                     }}
                                     transition={{ duration: 0.4, ease: "easeInOut" }}
                                     className="absolute inset-0 origin-bottom"
