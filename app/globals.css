@@ -689,6 +689,14 @@
     z-index: 9999 !important;
     position: relative !important;
     isolation: isolate !important;
+    touch-action: auto !important;
+    user-select: auto !important;
+  }
+
+  /* NUCLEAR OPTION - Force ALL buttons clickable */
+  button {
+    pointer-events: auto !important;
+    touch-action: manipulation !important;
   }
 
   /* Prevent animation interference with interactions */
