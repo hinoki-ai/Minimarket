@@ -1,6 +1,72 @@
 {
-  "version": 2,
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next",
+  "installCommand": "npm ci",
+  "framework": "nextjs",
+  "git": {
+    "deploymentEnabled": {
+      "main": true
+    }
+  },
+  "domains": [
+    "minimarket.aramac.dev"
+  ],
   "env": {
-    "NEXT_PUBLIC_APP_URL": "https://minimarket.aramac.dev"
-  }
+    "NODE_ENV": "production",
+    "NEXT_PUBLIC_CONVEX_URL": "@convex-url-prod",
+    "CONVEX_DEPLOY_KEY": "@convex-deploy-key-prod", 
+    "NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY": "@clerk-publishable-key-prod",
+    "CLERK_SECRET_KEY": "@clerk-secret-key-prod",
+    "CLERK_WEBHOOK_SECRET": "@clerk-webhook-secret-prod"
+  },
+  "build": {
+    "env": {
+      "NODE_ENV": "production"
+    }
+  },
+  "functions": {
+    "src/app/api/**/*.ts": {
+      "maxDuration": 30
+    }
+  },
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        },
+        {
+          "key": "X-Content-Type-Options", 
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "origin-when-cross-origin"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=()"
+        },
+        {
+          "key": "X-Environment",
+          "value": "production"
+        }
+      ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/dashboard",
+      "destination": "/carrito", 
+      "permanent": false
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/sitemap.xml",
+      "destination": "/api/sitemap"
+    }
+  ]
 }

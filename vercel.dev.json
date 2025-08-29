@@ -1,0 +1,52 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next",
+  "installCommand": "npm ci",
+  "devCommand": "npm run dev",
+  "framework": "nextjs",
+  "git": {
+    "deploymentEnabled": {
+      "dev": true
+    }
+  },
+  "env": {
+    "NODE_ENV": "development",
+    "NEXT_PUBLIC_CONVEX_URL": "@convex-url-dev",
+    "CONVEX_DEPLOY_KEY": "@convex-deploy-key-dev",
+    "NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY": "@clerk-publishable-key-dev",
+    "CLERK_SECRET_KEY": "@clerk-secret-key-dev",
+    "CLERK_WEBHOOK_SECRET": "@clerk-webhook-secret-dev"
+  },
+  "build": {
+    "env": {
+      "NODE_ENV": "development"
+    }
+  },
+  "functions": {
+    "src/app/api/**/*.ts": {
+      "maxDuration": 30
+    }
+  },
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        },
+        {
+          "key": "X-Environment",
+          "value": "development"
+        }
+      ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/dashboard",
+      "destination": "/carrito",
+      "permanent": false
+    }
+  ]
+}
