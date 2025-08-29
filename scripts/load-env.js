@@ -6,18 +6,7 @@ const path = require('path');
 
 // Determine which environment file to load
 const isProduction = process.env.NODE_ENV === 'production';
-
-// Check if we're on dev branch (staging environment)
-const { execSync } = require('child_process');
-let currentBranch = 'main';
-try {
-  currentBranch = execSync('git rev-parse --abbrev-ref HEAD', { encoding: 'utf8' }).trim();
-} catch (e) {
-  // Ignore git errors
-}
-
-const isStaging = currentBranch === 'dev';
-const envFile = isProduction ? '.env.prod' : (isStaging ? '.env.dev.staging' : '.env.dev');
+const envFile = isProduction ? '.env.prod' : '.env.dev';
 const targetFile = isProduction ? '.env.production' : '.env.local';
 
 const envPath = path.join(process.cwd(), envFile);

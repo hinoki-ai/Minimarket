@@ -1,0 +1,164 @@
+[2025-08-13T18:23:33.877Z] [INFO]  Starting scrape for https://www.lider.cl/inicio
+[2025-08-13T18:23:34.091Z] [INFO]  [Page 1] https://www.lider.cl/inicio
+[2025-08-13T18:23:59.814Z] [INFO]  	found images: 37
+[2025-08-13T18:24:00.159Z] [INFO]  	+ saved k2-_e0ac0305-7566-4781-af2f-5ac2d0ab2265.v1.png
+[2025-08-13T18:24:00.231Z] [INFO]  	+ saved k2-_4abe1231-2e81-4f26-95a4-162d003e2806.v1.jpg
+[2025-08-13T18:24:00.300Z] [INFO]  	+ saved k2-_ed6298ad-c491-4cac-8a9b-6d99f0c1114b.v1.jpg
+[2025-08-13T18:24:00.391Z] [INFO]  	+ saved k2-_69fb0475-17ea-44a5-b88d-e62b35f62845.v1.jpg
+[2025-08-13T18:24:00.476Z] [INFO]  	+ saved k2-_4dd56721-8cfc-4ce3-a34b-da5ae51f579f.v1.jpg
+[2025-08-13T18:24:00.559Z] [INFO]  	+ saved k2-_fb0437e2-89f2-4c16-a0eb-7a750605838f.v1.jpg
+[2025-08-13T18:24:00.644Z] [INFO]  	+ saved k2-_f737c480-b454-4fee-a178-7b068790ca70.v1.jpg
+[2025-08-13T18:24:00.725Z] [INFO]  	+ saved k2-_af61c208-3178-464b-a409-fe7797688015.v1.jpg
+[2025-08-13T18:24:00.800Z] [INFO]  	+ saved k2-_a1188b3d-953b-40ee-b6c4-c68d1f64457d.v1.png
+[2025-08-13T18:24:00.903Z] [INFO]  	+ saved k2-_3212aefb-6df0-4e77-b902-42489fd57141.v1.png
+[2025-08-13T18:24:00.967Z] [INFO]  	+ saved k2-_d99e1958-cf48-4c67-8014-e080e8050c94.v1.png
+[2025-08-13T18:24:01.112Z] [INFO]  	+ saved k2-_f419970c-2e49-4402-8c01-f773e331d6e4.v1.png
+[2025-08-13T18:24:01.188Z] [INFO]  	+ saved k2-_a3339dc5-b0f7-4a35-a92f-2b624f153291.v1.jpg
+[2025-08-13T18:24:01.258Z] [INFO]  	+ saved k2-_3a720e9f-79fa-405a-a6d1-f944789bd8c5.v1.jpg
+[2025-08-13T18:24:01.329Z] [INFO]  	+ saved k2-_c3525366-25ae-48b9-8301-ee6c5c94a849.v1.jpg
+[2025-08-13T18:24:01.387Z] [INFO]  	+ saved k2-_ad12fb4c-7e8b-48c8-8bdf-b515d63fb971.v1.jpg
+[2025-08-13T18:24:01.468Z] [INFO]  	+ saved k2-_5048a640-b04c-4772-8963-6064b120111a.v1.jpg
+[2025-08-13T18:24:01.549Z] [INFO]  	+ saved k2-_161cecdf-f172-4e55-a0f0-9524137cee40.v1.jpg
+[2025-08-13T18:24:01.617Z] [INFO]  	+ saved k2-_9b91c524-61ae-48fb-b271-05b0fe4526fe.v1.jpg
+[2025-08-13T18:24:01.702Z] [INFO]  	+ saved k2-_01cbb2d4-c665-4698-8a6d-b3c22cb00651.v1.png
+[2025-08-13T18:24:01.784Z] [INFO]  	+ saved k2-_16eb5e68-1fb8-411b-959e-7b51c70edd82.v1.jpg
+[2025-08-13T18:24:01.865Z] [INFO]  	+ saved k2-_1b3d5cc8-cb32-4d7d-8756-349961136109.v1.jpg
+[2025-08-13T18:24:01.953Z] [INFO]  	+ saved k2-_2c4c030b-92c7-4cf2-aaff-26da3a46ff91.v1.png
+[2025-08-13T18:24:02.010Z] [INFO]  	+ saved k2-_45669c96-5bc8-4721-a446-97350e7d50bc.v1.jpg
+[2025-08-13T18:24:02.081Z] [INFO]  	+ saved k2-_92076062-5006-4dac-9094-78852d9d46fe.v1.jpg
+[2025-08-13T18:24:02.162Z] [INFO]  	+ saved k2-_a2b600c2-a7ae-480a-b8f1-9f09472de914.v1.jpg
+[2025-08-13T18:24:02.244Z] [INFO]  	+ saved k2-_11def740-4075-4e5a-a7a4-c6ea4b0db375.v1.png
+[2025-08-13T18:24:02.304Z] [INFO]  	+ saved k2-_1dede5a1-8a0b-495d-bd16-265b38a01b8b.v1.png
+[2025-08-13T18:24:02.362Z] [INFO]  	+ saved k2-_32311452-ea51-4083-9e1b-3e1efa9f2e46.v1.jpg
+[2025-08-13T18:24:02.423Z] [INFO]  	+ saved k2-_93660911-258d-4dd8-9547-49600f47fd4d.v1.jpg
+[2025-08-13T18:24:02.493Z] [INFO]  	+ saved k2-_41f2e2a0-8a44-4fe0-8edc-977114fc2f48.v1.jpg
+[2025-08-13T18:24:02.560Z] [INFO]  	+ saved k2-_bcb91c68-49b6-4ee3-849f-b496d5501ed8.v1.jpg
+[2025-08-13T18:24:02.622Z] [INFO]  	+ saved k2-_f972f8fe-a6d5-48ea-9e77-f4cc84406187.v1.jpg
+[2025-08-13T18:24:02.682Z] [INFO]  	+ saved k2-_113b4e97-1d72-45b6-b681-90285d4eec36.v1.png
+[2025-08-13T18:24:02.738Z] [INFO]  	+ saved k2-_fd1a858a-da0b-4f64-a5b9-501eb6e0b9f9.v1.png
+[2025-08-13T18:24:02.792Z] [INFO]  	+ saved k2-_ea3ad8b7-9e65-4b81-abdf-00cb870e2cad.v1.png
+[2025-08-13T18:24:02.847Z] [INFO]  	+ saved k2-_4b8912b4-8b33-4d97-8c27-40a7f94276a0.v1.png
+[2025-08-13T18:24:02.854Z] [INFO]  	links queued: 45
+[2025-08-13T18:24:03.054Z] [INFO]  [Page 2] https://www.lider.cl/supermercado
+[2025-08-13T18:24:26.960Z] [INFO]  	found images: 2
+[2025-08-13T18:24:27.595Z] [INFO]  	+ saved mas-comprados-desktop.png
+[2025-08-13T18:24:27.990Z] [WARN]  	- skip https://bat.bing.com/action/0?ti=134602771&tm=gtm002&Ver=2&mid=57c2f0cf-4f0a-435e-8431-7d1c3e171bf7&bo=1&sid=b35dc080787211f09dd6c1d855f50976&vid=b35dc050787211f093cd21ac5df23a92&vids=1&msclkid=N&pi=0&lg=en-US&sw=1280&sh=720&sc=24&nwd=1&tl=Supermercado%20Online%20%7C%20Lider.cl&kw=Lider,%20Lider.cl,%20LCD,%20juguetes,%20computadoras,%20notebook,%20c%C3%A1maras,%20c%C3%A1maras%20digitales,%20videojuegos,%20celulares,%20electro%20dom%C3%A9sticos,%20l%C3%ADnea%20blanca,%20mp3,%20reproductores%20de%20mp3,%20televisores,%20pantallas,%20supermercado%20online,%20supermercado,%20precios%20bajos&p=https%3A%2F%2Fwww.lider.cl%2Fsupermercado&r=&lt=3145&evt=pageLoad&sv=1&cdb=AQAQ&rn=53244 (tiny(0))
+[2025-08-13T18:24:27.993Z] [INFO]  	links queued: 1
+[2025-08-13T18:24:28.195Z] [INFO]  [Page 3] https://www.lider.cl/browse/celulares/telefonia/smartphone/34388900_60412644_48497435?contentZone2&co_ty=heropov&co_nm=BANNER_SLIDE_W32&co_id=07082025_Telefonia&co_or=2
+[2025-08-13T18:24:49.891Z] [INFO]  	found images: 0
+[2025-08-13T18:24:49.894Z] [INFO]  	links queued: 1
+[2025-08-13T18:24:50.095Z] [INFO]  [Page 4] https://www.lider.cl/browse/electrohogar/23989399?contentZone2&co_ty=heropov&co_nm=BANNER_SLIDE_W32&co_id=07082025_Linea_Blanca&co_or=3
+[2025-08-13T18:25:11.711Z] [INFO]  	found images: 0
+[2025-08-13T18:25:11.714Z] [INFO]  	links queued: 1
+[2025-08-13T18:25:11.914Z] [INFO]  [Page 5] https://www.lider.cl/browse/tecno/tv/smart-tv/66849718_44699651_73841472?contentZone2&co_ty=heropov&co_nm=BANNER_SLIDE_W32&co_id=07082025_TV&co_or=4
+[2025-08-13T18:25:33.622Z] [INFO]  	found images: 0
+[2025-08-13T18:25:33.626Z] [INFO]  	links queued: 1
+[2025-08-13T18:25:33.826Z] [INFO]  [Page 6] https://www.lider.cl/browse/tecno/videojuegos/66849718_80980590?contentZone2&co_ty=heropov&co_nm=BANNER_SLIDE_W32&co_id=07082025_Videojuegos(DDN)&co_or=5
+[2025-08-13T18:25:55.430Z] [INFO]  	found images: 0
+[2025-08-13T18:25:55.433Z] [INFO]  	links queued: 1
+[2025-08-13T18:25:55.634Z] [INFO]  [Page 7] https://www.lider.cl/browse/juguetes-y-entretencion/coleccionables/31281781_63830752?contentZone2&co_ty=heropov&co_nm=BANNER_SLIDE_W32&co_id=07082025_Modo_nio_jugueteria_kidults&co_or=1
+[2025-08-13T18:26:17.194Z] [INFO]  	found images: 0
+[2025-08-13T18:26:17.197Z] [INFO]  	links queued: 1
+[2025-08-13T18:26:17.397Z] [INFO]  [Page 8] https://www.lider.cl/browse/deportes-y-aire-libre/fitness/57049927_89648039?contentZone2&co_ty=heropov&co_nm=BANNER_SLIDE_W32&co_id=07082025_Deportes_y_Aire_Libre(DDN)&co_or=6
+[2025-08-13T18:26:39.036Z] [INFO]  	found images: 0
+[2025-08-13T18:26:39.038Z] [INFO]  	links queued: 1
+[2025-08-13T18:26:39.238Z] [INFO]  [Page 9] https://www.lider.cl/browse/dormitorio/55198662?contentZone2&co_ty=heropov&co_nm=BANNER_SLIDE_W32&co_id=07082025_Dormitorio&co_or=7
+[2025-08-13T18:27:00.918Z] [INFO]  	found images: 0
+[2025-08-13T18:27:00.921Z] [INFO]  	links queued: 1
+[2025-08-13T18:27:01.121Z] [INFO]  [Page 10] https://www.lider.cl/browse/95310315?contentZone2&co_ty=heropov&co_nm=BANNER_SLIDE_W32&co_id=07082025_Muebles&co_or=8
+[2025-08-13T18:27:22.760Z] [INFO]  	found images: 0
+[2025-08-13T18:27:22.763Z] [INFO]  	links queued: 1
+[2025-08-13T18:27:22.963Z] [INFO]  [Page 11] https://www.lider.cl/browse/tecno/audio/66849718_14621386?ContentZone32&co_ty=Povcards&co_nm=Footer_2_W32&co_id=11082025_Parlantes&co_or=1
+[2025-08-13T18:27:44.540Z] [INFO]  	found images: 0
+[2025-08-13T18:27:44.543Z] [INFO]  	links queued: 1
+[2025-08-13T18:27:44.743Z] [INFO]  [Page 12] https://www.lider.cl/browse/climatizacion/calefaccion/64746275_22669626?ContentZone4&co_ty=Hubspokes&co_nm=Lo_mas_top_W32&co_id=07082025_Calefaccion&co_or=1
+[2025-08-13T18:28:06.466Z] [INFO]  	found images: 0
+[2025-08-13T18:28:06.469Z] [INFO]  	links queued: 1
+[2025-08-13T18:28:06.670Z] [INFO]  [Page 13] https://www.lider.cl/browse/dormitorio/ropa-y-accesorios-de-cama/55198662_90158868?ContentZone4&co_ty=Hubspokes&co_nm=Lo_mas_top_W32&co_id=07082025_Ropa_de_Cama&co_or=2
+[2025-08-13T18:28:28.459Z] [INFO]  	found images: 0
+[2025-08-13T18:28:28.462Z] [INFO]  	links queued: 1
+[2025-08-13T18:28:28.663Z] [INFO]  [Page 14] https://www.lider.cl/browse/electrohogar/electrodomesticos%C2%A0cocina/cafeteras%C2%A0electricas/23989399_53512871_43027130?ContentZone4&co_ty=Hubspokes&co_nm=Lo_mas_top_W32&co_id=07082025_PAE&co_or=3
+[2025-08-13T18:28:50.670Z] [INFO]  	found images: 0
+[2025-08-13T18:28:50.673Z] [INFO]  	links queued: 1
+[2025-08-13T18:28:50.873Z] [INFO]  [Page 15] https://www.lider.cl/browse/mujer/vestuario/parkas/65799966_11411753_38719018?ContentZone4&co_ty=Hubspokes&co_nm=Lo_mas_top_W32&co_id=07082025_Vestuario_Invierno&co_or=4
+[2025-08-13T18:29:12.334Z] [INFO]  	found images: 0
+[2025-08-13T18:29:12.335Z] [INFO]  	links queued: 1
+[2025-08-13T18:29:12.535Z] [INFO]  [Page 16] https://www.lider.cl/browse/celulares/telefonia/smartphone/34388900_60412644_48497435?ContentZone10&co_ty=Hubspokes&co_nm=Ahorros_de_temporada_W32&co_id=07082025_Telefonia&co_or=1
+[2025-08-13T18:29:34.698Z] [INFO]  	found images: 0
+[2025-08-13T18:29:34.699Z] [INFO]  	links queued: 1
+[2025-08-13T18:29:34.899Z] [INFO]  [Page 17] https://www.lider.cl/browse/electrohogar/cocinas/23989399_74640407?ContentZone10&co_ty=Hubspokes&co_nm=Ahorros_de_temporada_W32&co_id=07082025_Linea_Blanca&co_or=2
+[2025-08-13T18:29:56.655Z] [INFO]  	found images: 0
+[2025-08-13T18:29:56.658Z] [INFO]  	links queued: 1
+[2025-08-13T18:29:56.858Z] [INFO]  [Page 18] https://www.lider.cl/browse/dia-del-nio/entretencion-al-aire-libre/32189927_27863408?ContentZone10&co_ty=Hubspokes&co_nm=Ahorros_de_temporada_W32&co_id=07082025_Deportes_y_aire_Libre&co_or=3
+[2025-08-13T18:30:18.386Z] [INFO]  	found images: 0
+[2025-08-13T18:30:18.389Z] [INFO]  	links queued: 1
+[2025-08-13T18:30:18.589Z] [INFO]  [Page 19] https://www.lider.cl/browse/tecno/tv/smart-tv/66849718_44699651_73841472?ContentZone10&co_ty=Hubspokes&co_nm=Ahorros_de_temporada_W32&co_id=07082025_TV&co_or=3
+[2025-08-13T18:30:40.321Z] [INFO]  	found images: 0
+[2025-08-13T18:30:40.325Z] [INFO]  	links queued: 1
+[2025-08-13T18:30:40.525Z] [INFO]  [Page 20] https://www.lider.cl/browse/bebidas-y-licores/45297969?ContentZone13&co_ty=Hubspokes&co_nm=Nuevo_en_Lider_W32&co_id=07082025_Bebestibles&co_or=1
+[2025-08-13T18:31:02.127Z] [INFO]  	found images: 0
+[2025-08-13T18:31:02.130Z] [INFO]  	links queued: 1
+[2025-08-13T18:31:02.330Z] [INFO]  [Page 21] https://www.lider.cl/browse/belleza-y-cuidado-personal/perfumes-y-fragancias/59721722_02985356?ContentZone13&co_ty=Hubspokes&co_nm=Nuevo_en_Lider_W32&co_id=07082025_Belleza&co_or=2
+[2025-08-13T18:31:24.261Z] [INFO]  	found images: 0
+[2025-08-13T18:31:24.263Z] [INFO]  	links queued: 1
+[2025-08-13T18:31:24.463Z] [INFO]  [Page 22] https://www.lider.cl/browse/automovil/10661928?ContentZone13&co_ty=Hubspokes&co_nm=Nuevo_en_Lider_W32&co_id=07082025_Automovil&co_or=3
+[2025-08-13T18:31:46.010Z] [INFO]  	found images: 0
+[2025-08-13T18:31:46.015Z] [INFO]  	links queued: 1
+[2025-08-13T18:31:46.216Z] [INFO]  [Page 23] https://www.lider.cl/browse/alimentacion/cafe-te-y-hierbas/94975735_53036305?ContentZone13&co_ty=Hubspokes&co_nm=Nuevo_en_Lider_W32&co_id=07082025_Alimentacion&co_or=4
+[2025-08-13T18:32:07.841Z] [INFO]  	found images: 0
+[2025-08-13T18:32:07.845Z] [INFO]  	links queued: 1
+[2025-08-13T18:32:08.045Z] [INFO]  [Page 24] https://www.lider.cl/browse/mascotas/92129034?ContentZone1&co_ty=Povcards&co_nm=KNOP_W29&co_id=06082025_mascotas(gato)&co_or=1
+[2025-08-13T18:32:30.078Z] [INFO]  	found images: 0
+[2025-08-13T18:32:30.081Z] [INFO]  	links queued: 1
+[2025-08-13T18:32:30.281Z] [INFO]  [Page 25] https://www.lider.cl/browse/destacados-mundo-lider/solo-x-48hrs/s48-computacion/66644329_19354740_06772479?Contentzone16&co_ty=povcards&co_nm=Solox_w33&co_id=13082025solox_computacion&co_or=1
+[2025-08-13T18:32:51.995Z] [INFO]  	found images: 0
+[2025-08-13T18:32:51.998Z] [INFO]  	links queued: 1
+[2025-08-13T18:32:52.198Z] [INFO]  [Page 26] https://www.lider.cl/browse/juguetes-y-entretencion/marcas-destacadas/funko/31281781_66672049_38449949?ContentZone16&co_ty=povcards&co_nm=Caluga_superior_W32&co_id=07082025_Jugueteria&co_or=2
+[2025-08-13T18:33:13.962Z] [INFO]  	found images: 0
+[2025-08-13T18:33:13.966Z] [INFO]  	links queued: 1
+[2025-08-13T18:33:14.166Z] [INFO]  [Page 27] https://www.lider.cl/browse/climatizacion/calefaccion/64746275_22669626?ContentZone16&co_ty=povcards&co_nm=Caluga_superior_W32&co_id=07082025_Calefaccion&co_or=3
+[2025-08-13T18:33:35.760Z] [INFO]  	found images: 0
+[2025-08-13T18:33:35.761Z] [INFO]  	links queued: 1
+[2025-08-13T18:33:35.961Z] [INFO]  [Page 28] https://www.lider.cl/browse/electrohogar/electrodomesticos-cocina/23989399_53512871?ContentZone16&co_ty=povcards&co_nm=Caluga_superior_W32&co_id=07082025_PAE&co_or=4
+[2025-08-13T18:33:57.496Z] [INFO]  	found images: 0
+[2025-08-13T18:33:57.499Z] [INFO]  	links queued: 1
+[2025-08-13T18:33:57.699Z] [INFO]  [Page 29] https://www.lider.cl/browse/alimentacion/marcas-destacadas/nestle/94975735_81549520_19274801?ContentZone1&co_ty=Povcards&co_nm=nestle&co_id=13082025_nestle&co_or=1
+[2025-08-13T18:34:19.084Z] [INFO]  	found images: 0
+[2025-08-13T18:34:19.087Z] [INFO]  	links queued: 1
+[2025-08-13T18:34:19.288Z] [INFO]  [Page 30] https://www.lider.cl/browse/computacion/computadores/tablets/89057520_72573679_62826909?ContentZone26&co_ty=Povcards&co_nm=Caluga_inferior_01_W32&co_id=07082025_Computacion&co_or=1
+[2025-08-13T18:34:40.199Z] [WARN]  page error: page.evaluate: Target page, context or browser has been closed
+[2025-08-13T18:34:40.401Z] [INFO]  [Page 31] https://www.lider.cl/browse/destacados-mundo-lider/especiales/especial-aniversario-wayu/66644329_70064172_59433399?ContentZone26&co_ty=Povcards&co_nm=Caluga_inferior_01_W32&co_id=07082025_Hogar&co_or=2
+[2025-08-13T18:34:40.402Z] [WARN]  page error: page.goto: Target page, context or browser has been closed
+[2025-08-13T18:34:40.602Z] [INFO]  [Page 32] https://www.lider.cl/browse/dormitorio/55198662?co_ty=povcards&co_nm=Caluga_superior_W31&co_id=23072025_Minibanner_Dormitorio&o_or=3
+[2025-08-13T18:34:40.603Z] [WARN]  page error: page.goto: Target page, context or browser has been closed
+[2025-08-13T18:34:40.803Z] [INFO]  [Page 33] https://www.lider.cl/browse/belleza-y-cuidado-personal/59721722?ContentZone28&co_ty=Povcards&co_nm=Caluga_inferior_01_W32&co_id=07082025_Belleza&co_or=1
+[2025-08-13T18:34:40.804Z] [WARN]  page error: page.goto: Target page, context or browser has been closed
+[2025-08-13T18:34:41.005Z] [INFO]  [Page 34] https://www.lider.cl/browse/mundo-bebe/panales-y-toallitas-humedas/40094495_69443968?ContentZone28&co_ty=Povcards&co_nm=Caluga_inferior_01_W32&co_id=07082025_Mundo_Bebe&co_or=2
+[2025-08-13T18:34:41.005Z] [WARN]  page error: page.goto: Target page, context or browser has been closed
+[2025-08-13T18:34:41.206Z] [INFO]  [Page 35] https://www.lider.cl/browse/computacion/marcas-destacadas/brother/89057520_88137561_06806662?co_ty=povcards&co_nm=Caluga_superior_W31&co_id=11082025_Minibanner_Brother&o_or=3
+[2025-08-13T18:34:41.207Z] [WARN]  page error: page.goto: Target page, context or browser has been closed
+[2025-08-13T18:34:41.407Z] [INFO]  [Page 36] https://www.lider.cl/browse/dormitorio/ropa-y-accesorios-de-cama/55198662_90158868?ContentZone31&co_ty=Povcards&co_nm=Footer_1_W32&co_id=07082025_Ropa_de_Cama&co_or=1
+[2025-08-13T18:34:41.408Z] [WARN]  page error: page.goto: Target page, context or browser has been closed
+[2025-08-13T18:34:41.608Z] [INFO]  [Page 37] https://www.lider.cl/browse/automovil/10661928?ContentZone31&co_ty=Povcards&co_nm=Footer_1_W32&co_id=07082025_Automovil&co_or=2
+[2025-08-13T18:34:41.609Z] [WARN]  page error: page.goto: Target page, context or browser has been closed
+[2025-08-13T18:34:41.810Z] [INFO]  [Page 38] https://www.lider.cl/browse/ferreteria/herramientas/70871154_82684924?ContentZone31&co_ty=Povcards&co_nm=Footer_1_W32&co_id=07082025_Ferreteria&co_or=3
+[2025-08-13T18:34:41.812Z] [WARN]  page error: page.goto: Target page, context or browser has been closed
+[2025-08-13T18:34:42.012Z] [INFO]  [Page 39] https://www.lider.cl/browse/destacados-mundo-lider/especiales/especial-farmacia-knop/66644329_70064172_46182063?ContentZone34&co_ty=Povcard&co_nm=Skinnybanner_W32&co_id=07082025_Knop&co_or=1
+[2025-08-13T18:34:42.014Z] [WARN]  page error: page.goto: Target page, context or browser has been closed
+[2025-08-13T18:34:42.214Z] [INFO]  [Page 40] https://www.lider.cl/browse/tecno/audio/parlantes/66849718_14621386_49644492?ContentZone32&co_ty=Povcards&co_nm=Footer_2_W32&co_id=07082025_Parlantes&co_or=1
+[2025-08-13T18:34:42.215Z] [WARN]  page error: page.goto: Target page, context or browser has been closed
+[2025-08-13T18:34:42.416Z] [INFO]  [Page 41] https://www.lider.cl/browse/mascotas/92129034?ContentZone32&co_ty=Povcards&co_nm=Footer_2_W32&co_id=07082025_Mascotas&co_or=2
+[2025-08-13T18:34:42.417Z] [WARN]  page error: page.goto: Target page, context or browser has been closed
+[2025-08-13T18:34:42.617Z] [INFO]  [Page 42] https://www.lider.cl/browse/parrillas-y-jardin/parrillas-y-accesorios/parrillas-a-carbon/12148714_30143918_42377452?ContentZone32&co_ty=Povcards&co_nm=Footer_2_W32&co_id=07082025_Jardin_y_parrillas&co_or=3
+[2025-08-13T18:34:42.618Z] [WARN]  page error: page.goto: Target page, context or browser has been closed
+[2025-08-13T18:34:42.818Z] [INFO]  [Page 43] https://www.lider.cl/browse/hombre/accesorios/relojes/25730587_90742123_67906016?ContentZone33&co_ty=Povcards&co_nm=Footer_3_W32&co_id=07082025_Accesorios&co_or=1
+[2025-08-13T18:34:42.818Z] [WARN]  page error: page.goto: Target page, context or browser has been closed
+[2025-08-13T18:34:43.019Z] [INFO]  [Page 44] https://www.lider.cl/browse/celulares/audifonos-y-accesorios/audifonos/34388900_40046939_76375018?ContentZone33&co_ty=Povcards&co_nm=Footer_3_W32&co_id=07082025_Audifonos&co_or=2
+[2025-08-13T18:34:43.023Z] [WARN]  page error: page.goto: Target page, context or browser has been closed
+[2025-08-13T18:34:43.223Z] [INFO]  [Page 45] https://www.lider.cl/browse/limpieza-y-aseo/06321383?ContentZone33&co_ty=Povcards&co_nm=Footer_3_W32&co_id=07082025_Alimentacion%20(Limpieza%20y%20Aseo)&co_or=3
+[2025-08-13T18:34:43.224Z] [WARN]  page error: page.goto: Target page, context or browser has been closed
+[2025-08-13T18:34:43.424Z] [INFO]  [Page 46] https://www.lider.cl/supermercado/
+[2025-08-13T18:34:43.425Z] [WARN]  page error: page.goto: Target page, context or browser has been closed
+[2025-08-13T18:34:43.626Z] [INFO]  [Page 47] https://www.lider.cl/
+[2025-08-13T18:34:43.627Z] [WARN]  page error: page.goto: Target page, context or browser has been closed
+[2025-08-13T18:34:43.829Z] [INFO]  Done. Pages: 47. Images saved: 38.

@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build outputs
+.next/
+out/
+dist/
+build/
+
+# Environment and config files
+.env*
+!.env.example
+
+# Git
+.git/
+.gitignore
+
+# Testing
+coverage/
+.nyc_output/
+test-results/
+playwright-report/
+
+# Logs
+*.log
+logs/
+
+# Data and scraping
+data/
+Scraped/
+public/images/products/
+
+# Deployment
+.vercel/
+.lighthouseci/
+
+# IDE and system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# TypeScript
+tsconfig.tsbuildinfo
+
+# Generated files
+src/convex/_generated/

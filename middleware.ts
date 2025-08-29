@@ -18,6 +18,9 @@ export default clerkMiddleware(async (auth, req) => {
     url.protocol = 'https:'
     return Response.redirect(url, 308)
   }
+  
+  // Return undefined for non-redirected requests
+  return undefined
 })
 
 export const config = {

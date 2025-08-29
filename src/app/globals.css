@@ -208,16 +208,20 @@
 @layer utilities {
   /* Status badge utilities for Japanese konbini style */
   .status-fresh {
-    @apply bg-fresh text-fresh-foreground;
+    background-color: rgb(from var(--fresh) r g b / 1);
+    color: rgb(from var(--fresh-foreground) r g b / 1);
   }
   .status-new {
-    @apply bg-new text-new-foreground;
+    background-color: rgb(from var(--new) r g b / 1);
+    color: rgb(from var(--new-foreground) r g b / 1);
   }
   .status-popular {
-    @apply bg-popular text-popular-foreground;
+    background-color: rgb(from var(--popular) r g b / 1);
+    color: rgb(from var(--popular-foreground) r g b / 1);
   }
   .status-sale {
-    @apply bg-sale text-sale-foreground;
+    background-color: rgb(from var(--sale) r g b / 1);
+    color: rgb(from var(--sale-foreground) r g b / 1);
   }
   
   /* MA (間) spacing utilities */

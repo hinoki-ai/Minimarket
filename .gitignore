@@ -7,6 +7,3 @@
 node_modules/
 
 # Generated environment files
-.env.local
-.env.production
-.env.dev.staging
