@@ -8,7 +8,7 @@ import { AlertTriangle, RefreshCcw, Home } from 'lucide-react';
 interface ErrorBoundaryProps {
   children: ReactNode;
   fallback?: ReactNode;
-  onError?: (error: Error, errorInfo: ErrorInfo) => void;
+  onError?: (_error: Error, _errorInfo: ErrorInfo) => void;
 }
 
 interface ErrorBoundaryState {
@@ -65,7 +65,7 @@ export class ErrorBoundary extends Component<ErrorBoundaryProps, ErrorBoundarySt
   /**
    * Report error to monitoring service (placeholder implementation)
    */
-  private reportError(error: Error, errorInfo: ErrorInfo) {
+  private reportError(error: Error, _errorInfo: ErrorInfo) {
     // This would be replaced with actual error reporting service
     // like Sentry, LogRocket, or custom analytics
     try {

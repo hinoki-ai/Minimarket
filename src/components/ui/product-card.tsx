@@ -34,7 +34,7 @@ interface ProductCardProps {
     };
     tags: string[];
   };
-  onAddToCart?: (productId: string, quantity: number) => void;
+  onAddToCart?: (_productId: string, _quantity: number) => void;
   className?: string;
   layout?: 'grid' | 'list' | 'bento';
   priority?: boolean; // For above-the-fold images

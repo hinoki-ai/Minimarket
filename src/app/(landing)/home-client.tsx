@@ -146,7 +146,7 @@ export default function HomeClient() {
         if (!res.ok) return;
         const data = await res.json();
         if (!cancelled && Array.isArray(data)) setLiderImages(data.slice(0, 20));
-      } catch (_) {
+      } catch (_error) {
         // ignore
       }
     }

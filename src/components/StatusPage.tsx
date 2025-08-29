@@ -29,7 +29,7 @@ export default function StatusPage() {
         } else {
           setError('Health check failed')
         }
-      } catch (err) {
+      } catch (_err) {
         setError('Network error')
       } finally {
         setLoading(false)

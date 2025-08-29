@@ -8,18 +8,7 @@ type Testimonial = {
     quote: string
 }
 
-const imageOverrides: Record<string, string> = {
-    'Paula Muñoz': '/images/testimonials/paula-munoz.jpg',
-    'Andrea Fuentes': '/images/testimonials/andrea-fuentes.jpg',
-    'Marcela Díaz': '/images/testimonials/marcela-diaz.jpg',
-    'Constanza Paredes': '/images/testimonials/constanza-paredes.jpg',
-    'Camila Araya': '/images/testimonials/camila-araya.jpg',
-    'Daniela Orellana': '/images/testimonials/daniela-orellana.jpg',
-    'Carlos Rojas': '/images/testimonials/carlos-rojas.jpg',
-    'Javier Pérez': '/images/testimonials/javier-perez.jpg',
-    'Tomás Herrera': '/images/testimonials/tomas-herrera.jpg',
-    'Felipe Contreras': '/images/testimonials/felipe-contreras.jpg',
-}
+
 
 const testimonials: Testimonial[] = [
     {

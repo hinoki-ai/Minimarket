@@ -20,14 +20,12 @@ import { dark } from '@clerk/themes'
 import { useTheme } from "next-themes"
 
 export function NavUser() {
-  const { isMobile } = useSidebar()
+  const { } = useSidebar()
   const { openUserProfile } = useClerk()
   const { theme } = useTheme()
   const { user: clerkUser } = useUser();
 
-  const appearance = {
-    baseTheme: theme === "dark" ? dark : undefined,
-  }
+
 
   return (
     <SidebarMenu>

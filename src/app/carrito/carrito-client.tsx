@@ -13,16 +13,16 @@ import { Card, CardAction, CardContent, CardDescription, CardFooter, CardHeader,
 import { Separator } from '@/components/ui/separator';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Badge } from '@/components/ui/badge';
-import { Checkbox } from '@/components/ui/checkbox';
+
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
+
 import { ToggleGroup, ToggleGroupItem } from '@/components/ui/toggle-group';
 import { ChartConfig, ChartContainer, ChartTooltip, ChartTooltipContent } from '@/components/ui/chart';
-import { Area, AreaChart, CartesianGrid, XAxis, BarChart, Bar, PieChart, Pie, Cell } from 'recharts';
-import { Minus, Plus, Trash2, ArrowLeft, User, Package, ShoppingBag, TrendingUp, TrendingDown, Eye, Settings, Bell, CreditCard, MapPin, Heart, Star, Filter, Search, Calendar, Download, BarChart3, PieChart as PieChartIcon } from 'lucide-react';
+import { Area, AreaChart, CartesianGrid, XAxis, PieChart, Pie, Cell } from 'recharts';
+import { Minus, Plus, Trash2, ArrowLeft, User, Package, ShoppingBag, TrendingUp, Eye, Settings, Bell, CreditCard, Heart, Star, Calendar, Download, BarChart3, PieChart as PieChartIcon } from 'lucide-react';
 import { useState, useEffect } from 'react';
-import { useIsMobile } from '@/hooks/use-mobile';
+
 
 const formatCLP = (price: number) => new Intl.NumberFormat('es-CL', { style: 'currency', currency: 'CLP', minimumFractionDigits: 0 }).format(price);
 
@@ -53,11 +53,10 @@ const chartConfig = {
 export default function CarritoPageClient() {
   const { userId } = useAuth();
   const sessionId = useGuestSessionId();
-  const isMobile = useIsMobile();
+
   const [activeTab, setActiveTab] = useState('dashboard');
   const [timeRange, setTimeRange] = useState('7d');
-  const [searchTerm, setSearchTerm] = useState('');
-  const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
+
 
   // Cart data
   const cart = useQuery(

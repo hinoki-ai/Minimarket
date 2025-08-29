@@ -388,7 +388,7 @@ export function SearchBar({
               {query.length > 0 && allSuggestions.length === 0 && (
                 <div className="p-4 text-center text-muted-foreground">
                   <p className="typography-hierarchy">
-                    No se encontraron sugerencias para "{query}"
+                    No se encontraron sugerencias para &quot;{query}&quot;
                   </p>
                   <Button
                     variant="outline"

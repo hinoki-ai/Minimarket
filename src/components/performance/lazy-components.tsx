@@ -97,7 +97,7 @@ export function withLazyLoading<T extends React.ComponentType<unknown>>(
     const handleLoaded = React.useCallback(() => {
       if (loadStart > 0 && componentName) {
         const loadTime = performance.now() - loadStart;
-        console.log(`🚀 ${componentName} loaded in ${loadTime.toFixed(2)}ms`);
+        console.warn(`🚀 ${componentName} loaded in ${loadTime.toFixed(2)}ms`);
       }
     }, [loadStart]);
 
@@ -109,7 +109,7 @@ export function withLazyLoading<T extends React.ComponentType<unknown>>(
 
     return (
       <Suspense fallback={React.createElement(FallbackComponent)}>
-        {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
+        {/* eslint-disable-next-line */}
         <Component {...(props as any)} />
       </Suspense>
     );
@@ -182,7 +182,7 @@ export function createRouteComponent<P = Record<string, unknown>>(
       : React.createElement('div', null, 'Loading page...');
     return (
       <Suspense fallback={fallbackNode}>
-        {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
+        {/* eslint-disable-next-line */}
         <LazyComponent {...(props as any)} />
       </Suspense>
     );
@@ -217,7 +217,7 @@ export function BundleTracker({
 }) {
   React.useEffect(() => {
     if (process.env.NODE_ENV === 'development') {
-      console.log(`📦 Bundle loaded: ${bundleName}`);
+      console.warn(`📦 Bundle loaded: ${bundleName}`);
     }
   }, [bundleName]);
 

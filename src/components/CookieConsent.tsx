@@ -338,7 +338,7 @@ function CategoryRow(props: {
   disabled?: boolean
   onCheckedChange?: (checked: boolean) => void
 }) {
-  const { label, description, checked = false, disabled = false, onCheckedChange } = props
+  const { label, description, checked: checkedProp = false, disabled = false, onCheckedChange } = props
   return (
     <div className="flex items-start justify-between gap-3 rounded-lg border p-3">
       <div className="space-y-0.5">
@@ -346,7 +346,7 @@ function CategoryRow(props: {
         <p className="text-muted-foreground text-sm leading-relaxed">{description}</p>
       </div>
       <Switch
-        checked={checked}
+        checked={checkedProp}
         disabled={disabled}
         onCheckedChange={(v: boolean) => onCheckedChange?.(!!v)}
         aria-label={label}
