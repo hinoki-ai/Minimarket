@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Production Issues Test</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .test-section { margin: 20px 0; padding: 15px; border: 1px solid #ccc; }
+        .pass { color: green; }
+        .fail { color: red; }
+        .info { color: blue; }
+        
+        /* Simulate cookie banner */
+        .cookie-banner {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            z-index: 50;
+            pointer-events: none;
+            background: rgba(255, 255, 255, 0.95);
+            border-top: 1px solid #e5e7eb;
+            padding: 16px;
+        }
+        .cookie-banner-content {
+            pointer-events: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 16px;
+        }
+        .cookie-button {
+            padding: 8px 16px;
+            border: 1px solid #d1d5db;
+            background: white;
+            cursor: pointer;
+            border-radius: 6px;
+        }
+        .cookie-button:hover { background: #f3f4f6; }
+        
+        /* Simulate aurora background */
+        .aurora-bg {
+            position: relative;
+            min-height: 300px;
+            background: linear-gradient(45deg, #3b82f6, #a5b4fc);
+            isolation: isolate;
+        }
+        .aurora-overlay {
+            position: absolute;
+            inset: 0;
+            pointer-events: none;
+            z-index: 0;
+            background: repeating-linear-gradient(100deg, #3b82f6 10%, #a5b4fc 15%, #93c5fd 20%);
+            background-size: 300% 200%;
+            animation: aurora-move 6s linear infinite;
+            opacity: 0.5;
+            filter: blur(10px);
+        }
+        .aurora-content {
+            position: relative;
+            z-index: 30;
+            pointer-events: auto;
+            padding: 40px;
+            text-align: center;
+            color: white;
+        }
+        
+        @keyframes aurora-move {
+            0% { background-position: 50% 50%; }
+            50% { background-position: 200% 50%; }
+            100% { background-position: 350% 50%; }
+        }
+        
+        .click-test {
+            padding: 12px 24px;
+            background: #3b82f6;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            margin: 10px;
+        }
+        .click-test:hover { background: #2563eb; }
+    </style>
+</head>
+<body>
+    <h1>Production Issues Test Page</h1>
+    
+    <div class="test-section">
+        <h2>🍪 Cookie Banner Test</h2>
+        <p class="info">Testing z-index and pointer-events on cookie banner</p>
+        <div id="cookie-test-result"></div>
+    </div>
+    
+    <div class="test-section">
+        <h2>🎨 Aurora Background Test</h2>
+        <div class="aurora-bg">
+            <div class="aurora-overlay"></div>
+            <div class="aurora-content">
+                <h3>Aurora Content Layer</h3>
+                <button class="click-test" onclick="testClick('aurora')">Click Test on Aurora</button>
+                <p>This content should be clickable over the aurora background</p>
+            </div>
+        </div>
+        <div id="aurora-test-result"></div>
+    </div>
+    
+    <div class="test-section">
+        <h2>🖱️ Homepage Interaction Test</h2>
+        <button class="click-test" onclick="testClick('homepage1')">Test Button 1</button>
+        <button class="click-test" onclick="testClick('homepage2')">Test Button 2</button>
+        <a href="#" onclick="testClick('link'); return false;" style="color: #3b82f6; margin: 10px;">Test Link</a>
+        <div id="click-test-result"></div>
+    </div>
+    
+    <!-- Cookie Banner Simulation -->
+    <div class="cookie-banner">
+        <div class="cookie-banner-content">
+            <div>
+                <p style="margin: 0; font-size: 14px;">This site uses cookies for better experience.</p>
+            </div>
+            <div style="display: flex; gap: 8px;">
+                <button class="cookie-button" onclick="testClick('reject')">Reject All</button>
+                <button class="cookie-button" onclick="testClick('accept')">Accept All</button>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        let testResults = {
+            cookie: false,
+            aurora: false,
+            homepage: []
+        };
+        
+        function testClick(type) {
+            console.log('Click test:', type);
+            
+            switch(type) {
+                case 'reject':
+                case 'accept':
+                    testResults.cookie = true;
+                    document.getElementById('cookie-test-result').innerHTML = 
+                        '<span class="pass">✅ Cookie banner buttons are clickable!</span>';
+                    // Hide cookie banner after test
+                    document.querySelector('.cookie-banner').style.display = 'none';
+                    break;
+                    
+                case 'aurora':
+                    testResults.aurora = true;
+                    document.getElementById('aurora-test-result').innerHTML = 
+                        '<span class="pass">✅ Aurora background allows clicks on content layer!</span>';
+                    break;
+                    
+                default:
+                    testResults.homepage.push(type);
+                    document.getElementById('click-test-result').innerHTML = 
+                        `<span class="pass">✅ Homepage interactions working: ${testResults.homepage.join(', ')}</span>`;
+                    break;
+            }
+            
+            updateOverallStatus();
+        }
+        
+        function updateOverallStatus() {
+            const passed = testResults.cookie && testResults.aurora && testResults.homepage.length > 0;
+            if (passed) {
+                document.title = '✅ All Tests Passed';
+                console.log('✅ All interaction tests passed!');
+            }
+        }
+        
+        // Auto-test aurora animation
+        setTimeout(() => {
+            const auroraEl = document.querySelector('.aurora-overlay');
+            const computedStyle = getComputedStyle(auroraEl);
+            const animation = computedStyle.animation;
+            
+            if (animation && animation.includes('aurora-move')) {
+                document.getElementById('aurora-test-result').innerHTML += 
+                    '<br><span class="pass">✅ Aurora animation is running!</span>';
+            } else {
+                document.getElementById('aurora-test-result').innerHTML += 
+                    '<br><span class="fail">❌ Aurora animation not detected</span>';
+            }
+        }, 1000);
+        
+        // Test z-index stacking
+        function testZIndex() {
+            const banner = document.querySelector('.cookie-banner');
+            const aurora = document.querySelector('.aurora-content');
+            
+            const bannerZ = parseInt(getComputedStyle(banner).zIndex);
+            const auroraZ = parseInt(getComputedStyle(aurora).zIndex);
+            
+            console.log('Z-index test:', { bannerZ, auroraZ });
+            
+            if (bannerZ > auroraZ) {
+                console.log('✅ Cookie banner has higher z-index than aurora content');
+            } else {
+                console.log('❌ Z-index stacking issue detected');
+            }
+        }
+        
+        // Run z-index test
+        setTimeout(testZIndex, 500);
+    </script>
+</body>
+</html>

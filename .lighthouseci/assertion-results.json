@@ -1,0 +1,72 @@
+[
+  {
+    "name": "minScore",
+    "expected": 0.8,
+    "actual": 0.27,
+    "values": [
+      0.27
+    ],
+    "operator": ">=",
+    "passed": false,
+    "auditProperty": "performance",
+    "auditId": "categories",
+    "level": "warn",
+    "url": "http://localhost:3000/"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.88,
+    "values": [
+      0.88
+    ],
+    "operator": ">=",
+    "passed": false,
+    "auditProperty": "accessibility",
+    "auditId": "categories",
+    "level": "error",
+    "url": "http://localhost:3000/"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.8,
+    "actual": 0.21,
+    "values": [
+      0.21
+    ],
+    "operator": ">=",
+    "passed": false,
+    "auditProperty": "performance",
+    "auditId": "categories",
+    "level": "warn",
+    "url": "http://localhost:3000/products"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.8,
+    "actual": 0.28,
+    "values": [
+      0.28
+    ],
+    "operator": ">=",
+    "passed": false,
+    "auditProperty": "performance",
+    "auditId": "categories",
+    "level": "warn",
+    "url": "https://rich-longhorn-71.accounts.dev/sign-in?redirect_url=http%3A%2F%2Flocalhost%3A3000%2Fcarrito&__clerk_db_jwt=dvb_31ty2lE541UPzWS6WleZj3M2wr8"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.82,
+    "values": [
+      0.82
+    ],
+    "operator": ">=",
+    "passed": false,
+    "auditProperty": "seo",
+    "auditId": "categories",
+    "level": "warn",
+    "url": "https://rich-longhorn-71.accounts.dev/sign-in?redirect_url=http%3A%2F%2Flocalhost%3A3000%2Fcarrito&__clerk_db_jwt=dvb_31ty2lE541UPzWS6WleZj3M2wr8"
+  }
+]

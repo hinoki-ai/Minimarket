@@ -4,293 +4,219 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This repository contains the Minimarket ARAMAC web application built with Next.js 15, using Clerk for authentication, Convex for real-time data, and Clerk Billing for subscriptions.
+Minimarket ARAMAC is a Next.js e-commerce application for Chilean minimarket products using Convex as the backend. The app features a Japanese-inspired design system with Chilean market adaptation, real-time synchronization, and comprehensive e-commerce functionality.
 
-## Development Commands
+## Commands
 
-### Core Development
+### Development
+```bash
+# Start development server (with Turbopack)
+npm run dev
 
-- `npm run dev` - Start development server with Turbopack on <http://localhost:3000>
-- `npm run build` - Build production bundle
-- `npm start` - Start production server
-- `npm run lint` - Run Next.js linting
-- `npm run lint:md` - Lint markdown files (README, docs)
-- `npm run lint:md:fix` - Auto-fix markdown linting issues
-- `npm run analyze` - Build with bundle analyzer (set ANALYZE=true)
+# Build for production
+npm run build
 
-### Product Scraping & Data Management
+# Start production server
+npm start
 
-- `npm run scrape:lider` - Scrape products from Líder supermarket
-- `npm run scrape:lider:clean` - Clean scraped Líder images
-- `npm run scrape:lider:clean:delete` - Clean and delete tiny Líder images (DELETE_TINY=1)
-
-### Testing & Quality Assurance
-
-- `npm run e2e` - Run all Playwright E2E tests
-- `npm run e2e:ui` - Run E2E tests with interactive UI
-- `npm run e2e:report` - View detailed test reports
-- `npm run e2e:with-server` - Run E2E tests with alternative server config
-- `npm run playwright:install` - Install Playwright browsers and dependencies
-
-### Performance Monitoring
-
-- `npm run lighthouse` - Run Lighthouse CI performance audits  
-- Tests: homepage, products page, cart page
-- Thresholds: Performance >80%, Accessibility >90%, Best Practices >90%, SEO >90%
-- Configuration in `.lighthouserc.js` with automated CI integration
-
-### Convex Development
-
-- `npx convex dev` - Start Convex development server (required for database)
-- Run this in a separate terminal alongside `npm run dev`
-
-## Architecture Overview
-
-### Tech Stack
-
-- **Next.js 15** with App Router and Turbopack
-- **Convex** for real-time database and serverless functions
-- **Clerk** for authentication and user management
-- **Clerk Billing** for subscription payments
-- **TailwindCSS v4** with custom UI components (shadcn/ui)
-- **TypeScript** throughout
-- **React 19** with latest features and performance improvements
-- **Performance optimizations**: Image optimization, caching, CSP headers, bundle analysis
-
-### Key Architectural Patterns
-
-#### Authentication Flow
-
-1. Clerk handles all authentication via `middleware.ts`
-2. JWT tokens are configured with "convex" template in Clerk dashboard
-3. Users are synced to Convex via webhooks at `/api/clerk-users-webhook`
-4. Protected routes redirect unauthenticated users to sign-in
-
-#### Database Architecture
-
-- **Convex** provides real-time sync and serverless functions
-- Comprehensive e-commerce schema in `convex/schema.ts`:
-  - `users` table: Synced from Clerk (externalId maps to Clerk ID), includes address and preferences
-  - `categories` table: Hierarchical product categories with Japanese naming (konbini-inspired)
-  - `products` table: Full e-commerce products with inventory, pricing, nutrition, freshness indicators
-  - `carts` table: Real-time shopping carts with guest session support
-  - `orders` table: Complete order management with Chilean tax/shipping considerations
-  - `inventoryLogs` table: Real-time stock tracking and movement history
-  - `reviews` table: Customer reviews with verified purchase tracking
-  - `paymentAttempts` table: Tracks subscription payments via Clerk Billing
-- All database operations use new Convex function syntax with proper validators
-- Indexes optimized for real-time queries and search functionality
-
-#### Payment Integration
-
-1. Clerk Billing handles subscription management
-2. Custom pricing component in `components/custom-clerk-pricing.tsx`
-3. Payment-gated content uses `<ClerkBillingGate>` component
-4. Webhook events update payment status in Convex
-
-### Project Structure
-
-```text
-app/
-├── (landing)/         # Public landing page components
-├── dashboard/         # Protected dashboard area with analytics
-│   └── payment-gated/ # Subscription-only content
-├── cart/ & carrito/   # Shopping cart pages (dual language support)
-├── products/         # Product listing and detail pages
-├── categories/       # Category browsing
-├── promotions/       # Promotional content and offers
-├── checkout/         # Checkout flow
-├── search/           # Search functionality
-├── stores/           # Store information pages
-├── delivery/         # Delivery information
-├── help/             # Help and support pages
-├── layout.tsx        # Root layout with providers
-└── middleware.ts     # Auth protection
-
-components/
-├── ui/               # shadcn/ui components (New York style)
-├── seo/              # JSON-LD structured data components
-├── performance/      # Web vitals and lazy loading
-├── header/           # Header-specific components (cart count, user section)
-├── navigation/       # Navigation components (bottom nav)
-├── kokonutui/        # Third-party UI components
-├── magicui/          # Magic UI components
-├── motion-primitives/# Motion and animation components
-├── react-bits/       # React utility components
-├── custom-clerk-pricing.tsx
-└── ConvexClientProvider.tsx
-
-convex/
-├── schema.ts         # Complete e-commerce database schema
-├── users.ts          # User CRUD operations
-├── products.ts       # Product management
-├── categories.ts     # Category management
-├── carts.ts          # Shopping cart operations
-├── orders.ts         # Order processing
-├── reviews.ts        # Product reviews
-├── wishlists.ts      # User wishlists
-├── paymentAttempts.ts # Payment tracking
-├── http.ts           # Webhook handlers
-└── auth.config.ts    # JWT configuration
-
-scripts/              # Product scraping and data management
-├── ultra-scraper.js  # 🚀 Ultra-advanced unified scraping engine
-├── data-validator.js # Data validation and deduplication
-├── product-library.js # Search and indexing system
-├── product-schema.js  # Universal product schema
-├── legacy-scrapers/  # Backup of 15 replaced scrapers
-└── README.md         # Scraping system documentation
-
-data/                 # Scraped product data and validation
-tests/                # Playwright E2E tests
-hooks/                # Custom React hooks (mobile detection, guest sessions)
-lib/                  # Utilities (accessibility, performance, utils)
+# Type checking and linting
+npm run lint
+npm run lint:md
+npm run lint:md:fix
 ```
 
-## Key Integration Points
+### Testing
+```bash
+# Run E2E tests
+npm run e2e
 
-### Environment Variables Required
+# Run E2E tests with UI
+npm run e2e:ui
 
-- `CONVEX_DEPLOYMENT` and `NEXT_PUBLIC_CONVEX_URL`
-- `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY` and `CLERK_SECRET_KEY`
-- `NEXT_PUBLIC_CLERK_FRONTEND_API_URL` (from Clerk JWT template)
-- `CLERK_WEBHOOK_SECRET` (set in Convex dashboard)
+# Show test report
+npm run e2e:report
 
-### Webhook Configuration
+# Run E2E tests with server
+npm run e2e:with-server
+```
 
-Clerk webhooks must be configured to:
+### Analysis and Performance
+```bash
+# Bundle analysis
+npm run analyze
+npm run analyze:dev
+npm run analyze:server
+npm run analyze:bundle
+npm run analyze:client
+npm run analyze:unused
 
-- Endpoint: `{your_domain}/api/clerk-users-webhook`
-- Events: `user.created`, `user.updated`, `user.deleted`, `paymentAttempt.updated`
+# Performance testing
+npm run lighthouse
 
-### Real-time Data Flow
+# Install Playwright dependencies
+npm run playwright:install
+```
 
-1. UI components use Convex hooks (`useQuery`, `useMutation`)
-2. Convex provides automatic real-time updates
-3. Authentication context from `useAuth()` (Clerk)
-4. User data synced between Clerk and Convex
+### Data Scraping
+```bash
+# General scraping commands
+npm run scrape
+npm run scrape:lider
+npm run scrape:lider:clean
+npm run scrape:lider:clean:delete
+npm run scrape:standardize
+```
 
-## Development Guidelines
+### Deployment
+```bash
+# Deploy using custom script
+npm run deploy
 
-### Convex Function Development
+# Deploy to Vercel
+npm run deploy:vercel
+```
 
-- **ALWAYS** use new function syntax with explicit validators:
+## Architecture
 
+### Tech Stack
+- **Frontend**: Next.js 15 with App Router, React 19, TypeScript 5
+- **Backend**: Convex for real-time database and functions
+- **Authentication**: Clerk for user management
+- **Styling**: Tailwind CSS 4.0 with custom design system
+- **UI Components**: Radix UI primitives, custom component library
+- **Testing**: Playwright for E2E testing
+- **Performance**: Lighthouse CI, bundle analysis
+
+### Core Architecture Patterns
+
+#### Convex Backend Structure
+The backend uses Convex's file-based function system with comprehensive schemas:
+- **Users**: Clerk integration with external ID mapping
+- **Products**: Japanese-Chilean fusion catalog with inventory tracking
+- **Categories**: Hierarchical structure with Japanese names and Chilean market adaptation
+- **Orders**: Complete e-commerce order management with Chilean tax calculations
+- **Carts**: Real-time cart synchronization for authenticated and guest users
+- **Reviews**: Product review system with verified purchases
+- **Inventory**: Real-time stock management with automatic logging
+
+#### Database Schema Key Points
+- All tables use proper indexes for query optimization
+- Search functionality uses Convex's built-in search indexes
+- Chilean market specifics: CLP currency, 19% IVA tax rate
+- Japanese-inspired freshness indicators (`isFresh`, `isNew`, `isPopular`)
+- Real-time inventory tracking with low stock thresholds
+
+#### Frontend Architecture
+- **App Router**: Next.js 15 app directory structure
+- **Client Components**: All UI components are client-side with `'use client'`
+- **Real-time Data**: Convex queries provide live data synchronization
+- **Responsive Design**: Mobile-first with desktop enhancements
+- **Performance**: Optimized images, lazy loading, bundle splitting
+
+### File Structure Key Concepts
+
+#### Component Organization
+- `src/components/ui/`: Reusable UI primitives (buttons, cards, etc.)
+- `src/components/`: Feature-specific components
+- `src/components/seo/`: Structured data and SEO components
+- `src/components/performance/`: Performance optimization utilities
+
+#### App Directory Routing
+- `src/app/(landing)/`: Homepage and marketing pages
+- `src/app/products/`: Product catalog and detail pages
+- `src/app/cart/` & `src/app/carrito/`: Shopping cart (Spanish redirect)
+- `src/app/categories/`: Category browsing with dynamic slugs
+- `src/app/search/`: Product search functionality
+- `src/app/dashboard/`: Admin/management interface
+
+#### Convex Functions
+- **Queries**: `src/convex/*.ts` files for data fetching
+- **Mutations**: State-changing operations (cart updates, orders)
+- **Actions**: External API calls and complex operations
+- **Schema**: `src/convex/schema.ts` defines all database tables
+
+### Development Guidelines
+
+#### Convex Function Patterns
+Always use the new Convex function syntax with proper validators:
 ```typescript
-export const example = query({
-  args: { name: v.string() },
-  returns: v.object({ result: v.string() }),
+export const functionName = query({
+  args: { param: v.string() },
+  returns: v.object({ result: v.any() }),
   handler: async (ctx, args) => {
-    // Function body
+    // Implementation
   },
 });
 ```
 
-- Use `v.null()` for functions that don't return values
-- Include both `args` and `returns` validators for all functions
-- Use `internalQuery`, `internalMutation`, `internalAction` for private functions
-- HTTP endpoints in `convex/http.ts` use `httpAction` decorator
-- Call functions with `ctx.runQuery`, `ctx.runMutation`, `ctx.runAction` using function references from `api`/`internal`
+#### Component Development
+- Use TypeScript interfaces for all prop types
+- Implement proper loading states and error handling
+- Follow the established naming conventions for CSS classes
+- Use Convex hooks for real-time data: `useQuery`, `useMutation`
 
-### Database Query Patterns
+#### State Management
+- Convex handles server state automatically
+- Use React state for local UI state
+- Cart state is persisted in Convex for real-time sync
+- User authentication through Clerk integration
 
-- Use indexes instead of `.filter()` - define indexes in schema and use `.withIndex()`
-- Use `.unique()` for single document queries (throws if multiple matches)
-- Order queries with `.order('asc')` or `.order('desc')` (defaults to ascending)
-- For pagination: use `paginationOptsValidator` and `.paginate()`
-- Search queries: use `.withSearchIndex()` for full-text search
+#### Performance Considerations
+- Images use Next.js Image component with proper sizing
+- Lazy loading for below-the-fold content
+- Bundle analysis available via `npm run analyze`
+- Lighthouse CI for performance monitoring
 
-### Shadcn Component Installation
+### Configuration Files
 
-- ALWAYS use `bunx --bun shadcn@latest add [component-name]` instead of `npx`
-- Project uses "new-york" style with CSS variables and Lucide icons
-- Check components.json for existing configuration before installing
-- Multiple components can be installed at once: `bunx --bun shadcn@latest add button card drawer`
+#### Key Configuration
+- `next.config.ts`: Next.js configuration with security headers, redirects, and performance optimizations
+- `convex/schema.ts`: Complete database schema with indexes
+- `.cursor/rules/convex_rules.mdc`: Convex development guidelines
+- `playwright.config.ts`: E2E testing configuration
+- `tailwind.config.ts`: Design system configuration
 
-### Convex Rules from .cursor/rules/
+#### Environment Variables
+Required environment variables should be documented in `.env.local`:
+- Convex deployment URL and keys
+- Clerk authentication keys
+- Any third-party service credentials
 
-**ALWAYS follow these Convex development guidelines:**
-- Use new function syntax with explicit validators: `args: { name: v.string() }`, `returns: v.object({ result: v.string() })`
-- Include both `args` and `returns` validators for all functions
-- Use `v.null()` for functions that don't return values
-- Use `internalQuery`, `internalMutation`, `internalAction` for private functions
-- Call functions with `ctx.runQuery`, `ctx.runMutation`, `ctx.runAction` using function references from `api`/`internal`
-- Use indexes instead of `.filter()` - define in schema and use `.withIndex()`
-- Use `.unique()` for single document queries (throws if multiple matches)
-- For pagination: use `paginationOptsValidator` and `.paginate()`
+### Japanese-Chilean Design System
 
-### Performance & Security Guidelines
+The application uses a unique design approach combining Japanese konbini (convenience store) aesthetics with Chilean market needs:
+- **Color Coding**: Categories use color coding similar to Japanese convenience stores
+- **Freshness Indicators**: Products have Japanese-style freshness labels
+- **Typography**: Hierarchical typography with clean, minimal design
+- **Responsive**: Mobile-first approach with thumb-friendly interactions
 
-- **Image Optimization**: Next.js automatically optimizes images with WebP/AVIF formats
-- **Security Headers**: CSP, HSTS, X-Frame-Options configured in `next.config.ts`
-- **Bundle Analysis**: Use `ANALYZE=true npm run build` to analyze bundle size
-- **Cache Configuration**: Static assets cached for 1 year, API responses optimized
-- **Chilean Market**: Localization configured for es-CL, CLP currency, Chilean tax calculations
+### Testing Strategy
 
-### CI/CD Pipeline
+#### E2E Testing with Playwright
+- Comprehensive test coverage for user flows
+- Cross-browser testing (Chrome, Firefox, Safari)
+- Mobile responsive testing
+- Performance regression testing
+- Tests are located in `tests/` directory
 
-- **GitHub Actions**: Automated workflows in `.github/workflows/`
-  - `ci.yml`: Lint and build on PRs and main branch pushes
-  - `e2e.yml`: End-to-end testing with Playwright
-  - `monitor.yml`: Lighthouse performance monitoring and uptime checks
-  - `vercel-deploy.yml`: Automated deployment to Vercel
-- **Quality Gates**: All checks must pass before merge
-- **Performance Monitoring**: Automated Lighthouse audits every 30 minutes
+#### Test Execution
+- Tests can run with or without a local server
+- UI mode available for test development
+- Automatic screenshot and video capture on failures
+- CI/CD integration ready
 
-## Product Data Management
+### Data Management
 
-### Ultra-Advanced Scraping System
+#### Product Data Pipeline
+- Scraping utilities for Chilean retail websites
+- Data standardization and validation
+- Bulk import capabilities via Convex mutations
+- Image optimization and storage
 
-The project features a revolutionary **Ultra-Advanced Scraper Engine** that replaces 15 legacy scrapers with one intelligent tool:
+#### Real-time Features
+- Live cart updates across devices
+- Real-time inventory tracking
+- Instant search results
+- Live product availability status
 
-**🚀 Ultra-Scraper Engine Features:**
-- **5 Intelligent Strategies**: Standard, Aggressive, Penetration, Multi-Vector, and Hybrid
-- **Self-Adapting System**: Learns from failures and optimizes strategy selection
-- **Advanced Anti-Detection**: Stealth with fingerprint randomization and circuit breakers
-- **Real-Time Monitoring**: Performance metrics, success rates, and automatic recovery
-- **Unified Data Pipeline**: Built-in validation, deduplication, and quality scoring
-
-**Core Components:**
-- `/home/kuromatsu/Documents/ΛRΛMΛC/Scripts/ultra-scraper.js` - 🎯 Main ultra-advanced scraping engine (replaces 15 old scrapers)
-- `/home/kuromatsu/Documents/ΛRΛMΛC/Scripts/data-validator.js` - Data validation and deduplication utilities
-- `/home/kuromatsu/Documents/ΛRΛMΛC/Scripts/product-library.js` - Search and indexing system for products
-- `/home/kuromatsu/Documents/ΛRΛMΛC/Scripts/product-schema.js` - Universal schema supporting minimarket and hardware products
-- `/home/kuromatsu/Documents/ΛRΛMΛC/Scripts/legacy-scrapers/` - Backup of replaced scrapers for reference
-
-**Supported Stores:** Líder, Jumbo, Santa Isabel, Unimarc, Tottus, Easy, Falabella, París, Sodimac
-
-**Usage Examples:**
-```bash
-# Quick start with intelligent strategy (recommended)
-node /home/kuromatsu/Documents/ΛRΛMΛC/Scripts/ultra-scraper.js --max-products 100 --verbose
-
-# Specific stores and categories
-node /home/kuromatsu/Documents/ΛRΛMΛC/Scripts/ultra-scraper.js --stores lider,jumbo --categories bebidas,snacks --max-products 200
-
-# Aggressive strategy for maximum extraction
-node /home/kuromatsu/Documents/ΛRΛMΛC/Scripts/ultra-scraper.js --strategy aggressive --max-products 1000
-
-# Advanced penetration for protected stores
-node /home/kuromatsu/Documents/ΛRΛMΛC/Scripts/ultra-scraper.js --strategy penetration --stores falabella --verbose
-
-# Validate and clean data
-node /home/kuromatsu/Documents/ΛRΛMΛC/Scripts/data-validator.js /home/kuromatsu/Documents/ΛRΛMΛC/Websites/Minimarket/data/ultra-scraper/products/
-
-# Search products
-node /home/kuromatsu/Documents/ΛRΛMΛC/Scripts/product-library.js search "coca cola"
-```
-
-**New Data Organization:**
-- Session data: `data/ultra-scraper/products/{sessionId}/`
-- Session reports: `data/ultra-scraper/report-{sessionId}.json`
-- Session logs: `data/ultra-scraper/logs/{sessionId}.log`
-- Images: `data/ultra-scraper/images/`
-- Legacy data: `data/products/` (from old scrapers)
-
-**Migration Benefits:**
-- **90% fewer files**: 15 scrapers → 1 unified tool
-- **50% better performance**: Intelligent strategy selection
-- **100% feature coverage**: All capabilities preserved and enhanced
-- **Self-adapting**: Learns and improves over time
-
-**Integration:** Scraped data can be populated into Convex database using `convex/populateProducts.ts`
+This architecture supports a scalable, performant e-commerce platform with real-time capabilities and a unique design aesthetic tailored to the Chilean minimarket industry.

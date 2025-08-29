@@ -1,0 +1,779 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  /* Japanese-inspired Minimarket Design System */
+  --radius: 0.625rem;
+  
+  /* MA (間) principle spacing - strategic white space */
+  --ma-xs: 0.5rem;    /* 8px - minimal breathing room */
+  --ma-sm: 1rem;      /* 16px - standard spacing */
+  --ma-md: 1.5rem;    /* 24px - comfortable spacing */
+  --ma-lg: 2rem;      /* 32px - generous spacing */
+  --ma-xl: 3rem;      /* 48px - spacious sections */
+  --ma-2xl: 4rem;     /* 64px - major section breaks */
+  
+  /* Konbini-inspired color system */
+  --background: oklch(1 0 0);
+  --foreground: oklch(0.145 0 0);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.145 0 0);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.145 0 0);
+  
+  /* Primary colors - inspired by Japanese convenience stores */
+  --primary: oklch(0.24 0.15 240);        /* Slightly darker for better contrast */
+  --primary-foreground: oklch(0.99 0 0);
+  --secondary: oklch(0.97 0 0);
+  /* Darken foreground tokens to improve WCAG AA contrast on light surfaces */
+  --secondary-foreground: oklch(0.18 0 0);
+  --muted: oklch(0.97 0 0);
+  /* Increase contrast for readability (AA on white background) */
+  --muted-foreground: oklch(0.32 0 0);
+  --accent: oklch(0.97 0 0);
+  --accent-foreground: oklch(0.14 0 0);
+  
+  /* Status colors for fresh/new/popular indicators */
+  --fresh: oklch(0.65 0.15 145);          /* Fresh green */
+  --fresh-foreground: oklch(0.985 0 0);
+  --new: oklch(0.55 0.2 25);              /* New orange */
+  --new-foreground: oklch(0.985 0 0);
+  --popular: oklch(0.45 0.2 345);         /* Popular red */
+  --popular-foreground: oklch(0.985 0 0);
+  --sale: oklch(0.6 0.25 60);             /* Sale yellow */
+  --sale-foreground: oklch(0.145 0 0);
+  
+  /* Stock status colors */
+  --in-stock: oklch(0.65 0.15 145);       /* Green */
+  --low-stock: oklch(0.6 0.25 60);        /* Yellow */
+  --out-stock: oklch(0.55 0.2 25);        /* Orange */
+  
+  --destructive: oklch(0.577 0.245 27.325);
+  --border: oklch(0.922 0 0);
+  --input: oklch(0.922 0 0);
+  --ring: oklch(0.708 0 0);
+  
+  /* Bento box grid colors */
+  --bento-primary: oklch(0.26 0.15 240);
+  --bento-secondary: oklch(0.65 0.15 145);
+  --bento-accent: oklch(0.55 0.2 25);
+  --bento-muted: oklch(0.97 0 0);
+  
+  --chart-1: oklch(0.81 0.1 252);
+  --chart-2: oklch(0.62 0.19 260);
+  --chart-3: oklch(0.55 0.22 263);
+  --chart-4: oklch(0.49 0.22 264);
+  --chart-5: oklch(0.42 0.18 266);
+  --sidebar: oklch(0.985 0 0);
+  --sidebar-foreground: oklch(0.145 0 0);
+  --sidebar-primary: oklch(0.205 0 0);
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-accent: oklch(0.94 0 0);
+  --sidebar-accent-foreground: oklch(0.205 0 0);
+  --sidebar-border: oklch(0.922 0 0);
+  --sidebar-ring: oklch(0.708 0 0);
+
+  --shadow-color: oklch(0 0 0);
+  --shadow-2xs: 0 1px 3px 0px rgb(from var(--shadow-color) r g b / 0.05);
+  --shadow-xs: 0 1px 3px 0px rgb(from var(--shadow-color) r g b / 0.05);
+  --shadow-sm: 0 1px 3px 0px rgb(from var(--shadow-color) r g b / 0.1), 0 1px 2px -1px rgb(from var(--shadow-color) r g b / 0.1);
+  --shadow: 0 1px 3px 0px rgb(from var(--shadow-color) r g b / 0.1), 0 1px 2px -1px rgb(from var(--shadow-color) r g b / 0.1);
+  --shadow-md: 0 1px 3px 0px rgb(from var(--shadow-color) r g b / 0.1), 0 2px 4px -1px rgb(from var(--shadow-color) r g b / 0.1);
+  --shadow-lg: 0 1px 3px 0px rgb(from var(--shadow-color) r g b / 0.1), 0 4px 6px -1px rgb(from var(--shadow-color) r g b / 0.1);
+  --shadow-xl: 0 1px 3px 0px rgb(from var(--shadow-color) r g b / 0.1), 0 8px 10px -1px rgb(from var(--shadow-color) r g b / 0.1);
+  --shadow-2xl: 0 1px 3px 0px rgb(from var(--shadow-color) r g b / 0.1);
+}
+
+.dark {
+  --background: oklch(0.145 0 0);
+  --foreground: oklch(0.985 0 0);
+  --card: oklch(0.205 0 0);
+  --card-foreground: oklch(0.985 0 0);
+  --popover: oklch(0.269 0 0);
+  --popover-foreground: oklch(0.985 0 0);
+  --primary: oklch(0.922 0 0);
+  --primary-foreground: oklch(0.205 0 0);
+  --secondary: oklch(0.269 0 0);
+  --secondary-foreground: oklch(0.985 0 0);
+  --muted: oklch(0.269 0 0);
+  --muted-foreground: oklch(0.708 0 0);
+  --accent: oklch(0.371 0 0);
+  --accent-foreground: oklch(0.985 0 0);
+  --destructive: oklch(0.704 0.191 22.216);
+  --border: oklch(1 0 0 / 10%);
+  --input: oklch(1 0 0 / 15%);
+  --ring: oklch(0.556 0 0);
+  --chart-1: oklch(0.81 0.1 252);
+  --chart-2: oklch(0.62 0.19 260);
+  --chart-3: oklch(0.55 0.22 263);
+  --chart-4: oklch(0.49 0.22 264);
+  --chart-5: oklch(0.42 0.18 266);
+  --sidebar: oklch(0.205 0 0);
+  --sidebar-foreground: oklch(0.985 0 0);
+  --sidebar-primary: oklch(0.488 0.243 264.376);
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-accent: oklch(0.269 0 0);
+  --sidebar-accent-foreground: oklch(0.985 0 0);
+  --sidebar-border: oklch(1 0 0 / 10%);
+  --sidebar-ring: oklch(0.439 0 0);
+
+  --shadow-color: oklch(0 0 0);
+}
+
+@theme inline {
+  --font-sans: var(--font-sans);
+  --font-mono: var(--font-mono);
+  --font-serif: var(--font-serif);
+
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+
+  --shadow-2xs: var(--shadow-2xs);
+  --shadow-xs: var(--shadow-xs);
+  --shadow-sm: var(--shadow-sm);
+  --shadow: var(--shadow);
+  --shadow-md: var(--shadow-md);
+  --shadow-lg: var(--shadow-lg);
+  --shadow-xl: var(--shadow-xl);
+  --shadow-2xl: var(--shadow-2xl);
+  --animate-aurora: aurora 60s linear infinite;
+  --animate-pulse: pulse var(--duration) ease-out infinite;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "kern" 1, "liga" 1;
+  }
+  
+  /* Japanese typography principles */
+  .typography-hierarchy {
+    line-height: 1.6; /* Japanese standard for readability */
+    letter-spacing: 0.025em; /* Subtle character spacing */
+  }
+  
+  /* Mobile-first thumb-friendly targets */
+  .touch-target {
+    min-height: 44px; /* iOS/Android recommended minimum */
+    min-width: 44px;
+  }
+}
+
+@layer utilities {
+  /* Aurora animation utility class */
+  .animate-aurora {
+    animation: aurora 60s linear infinite;
+  }
+
+  /* Critical keyframes for animations */
+  @keyframes pulse {
+    0%, 100% {
+      box-shadow: 0 0 0 0 var(--pulse-color);
+    }
+    50% {
+      box-shadow: 0 0 0 8px var(--pulse-color);
+    }
+  }
+  
+  @keyframes aurora {
+    0% {
+      background-position: 50% 50%, 50% 50%;
+    }
+    50% {
+      background-position: 150% 50%, 150% 50%;
+    }
+    100% {
+      background-position: 250% 50%, 250% 50%;
+    }
+  }
+
+  /* MA (間) principle utilities */
+  .ma-xs { margin: var(--ma-xs); }
+  .ma-sm { margin: var(--ma-sm); }
+  .ma-md { margin: var(--ma-md); }
+  .ma-lg { margin: var(--ma-lg); }
+  .ma-xl { margin: var(--ma-xl); }
+  .ma-2xl { margin: var(--ma-2xl); }
+  
+  .ma-x-xs { margin-left: var(--ma-xs); margin-right: var(--ma-xs); }
+  .ma-x-sm { margin-left: var(--ma-sm); margin-right: var(--ma-sm); }
+  .ma-x-md { margin-left: var(--ma-md); margin-right: var(--ma-md); }
+  .ma-x-lg { margin-left: var(--ma-lg); margin-right: var(--ma-lg); }
+  .ma-x-xl { margin-left: var(--ma-xl); margin-right: var(--ma-xl); }
+  .ma-x-2xl { margin-left: var(--ma-2xl); margin-right: var(--ma-2xl); }
+  
+  .ma-y-xs { margin-top: var(--ma-xs); margin-bottom: var(--ma-xs); }
+  .ma-y-sm { margin-top: var(--ma-sm); margin-bottom: var(--ma-sm); }
+  .ma-y-md { margin-top: var(--ma-md); margin-bottom: var(--ma-md); }
+  .ma-y-lg { margin-top: var(--ma-lg); margin-bottom: var(--ma-lg); }
+  .ma-y-xl { margin-top: var(--ma-xl); margin-bottom: var(--ma-xl); }
+  .ma-y-2xl { margin-top: var(--ma-2xl); margin-bottom: var(--ma-2xl); }
+  
+  /* Bento-style grid system */
+  .bento-grid {
+    display: grid;
+    gap: var(--ma-sm);
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  }
+  
+  @media (min-width: 1024px) {
+    .bento-grid {
+      gap: var(--ma-md);
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+  }
+  
+  @media (min-width: 1280px) {
+    .bento-grid {
+      gap: var(--ma-lg);
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+  }
+  
+  .bento-card {
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--border);
+    background: var(--card);
+    padding: 1rem;
+    box-shadow: 0 1px 2px rgb(from var(--shadow-color) r g b / 0.06);
+    transition-property: box-shadow, transform, background-color, border-color;
+    transition-duration: 200ms;
+    position: relative;
+    z-index: 1;
+    pointer-events: auto;
+    isolation: isolate;
+  }
+
+  .bento-card:hover {
+    box-shadow: 0 6px 16px rgb(from var(--shadow-color) r g b / 0.12);
+  }
+  
+  .bento-card-featured {
+    /* Inherit base styles manually to avoid invalid @apply of custom class */
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--border);
+    background: var(--card);
+    padding: 1rem;
+    box-shadow: 0 1px 2px rgb(from var(--shadow-color) r g b / 0.06);
+    transition-property: box-shadow, transform, background-color, border-color;
+    transition-duration: 200ms;
+    background: linear-gradient(135deg, 
+      rgb(from var(--bento-primary) r g b / 0.05) 0%, 
+      rgb(from var(--bento-secondary) r g b / 0.05) 100%);
+    position: relative;
+    z-index: 1;
+    pointer-events: auto;
+    isolation: isolate;
+  }
+  
+  /* Status indicators */
+  .status-fresh {
+    @apply bg-green-100 text-green-800 border-green-200;
+    background-color: rgb(from var(--fresh) r g b / 0.1);
+    color: rgb(from var(--fresh) r g b / 0.8);
+    border-color: rgb(from var(--fresh) r g b / 0.2);
+  }
+  
+  .status-new {
+    @apply bg-orange-100 text-orange-800 border-orange-200;
+    background-color: rgb(from var(--new) r g b / 0.1);
+    color: rgb(from var(--new) r g b / 0.8);
+    border-color: rgb(from var(--new) r g b / 0.2);
+  }
+  
+  .status-popular {
+    @apply bg-red-100 text-red-800 border-red-200;
+    background-color: rgb(from var(--popular) r g b / 0.1);
+    color: rgb(from var(--popular) r g b / 0.8);
+    border-color: rgb(from var(--popular) r g b / 0.2);
+  }
+  
+  .status-sale {
+    @apply bg-yellow-100 text-yellow-800 border-yellow-200;
+    background-color: rgb(from var(--sale) r g b / 0.1);
+    color: rgb(from var(--sale) r g b / 0.8);
+    border-color: rgb(from var(--sale) r g b / 0.2);
+  }
+  
+  /* Stock status indicators */
+  .stock-in {
+    @apply inline-flex items-center px-2 py-1 rounded-full text-xs font-medium;
+    background-color: rgb(from var(--in-stock) r g b / 0.1);
+    color: rgb(from var(--in-stock) r g b / 0.8);
+  }
+  
+  .stock-low {
+    @apply inline-flex items-center px-2 py-1 rounded-full text-xs font-medium;
+    background-color: rgb(from var(--low-stock) r g b / 0.1);
+    color: rgb(from var(--low-stock) r g b / 0.8);
+  }
+  
+  .stock-out {
+    @apply inline-flex items-center px-2 py-1 rounded-full text-xs font-medium;
+    background-color: rgb(from var(--out-stock) r g b / 0.1);
+    color: rgb(from var(--out-stock) r g b / 0.8);
+  }
+  
+  /* Mobile-first responsive patterns */
+  .mobile-stack {
+    @apply flex flex-col space-y-4 md:flex-row md:space-y-0 md:space-x-4;
+  }
+  
+  .mobile-center {
+    @apply text-center md:text-left;
+  }
+  
+  /* Thumb-friendly interactive elements */
+  .thumb-friendly {
+    min-height: 44px; /* iOS/Android recommended minimum */
+    min-width: 44px;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  /* Japanese-inspired subtle animations */
+  .subtle-hover {
+    transition-property: all;
+    transition-duration: 200ms;
+    transition-timing-function: ease-out;
+  }
+  
+  .subtle-hover:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgb(from var(--shadow-color) r g b / 0.1);
+  }
+  
+  /* Progressive disclosure patterns */
+  .disclosure-content {
+    @apply overflow-hidden transition-all duration-300 ease-in-out;
+    max-height: 0;
+  }
+  
+  .disclosure-content.open {
+    max-height: 500px; /* Adjust based on content */
+  }
+  
+  /* Accessibility enhancements */
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+  
+  /* Skip links */
+  .skip-link {
+    position: absolute;
+    top: -40px;
+    left: 6px;
+    background: var(--primary);
+    color: var(--primary-foreground);
+    padding: 8px 12px;
+    text-decoration: none;
+    z-index: 1000;
+    border-radius: 4px;
+    font-weight: medium;
+    transition: top 0.2s ease-in-out;
+  }
+  
+  .skip-link:focus {
+    top: 6px;
+  }
+  
+  /* Enhanced focus states for better accessibility */
+  *:focus-visible {
+    outline: 2px solid var(--ring);
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+  
+  /* High contrast mode support */
+  @media (prefers-contrast: high) {
+    .bento-card,
+    .subtle-hover,
+    .thumb-friendly {
+      border-width: 2px;
+    }
+    
+    .status-fresh,
+    .status-new,
+    .status-popular,
+    .status-sale {
+      border-width: 2px;
+      font-weight: 600;
+    }
+    
+    /* Enhance status colors for better contrast */
+    .bg-lime-500\/15 {
+      background-color: oklch(0.85 0.15 145) !important;
+    }
+    
+    .text-lime-800 {
+      color: oklch(0.25 0.15 145) !important;
+    }
+    
+    .bg-red-500\/15 {
+      background-color: oklch(0.85 0.15 25) !important;
+    }
+    
+    .text-red-800 {
+      color: oklch(0.25 0.15 25) !important;
+    }
+    
+    .bg-yellow-500\/15 {
+      background-color: oklch(0.85 0.15 80) !important;
+    }
+    
+    .text-yellow-800 {
+      color: oklch(0.25 0.15 80) !important;
+    }
+  }
+  
+  /* Reduced motion support */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+    
+    .subtle-hover:hover {
+      transform: none;
+    }
+    
+    .disclosure-content {
+      transition: none;
+    }
+  }
+  
+  /* Better focus management for interactive elements */
+  button:focus-visible,
+  a:focus-visible,
+  input:focus-visible,
+  select:focus-visible,
+  textarea:focus-visible,
+  [role="button"]:focus-visible,
+  [tabindex="0"]:focus-visible {
+    outline: 2px solid var(--ring);
+    outline-offset: 2px;
+  }
+  
+  /* Improve readability - removed to fix desktop layout issues */
+  /* p, li, span, div {
+    max-width: 65ch;
+  } */
+  
+  /* Better error state visibility */
+  [aria-invalid="true"] {
+    border-color: var(--destructive);
+    box-shadow: 0 0 0 1px var(--destructive);
+  }
+  
+  /* Loading state accessibility */
+  [aria-busy="true"] {
+    cursor: wait;
+  }
+  
+  /* Better disabled state */
+  [aria-disabled="true"],
+  :disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+}
+
+.cpu-architecture {
+  offset-anchor: 10px 0px;
+  animation: animation-path;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.75, -0.01, 0, 0.99);
+}
+
+.cpu-line-1 {
+  offset-path: path("M 10 20 h 79.5 q 5 0 5 5 v 30");
+  animation-duration: 5s;
+  animation-delay: 1s;
+}
+
+.cpu-line-2 {
+  offset-path: path("M 180 10 h -69.7 q -5 0 -5 5 v 40");
+  animation-delay: 6s;
+  animation-duration: 2s;
+}
+
+.cpu-line-3 {
+  offset-path: path("M 130 20 v 21.8 q 0 5 -5 5 h -25");
+  animation-delay: 4s;
+  animation-duration: 6s;
+}
+
+.cpu-line-4 {
+  offset-path: path("M 170 80 v -21.8 q 0 -5 -5 -5 h -65");
+  animation-delay: 3s;
+  animation-duration: 3s;
+}
+
+.cpu-line-5 {
+  offset-path: path(
+    "M 135 65 h 15 q 5 0 5 5 v 10 q 0 5 -5 5 h -39.8 q -5 0 -5 -5 v -35"
+  );
+  animation-delay: 9s;
+  animation-duration: 4s;
+}
+
+.cpu-line-6 {
+  offset-path: path("M 94.8 95 v -46");
+  animation-delay: 3s;
+  animation-duration: 7s;
+}
+
+.cpu-line-7 {
+  offset-path: path(
+    "M 88 88 v -15 q 0 -5 -5 -5 h -10 q -5 0 -5 -5 v -5 q 0 -5 5 -5 h 28"
+  );
+  animation-delay: 4s;
+  animation-duration: 4s;
+}
+
+.cpu-line-8 {
+  offset-path: path("M 30 30 h 25 q 5 0 5 5 v 6.5 q 0 5 5 5 h 35");
+  animation-delay: 3s;
+  animation-duration: 3s;
+}
+
+@keyframes animation-path {
+  0% {
+    offset-distance: 0%;
+  }
+  100% {
+    offset-distance: 100%;
+  }
+}
+
+  /* Ensure body and html are properly configured */
+  html, body {
+    position: relative;
+    z-index: 0;
+    pointer-events: auto;
+  }
+  
+  /* Ensure main content is clickable and properly positioned */
+  main {
+    position: relative;
+    z-index: 10;
+    pointer-events: auto;
+    isolation: isolate;
+  }
+  
+  /* Ensure all interactive elements are clickable */
+  button, a, input, select, textarea, [role="button"], [tabindex] {
+    pointer-events: auto;
+    isolation: isolate;
+  }
+  
+  /* Ensure cards and panels are clickable */
+  .card, .panel, [class*="card"], [class*="panel"] {
+    pointer-events: auto;
+    position: relative;
+    z-index: 1;
+    isolation: isolate;
+  }
+  
+  /* Fix for modal and dialog interactions */
+  [role="dialog"] {
+    isolation: isolate;
+  }
+  
+  /* Ensure header elements are always clickable */
+  header nav {
+    isolation: isolate;
+  }
+  
+  header button, header a {
+    position: relative;
+    isolation: isolate;
+  }
+  
+  /* Cookie banner specific fixes - EMERGENCY PRIORITY */
+  [role="dialog"][aria-label="Consentimiento de cookies"] {
+    pointer-events: none !important;
+    position: fixed !important;
+    isolation: isolate !important;
+  }
+
+  [role="dialog"][aria-label="Consentimiento de cookies"] > * {
+    pointer-events: auto !important;
+    z-index: 1000000 !important;
+    position: relative !important;
+    isolation: isolate !important;
+  }
+
+  /* Cookie banner buttons - SUPER HIGH PRIORITY */
+  [role="dialog"][aria-label="Consentimiento de cookies"] button {
+    pointer-events: auto !important;
+    z-index: 1000001 !important;
+    position: relative !important;
+    isolation: isolate !important;
+    touch-action: manipulation !important;
+    cursor: pointer !important;
+    user-select: none !important;
+  }
+
+  /* Force all cookie banner interactive elements to work */
+  [role="dialog"][aria-label="Consentimiento de cookies"] button,
+  [role="dialog"][aria-label="Consentimiento de cookies"] [role="button"],
+  [role="dialog"][aria-label="Consentimiento de cookies"] a {
+    pointer-events: auto !important;
+    z-index: 1000001 !important;
+    position: relative !important;
+    isolation: isolate !important;
+    touch-action: manipulation !important;
+    cursor: pointer !important;
+  }
+
+  /* Specific cookie banner button class - MAXIMUM PRIORITY */
+  .cookie-banner-btn {
+    pointer-events: auto !important;
+    z-index: 2147483647 !important; /* Maximum possible z-index */
+    position: relative !important;
+    isolation: isolate !important;
+    touch-action: manipulation !important;
+    cursor: pointer !important;
+    user-select: none !important;
+    -webkit-tap-highlight-color: transparent !important;
+    -webkit-touch-callout: none !important;
+    -webkit-user-select: none !important;
+    -moz-user-select: none !important;
+    -ms-user-select: none !important;
+  }
+
+  .cookie-banner-btn:hover {
+    transform: translateY(-1px) !important;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1) !important;
+  }
+
+  .cookie-banner-btn:active {
+    transform: translateY(0) !important;
+  }
+
+  /* ===============================================
+   * ULTRATHINK COMPREHENSIVE INTERACTION FIXES  
+   * =============================================== */
+
+  /* Fix all clickability issues - MAIN CONTENT */
+  main {
+    position: relative;
+    z-index: 10;
+    pointer-events: auto;
+    isolation: isolate;
+  }
+
+  /* Ensure ALL interactive elements are always clickable */
+  button, a, [role="button"], [tabindex]:not([tabindex="-1"]), input, select, textarea {
+    pointer-events: auto !important;
+    isolation: isolate;
+    position: relative;
+    z-index: 1;
+  }
+
+  /* Aurora background safety - PREVENT INTERFERENCE */
+  [class*="aurora"] * {
+    pointer-events: none !important;
+  }
+
+  [class*="aurora"] > div:last-child {
+    pointer-events: auto !important;
+  }
+
+  [class*="aurora"] > div:last-child * {
+    pointer-events: auto !important;
+  }
+
+  /* CRITICAL: Ensure cookie banner is ALWAYS above aurora */
+  [role="dialog"][aria-label="Consentimiento de cookies"] {
+    z-index: 2147483647 !important;
+  }
+
+  /* Prevent aurora from interfering with cookie banner */
+  [class*="aurora"] {
+    z-index: 0 !important;
+  }
+
+  /* Ensure aurora decorative elements don't block cookie banner */
+  [class*="aurora"]::before,
+  [class*="aurora"]::after,
+  [class*="aurora"] *::before,
+  [class*="aurora"] *::after {
+    pointer-events: none !important;
+    z-index: -1 !important;
+  }
+
+  /* Emergency interaction recovery class */
+  .force-interactive {
+    pointer-events: auto !important;
+    z-index: 9999 !important;
+    position: relative !important;
+    isolation: isolate !important;
+    touch-action: auto !important;
+    user-select: auto !important;
+  }
+
+  /* NUCLEAR OPTION - Force ALL buttons clickable */
+  button {
+    pointer-events: auto !important;
+    touch-action: manipulation !important;
+  }
+
+  /* Prevent animation interference with interactions */
+  @media (prefers-reduced-motion: reduce) {
+    .animate-aurora {
+      animation: none;
+    }
+  }

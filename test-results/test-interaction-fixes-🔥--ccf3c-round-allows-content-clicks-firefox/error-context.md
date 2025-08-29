@@ -1,0 +1,146 @@
+# Page snapshot
+
+```yaml
+- link "Saltar al contenido":
+  - /url: "#main"
+- banner:
+  - navigation:
+    - link "home":
+      - /url: /
+      - img "Minimarket ARAMAC"
+      - text: Minimarket ARAMAC
+    - button "Abrir menú"
+    - list:
+      - listitem:
+        - link "Promociones":
+          - /url: /promotions
+      - listitem:
+        - link "Categorías":
+          - /url: /categories
+      - listitem:
+        - link "Locales":
+          - /url: /stores
+      - listitem:
+        - link "Delivery":
+          - /url: /delivery
+      - listitem:
+        - link "Ayuda":
+          - /url: /help
+    - combobox "Buscar productos..."
+    - link "Abrir carrito":
+      - /url: /carrito
+- main:
+  - main:
+    - text: Minimarket ARAMACAbierto 24/7
+    - heading "Tu minimarketde confianza" [level=1]
+    - paragraph: Productos frescos y de calidad inspirados en la tradición japonesa de servicio al cliente. Compra fácil, entrega rápida.
+    - combobox "Buscar productos, marcas..."
+    - button "Ver Catálogo"
+    - button "Buscar Productos"
+    - region "Hero carousel":
+      - img "Arándanos frescos y vibrantes"
+      - text: Fresco
+      - heading "Arándanos frescos y vibrantes" [level=3]
+      - paragraph: Selección premium, listos para disfrutar
+      - button "Ver Productos"
+      - button
+      - button
+      - button
+      - button
+      - button "Anterior"
+      - button "Siguiente"
+    - img
+    - heading "Recién llegados y frescos" [level=2]
+    - heading "Productos destacados" [level=2]
+    - button "Entrega"
+    - button "Retiro en tienda"
+    - text: Hoy 30–45 min
+    - paragraph: Tiempo limitado
+    - paragraph: 10% OFF en frescos
+    - paragraph: Usa código FRESCOS10
+    - paragraph: Cupón semanal
+    - paragraph: 2x1 Snacks
+    - paragraph: Hasta domingo
+    - paragraph: Entrega
+    - paragraph: Hoy 30–45 min
+    - paragraph: Retiro en tienda disponible
+    - heading "Categorías" [level=2]
+    - region "Ventajas de servicio": 500+Productos disponibles < 30minTiempo de entrega GratisEnvío sobre $15.000 24/7Disponible siempre
+    - heading "Clientes felices" [level=2]
+    - paragraph: Rápido, claro y confiable para negocios locales en Chile.
+    - text: Convex en tiempo real Pagos seguros con Stripe Sesiones protegidas con Clerk
+    - img "Camila Araya"
+    - img "Carlos Rojas"
+    - img "Paula Muñoz"
+    - img "Javier Pérez"
+    - img "Constanza Paredes"
+    - img "Felipe Contreras"
+    - img "Daniela Orellana"
+    - img "Tomás Herrera"
+    - img "Marcela Díaz"
+    - img "Andrea Fuentes"
+    - heading "Camila Araya" [level=3]
+    - paragraph: Emprendedora
+    - paragraph: Desde Valpo controlo el local desde el celu. Inventario piola y alertas cuando falta producto. La raja.
+    - button "Anterior":
+      - img
+    - button "Siguiente":
+      - img
+- dialog "Consentimiento de cookies":
+  - img "Minimarket ARAMAC"
+  - paragraph: Usamos cookies para que el sitio se sienta rápido, seguro y personal.
+  - paragraph: Puedes aceptar todas las cookies o administrar tus preferencias en cualquier momento.
+  - button "Administrar preferencias"
+  - button "Rechazar todas"
+  - button "Aceptar todas"
+- region "Notifications alt+T"
+- navigation "Navegación principal móvil":
+  - link "Ir a Inicio":
+    - /url: /
+    - text: Inicio
+  - link "Ir a Categorías":
+    - /url: /categories
+    - text: Categorías
+  - button "Abrir buscar": Buscar
+  - link "Ir a Carrito":
+    - /url: /carrito
+    - text: Carrito
+  - button "Abrir cuenta": Cuenta
+- contentinfo:
+  - link "go home":
+    - /url: /
+    - img "Minimarket ARAMAC"
+    - text: Minimarket ARAMAC
+  - link "Features":
+    - /url: "#"
+  - link "Solution":
+    - /url: "#"
+  - link "Customers":
+    - /url: "#"
+  - link "Pricing":
+    - /url: "#"
+  - link "Help":
+    - /url: "#"
+  - link "About":
+    - /url: "#"
+  - link "X/Twitter":
+    - /url: "#"
+    - img
+  - link "LinkedIn":
+    - /url: "#"
+    - img
+  - link "Facebook":
+    - /url: "#"
+    - img
+  - link "Threads":
+    - /url: "#"
+    - img
+  - link "Instagram":
+    - /url: "#"
+    - img
+  - link "TikTok":
+    - /url: "#"
+    - img
+  - text: © 2025 Minimarket ARAMAC. Todos los derechos reservados.
+- region "Notifications alt+T"
+```

@@ -11,6 +11,8 @@ export default function (phase: string) {
       ignoreBuildErrors: true,
     },
 
+
+
     // Performance optimizations
     compress: true,
 

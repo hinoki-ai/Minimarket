@@ -1,87 +1,54 @@
-# Minimarket ARAMAC
+# Minimarket
 
-Sitio y panel web para Minimarket ARAMAC. Enfocado en simplicidad, rapidez y claridad para negocios locales en Chile.
+A Next.js e-commerce application for Chilean minimarket products with Convex backend.
 
-## Características
+## Project Structure
 
-- **Autenticación con Clerk**: registro e inicio de sesión seguros
-- **Base de datos en tiempo real (Convex)**
-- **Planes y cobros (Clerk Billing)**
-- **Dashboard responsivo** con tablas y gráficos
-- **Tema claro/oscuro** y diseño moderno (TailwindCSS v4)
+- `src/` - Source code
+  - `app/` - Next.js app directory (pages and API routes)
+  - `components/` - Reusable React components
+  - `convex/` - Convex backend functions and schema
+  - `hooks/` - Custom React hooks
+  - `lib/` - Utility functions and libraries
+  - `types/` - TypeScript type definitions
+- `public/` - Static assets served by Next.js
+- `data/` - Product data and scraped content
+- `config/` - Configuration files (package.json, next.config.ts, etc.)
+- `docs/` - Documentation and deployment guides
+- `scripts/` - Testing and utility scripts
+- `assets/` - Additional assets and scraped content
+- `tests/` - Test files and configurations
 
-## Tecnología
+## Development
 
-- Next.js 15, React 19, TypeScript
-- TailwindCSS v4 y componentes accesibles
-- Convex (funciones y datos en tiempo real)
-- Clerk (auth) y Clerk Billing (suscripciones)
-
-## Requisitos
+### Prerequisites
 
 - Node.js 18+
-- Cuenta de Clerk y Convex
+- pnpm or npm
+- Convex account
 
-## Configuración rápida
-
-1. Instalar dependencias
+### Installation
 
 ```bash
-npm install
+pnpm install
 ```
 
-1. Variables de entorno (crear `.env.local`)
+### Development Server
 
-```env
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
-CLERK_SECRET_KEY=
-NEXT_PUBLIC_CLERK_FRONTEND_API_URL=
-
-NEXT_PUBLIC_CLERK_SIGN_IN_FORCE_REDIRECT_URL=/dashboard
-NEXT_PUBLIC_CLERK_SIGN_UP_FORCE_REDIRECT_URL=/dashboard
-NEXT_PUBLIC_CLERK_SIGN_IN_FALLBACK_REDIRECT_URL=/dashboard
-NEXT_PUBLIC_CLERK_SIGN_UP_FALLBACK_REDIRECT_URL=/dashboard
+```bash
+pnpm dev
 ```
 
-1. Iniciar Convex (configura variables internas)
+### Database Setup
 
 ```bash
 npx convex dev
 ```
 
-1. Webhook de Clerk (en Clerk Dashboard)
+## Deployment
 
-- Endpoint: `/api/clerk-users-webhook`
-- Agrega el secreto a Convex como `CLERK_WEBHOOK_SECRET`
+See [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) and [docs/README-DEPLOYMENT.md](docs/README-DEPLOYMENT.md) for detailed deployment instructions.
 
-## Desarrollo
+## Configuration
 
-```bash
-npm run dev
-```
-
-Abre `http://localhost:3000`.
-
-## Despliegue
-
-Despliegue en Vercel y CI/CD en GitHub Actions:
-
-- Configura en GitHub Secrets: `VERCEL_TOKEN`, `VERCEL_ORG_ID`, `VERCEL_PROJECT_ID`, `SITE_URL`.
-- Flujos:
-  - `.github/workflows/ci.yml`: lint + build en PRs y pushes a `main`.
-  - `.github/workflows/vercel-deploy.yml`: despliegue automático a Vercel en pushes a `main`.
-  - `.github/workflows/monitor.yml`: Lighthouse (LHCI) y verificación de uptime cada 30 minutos.
-
-## Estructura
-
-```text
-app/                # Páginas y UI
-components/         # Componentes reutilizables
-convex/             # Funciones/Schema/HTTP de Convex
-lib/                # Utilidades
-middleware.ts       # Protección de rutas
-```
-
-## Licencia
-
-© Minimarket ARAMAC. Todos los derechos reservados.
+All configuration files are in the `config/` directory. Environment variables should be set in `.env.local`.

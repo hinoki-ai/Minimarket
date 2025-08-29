@@ -1,0 +1,5 @@
+{
+  "http://localhost:3000/": "https://storage.googleapis.com/lighthouse-infrastructure.appspot.com/reports/1756357476263-36103.report.html",
+  "http://localhost:3000/products": "https://storage.googleapis.com/lighthouse-infrastructure.appspot.com/reports/1756357478037-57838.report.html",
+  "https://rich-longhorn-71.accounts.dev/sign-in?redirect_url=http%3A%2F%2Flocalhost%3A3000%2Fcarrito&__clerk_db_jwt=dvb_31ty2lE541UPzWS6WleZj3M2wr8": "https://storage.googleapis.com/lighthouse-infrastructure.appspot.com/reports/1756357479242-31376.report.html"
+}
